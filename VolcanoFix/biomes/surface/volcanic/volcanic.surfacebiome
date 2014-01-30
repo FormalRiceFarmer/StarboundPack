@@ -1,0 +1,65 @@
+{
+  "__merge" : [ 
+    [ "overwrite", "allowedDetachedBiomes" ] 
+  ],
+  "allowedDetachedBiomes" : [ "crystalline", "rust" ],
+  
+  "surfaceParameters" : {
+    "__merge" : [ 
+      [ "overwrite", "weather" ] 
+    ],
+    "weather" : [
+      [
+        [0.05, "eruption"],
+        [0.350, "ash"],	 		
+        [0.6, "clear"]
+      ],
+      [  
+        [1.0, "clear"]
+      ],
+      [  
+        [1.0, "clear"]
+      ],
+      [  
+        [1.0, "clear"]
+      ],
+      [  
+        [1.0, "clear"]
+      ],
+      [  
+        [1.0, "clear"]
+      ],
+      [  
+        [1.0, "clear"]
+      ]
+    ],
+	
+    "musicTrack" : {
+	  "__merge" : [ 
+        [ "overwrite", "day" ],
+        [ "overwrite", "night" ]
+      ],
+      "day" : {
+        "tracks" : [ "/music/lava-exploration1.ogg", "/music/lava-exploration2.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/music/lava-exploration1.ogg", "/music/lava-exploration2.ogg" ]
+      }
+    },
+
+    "undergroundMusicTrack" : {
+	  "__merge" : [ 
+        [ "overwrite", "day" ],
+        [ "overwrite", "night" ]
+      ],
+      "day" : {
+        "tracks" : [ "/music/lava-exploration1.ogg", "/music/lava-exploration2.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/music/lava-exploration1.ogg", "/music/lava-exploration2.ogg" ]
+      }
+    }
+  },
+  
+  "name" : "Volcanic"
+}
