@@ -1,0 +1,21 @@
+{
+  "itemName" : "senzubean",
+  "rarity" : "Common",
+  "inventoryIcon" : "senzubean.png",
+  "description" : "Recover a large amount of your health, energy, and hunger instantaneously.",
+  "shortdescription" : "Senzu Bean",
+  "effects" : [ [
+      {
+        "kind" : "health",
+        "amount" : 50
+      },
+	  {
+        "kind" : "energy",
+        "amount" : 50
+      },
+	  {
+        "kind" : "food",
+        "amount" : 50
+      }
+    ] ]
+}

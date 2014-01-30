@@ -1,0 +1,23 @@
+{
+  "__merge" : [],
+  "dropPools" : [
+    {
+      "default" : "spirit"
+    },
+    {
+      "default" : "spirit"
+    },
+    {
+      "default" : "spirit"
+    },
+    {
+      "default" : "spirit"
+    },
+    {
+      "default" : "spirit"
+    },
+    {
+      "default" : "spirit"
+    }
+  ]
+}

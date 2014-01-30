@@ -1,0 +1,56 @@
+{
+  "itemName" : "shortsaiyant1l",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Modified Boots that go with the Basic Battle Armor Model.",
+  "shortdescription" : "Basic Battle Boots (S)",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "coldprotection",
+      "amount" : 1
+    },
+
+    {
+      "kind" : "protection",
+      "amount" : 3
+    },
+
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.15
+    }
+  ],
+
+  "colorOptions" : [
+    /* BLUE */
+    { "4868d0" : "4868d0", "344b96" : "344b96", "293b77" : "293b77" },
+    /* BLACK */
+    { "4868d0" : "3b3b3b", "344b96" : "2a2a2a", "293b77" : "202020" },
+    /* GREY */
+    { "4868d0" : "686868", "344b96" : "4a4a4a", "293b77" : "3a3a3a" },
+    /* WHITE */
+    { "4868d0" : "bbbbbb", "344b96" : "909090", "293b77" : "797979" },
+    /* RED */
+    { "4868d0" : "a42b2b", "344b96" : "751e1e", "293b77" : "5b1818" },
+    /* ORANGE */
+    { "4868d0" : "f5880c", "344b96" : "c86e07", "293b77" : "af6006" },
+    /* YELLOW */
+    { "4868d0" : "f4f415", "344b96" : "d0d009", "293b77" : "b7b708" },
+    /* GREEN */
+    { "4868d0" : "508e2f", "344b96" : "396621", "293b77" : "2d4f1a" },
+    /* PURPLE */
+    { "4868d0" : "5f419c", "344b96" : "473174", "293b77" : "39275e" },
+    /* PINK */
+    { "4868d0" : "9c3d97", "344b96" : "722d6e", "293b77" : "5b2458" },
+    /* BROWN */
+    { "4868d0" : "72503b", "344b96" : "51392a", "293b77" : "3f2c20" }
+
+  ]
+}

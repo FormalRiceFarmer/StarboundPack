@@ -1,0 +1,114 @@
+{
+  "spirit" : [
+    [1, {
+        "pool" : [
+          [1, [ "weakspiritenergy", 1] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [2, {
+        "pool" : [
+          [1, [ "weakspiritenergy", 1] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [3, {
+        "pool" : [
+          [1, [ "weakspiritenergy", 1] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [4, {
+        "pool" : [
+          [1, [ "weakspiritenergy", 1] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [5, {
+        "pool" : [
+          [1, [ "weakspiritenergy", 1] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [6, {
+        "pool" : [
+          [1, [ "weakspiritenergy", 1] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [7, {
+        "pool" : [
+          [1, [ "weakspiritenergy", 1] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [8, {
+        "pool" : [
+          [1, [ "weakspiritenergy", 1] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [9, {
+        "pool" : [
+          [1, [ "weakspiritenergy", 1] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ],
+    [10, {
+        "pool" : [
+          [1, [ "weakspiritenergy", 1] ]
+        ],
+        "poolRounds" : [
+          [0.10, 0],
+          [0.90, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ] 
+  ]
+}

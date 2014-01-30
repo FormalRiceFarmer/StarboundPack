@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "weakspiritenergy", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "weakpunch",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all", "weapons" ]
+}

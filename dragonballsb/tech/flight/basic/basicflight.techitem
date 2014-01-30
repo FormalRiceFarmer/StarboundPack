@@ -1,0 +1,10 @@
+{
+  "itemName" : "basicflight",
+  "rarity" : "Common",
+  "inventoryIcon" : "/tech/hover.png",
+  "description" : "Haaaaaaaa!",
+  "shortdescription" : "Basic Flight",
+  "inspectionKind" : "tech",
+
+  "techModule" : "basicflight.tech"
+}

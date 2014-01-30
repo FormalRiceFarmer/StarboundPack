@@ -1,0 +1,16 @@
+{
+  "projectileName" : "weakshot",
+  "timeToLive" : 0.3,
+  "frames" : "weakshot.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/weak/weak.config"
+    }
+  ],
+  "lightColor" : [27, 45, 88],
+  "damageKind" : "default",
+  "emitters" : [ "bluespecs" ]
+}

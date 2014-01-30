@@ -1,0 +1,16 @@
+{
+  "id" : "saiyantutorial.gearup",
+  "title" : "^#9be3d6;There's No Place Like Home",
+  "text" : "With your ship running low on fuel, you used the last of it to travel to a nearby planet in order to find some for your journey. Before setting out in search of fuel, ^green;gather your ^pink;Matter Manipulator^green; and the rest of your things from your ship locker.^white; Press ^green;E ^white;to interact with objects.",
+  "completionText" : "Well done! The matter manipulator allows you to manipulate almost anything in the gameworld.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "saiyantutorial2.gearup"
+}
