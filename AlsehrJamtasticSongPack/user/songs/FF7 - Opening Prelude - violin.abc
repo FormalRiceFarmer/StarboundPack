@@ -1,0 +1,14 @@
+X:1
+T:FF VII Prelude
+L:1/8
+Q:1/4=80
+M:4/4
+I:linebreak $
+K:Cmaj
+V:1 treble nm="String ensemble"
+%%MIDI program 49
+V:1
+ z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | e'8 | d'4 f'4 | %18
+ e'8 | e'8 | e'8 | d'4 f'4 | f' g' e'6 | e'8 | f'8 | f'8 | g'8 | g'8 | f'8 | f'8 | g'8 | g'8 | %32
+ e'8 | d'4 f'4 | e'8 | e'8 | e'8 | d'4 f'4 | f' g' e'6 | e'8 | f'8 | f'8 | g'8 | g'8 | f'8 | f'8 | %46
+ g'8 | g'8 | e'8 | e'8 | f'8 | g'8 | %52

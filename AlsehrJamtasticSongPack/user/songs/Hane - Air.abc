@@ -1,0 +1,26 @@
+X: 1
+T: Air - Hane
+C: I've (ABC by AGuymzx using EasyABC)
+L: 1/4
+Q: 160
+K: C
+
+^c2 ^d e b
+[A,,^g] ^C, [E,^g] [^C,^fz/] ^g/ E, ^G, ^C ^G,
+B,, ^D, [^F,^f] [^D,^g] [^F,b] [B,^f] [^Dd] [B,e]
+[^C,^d] E, [^G,^d] ^c/ [^Gz/] E ^d, B, ^G,
+^C, E, ^G, [^C^c]  B,, [^D,^d] [^F,e] [B,b]
+[A,,^g] ^C, [E,^g] [^C,^fz/] ^g/ E, ^G, ^C ^G,
+B,, ^D, [^F,^f] [^D,^g] [^F,b] [B,^g] [^Db] [B,e']
+[^C,^d'] [E,z/] [^c'z/] ^G, [^C^g] e, ^d, B, [^G,^f]
+[^C,^g] E, [^G,b] ^C [B,,^c'] ^D, [^F,^d'] B,
+[A,,^g] ^C, [E,^g] [^C,^fz/] ^g/ E, ^G, ^C ^G,
+B,, ^D, [^F,^f] [^D,^g] [^F,b] [B,^f] [^Dd] [B,e]
+[^C,^d] E, [^G,^d] ^c/ [^Gz/] E ^d, B, ^G,
+^C, E, ^G, [^C^c] B,, [^D,^d] [^F,e] [B,b]
+[A,,^g] ^C, [E,^g] [^C,^fz/] ^g/ E, ^G, ^C ^G,
+B,, ^D, [^F,^f] [^D,^g] [^F,b] [B,^g] [^Db] [B,e']
+[^C,^d'] E, ^G, E, ^C ^G, E, ^G,
+[^C,^c'] E, ^G, E, ^C ^G, [E,^c'] ^G,
+[^C,^d'] ^F, ^G, ^F, ^C ^G, ^F, ^G,
+[^C,^c'] ^F, ^G, B, ^F,/5 ^G,/4 B,/3 ^C4

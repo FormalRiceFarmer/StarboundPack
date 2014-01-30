@@ -1,0 +1,15 @@
+X:1
+T:FF VII Prelude
+L:1/8
+Q:1/4=80
+M:4/4
+I:linebreak $
+K:Cmaj
+V:1 treble nm="Flute"
+%%MIDI program 73
+V:1
+ z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 | e''8 | d''4 f''4 | %18
+ e''8 | e''6 e'' z | e''8 | d''4 f''4 | f'' g'' e''6 | e''6 e'' z | c''8 | b'4 c''4 | d''6 e''2 | %27
+ f''4 d''4 | d''2 c'' ^a' ^g'4 | g'6 g' z | ^d''2 d'' c'' ^a'4 | a'8 | e''8 | d''4 f''4 | e''8 | %35
+ e''8 | e''8 | d''4 f''4 | f'' g'' e''6 | e''8 | f''8 | f''8 | g''8 | g''8 | f''8 | f''8 | g''8 | %47
+ g''8 | e''8 | e''8 | z8 | z8 | %52

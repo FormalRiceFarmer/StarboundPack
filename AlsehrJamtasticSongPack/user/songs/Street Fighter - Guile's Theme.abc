@@ -1,0 +1,17 @@
+X:1
+T:Guile's Theme
+C:Yoko Shimomura
+H:From Street Fighter
+Z:Tathar
+Q:1/4=124
+M:C
+L:1/8
+K:C
+_E/2z/2 E/2D/2 z/2D/2E4 D | _E/2z/2 E/2D/2 z/2D/2E4 D | _E/2DEDF/2 z/2F/2ED_B, |
+_E/2z/2 E/2D/2 z/2D/2E7/2 E/2D | _E/2z/2 E/2D/2 z/2D/2E4 D | _E/2DEDF/2 z/2F/2ED_B, | 
+C4 z D/2z/2 _E/2F3/2 | G2 F _B2 ^G =G/2^G3/2 | D2 _E3/2F/2 z _B,DF | ^G2 _B3/2=G/2 z G F/2D3/2 | 
+C4 z D/2z/2 _E/2F3/2 | G2 ^G/2z/2 F2 F =G/2^G3/2 | _B4 z c/2z/2 d/2_e3/2 | g2 f2 d2 _B2 | 
+c4 z d _e/2f3/2 | c4 z d _e/2f3/2 | g14 | z6 _BB | ^g4 z =g f/2g3/2 | f2 _e2 d2 _B2 | 
+c2 G12 | z6 _BB | c4 zd _e/2fg2 | z3/2^g/2 z f2 d c/2d3/2 | d2 _e3/2f/2 z _B2 f | 
+^g3 =g/2f/2 g2 f_e | c4 z d _ef | f4 z g/2z/2 _e/2d3/2 | d_e/2c25/2 | z6 _BB | 
+c4 z d _e/2fg5/2 | z2 c3/2_b3/2^g =gf | d/2_ec29/2 | z8 |]
