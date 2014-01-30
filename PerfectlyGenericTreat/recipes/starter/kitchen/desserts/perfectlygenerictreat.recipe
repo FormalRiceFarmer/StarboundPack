@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "perfectlygenericitem", "count" : 1 }
+  ],
+  "output" : { "item" : "perfectlygenerictreat", "count" : 1 },
+  "groups" : [ "mod", "kitchen", "consumables", "dessert" ]
+}

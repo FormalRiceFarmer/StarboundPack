@@ -1,0 +1,30 @@
+{
+  "itemName" : "perfectlygenerictreat",
+  "rarity" : "Common",
+  "inventoryIcon" : "perfectlygenerictreat.png",
+  "description" : "There's not much to say about this treat, but so much to experience.",
+  "shortdescription" : "Perfectly Generic Treat",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      },
+      {
+        "kind" : "runboostinitiator",
+        "amount" : 1
+      },
+      {
+        "kind" : "glowinitiator",
+        "amount" : 1
+      },
+      {
+        "kind" : "jumpboostinitiator",
+        "amount" : 1
+      },
+      {
+        "kind" : "redstim",
+        "amount" : 1
+      }
+    ] ]
+}

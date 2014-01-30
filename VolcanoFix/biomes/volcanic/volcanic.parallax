@@ -1,0 +1,36 @@
+{
+  "__merge" : [],
+    {
+      "kind" : "volcanicfoliageback",
+      "offset" : [0, 200],
+      "parallax" : 4.5,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "nohueshift" : true,
+      "modifiers" : "",
+      "fadePercent" : 0.04
+    },
+    {
+      "kind" : "volcanicfoliage",
+      "offset" : [0, 270],
+      "parallax" : 3,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "nohueshift" : true,
+      "modifiers" : "",
+      "fadePercent" : 0.03
+    },
+    {
+      "kind" : "volcanicfront",
+      "offset" : [0, 425],
+      "parallax" : 2.4,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "nohueshift" : true,
+      "modifiers" : "",
+      "fadePercent" : 0.015
+    }
+}
