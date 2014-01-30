@@ -1,0 +1,41 @@
+{
+  "objectName" : "dyeingmachine",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A bucket for dyeing clothes and armor.",
+  "shortdescription" : "Dyeing Bucket",
+  "subtitle" : "Armor & clothes dyeing",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 250,
+  "objectType" : "container",
+
+  "apexDescription" : "A bucket to use dye in.",
+  "avianDescription" : "Used to dye things, I guess.",
+  "floranDescription" : "Floran createsss pretty colors!",
+  "glitchDescription" : "Observation. This bucket is used to combine colorful dyes with an items.",
+  "humanDescription" : "A bucket of color? Let's get creative!",
+  "hylotlDescription" : "Wonderful. Now I can be my own fashion designer.",
+
+  "inventoryIcon" : "dyeingmachineicon.png",
+  "orientations" : [
+    {
+      "image" : "dyeingmachine.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "recipeGroup" : "dyeingmachine",
+  "slotCount" : 3,
+  "uiConfig" : "/interface/objectcrafting/dyeingmachine.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}

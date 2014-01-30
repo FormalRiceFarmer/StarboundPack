@@ -1,0 +1,7 @@
+{
+  "itemName" : "bonedye",
+  "rarity" : "Common",
+  "inventoryIcon" : "dyebottlebone.png",
+  "description" : "A bone dye. Can be used to dye armour.",
+  "shortdescription" : "Bone Dye"
+}

@@ -1,0 +1,7 @@
+{
+  "itemName" : "cleardye",
+  "rarity" : "Common",
+  "inventoryIcon" : "dyebottleclear.png",
+  "description" : "A dye removal solution. Can be used to remove dye from armor. Wait, how are you able to make this?",
+  "shortdescription" : "Dye Removal Bleach"
+}
