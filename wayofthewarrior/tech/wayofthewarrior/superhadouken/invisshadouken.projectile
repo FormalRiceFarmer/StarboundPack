@@ -1,0 +1,23 @@
+{
+  "projectileName" : "invisshadouken",
+  "physics" : "shadouken",
+  "bounces" : 0,
+  "level" : 3,
+  "frames" : "invisshadouken.png",
+  "frameNumber" : 1,
+  "lightColor" : [0, 0, 255],
+  "speed" : 80.0,
+  "timeToLive" : 0.5,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/tech/wayofthewarrior/superhadouken/shadoukenExplosionTerrain.config"
+    }
+  ],
+  "power" : 30,
+  "damageType" : "hitTest",
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 5], [0, 7], [-4, 5] ],
+  "emitters" : [ ]
+}
