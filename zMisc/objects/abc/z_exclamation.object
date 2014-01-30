@@ -1,0 +1,32 @@
+{
+  "objectName" : "z_exclamation",
+  "rarity" : "Uncommon",
+  "description" : "It's an exclamation mark, I wonder if I could use this to emphasize something?",
+  "shortdescription" : "'Exclamation' Panel",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : 500,
+
+  "apexDescription" : "A metal panel, it has an exclamation mark engraved on it.",
+  "avianDescription" : "A metal panel, it has an exclamation mark engraved on it.",
+  "floranDescription" : "A metal panel, it has an exclamation mark engraved on it.",
+  "glitchDescription" : "A metal panel, it has an exclamation mark engraved on it.",
+  "humanDescription" : "A metal panel, it has an exclamation mark engraved on it.",
+  "hylotlDescription" : "A metal panel, it has an exclamation mark engraved on it.",
+
+  "inventoryIcon" : "z_exclamation.png",
+  "orientations" : [
+    {
+      "image" : "z_exclamation.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

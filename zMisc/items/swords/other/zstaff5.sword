@@ -1,0 +1,54 @@
+{
+  "itemName" : "zstaff5",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "level" : 4,
+  "rarity" : "uncommon",
+  "description" : "A staff imbued with the power of diamonds.",
+  "shortdescription" : "Diamond Staff",
+  "inspectionKind" : "sword",
+  "kind" : "Broadsword",
+  
+  "image" : "zstaff5.png",
+  "firePosition" : [25.0, 2.0],
+  "fireTime" : 0.6,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_zstaff.wav" } ] },
+
+  "primaryStances" : {
+    "projectileType" : "ps_dragonprojectile",
+    "projectile" : {
+      "speed" : 4,
+      "power" : 45
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -15,
+      "swordAngle" : -15,
+      "handPosition" : [-0.8, -15.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : -20,
+      "swordAngle" : -20,
+      "handPosition" : [-0.8, -15],
+      "duration" : 0.2,
+      "energyUsage" : 30.0,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -25,
+      "swordAngle" : -75,
+      "handPosition" : [0, -22],
+      "duration" : 0.4,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

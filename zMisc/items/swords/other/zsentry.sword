@@ -1,0 +1,54 @@
+{
+  "itemName" : "zsentry",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "rare",
+  "description" : "A floating sentry. It attacks on command.",
+  "shortdescription" : "Combat Sentry",
+  "inspectionKind" : "sword",
+  "kind" : "Broadsword",
+  
+  "image" : "zsentry.png",
+  "firePosition" : [-15, 16],
+  "fireTime" : 0.7,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/gun/zgun1_laser.wav" } ] },
+
+  "primaryStances" : {
+    "projectileType" : "ps_blacklaser",
+    "projectile" : {
+      "speed" : 1,
+      "power" : 22
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : 0,
+      "handPosition" : [20, -20],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 65,
+      "swordAngle" : 0,
+      "handPosition" : [19, -20],
+      "duration" : 0.2,
+      "energyUsage" : 30.0,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : 0,
+      "swordAngle" : 0,
+      "handPosition" : [23, -20],
+      "duration" : 0.4,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

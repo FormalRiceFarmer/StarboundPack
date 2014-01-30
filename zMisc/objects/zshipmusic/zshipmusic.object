@@ -1,0 +1,52 @@
+{
+  "objectName" : "zshipmusic",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "price" : 2000,
+  "description" : "Plays some music for ya!",
+  "shortdescription" : "On-Board Music Player",
+  "race" : "generic",
+
+  "apexDescription" : "It looks like it plays some music.",
+  "avianDescription" : "It looks like it plays some music.",
+  "glitchDescription" : "It looks like it plays some music.",
+  "humanDescription" : "It looks like it plays some music.",
+  "hylotlDescription" : "It looks like it plays some music.",
+
+  "inventoryIcon" : "zshipmusicicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "zshipmusic.png:<color>.<frame>",
+      "imagePosition" : [-19, -8],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "sounds" : [ 
+    "/music/error-0xbfaf000.ogg", 
+    "/music/inviolate.ogg", 
+    "/music/i-was-the-sun.ogg", 
+    "/music/ocean-battle1.ogg", 
+    "/music/on-the-beach-at-night.ogg", 
+    "/music/arctic-battle3.ogg", 
+    "/music/casiopeia.ogg", 
+    "/music/crystal-battle1.ogg",
+    "/music/glitch.ogg",
+    "/music/tentacle-exploration1.ogg",
+    "/music/the-deep.ogg",
+    "/music/arctic-battle1.ogg",
+    "/music/desert-battle-2.ogg",
+    "/music/gravitational-collapse.ogg",
+    "/music/epsilon-indi.ogg",
+    "/music/cygnus-x1.ogg",
+    "/music/large-magellanic-cloud.ogg",
+    "/music/M54.ogg",
+    "/music/procyon.ogg"
+  ]
+}

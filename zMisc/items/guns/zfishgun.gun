@@ -1,0 +1,26 @@
+{
+  "itemName" : "zfishgun",
+  "inventoryIcon" : "zfishgunIcon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "It shoots fish. What'd you expect?",
+  "shortdescription" : "Fish Gun",
+  "image" : "zfishgun.png",
+  "handPosition" : [-4, -2],
+  "firePosition" : [20, 1.5],
+
+  "fireTime" : 0.15,
+  "twoHanded" : true,
+
+  "projectileType" : "zfish",
+  "projectile" : {
+    "speed" : 60,
+    "power" : 2,
+    "color" : [10, 255, 10]
+  },
+  
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/zfishgun.wav" } ]
+  }
+}

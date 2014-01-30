@@ -1,0 +1,69 @@
+{
+  "objectName" : "zairvent",
+  "rarity" : "uncommon",
+  "category" : "decorative",
+
+  "description" : "It seems to pump out fresh oxygen at an incredible rate.",
+  "shortdescription" : "Oxygen Vent",
+  "race" : "human",
+
+  "apexDescription" : "A vent.",
+  "avianDescription" : "A vent to recycle air.",
+  "floranDescription" : "Blowing grate.",
+  "glitchDescription" : "Analyse. The recycling process isn't fully functional.",
+  "humanDescription" : "An uninspiring vent.",
+  "hylotlDescription" : "A vent with a fan.",
+
+  "inventoryIcon" : "zairventicon.png",
+  "orientations" : [
+    {
+      "image" : "zairvent.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "frames" : 3,
+      "animationCycle" : 0.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+  
+  "particleEmitter" : {
+    "emissionRate" : 2.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "animated",
+      "animation" : "/animations/zaircloud/zaircloud.animation",
+      "size" : 1.0,
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 3,
+      "layer" : "middle",
+      "variance" : {
+        "initialVelocity" : [7.0, 7.0],
+        "position" : [0, 0]
+      }
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/bunkervent.wav",
+  "statusEffects" : [
+    {
+      "kind" : "breathprotection",
+      "amount" : 100,
+      "range" : 15
+    },
+    {
+      "kind" : "coldprotection",
+      "amount" : -15,
+      "range" : 15
+    }
+  ]
+}

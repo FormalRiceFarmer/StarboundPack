@@ -1,0 +1,32 @@
+{
+  "objectName" : "z_0",
+  "rarity" : "Uncommon",
+  "description" : "It's a number, I wonder if I could use this for something?",
+  "shortdescription" : "Number '0' Panel",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : 500,
+
+  "apexDescription" : "A metal panel, it has a number engraved on it.",
+  "avianDescription" : "A metal panel, it has a number engraved on it.",
+  "floranDescription" : "A metal panel, it has a number engraved on it.",
+  "glitchDescription" : "A metal panel, it has a number engraved on it.",
+  "humanDescription" : "A metal panel, it has a number engraved on it.",
+  "hylotlDescription" : "A metal panel, it has a number engraved on it.",
+
+  "inventoryIcon" : "z_0.png",
+  "orientations" : [
+    {
+      "image" : "z_0.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

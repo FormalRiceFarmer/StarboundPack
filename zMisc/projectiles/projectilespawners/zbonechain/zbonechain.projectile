@@ -1,0 +1,16 @@
+{
+  "projectileName" : "zbonechain",
+  "frames" : "zbonechain.png",
+  "animationCycle" : 0.5,
+  "level" : 3,
+  "frameNumber" : 6,
+  "speed" : 30,
+  "fallSpeed" : 10,
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "timeToLive" : 0.5,
+  "universalDamage" : false,
+  "damageKind" : "default"
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "goldaxe",
+  "inventoryIcon" : "goldaxeicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "inspectionKind" : "tool",
+  "description" : "Golden Axe. It doesn't seem very practical.",
+  "shortdescription" : "Golden Axe",
+  "largeImage" : "goldaxe.png",
+  "image" : "goldaxe.png",
+  "handPosition" : [-1, -6],
+  "fireTime" : 0.1,
+  "blockRadius" : 3,
+  "altBlockRadius" : 1,
+  "damage" : 25,
+  "twoHanded" : false,
+  "strikeSound" : "/sfx/tools/pickaxe_hit.wav"
+}

@@ -1,0 +1,29 @@
+{
+  "kind" : "zsmoke",
+  "definition" : {
+    "duration" : 0.2,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "zsmoke1", "zsmoke1", "zsmoke1", "zsmoke1", "campfireflames", "campfireflames", "campfireflames", "campfireflames" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

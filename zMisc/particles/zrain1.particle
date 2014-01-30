@@ -1,0 +1,22 @@
+{
+  "kind" : "zrain1",
+  "definition" : {
+    "type" : "textured",
+    "image" : "/particles/rain/1.png",
+    "position" : [0, 0.5],
+    "finalVelocity" : [0, -20],
+    "approach" : [0, 50],
+    "size" : 1.0,
+    "timeToLive" : 100,
+    "destructionAction" : "Image",
+    "destructionTime" : 0.1,
+    "destructionImage" : "/particles/splash/1.png",
+    "collidesForeground" : true,
+    "collidesLiquid" : true,
+    "layer" : "middle",
+    "variance" : {
+      "initialVelocity" : [0, 2.0],
+      "position" : [1.3, 0]
+    }
+  }
+}

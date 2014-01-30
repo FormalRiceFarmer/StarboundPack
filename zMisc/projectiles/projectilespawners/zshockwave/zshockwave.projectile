@@ -1,0 +1,18 @@
+{
+  "projectileName" : "zshockwave",
+  "frames" : "zshockwave.png",
+  "physics" : "default",
+  "level" : 1,
+  "animationCycle" : 1,
+  "speed" : 30,
+  "frameNumber" : 5,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "timeToLive" : 1,
+  "power" : 5.0,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "plasma",
+  "lightColor" : [20, 10, 100],
+  "damagePoly" : [ [64, -64], [-64, 64], [64, 64], [-64, -64] ]
+}

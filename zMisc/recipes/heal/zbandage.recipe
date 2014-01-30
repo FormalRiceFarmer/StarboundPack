@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bandage", "count" : 1 },
+    { "item" : "plantfibre", "count" : 2 }
+  ],
+  "output" : { "item" : "zbandage", "count" : 1 },
+  "groups" : [ "zcraftingtable" ]
+}

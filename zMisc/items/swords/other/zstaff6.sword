@@ -1,0 +1,55 @@
+{
+  "itemName" : "zstaff6",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "level" : 10,
+  "rarity" : "legendary",
+  "description" : "The glowing ball seems to be disrupting the space around it... WARNING: Very destructive!",
+  "shortdescription" : "Impervium Staff",
+  "inspectionKind" : "sword",
+  "kind" : "Broadsword",
+  "weaponType" : "Very Destructive!",
+  
+  "image" : "zstaff6.png",
+  "firePosition" : [25.0, 2.0],
+  "fireTime" : 3,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_zstaff.wav" } ] },
+
+  "primaryStances" : {
+    "projectileType" : "ps_matterball",
+    "projectile" : {
+      "speed" : 5,
+      "power" : 2500
+    },
+    "idle" : {
+      "twoHanded" : true,
+      "armAngle" : -15,
+      "swordAngle" : -15,
+      "handPosition" : [-0.8, -15.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : true,
+      "armAngle" : -20,
+      "swordAngle" : -20,
+      "handPosition" : [-0.8, -15],
+      "duration" : 0.2,
+      "energyUsage" : 30.0,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : true,
+      "armAngle" : -25,
+      "swordAngle" : -75,
+      "handPosition" : [0, -22],
+      "duration" : 0.4,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

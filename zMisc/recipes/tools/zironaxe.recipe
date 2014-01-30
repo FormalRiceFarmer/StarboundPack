@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "stoneaxe", "count" : 1 },
+    { "item" : "ironbar", "count" : 15 }
+  ],
+  "output" : { "item" : "ironaxe", "count" : 1 },
+  "groups" : [ "zcraftingtable" ]
+}

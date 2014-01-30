@@ -1,0 +1,21 @@
+{
+  "projectileName" : "ps_teslabolt",
+  "frames" : "zm_blank.png",
+  "physics" : "default",
+  "level" : 1,
+  "damageKindImage" : "icon_teslabolt.png",
+  "animationCycle" : 1,
+  "timeToLive" : 0.1,
+  "animationLoops" : false,
+  "power" : 5.0,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "default",
+  "damagePoly" : [ [16, -24], [-16, 24], [16, 24], [-16, -24] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/projectilespawners/zteslabolt/zteslabolt.config"
+    }
+  ]
+}

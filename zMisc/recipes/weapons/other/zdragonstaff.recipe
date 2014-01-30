@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 5000 },
+    { "item" : "dragonbone", "count" : 1 },
+    { "item" : "diamond", "count" : 10 },
+    { "item" : "Rubiumbar", "count" : 30 },
+    { "item" : "imperviumbar", "count" : 5 }
+  ],
+  "output" : { "item" : "zdragonstaff", "count" : 1 },
+  "groups" : [ "zstaffstation" ]
+}

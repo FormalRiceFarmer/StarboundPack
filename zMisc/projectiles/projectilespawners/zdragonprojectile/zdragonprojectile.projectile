@@ -1,0 +1,31 @@
+{
+  "projectileName" : "zdragonprojectile",
+  "frames" : "zdragonprojectile.png",
+  "animationCycle" : 0.5,
+  "level" : 18,
+  "physics" : "default",
+  "frameNumber" : 4,
+  "pointLight" : true,
+  "lightColor" : [255, 113, 0],
+  "speed" : 50,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1,
+      "angleAdjust" : 35
+    }
+  ],
+  "power" : 10.0,
+  "damageKind" : "default",
+  "timeToLive" : 0.3,
+  "piercing" : true,
+  "emitters" : [ "javelinred" ]
+}
+
+

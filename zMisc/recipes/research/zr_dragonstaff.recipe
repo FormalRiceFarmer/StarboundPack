@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "zancientfile", "count" : 3 },
+    { "item" : "zmagnify_t4", "count" : 1 }
+  ],
+  "output" : { "item" : "zdragonstaff-recipe", "count" : 1 },
+  "groups" : [ "zresearchtable" ]
+}

@@ -1,0 +1,54 @@
+{
+  "itemName" : "zstaff1",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "rarity" : "uncommon",
+  "description" : "A simple Oak Staff, good for some low-level magic.",
+  "shortdescription" : "Oak Staff",
+  "inspectionKind" : "sword",
+  "kind" : "Broadsword",
+  
+  "image" : "zstaff1.png",
+  "firePosition" : [25.0, 2.0],
+  "fireTime" : 0.7,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_zstaff.wav" } ] },
+
+  "primaryStances" : {
+    "projectileType" : "ps_bloodcloud",
+    "projectile" : {
+      "speed" : 7,
+      "power" : 7
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -15,
+      "swordAngle" : -15,
+      "handPosition" : [-0.8, -15.5],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : -20,
+      "swordAngle" : -20,
+      "handPosition" : [-0.8, -15],
+      "duration" : 0.2,
+      "energyUsage" : 30.0,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -25,
+      "swordAngle" : -75,
+      "handPosition" : [0, -22],
+      "duration" : 0.4,
+      "statusEffects" : [
+        { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 30 },
+    { "item" : "ironbar", "count" : 15 }
+  ],
+  "output" : { "item" : "zstaffstation", "count" : 1 },
+  "groups" : [ "zcraftingtable" ]
+}

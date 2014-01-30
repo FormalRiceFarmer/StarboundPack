@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1500 },
+    { "item" : "tcannon2", "count" : 1 },
+    { "item" : "diamond", "count" : 15 }
+  ],
+  "output" : { "item" : "tcannon3", "count" : 1 },
+  "groups" : [ "zcraftingtable" ]
+}

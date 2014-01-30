@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 10000 },
+    { "item" : "imperviumbar", "count" : 50 },
+    { "item" : "matteritem", "count" : 20 }
+  ],
+  "output" : { "item" : "zstaff6", "count" : 1 },
+  "groups" : [ "zstaffstation" ]
+}

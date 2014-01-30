@@ -1,0 +1,26 @@
+{
+  "itemName" : "zwindcannon",
+  "inventoryIcon" : "zwindcannonIcon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "What a lovely breeze!",
+  "shortdescription" : "Wind Cannon",
+  "image" : "zwindcannon.png",
+  "handPosition" : [-4, -2],
+  "firePosition" : [20, 1.5],
+
+  "fireTime" : 0.15,
+  "twoHanded" : true,
+
+  "projectileType" : "ps_gust",
+  "projectile" : {
+    "speed" : 60,
+    "power" : 0,
+    "color" : [10, 255, 10]
+  },
+  
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/zfishgun.wav" } ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "projectileName" : "zcannonball2",
+  "frames" : "zcannonball2.png",
+  "physics" : "grenade",
+  "initialVelocity" : 100,
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "frameNumber" : 4,
+  "emitters" : [ "javelinred" ],
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [255, 255, 128],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/regularexplosion2.config"
+    }
+  ],
+  "power" : 20.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

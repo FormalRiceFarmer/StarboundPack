@@ -1,0 +1,14 @@
+{
+  "projectileName" : "zblacklaser",
+  "frames" : "zblacklaser.png",
+  "physics" : "laser",
+  "level" : 1,
+  "animationCycle" : 1,
+  "speed" : 60,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "timeToLive" : 5,
+  "power" : 5.0,
+  "damageKind" : "default"
+}

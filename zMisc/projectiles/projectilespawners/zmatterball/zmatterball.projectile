@@ -1,0 +1,24 @@
+{
+  "projectileName" : "zmatterball",
+  "frames" : "zmatterball.png",
+  "animationCycle" : 0.5,
+  "level" : 18,
+  "physics" : "bullet",
+  "frameNumber" : 4,
+  "pointLight" : true,
+  "lightColor" : [255, 0, 0],
+  "speed" : 5,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/zmatterball/zmatterballdie.config"
+    }
+  ],
+  "power" : 10.0,
+  "damageKind" : "default",
+  "timeToLive" : 4,
+  "piercing" : false,
+  "emitters" : [ "javelinred" ]
+}
+
+

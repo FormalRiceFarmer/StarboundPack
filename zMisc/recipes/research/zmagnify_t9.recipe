@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2500 }
+  ],
+  "output" : { "item" : "zmagnify_t9", "count" : 1 },
+  "groups" : [ "zresearchtable" ]
+}

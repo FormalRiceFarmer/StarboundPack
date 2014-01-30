@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 350 },
+    { "item" : "ironbar", "count" : 20 }
+  ],
+  "output" : { "item" : "zcraftingtable", "count" : 1 },
+  "groups" : [ "zcraftingtable", "mod", "craftingtable" ]
+}

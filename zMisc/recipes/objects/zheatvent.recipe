@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1000 },
+    { "item" : "steelbar", "count" : 25 },
+    { "item" : "bunkervent", "count" : 1 },
+    { "item" : "campfire", "count" : 1 }
+  ],
+  "output" : { "item" : "zheatvent", "count" : 1 },
+  "groups" : [ "zcraftingtable" ]
+}

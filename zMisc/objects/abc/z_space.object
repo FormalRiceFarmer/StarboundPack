@@ -1,0 +1,32 @@
+{
+  "objectName" : "z_space",
+  "rarity" : "Uncommon",
+  "description" : "It's a blank panel, it probably represents a space.",
+  "shortdescription" : "'Space' Panel",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : 500,
+
+  "apexDescription" : "A metal panel, it has nothing engraved on it.",
+  "avianDescription" : "A metal panel, it has nothing engraved on it.",
+  "floranDescription" : "A metal panel, it has nothing engraved on it.",
+  "glitchDescription" : "A metal panel, it has nothing engraved on it.",
+  "humanDescription" : "A metal panel, it has nothing engraved on it.",
+  "hylotlDescription" : "A metal panel, it has nothing engraved on it.",
+
+  "inventoryIcon" : "z_space.png",
+  "orientations" : [
+    {
+      "image" : "z_space.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

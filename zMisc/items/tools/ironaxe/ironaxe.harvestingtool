@@ -1,0 +1,19 @@
+{
+  "itemName" : "ironaxe",
+  "inventoryIcon" : "ironaxeicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "inspectionKind" : "tool",
+  "description" : "Iron Hatchet. Hack away!",
+  "shortdescription" : "Iron Hatchet",
+  "largeImage" : "ironaxebig.png",
+  "image" : "ironaxe.png",
+  "handPosition" : [-1, -6],
+  "fireTime" : 0.2,
+  "blockRadius" : 2,
+  "altBlockRadius" : 1,
+  "damage" : 15,
+  "twoHanded" : false,
+  "strikeSound" : "/sfx/tools/pickaxe_hit.wav"
+}

@@ -1,0 +1,41 @@
+zMisc R1.4:
+ - Added 3 new hats - Poker Face, Bag Boy and Elephant Face.
+ - Added 'Zima's Loot Box'. These spawn on Super Asteroids and are now the only way to get ancient files.
+ - Added loot to the 'Zima's Loot Box':
+    - Katana (Tier 4)
+    - Sentry (Tier 3)
+    - Iron Shortsword (Tier 1)
+ - Removed Ancient Files spawning in normal chests.
+ - Increased the frequency of Meteor Showers and Acid Rain on Super Asteroids.
+ - Included a changelog inside the mod's files.
+ - Added 'Oxygen Vent'. Provides breathable air in a 15 block radius. However, they come at a cost; they make you more vulnerable to the cold.
+ - Added 'Heat Vent'. Provides decent heat in a 15 block radius.
+ - Removed the crafting recipe for the Vanity Station. All hats have been moved to loot boxes.
+ zMisc R1.3.2:
+ - Fixed mod giving Perfectly Generic Items. Everything should work fine now.
+zMisc R1.3.1 (BROKEN):
+ - Updated to v. Furious Koala.
+ - Added tiered axes. Since I couldn't find a way to increase the efficiency, I sped up the axes swing speeds. They're a little weird at the moment, but get the job done. I'm planning to try and fix this later on.
+zMisc R1.3:
+ - Added 3 new hats - Cranial Core, Caged Canary, and Hipster Frames.
+ - Added a new planet type - A Super Asteroid. This will be worked on more in the future.
+ - Added a new dungeon. This dungeon is supposed to spawn on Super Asteroids, but I have yet to find one. Feedback is appreciated.
+ - Added a new gun; the Fish Gun. Mostly just a gag weapon, but one of my new favorites.
+zMisc R1.2:
+ - Added 3 new hats - Brainiac, Cavalry Cap, and Biker Brain.
+ - Added a new Tier 1 legendary staff to the Research Table.
+ - Added a recipe to convert 1 Holiday Spirit into 20 pixels.
+ - Added the "ABC Panel Printer". Use this to print letter and number panels for labeling.
+ - Fixed hair showing through on the Flame Face hat.
+ - Fixed the Simple Healing Staff. The cooldown is now longer, but you can use it to heal yourself now too.
+ - All hats and the Surrender Flag have been moved to a Vanity Station. Craft this at the ZimaZang's Workbench.
+ - Made some staves 2-handed, to balance them.
+ - Made the projectiles of the Winter Holiday Staff last 1 second, rather than 6 seconds.
+zMisc R1.1:
+ - Added 3 new hats - Fishbowl Spaceman, Human Face, and the Demon Warrior Helm.
+ - Added a back item - Surrender Flag. (The sprite is still somewhat of a WIP.)
+ - Added the Research Table. This will be used to research legendary staves. You can currently only research the Aegisalt Staff, Impervium Staff, and Dragon Bone Staff.
+ - Added "Ancient Files". These spawn randomly in chests and are needed for the research table. (Note: These might only spawn in chests up to Tier 3 at the moment.)
+ - Added "Magnifiers". Used in the Research Table. A new one is unlocked at each tier you progress in to.
+zMisc R1.0:
+ - Initial Release
