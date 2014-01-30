@@ -1,0 +1,51 @@
+{
+  "objectName" : "apexslidinghatch1",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 1500,
+  "description" : "The ApeHatch 4: Slimmer, faster, more dynamic.",
+  "shortdescription" : "Light Sliding Hatch",
+  "race" : "apex",
+
+  "apexDescription" : "As with most things Apex, these hatches were built to hide secrets.",
+  "avianDescription" : "Such novel architecture.",
+  "floranDescription" : "Apex hatch hisssss like sserpent.",
+  "glitchDescription" : "Playful. The sliding noise sends a spark through my circuits.",
+  "humanDescription" : "These sliding hatches make a satisfying noise.",
+  "hylotlDescription" : "This hatch seems to have no lock or handle.",
+
+  "inventoryIcon" : "apexslidinghatch1icon.png",
+  "orientations" : [
+   {
+      "dualImage" : "apexslidinghatch1.png:wall",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom" ]
+    },
+    {
+      "dualImage" : "apexslidinghatch1.png:floor",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/hatches/hatch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/hatches/hatch.animation",
+  "animationParts" : {
+    "door" : "apexslidinghatch1.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "inboundNodes" : [ [2, 1] ],
+  "outboundNodes" : [ [2, -1] ],
+
+  "openSounds" : [ "/sfx/objects/bunkerslidingdoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bunkerslidingdoor_close.wav" ]
+}

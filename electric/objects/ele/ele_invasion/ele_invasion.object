@@ -1,0 +1,84 @@
+{
+  "objectName" : "ele_invasion",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Prepare your home before using it!",
+  "shortdescription" : "Glitch Memorial",
+  "race" : "generic",
+  "category" : "tools",
+  "printable" : false,
+
+  "apexDescription" : "A distress beacon. I hope the person who left it is okay.",
+  "avianDescription" : "A distress beacon. Someone must be in trouble.",
+  "floranDescription" : "Floran help as well as hunt. Sssometimes.",
+  "glitchDescription" : "Analysis. This distress beacon is transmitting at a number of frequencies.",
+  "humanDescription" : "This beacon's sending out a distres call.",
+  "hylotlDescription" : "Someone needs help. Protecting the weak is a worthwhile pursuit.",
+
+  "inventoryIcon" : "ele_invasionicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ele_invasion.png:off",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/ele/ele_invasion/ele_invasion.animation",
+  "animationParts" : {
+    "ele_invasion" : "ele_invasion.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/ele/lua/ele_invasion.lua" ],
+  "scriptDelta" : 150,
+
+  "npcScripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+    "/scripts/push.lua",
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+    "/npcs/invasionNpcState.lua",
+    "/npcs/invasionNpc.lua"
+  ],
+
+  "monsterScripts" : [
+    "/npcs/invasionMonster.lua"
+  ],
+
+  "spawnMonsters" : [
+    [ 15, "knight", "glitch", {} ],
+    [ 25, "airshipguard", "glitch", {} ],
+    [ 30, "castleguard", "glitch", {} ]
+  ],
+
+  "spawnBoss" : [
+     [ 1, "castleroyalguard", "glitch" , {
+        "dropPools" : [ "invasiontreasureguard" ]
+     }],
+     [ 2, "castleroyalguard", "glitch", {
+        "dropPools" : [ "invasiontreasureguard" ]
+     }],
+     [ 3, "castlelord", "glitch", {
+        "dropPools" : [ "invasiontreasure" ]
+     }]
+  ],
+
+  "treasure" : [
+    ["ele_cake", 1, {}]
+  ],
+  "maxMonster": 50,
+  "level": 2,
+
+  "movementControllerSettings" : {
+      "walkSpeed" : [5,7],
+      "runSpeed" : [9,10.5]
+  }
+}

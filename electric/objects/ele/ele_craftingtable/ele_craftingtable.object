@@ -1,0 +1,39 @@
+{
+  "objectName" : "ele_craftingtable",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/ele_craftingtable.config",
+    "filter" : [ "ele_craftingtable" ]
+  },
+  "printable" : false,
+  "description" : "An expert could make great devices on this.",
+  "shortdescription" : "Electric Crafting Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "I could create all sorts of defensive structures with this.",
+  "avianDescription" : "The words EHD appear on the console.",
+  "floranDescription" : "Floran fortify with EHD, become unbeatable.",
+  "glitchDescription" : "Scan. This appears to control the EHD construction process.",
+  "humanDescription" : "It's the Electric Crafting Table. These were all the rage back on Earth.",
+  "hylotlDescription" : "The panel appears to be busy with buttons.",
+
+  "inventoryIcon" : "ele_craftingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ele_craftingtable.png:default.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

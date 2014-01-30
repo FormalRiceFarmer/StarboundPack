@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 20 },
+	{ "item" : "uraniumrod", "count" : 20 },
+	{ "item" : "lightdronev1", "count" : 1 }
+  ],
+  "output" : { "item" : "lightdronev2", "count" : 1 },
+  "groups" : [ "mod", "craftingtable", "armors", "all" ]
+}

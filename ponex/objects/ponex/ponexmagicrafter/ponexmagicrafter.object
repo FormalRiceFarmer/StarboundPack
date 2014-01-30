@@ -1,0 +1,37 @@
+{
+  "objectName" : "ponexmagicrafter",
+  "rarity" : "Legendary",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/ponexmagicrafter.config",
+    "filter" : [ "ponexmagicrafter" ]
+  },
+  "printable" : false,
+  "description" : "A wall-mounted crafting station for Ponex equipment",
+  "shortdescription" : "Ponex Magicraft Station",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "Looks like either incredibly advanced tech, or magical.  But that's ridiculous.",
+  "avianDescription" : "Is attaining wings truly this easy?  If only the Ponex would share their secrets...",
+  "floranDescription" : "Sssshiny glowy ssscreen between ssshiny crystalsss.  Grah.",
+  "glitchDescription" : "Error.  Unable to comprehend.",
+  "humanDescription" : "Pony should pony pony, from what I hear.",
+  "hylotlDescription" : "Two beautifully carved crystals, projecting simplistic shapes between them.",
+
+  "inventoryIcon" : "ponexmagicraftericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ponexmagicrafter.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 96,
+      "animationCycle" : 7,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

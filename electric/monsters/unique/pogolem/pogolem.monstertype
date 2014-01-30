@@ -1,0 +1,8 @@
+{
+  "__merge" : [],
+  "baseParameters" : {
+    "scripts" : [
+      "/scripts/push.lua"
+    ]
+  }
+}

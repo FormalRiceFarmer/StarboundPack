@@ -1,0 +1,6 @@
+{
+  "__merge" : [],
+  "scripts" : [
+    "/scripts/push.lua"
+  ]
+}

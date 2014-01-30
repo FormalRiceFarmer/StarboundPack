@@ -1,0 +1,81 @@
+{
+  "objectName" : "ele_sawblade",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Wow, this looks sharp!",
+  "shortdescription" : "Sawblade Trap",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 2000,
+
+  "apexDescription" : "Looks sharp.",
+  "avianDescription" : "Avians protect their tombs.",
+  "floranDescription" : "Sssharp. Floran must avoid.",
+  "glitchDescription" : "Trepidation. This appears to be spinning at four thousand RPM.",
+  "humanDescription" : "Woah, I have to be careful here.",
+  "hylotlDescription" : "I'm not keen to become sushi.",
+
+  "damageTeam" : {
+    "type" : "friendly"
+  },
+
+  "particleEmitter" : {
+    "emissionRate" : 0.1,
+    "emissionVariance" : 0.05,
+    "pixelOrigin" : [0, 0],
+
+    "particle" : {
+      "type" : "textured",
+      "image" : "/particles/hazard/hazardstat.png",
+      "size" : 1.0,
+      "color" : [73, 179, 253, 255],
+      "fade" : 0,
+      "destructionAction" : "shrink",
+      "destructionTime" : 7,
+      "initialVelocity" : [3, 4],
+      "finalVelocity" : [-3, 2],
+      "approach" : [4, 1],
+      "timeToLive" : 1,
+      "layer" : "middle"
+    }
+  },
+
+  "inventoryIcon" : "ele_sawbladeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ele_sawblade.png:bottom.1",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "ele_sawblade.png:top.1",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+  "scripts" : [
+    "/scripts/energyApi.lua",
+    "/objects/ele/lua/ele_sawblade.lua"
+  ],
+  "scriptDelta" : 50,
+  "inboundNodes" : [ [0, 0] ],
+
+  "animation" : "/objects/ele/ele_sawblade/ele_sawblade.animation",
+  "animationParts" : {
+    "ele_sawblade" : "ele_sawblade.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  //mollys first object
+  "onSounds" : [ "/sfx/objects/sawblade.wav" ],
+  "projectileConfig" : { "power" : 14 },
+  "energyUsage" : 2,
+  "fireCooldown" : 0
+}

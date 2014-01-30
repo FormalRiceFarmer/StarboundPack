@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { 
+		"item" : "pegawings", 
+		"data" : { "directives" : "?replace;FFCA8A=9E9E9E;E0975C=696969;A85636=434343;6F2919=191919"}, //black	  
+		
+		"count" : 1
+		},
+  "groups" : [ "ponexmagicrafter", "armors", "all" ]
+}

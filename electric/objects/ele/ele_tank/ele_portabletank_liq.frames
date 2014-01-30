@@ -1,0 +1,15 @@
+{
+  "frameGrid" : {
+    "size" : [14, 1],
+    "dimensions" : [1, 16],
+    "names" : [
+      [ "empty" ],
+      [ "water" ],
+      [ "lava" ],
+      [ "acid" ],
+      [ "tentaclejuice" ],
+      [ "tarliquid" ],
+      [ "unknown" ]
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "itemName" : "lightdronev2",
+  "inventoryIcon" : "Lightdronev2icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Rare",
+  "description" : "A small uranium fueled drone. This drone provides a medium amount of light and excess heat.",
+  "shortdescription" : "Lightdrone V.2",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    { "kind" : "glow",
+      "amount" : 1.7,
+      "color" : [89, 95, 83]
+    },
+	
+	{ "kind" : "ColdProtection",
+      "amount" : 40.0
+    }
+  ]
+}

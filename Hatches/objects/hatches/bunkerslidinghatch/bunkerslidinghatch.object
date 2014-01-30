@@ -1,0 +1,52 @@
+{
+  "objectName" : "bunkerslidinghatch",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 650,
+  "description" : "This sliding hatch makes me feel like I'm in a sci-fi game...",
+  "shortdescription" : "Modern Sliding Hatch",
+  "race" : "human",
+
+  "apexDescription" : "A sliding hatch. Exciting.",
+  "avianDescription" : "Some cultures believe that if you have no soul, these hatches will not react.",
+  "floranDescription" : "Floran have trouble making hatch work sssometimes.",
+  "glitchDescription" : "Hypnotised. There is something fascinating about the movement of these hatches.",
+  "humanDescription" : "Once, I ran at a hatch like this and it didn't open in time and... yeah.",
+  "hylotlDescription" : "A sleek sliding hatch.",
+
+
+  "inventoryIcon" : "bunkerslidinghatchicon.png",
+  "orientations" : [
+   {
+      "dualImage" : "bunkerslidinghatch.png:wall",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom" ]
+    },
+    {
+      "dualImage" : "bunkerslidinghatch.png:floor",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/hatches/hatch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/hatches/hatch.animation",
+  "animationParts" : {
+    "door" : "bunkerslidinghatch.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "inboundNodes" : [ [2, 1] ],
+  "outboundNodes" : [ [2, -1] ],
+
+  "openSounds" : [ "/sfx/objects/bunkerslidingdoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bunkerslidingdoor_close.wav" ]
+}

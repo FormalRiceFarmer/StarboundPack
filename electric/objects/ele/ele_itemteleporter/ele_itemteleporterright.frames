@@ -1,0 +1,44 @@
+{
+  "frameGrid" : {
+    "size" : [8,24],
+    "dimensions" : [5, 5],
+    "names" : [
+      [ "tele.18", "tele.13", "tele.8", "tele.3", "off" ],
+      [ "tele.19", "tele.14", "tele.9", "tele.4", "input" ],
+      [ "tele.20", "tele.15", "tele.10", "tele.5", "output" ],
+      [ "tele.21", "tele.16", "tele.11", "tele.6", "tele.1" ],
+      [ "tele.22", "tele.17", "tele.12", "tele.7", "tele.2" ]
+      //[ "tele.2", "tele.7", "tele.12", "tele.17", "tele.22" ],
+      //[ "tele.1", "tele.6", "tele.11", "tele.16", "tele.21" ],
+      //[ "output", "tele.5", "tele.10", "tele.15", "tele.20" ],
+      //[ "input", "tele.4", "tele.9", "tele.14", "tele.19" ],
+      //[ "off", "tele.3", "tele.8", "tele.13", "tele.18" ]
+    ]
+  },
+  "aliases" : {
+    "tele.23" : "tele.1",
+    "teleback.1" : "tele.1",
+    "teleback.2" : "tele.22",
+    "teleback.3" : "tele.21",
+    "teleback.4" : "tele.20",
+    "teleback.5" : "tele.19",
+    "teleback.6" : "tele.18",
+    "teleback.7" : "tele.17",
+    "teleback.8" : "tele.16",
+    "teleback.9" : "tele.15",
+    "teleback.10" : "tele.14",
+    "teleback.11" : "tele.13",
+    "teleback.12" : "tele.12",
+    "teleback.13" : "tele.11",
+    "teleback.14" : "tele.10",
+    "teleback.15" : "tele.9",
+    "teleback.16" : "tele.8",
+    "teleback.17" : "tele.7",
+    "teleback.18" : "tele.6",
+    "teleback.19" : "tele.5",
+    "teleback.20" : "tele.4",
+    "teleback.21" : "tele.3",
+    "teleback.22" : "tele.2",
+    "teleback.23" : "tele.1"
+  }
+}

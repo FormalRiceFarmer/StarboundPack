@@ -1,0 +1,45 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_blockbreakerState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 7,
+            "cycle" : 0.5,
+            "mode" : "end"
+          },
+          "on" : {
+            "frames" : 10,
+            "cycle" : 0.5,
+            "mode" : "end"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "ele_blockbreaker" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "ele_blockbreakerState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:off.<frame>"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:on.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

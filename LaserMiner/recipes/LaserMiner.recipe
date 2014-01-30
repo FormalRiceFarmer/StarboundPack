@@ -1,0 +1,27 @@
+{
+    "input": [
+        {
+            "item": "money",
+            "count": 5000
+        },
+        {
+            "item": "laserdiode",
+            "count": 1
+        },
+        {
+            "item": "imperviumbar",
+            "count": 5
+        }
+    ],
+    "output": {
+        "item": "LaserMiner",
+        "count": 1
+    },
+    "groups": [
+        "weapons",
+        "anvil",
+        "mod",
+        "metalworkstation",
+        "all"
+    ]
+}

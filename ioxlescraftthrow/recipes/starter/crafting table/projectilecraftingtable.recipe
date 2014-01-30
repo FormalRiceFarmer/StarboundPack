@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "projectilecraftingtable",
+    "count" : 1
+  },
+  "groups" : [ "mod", "craftingtable", "objects", "all", "tools" ]
+}

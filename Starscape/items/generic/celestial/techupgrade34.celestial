@@ -1,0 +1,9 @@
+{
+  "__merge" : [],
+  
+  "description" : "(temporary). Unlocks eta sector and the ability to work with Cerulium, an ore found on level 7 planets.",
+  
+  "sectorUnlock" : "eta",
+  "unlockMessage" : "Starmap Updated. New data has been uploaded to your ships navigation systems. Select the eta sector from the top of the navigator when in galaxy view to advance."
+  
+}

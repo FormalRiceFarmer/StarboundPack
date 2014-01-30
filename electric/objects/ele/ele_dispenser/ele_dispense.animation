@@ -1,0 +1,88 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_dispenseState" : {
+        "default" : "left",
+        "states" : {
+          "left" : {
+            "frames" : 1
+          },
+          "right" : {
+            "frames" : 1
+          },
+          "bottom" : {
+            "frames" : 1
+          },
+          "top" : {
+              "frames" : 1
+          },
+          "onleft" : {
+            "frames" : 1
+          },
+          "onright" : {
+            "frames" : 1
+          },
+          "onbottom" : {
+            "frames" : 1
+          },
+          "ontop" : {
+              "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "ele_dispense" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "ele_dispenseState" : {
+            "left" : {
+              "properties" : {
+                "image" : "<partImage>:off.left"
+              }
+            },
+            "right" : {
+              "properties" : {
+                "image" : "<partImage>:off.right"
+              }
+            },
+            "bottom" : {
+              "properties" : {
+                "image" : "<partImage>:off.bottom"
+              }
+            },
+            "top" : {
+              "properties" : {
+                "image" : "<partImage>:off.top"
+              }
+            },
+            "onleft" : {
+              "properties" : {
+                "image" : "<partImage>:on.left"
+              }
+            },
+            "onright" : {
+              "properties" : {
+                "image" : "<partImage>:on.right"
+              }
+            },
+            "onbottom" : {
+              "properties" : {
+                "image" : "<partImage>:on.bottom"
+              }
+            },
+            "ontop" : {
+              "properties" : {
+                "image" : "<partImage>:on.top"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

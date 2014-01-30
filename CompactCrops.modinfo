@@ -1,0 +1,11 @@
+{
+ "name" : "CompactCrops",
+ "version" : "Beta v. Furious Koala",
+ "path" : "CompactCrops",
+ "dependencies" : [],
+  "metadata" : {
+	"version" : "1.02",
+    "author" : "rrgg",
+    "description" : "reduces the footprint of crops to 1 block"
+  }
+ }

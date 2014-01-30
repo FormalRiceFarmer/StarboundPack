@@ -1,0 +1,10 @@
+{
+  "itemName" : "ele_pipetop",
+  "rarity" : "Common",
+  "inventoryIcon" : "ele_pipetop.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Top Pipe",
+  "description" : "Pipe only transporting to the top.",
+
+  "materialId" : 72808
+}

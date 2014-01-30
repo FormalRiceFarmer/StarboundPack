@@ -1,0 +1,14 @@
+{
+  "materialId" : 72805,
+  "materialName" : "ele_piperb",
+  "frames" : "ele_piperb.png",
+  "particleColor" : [0, 0, 0, 0],
+  "variants" : 1,
+  "transparent" : true,
+  "itemDrop" : "ele_piperb",
+  "shortdescription" : "Right-Bottom Bending Pipe",
+  "description" : "A right to bottom bending pipe.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 2
+}

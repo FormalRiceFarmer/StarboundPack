@@ -1,0 +1,33 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_placeholderState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "ele_placeholder" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 2
+        },
+
+        "partStates" : {
+          "ele_placeholderState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

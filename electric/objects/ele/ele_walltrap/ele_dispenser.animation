@@ -1,0 +1,185 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_dispenserState" : {
+        "default" : "offLeft",
+        "states" : {
+          "offLeft" : {
+            "frames" : 1
+          },
+          "arrowLeft" : {
+            "frames" : 1
+          },
+          "bulletLeft" : {
+            "frames" : 1
+          },
+          "fireLeft" : {
+            "frames" : 1
+          },
+          "healLeft" : {
+            "frames" : 1
+          },
+            "offRight" : {
+              "frames" : 1
+            },
+            "arrowRight" : {
+              "frames" : 1
+            },
+            "bulletRight" : {
+              "frames" : 1
+            },
+            "fireRight" : {
+              "frames" : 1
+            },
+            "healRight" : {
+              "frames" : 1
+            },
+          "offBottom" : {
+            "frames" : 1
+          },
+          "arrowBottom" : {
+            "frames" : 1
+          },
+          "bulletBottom" : {
+            "frames" : 1
+          },
+          "fireBottom" : {
+            "frames" : 1
+          },
+          "healBottom" : {
+            "frames" : 1
+          },
+
+            "offTop" : {
+              "frames" : 1
+            },
+            "arrowTop" : {
+              "frames" : 1
+            },
+            "bulletTop" : {
+              "frames" : 1
+            },
+            "fireTop" : {
+              "frames" : 1
+            },
+            "healTop" : {
+              "frames" : 1
+            }
+        }
+      }
+    },
+
+    "parts" : {
+      "ele_dispenser" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "ele_dispenserState" : {
+            "offLeft" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.offLeft"
+              }
+            },
+            "arrowLeft" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.arrowLeft"
+              }
+            },
+            "bulletLeft" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.bulletLeft"
+              }
+            },
+            "fireLeft" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.fireLeft"
+              }
+            },
+            "healLeft" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.healLeft"
+              }
+            },
+            "offRight" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.offRight"
+              }
+            },
+            "arrowRight" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.arrowRight"
+              }
+            },
+            "bulletRight" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.bulletRight"
+              }
+            },
+            "fireRight" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.fireRight"
+              }
+            },
+            "healRight" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.healRight"
+              }
+            },
+            "offBottom" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.offBottom"
+              }
+            },
+            "arrowBottom" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.arrowBottom"
+              }
+            },
+            "bulletBottom" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.bulletBottom"
+              }
+            },
+            "fireBottom" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.fireBottom"
+              }
+            },
+            "healBottom" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.healBottom"
+              }
+            },
+            "offTop" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.offTop"
+              }
+            },
+            "arrowTop" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.arrowTop"
+              }
+            },
+            "bulletTop" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.bulletTop"
+              }
+            },
+            "fireTop" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.fireTop"
+              }
+            },
+            "healTop" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.healTop"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

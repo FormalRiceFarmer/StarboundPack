@@ -1,0 +1,8 @@
+{
+  "__merge" : [],
+  "lightColor" : [201, 239, 112],
+  "pointLight" : true,
+  "pointBeam" : 1,
+  "pointAngle" : 0,
+  "lightPosition" : [0, 0]
+}

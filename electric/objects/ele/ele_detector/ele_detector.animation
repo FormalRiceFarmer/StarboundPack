@@ -1,0 +1,150 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_detectorState" : {
+        "default" : "allOff",
+        "states" : {
+          "allOff" : {
+            "frames" : 1
+          },
+          "allOn" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "monsterOff" : {
+            "frames" : 1
+          },
+          "monsterOn" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "ownerOff" : {
+            "frames" : 1
+          },
+          "ownerOn" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "playerOff" : {
+            "frames" : 1
+          },
+          "playerOn" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "itemOff" : {
+            "frames" : 1
+          },
+          "itemOn" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "npcOff" : {
+            "frames" : 1
+          },
+          "npcOn" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "solarOff" : {
+            "frames" : 1
+          },
+          "solarOn" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "ele_detector" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "ele_detectorState" : {
+            "allOff" : {
+              "properties" : {
+                "image" : "<partImage>:all.off"
+              }
+            },
+            "allOn" : {
+              "properties" : {
+                "image" : "<partImage>:all.<frame>"
+              }
+            },
+            "monsterOff" : {
+              "properties" : {
+                "image" : "<partImage>:monster.off"
+              }
+            },
+            "monsterOn" : {
+              "properties" : {
+                "image" : "<partImage>:monster.<frame>"
+              }
+            },
+            "ownerOff" : {
+              "properties" : {
+                "image" : "<partImage>:owner.off"
+              }
+            },
+            "ownerOn" : {
+              "properties" : {
+                "image" : "<partImage>:owner.<frame>"
+              }
+            },
+            "playerOff" : {
+              "properties" : {
+                "image" : "<partImage>:player.off"
+              }
+            },
+            "playerOn" : {
+              "properties" : {
+                "image" : "<partImage>:player.<frame>"
+              }
+            },
+            "itemOff" : {
+              "properties" : {
+                "image" : "<partImage>:item.off"
+              }
+            },
+            "itemOn" : {
+              "properties" : {
+                "image" : "<partImage>:item.<frame>"
+              }
+            },
+            "npcOff" : {
+              "properties" : {
+                "image" : "<partImage>:npc.off"
+              }
+            },
+            "npcOn" : {
+              "properties" : {
+                "image" : "<partImage>:npc.<frame>"
+              }
+            },
+            "solarOff" : {
+              "properties" : {
+                "image" : "<partImage>:solar.off"
+              }
+            },
+            "solarOn" : {
+              "properties" : {
+                "image" : "<partImage>:solar.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "dimXengine",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "dimXengine.png",
+  "image" : "dimXengine.png",
+
+  "shortdescription" : "Starmap Upgrade X",
+  "description" : "I can use this to upgrade my ship's engine, allowing flight into sector X.",
+
+  "sectorUnlock" : "sectorx",
+  "tierRecipesUnlock" : "level32",
+  "unlockMessage" : "Starmap Updated. New data has been uploaded to your ships navigation systems. Sector X is now available from the top of the navigator when in galaxy view."
+}

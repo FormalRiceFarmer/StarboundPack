@@ -1,0 +1,27 @@
+{
+  "itemName" : "lightdronev3",
+  "inventoryIcon" : "Lightdronev3icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Legendary",
+  "description" : "A small solarium fueled drone with a build in local atmosphere generator. This drone also provides a large amount of light and excess heat.",
+  "shortdescription" : "Lightdrone V.3",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    { "kind" : "glow",
+      "amount" : 2,
+      "color" : [255, 230, 69]
+    },
+	
+	{ "kind" : "ColdProtection",
+      "amount" : 100.0
+    },
+	
+	{
+      "kind" : "breathprotection"
+    }
+  ]
+}

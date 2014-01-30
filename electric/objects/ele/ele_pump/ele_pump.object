@@ -1,0 +1,49 @@
+{
+  "objectName" : "ele_pump",
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 50,
+  "objectType" : "wire",
+
+  "description" : "Pumps liquids.",
+  "shortdescription" : "Pump",
+  "race" : "generic",
+
+  "apexDescription" : "todo",
+  "avianDescription" : "todo",
+  "floranDescription" : "todo",
+  "glitchDescription" : "todo",
+  "humanDescription" : "todo",
+  "hylotlDescription" : "todo",
+
+    "inventoryIcon" : "ele_pumpicon.png",
+    "orientations" : [
+        {
+          "dualImage" : "ele_pump.png:pump.1",
+          "imagePosition" : [0, 0],
+
+          "spaceScan" : 0.1,
+          "anchors" : [],
+          "collision" : "platform"
+        }
+    ],
+    "animation" : "/objects/ele/ele_pump/ele_pump.animation",
+    "animationParts" : {
+      "ele_pump" : "ele_pump.png",
+      "pipe" : "pipe.png"
+    },
+  "animationPosition" : [0,0],
+
+  "scripts" : [
+    "/scripts/liquidApi.lua",
+    "/scripts/transferApi.lua",
+    "/scripts/transferLiquids.lua",
+    "/objects/ele/lua/ele_pump.lua"
+  ],
+  "scriptDelta" : 25,
+  "inboundNodes" : [ [1.5, 1] ],
+
+  "transferSize" : [2,2],
+  "transferMode" : 1,
+  "transferType" : "liquids"
+}

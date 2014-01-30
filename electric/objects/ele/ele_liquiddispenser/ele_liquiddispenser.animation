@@ -1,0 +1,88 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_liquiddispenserState" : {
+        "default" : "offright",
+        "states" : {
+          "offright" : {
+            "frames" : 1
+          },
+          "waterright" : {
+            "frames" : 1
+          },
+            "lavaright" : {
+             "frames" : 1
+            },
+            "acidright" : {
+                "frames" : 1
+            },
+          "offleft" : {
+            "frames" : 1
+          },
+          "waterleft" : {
+            "frames" : 1
+          },
+            "lavaleft" : {
+             "frames" : 1
+            },
+            "acidleft" : {
+                "frames" : 1
+            }
+        }
+      }
+    },
+
+    "parts" : {
+      "ele_liquiddispenser" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "ele_liquiddispenserState" : {
+            "offright" : {
+              "properties" : {
+                "image" : "<partImage>:right.drain"
+              }
+            },
+            "waterright" : {
+              "properties" : {
+                "image" : "<partImage>:right.water"
+              }
+            },
+            "lavaright" : {
+              "properties" : {
+                "image" : "<partImage>:right.lava"
+              }
+            },
+            "acidright" : {
+              "properties" : {
+                "image" : "<partImage>:right.acid"
+              }
+            },
+            "offleft" : {
+              "properties" : {
+                "image" : "<partImage>:left.drain"
+              }
+            },
+            "waterleft" : {
+              "properties" : {
+                "image" : "<partImage>:left.water"
+              }
+            },
+            "lavaleft" : {
+              "properties" : {
+                "image" : "<partImage>:left.lava"
+              }
+            },
+            "acidleft" : {
+              "properties" : {
+                "image" : "<partImage>:left.acid"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

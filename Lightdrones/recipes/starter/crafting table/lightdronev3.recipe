@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 },
+	{ "item" : "solariumrod", "count" : 20 },
+	{ "item" : "circuitboard", "count" : 10 },
+	{ "item" : "lightdronev2", "count" : 1 },
+	{ "item" : "spaceairtankback", "count" : 1 }
+  ],
+  "output" : { "item" : "lightdronev3", "count" : 1 },
+  "groups" : [ "mod", "craftingtable", "armors", "all" ]
+}

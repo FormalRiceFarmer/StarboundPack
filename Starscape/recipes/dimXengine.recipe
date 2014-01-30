@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 15 },
+	{ "item" : "durasteelbar", "count" : 15 },
+    { "item" : "money", "count" : 1500 }
+  ],
+  "output" : {
+    "item" : "dimXengine",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "all", "tools" ]
+}

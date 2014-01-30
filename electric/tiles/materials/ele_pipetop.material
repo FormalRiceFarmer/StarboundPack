@@ -1,0 +1,14 @@
+{
+  "materialId" : 72808,
+  "materialName" : "ele_pipetop",
+  "frames" : "ele_pipetop.png",
+  "particleColor" : [0, 0, 0, 0],
+  "variants" : 1,
+  "transparent" : true,
+  "itemDrop" : "ele_pipetop",
+  "shortdescription" : "Top Pipe",
+  "description" : "Pipe only transporting to the top.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 2
+}

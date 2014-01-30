@@ -1,0 +1,11 @@
+{
+  "name" : "Starscape",
+  "version" : "Beta v. Furious Koala",
+  "path" : "Starscape",
+  "dependencies" : [],
+  "metadata": {
+    "author" : "Ganondude",
+    "modversion" : "1.2.0",
+    "description" : "Explore the wonders of the cosmos with these new biomes, planets, sectors, and stars!"
+  }
+}

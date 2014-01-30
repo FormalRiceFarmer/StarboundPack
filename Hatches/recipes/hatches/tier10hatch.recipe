@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "imperviumbar", "count" : 4 }
+  ],
+  "output" : { "item" : "tier10hatch", "count" : 1 },
+  "groups" : [ "mod", "metalworkstation", "door", "objects", "all" ]
+}

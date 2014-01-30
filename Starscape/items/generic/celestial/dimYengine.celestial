@@ -1,0 +1,13 @@
+{
+  "itemName" : "dimYengine",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "dimXengine.png",
+  "image" : "dimXengine.png",
+
+  "shortdescription" : "Starmap Upgrade Y",
+  "description" : "I can use this to upgrade my ship's engine, allowing flight into sector Y.",
+
+  "sectorUnlock" : "sectory",
+  "tierRecipesUnlock" : "level35",
+  "unlockMessage" : "Starmap Updated. New data has been uploaded to your ships navigation systems. Sector Y is now available from the top of the navigator when in galaxy view."
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "ponextutorial.gearup",
+  "title" : "^#9be3d6;Fresh Meat",
+  "text" : "After the uprising, your people left and ventured out into the universe to find a place to call home. You had found a life away from all the others, but now, due to obstacles in your life, you must leave that life behind and find another home. You have chosen to search for the place your kind calls home.",
+  "completionText" : "Well done! The matter manipulator allows you to manipulate almost anything in the gameworld.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial2.gearup"
+}

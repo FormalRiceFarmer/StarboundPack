@@ -1,0 +1,46 @@
+{
+  "objectName" : "ele_solarpanel",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Generates energy without the waste of resources.",
+  "shortdescription" : "Solar Panel",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 2000,
+
+  "apexDescription" : "todo",
+  "avianDescription" : "todo",
+  "floranDescription" : "todo",
+  "glitchDescription" : "todo",
+  "humanDescription" : "todo",
+  "hylotlDescription" : "todo",
+
+  "inventoryIcon" : "ele_solarpanelicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ele_solarpanel.png:<color>.<key>",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "/objects/ele/ele_solarpanel/ele_solarpanel.animation",
+  "animationParts" : {
+    "solar" : "ele_solarpanel.png"
+  },
+  "animationPosition" : [-16, 0],
+  "onSounds" : [ "/sfx/objects/plantpanel_interact.wav" ],
+  "offSounds" : [ "/sfx/objects/plantpanel_interact.wav" ],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "scripts" : [
+    "/scripts/energyApi.lua",
+    "/objects/ele/lua/ele_solarpanel.lua"
+  ],
+  "scriptDelta" : 250,
+
+  "maxEnergy" : 1000,
+  "efficiency" : 50
+}

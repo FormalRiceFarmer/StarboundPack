@@ -1,0 +1,29 @@
+{
+  "objectName" : "ele_cake",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1000,
+
+  "description" : "A cake for surviving the invasion. Now you're truly a hero. ",
+  "shortdescription" : "Cake",
+  "race" : "generic",
+
+  "apexDescription" : "todo",
+  "avianDescription" : "todo",
+  "floranDescription" : "todo",
+  "glitchDescription" : "todo",
+  "humanDescription" : "todo",
+  "hylotlDescription" : "todo",
+
+  "inventoryIcon" : "ele_cakeicon.png",
+  "orientations" : [
+    {
+      "image" : "ele_cake.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

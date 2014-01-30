@@ -1,0 +1,32 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_mannequinState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "ele_mannequin" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "ele_mannequinState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:hide"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

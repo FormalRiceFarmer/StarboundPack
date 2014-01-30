@@ -1,0 +1,10 @@
+{
+  "itemName" : "ele_piperight",
+  "rarity" : "Common",
+  "inventoryIcon" : "ele_piperight.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Right Pipe",
+  "description" : "Pipe only transporting to the right.",
+
+  "materialId" : 72809
+}

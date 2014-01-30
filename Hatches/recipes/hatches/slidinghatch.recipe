@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 5 }
+  ],
+  "output" : { "item" : "slidinghatch","count" : 1 },
+  "groups" : [ "mod", "metalworkstation", "door", "objects", "all" ]
+}

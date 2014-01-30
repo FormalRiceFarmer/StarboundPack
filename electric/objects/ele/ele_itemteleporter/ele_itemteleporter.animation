@@ -1,0 +1,365 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_itemteleporterState" : {
+        "default" : "input_off_bottom",
+        "states" : {
+          "input_off_bottom" : {
+            "frames" : 1
+          },
+          "input_on_bottom" : {
+            "frames" : 1
+          },
+          "input_tele_bottom" : {
+            "frames" : 23,
+            "cycle" : 0.6,
+            "mode" : "end"
+          },
+          "output_off_bottom" : {
+            "frames" : 1
+          },
+          "output_on_bottom" : {
+            "frames" : 1
+          },
+          "output_tele_bottom" : {
+            "frames" : 23,
+            "cycle" : 0.6,
+            "mode" : "end"
+          },
+          "input_off_top" : {
+            "frames" : 1
+          },
+          "input_on_top" : {
+            "frames" : 1
+          },
+          "input_tele_top" : {
+            "frames" : 23,
+            "cycle" : 0.6,
+            "mode" : "end"
+          },
+          "output_off_top" : {
+            "frames" : 1
+          },
+          "output_on_top" : {
+            "frames" : 1
+          },
+          "output_tele_top" : {
+            "frames" : 23,
+            "cycle" : 0.6,
+            "mode" : "end"
+          },
+          "input_off_left" : {
+            "frames" : 1
+          },
+          "input_on_left" : {
+            "frames" : 1
+          },
+          "input_tele_left" : {
+            "frames" : 23,
+            "cycle" : 0.6,
+            "mode" : "end"
+          },
+          "output_off_left" : {
+            "frames" : 1
+          },
+          "output_on_left" : {
+            "frames" : 1
+          },
+          "output_tele_left" : {
+            "frames" : 23,
+            "cycle" : 0.6,
+            "mode" : "end"
+          },
+          "input_off_right" : {
+            "frames" : 1
+          },
+          "input_on_right" : {
+            "frames" : 1
+          },
+          "input_tele_right" : {
+            "frames" : 23,
+            "cycle" : 0.6,
+            "mode" : "end"
+          },
+          "output_off_right" : {
+            "frames" : 1
+          },
+          "output_on_right" : {
+            "frames" : 1
+          },
+          "output_tele_right" : {
+            "frames" : 23,
+            "cycle" : 0.6,
+            "mode" : "end"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "ele_itemteleporter" : {
+        "properties" : {
+          "centered" : false,
+            "zLevel" : 2
+
+        },
+
+        "partStates" : {
+          "ele_itemteleporterState" : {
+            "input_off_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:off"
+              }
+            },
+            "input_on_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:input"
+              }
+            },
+            "input_tele_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:input"
+              }
+            },
+            "output_off_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:off"
+              }
+            },
+            "output_on_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:output"
+              }
+            },
+            "output_tele_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:output"
+              }
+            },
+            "input_off_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:off"
+              }
+            },
+            "input_on_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:input"
+              }
+            },
+            "input_tele_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:input"
+              }
+            },
+            "output_off_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:off"
+              }
+            },
+            "output_on_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:output"
+              }
+            },
+            "output_tele_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:output"
+              }
+            },
+            "input_off_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:off"
+              }
+            },
+            "input_on_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:input"
+              }
+            },
+            "input_tele_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:input"
+              }
+            },
+            "output_off_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:off"
+              }
+            },
+            "output_on_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:output"
+              }
+            },
+            "output_tele_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:output"
+              }
+            },
+            "input_off_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:off"
+              }
+            },
+            "input_on_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:input"
+              }
+            },
+            "input_tele_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:input"
+              }
+            },
+            "output_off_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:off"
+              }
+            },
+            "output_on_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:output"
+              }
+            },
+            "output_tele_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:output"
+              }
+            }
+          }
+        }
+      },
+      "ele_itemteleporterring" : {
+        "properties" : {
+          "centered" : false,
+            "zLevel" : 3
+        },
+
+        "partStates" : {
+          "ele_itemteleporterState" : {
+            "input_off_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:tele.1"
+              }
+            },
+            "input_on_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:tele.1"
+              }
+            },
+            "input_tele_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:tele.<frame>"
+              }
+            },
+            "output_off_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:tele.1"
+              }
+            },
+            "output_on_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:tele.1"
+              }
+            },
+            "output_tele_bottom" : {
+              "properties" : {
+                "image" : "ele_itemteleporterbottom.png:teleback.<frame>"
+              }
+            },
+            "input_off_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:tele.1"
+              }
+            },
+            "input_on_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:tele.1"
+              }
+            },
+            "input_tele_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:tele.<frame>"
+              }
+            },
+            "output_off_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:tele.1"
+              }
+            },
+            "output_on_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:tele.1"
+              }
+            },
+            "output_tele_top" : {
+              "properties" : {
+                "image" : "ele_itemteleportertop.png:teleback.<frame>"
+              }
+            },
+            "input_off_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:tele.1"
+              }
+            },
+            "input_on_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:tele.1"
+              }
+            },
+            "input_tele_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:tele.<frame>"
+              }
+            },
+            "output_off_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:tele.1"
+              }
+            },
+            "output_on_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:tele.1"
+              }
+            },
+            "output_tele_left" : {
+              "properties" : {
+                "image" : "ele_itemteleporterleft.png:teleback.<frame>"
+              }
+            },
+            "input_off_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:tele.1"
+              }
+            },
+            "input_on_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:tele.1"
+              }
+            },
+            "input_tele_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:tele.<frame>"
+              }
+            },
+            "output_off_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:tele.1"
+              }
+            },
+            "output_on_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:tele.1"
+              }
+            },
+            "output_tele_right" : {
+              "properties" : {
+                "image" : "ele_itemteleporterright.png:teleback.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

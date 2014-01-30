@@ -1,0 +1,12 @@
+{
+  "frameGrid" : {
+    "size" : [8, 8],
+    "dimensions" : [5, 4],
+    "names" : [
+      [ "default.offLeft", "default.arrowLeft", "default.bulletLeft", "default.fireLeft", "default.healLeft" ],
+      [ "default.offRight", "default.arrowRight", "default.bulletRight", "default.fireRight", "default.healRight" ],
+      [ "default.offBottom", "default.arrowBottom", "default.bulletBottom", "default.fireBottom", "default.healBottom" ],
+      [ "default.offTop", "default.arrowTop", "default.bulletTop", "default.fireTop", "default.healTop" ]
+    ]
+  }
+}

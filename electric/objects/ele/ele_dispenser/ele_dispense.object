@@ -1,0 +1,75 @@
+{
+  "objectName" : "ele_dispense",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Ejects items or liquids.",
+  "shortdescription" : "Dispenser",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "apexDescription" : "todo",
+  "avianDescription" : "todo",
+  "floranDescription" : "todo",
+  "glitchDescription" : "todo",
+  "humanDescription" : "todo",
+  "hylotlDescription" : "todo",
+
+  "damageTeam" : {
+    "type" : "friendly"
+  },
+
+  "inventoryIcon" : "ele_dispenseicon.png",
+  "orientations" : [
+    {
+      "image" : "ele_dispense.png:on.right",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "ele_dispense.png:on.left",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "direction" : "right"
+    },
+    {
+      "image" : "ele_dispense.png:on.bottom",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "ele_dispense.png:on.top",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [
+    "/scripts/liquidApi.lua",
+    "/scripts/itemApi.lua",
+    "/scripts/transferApi.lua",
+    "/scripts/transferItems.lua",
+    "/scripts/transferLiquids.lua",
+    "/objects/ele/lua/ele_dispenser.lua"
+  ],
+  "scriptDelta" : 100,
+
+  "animation" : "/objects/ele/ele_dispenser/ele_dispense.animation",
+
+  "animationParts" : {
+    "ele_dispense" : "/objects/ele/ele_dispenser/ele_dispense.png"
+  },
+  "animationPosition" : [0, 0],
+  "inboundNodes" : [ [-1, 0] ]
+}

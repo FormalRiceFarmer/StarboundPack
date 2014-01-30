@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 1 },
+    { "item" : "money", "count" : 50 }
+  ],
+  "output" : { "item" : "throwingdart", "count" : 3 },
+  "groups" : [ "projectilecraftingtable", "tools", "all" ]
+}

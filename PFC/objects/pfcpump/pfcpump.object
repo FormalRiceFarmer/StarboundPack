@@ -1,0 +1,71 @@
+{
+  "objectName" : "pfcpump",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Pumps oxygenated perfluorocarbon into the room as a warming breathable liquid.",
+  "shortdescription" : "PFC Pump",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "pfcpumpicon.png",
+
+  "orientations" : [
+    {
+      "image" : "pfcpump.png:default.all",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "pfcpump.png:default.all",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "pfcpump.png:default.all",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "pfcpump.png:default.all",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "pfcpump.png:default.all",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "animation" : "/objects/pfcpump/pfcpump.animation",
+  "animationParts" : {
+    "sensor" : "pfcpump.png"
+  },
+  "animationPosition" : [0, 0],
+
+
+
+
+
+  "scripts" : [ "/objects/pfcpump/pfcpump.lua" ],
+  "scriptDelta" : 5,
+
+  "inboundNodes" : [ [-1, 0] ]
+}

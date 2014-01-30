@@ -1,0 +1,90 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_batteryState" : {
+        "default" : "on",
+        "states" : {
+          "on" : {
+            "frames" : 1
+          },
+          "onr" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+    "parts" : {
+      "ele_battery" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 2
+        },
+
+        "partStates" : {
+          "ele_batteryState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:battery"
+              }
+            },
+            "onr" : {
+              "properties" : {
+                "image" : "<partImage>:battery"
+              }
+            }
+          }
+        }
+      },
+      "ele_batteryback" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 0
+        },
+
+        "partStates" : {
+          "ele_batteryState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:back"
+              }
+            },
+            "onr" : {
+              "properties" : {
+                "image" : "<partImage>:back"
+              }
+            }
+          }
+        }
+      },
+      "energy" : {
+        "properties" : {
+          "centered" : false,
+          "scalingGroup" : "energy",
+          "offset" : [0.875, 0.625],
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "ele_batteryState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>"
+              }
+            },
+            "onr" : {
+              "properties" : {
+                "offset" : [2.875, 0.625],
+                "image" : "<partImage>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "scalingGroups" : {
+    "energy" : {
+      "pivot" : [0, 1]
+    }
+  }
+}

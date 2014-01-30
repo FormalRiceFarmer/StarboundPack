@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "ponexmagicrafter",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all", "tools" ]
+}

@@ -1,0 +1,93 @@
+{
+  "panels" : [
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/respawn/black.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 1.4999,
+          "zoom" : 500,
+          "alpha" : 0,
+          "position" : [480, 270]
+        },
+        {
+          "timecode" : 1.49999,
+          "zoom" : 500,
+          "alpha" : 1,
+          "position" : [480, 270]
+        },
+        {
+          "timecode" : 25,
+          "zoom" : 500,
+          "alpha" : 1,
+          "position" : [480, 270]
+        }
+      ]
+    },
+    {
+      "avatar" : "nude",
+      "keyframes" : [
+        {
+          "timecode" : 21.5,
+          "zoom" : 2,
+          "alpha" : 0,
+          "frame" : 0,
+          "position" : [482, 270]
+        },
+        {
+          "timecode" : 21.59,
+          "zoom" : 2,
+          "alpha" : 1,
+          "frame" : 0,
+          "position" : [482, 270]
+        },
+        {
+          "timecode" : 25,
+          "alpha" : 1,
+          "zoom" : 2,
+          "frame" : 93.999
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/respawn/ponex/layer1.png:{frame}"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 4.999,
+          "zoom" : 2,
+          "alpha" : 0,
+          "frame" : 0,
+          "position" : [480, 256]
+        },
+        {
+          "timecode" : 5,
+          "zoom" : 2,
+          "alpha" : 1,
+          "frame" : 0,
+          "position" : [480, 256]
+        },
+        {
+          "timecode" : 22,
+          "alpha" : 1,
+          "zoom" : 2,
+          "frame" : 75.999
+        },
+        {
+          "timecode" : 22.1,
+          "alpha" : 0,
+          "zoom" : 2,
+          "frame" : 75.999
+        }
+      ]
+    }
+  ],
+  "audio" : [
+  ]
+}

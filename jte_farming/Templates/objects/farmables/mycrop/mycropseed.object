@@ -1,0 +1,21 @@
+{
+  "__merge" : [],
+  "objectType" : "wire",
+
+  "scripts" : [ "/objects/farmables/jte_farmable.lua" ],
+  "scriptDelta" : 60,
+
+  "animation" : "/objects/farmables/jte_farmable.animation",
+  "animationParts" : {
+    "plant" : "mycropseed.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "jte_farmable" : {
+    "growingStates" : ["growing.1","growing.2"],
+    "harvestStates" : ["harvest.1","harvest.2","harvest.3","harvest.4","harvest.5"]
+  },
+
+  "inboundNodes" : [],
+  "outboundNodes" : []
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "ele_mannequin",
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 50,
+  "objectType" : "wire",
+
+  "description" : "Show of you earnings.",
+  "shortdescription" : "Mannequin",
+  "race" : "generic",
+
+  "apexDescription" : "todo",
+  "avianDescription" : "todo",
+  "floranDescription" : "todo",
+  "glitchDescription" : "todo",
+  "humanDescription" : "todo",
+  "hylotlDescription" : "todo",
+
+    "inventoryIcon" : "ele_mannequinicon.png",
+    "orientations" : [
+        {
+          "dualImage" : "ele_mannequin.png:display",
+          "imagePosition" : [0, 0],
+
+          "spaceScan" : 0.1,
+          "anchors" : [ "bottom" ]
+        }
+    ],
+    "animation" : "/objects/ele/ele_mannequin/ele_mannequin.animation",
+    "animationParts" : {
+      "ele_mannequin" : "ele_mannequin.png"
+    },
+  "animationPosition" : [0,0],
+  "damageTeam" : {
+    "type" : "friendly"
+  },
+
+  "scripts" : [ "/objects/ele/lua/ele_mannequin.lua" ],
+  "scriptDelta" : 20,
+
+  "mannequin" : {
+    "npcSpeciesOptions" : ["dummy"],
+    "npcParameter" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+}

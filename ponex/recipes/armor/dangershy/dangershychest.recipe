@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 850 }
+  ],
+  "output" : { "item" : "dangershychest", "count" : 1 },
+  "groups" : [ "ponexmagicrafter", "armors", "all" ]
+}

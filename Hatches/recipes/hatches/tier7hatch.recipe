@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "Ceruliumbar", "count" : 4 }
+  ],
+  "output" : { "item" : "tier7hatch", "count" : 1 },
+  "groups" : [ "mod", "metalworkstation", "door", "objects", "all" ]
+}

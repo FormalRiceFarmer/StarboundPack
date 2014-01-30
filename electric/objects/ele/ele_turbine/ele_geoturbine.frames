@@ -1,0 +1,17 @@
+{
+  "frameGrid" : {
+    "size" : [32, 16],
+    "dimensions" : [4, 2],
+    "names" : [
+      [ "turbine.off", "turbine.1", "turbine.2", "turbine.3" ],
+      [ "turbine.4", "turbine.5", "turbine.6", "turbine.7" ]
+    ]
+  },
+  "aliases" : {
+    "turbine.8" : "turbine.6",
+    "turbine.9" : "turbine.5",
+    "turbine.10" : "turbine.4",
+    "turbine.11" : "turbine.3",
+    "turbine.12" : "turbine.2"
+  }
+}

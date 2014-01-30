@@ -1,0 +1,11 @@
+{
+  "name" : "Spacebound",
+  "version" : "Beta v. Furious Koala",
+  "path" : "Spacebound",
+  "dependencies" : [ ],
+  "metadata": {
+    "author" : "MoonOne",
+    "description" : "Adds more aurora and space objects",
+    "support_url" : "http://community.playstarbound.com/index.php?threads/spacebound.66279/"
+	}
+}

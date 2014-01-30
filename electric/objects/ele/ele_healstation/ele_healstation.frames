@@ -1,0 +1,10 @@
+{
+  "frameGrid" : {
+    "size" : [24, 32],
+    "dimensions" : [5, 2],
+    "names" : [
+      [ "off", "fill.0", "fill.1", "fill.2", "fill.3"],
+      [ "offflipped", "fillflipped.0", "fillflipped.1", "fillflipped.2", "fillflipped.3"]
+    ]
+  }
+}

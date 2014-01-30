@@ -1,0 +1,54 @@
+{
+  "itemName" : "pegawings",
+  "inventoryIcon" : "pegawingsicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "Legendary",
+  "description" : "A pair of Pegasus wings.  A source of much Avian jealousy.",
+  "shortdescription" : "Pegasus Wings",
+  
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  
+  "colorOptions" : [
+    /* DASHY */
+    { "ffca8a" : "ffca8a", "e0975c" : "9dd9f7", "a85636" : "6caadd", "6f2919" : "649ac6" },
+    /* DONUT STEEL */
+    { "ffca8a" : "9E9E9E", "e0975c" : "696969", "a85636" : "434343", "6f2919" : "191919" },
+    /* OCTY */
+    { "ffca8a" : "FFFFFF", "e0975c" : "D7D5DB", "a85636" : "8E8E9B", "6f2919" : "6D6D6D" },
+    /* FASHIONISTA */
+    { "ffca8a" : "ffca8a", "e0975c" : "f4f4f6", "a85636" : "dad5d7", "6f2919" : "968d92" },
+    /* RED GALA */
+    { "ffca8a" : "ffca8a", "e0975c" : "ee4455", "a85636" : "bb1122", "6f2919" : "991122" },
+    /* BUYSOMEAPPLES */
+    { "ffca8a" : "ffca8a", "e0975c" : "f0c979", "a85636" : "e1843a", "6f2919" : "be5535" },
+    /* eeep */
+    { "ffca8a" : "ffca8a", "e0975c" : "fff797", "a85636" : "deb406", "6f2919" : "9a7c00" },
+    /* GREEN ONE YOU HAD AS A KID */
+    { "ffca8a" : "C4F0A8", "e0975c" : "99D787", "a85636" : "349933", "6f2919" : "38603E" },
+    /* BLUES BRO */
+    { "ffca8a" : "ffca8a", "e0975c" : "c6cde0", "a85636" : "9298be", "6f2919" : "565e8c" },
+    /* TWILIGHTLICIOUS */
+    { "ffca8a" : "ffca8a", "e0975c" : "caaad1", "a85636" : "9a66ac", "6f2919" : "8f709a" },
+    /* PARTY PARTY PARTY PARTY PARTY PARTY PARTY PARTY */
+    { "ffca8a" : "ffca8a", "e0975c" : "f8b9ce", "a85636" : "e57eb3", "6f2919" : "cd71a1" },
+    /* ORANGE SINCE THERE ARE NO BROWN PONEX */
+    { "ffca8a" : "FFCA8A", "e0975c" : "E0975C", "a85636" : "A85636", "6f2919" : "6F2919" }
+    /* OFFWHITE
+    { "ffca8a" : "ffca8a", "e0975c" : "ece7ed", "a85636" : "d1b0bf", "6f2919" : "876574" },
+	SCISSORS
+    { "ffca8a" : "ffca8a", "e0975c" : "8cc6ce", "a85636" : "528c73", "6f2919" : "427b63" },
+	WOONA
+    { "ffca8a" : "ffca8a", "e0975c" : "223377", "a85636" : "112244", "6f2919" : "13244D" },
+	SLUGS WITH SHELLS
+    { "ffca8a" : "ffca8a", "e0975c" : "f8b938", "a85636" : "c28100", "6f2919" : "aa760b" },
+	PURPLE IS THE NEW BLACK
+    { "ffca8a" : "E2B2FF", "e0975c" : "B374D4", "a85636" : "7C4992", "6f2919" : "4B2655" },
+	
+    { "ffca8a" : "fd8d30", "e0975c" : "ca6705", "a85636" : "8c5d00", "6f2919" : "5c4400" },
+    { "ffca8a" : "c260ff", "e0975c" : "931ad0", "a85636" : "710587", "6f2919" : "52015b" },
+    { "ffca8a" : "717171", "e0975c" : "505050", "a85636" : "363636", "6f2919" : "181818" },
+    { "ffca8a" : "e6e9ea", "e0975c" : "c6d2d4", "a85636" : "97abac", "6f2919" : "627677" }
+*/
+  ]
+}

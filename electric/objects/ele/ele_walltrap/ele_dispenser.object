@@ -1,0 +1,123 @@
+{
+  "objectName" : "ele_dispenser",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Fires different kinds of projectiles in a straight path.",
+  "shortdescription" : "Wall Trap",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "apexDescription" : "todo",
+  "avianDescription" : "todo",
+  "floranDescription" : "todo",
+  "glitchDescription" : "todo",
+  "humanDescription" : "todo",
+  "hylotlDescription" : "todo",
+
+  "damageTeam" : {
+    "type" : "friendly"
+  },
+
+  "inventoryIcon" : "ele_dispensericon.png",
+  "orientations" : [
+    {
+      "image" : "ele_dispenser.png:default.offRight",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "ele_dispenser.png:default.offLeft",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "direction" : "right"
+    },
+    {
+      "image" : "ele_dispenser.png:default.offBottom",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "ele_dispenser.png:default.offTop",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [
+    "/scripts/energyApi.lua",
+    "/objects/ele/lua/ele_walltrap.lua"
+  ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/ele/ele_walltrap/ele_dispenser.animation",
+
+  "animationParts" : {
+    "ele_dispenser" : "/objects/ele/ele_walltrap/ele_dispenser.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [-1, 0] ],
+  "projectileOrder" : ["off", "arrow", "bullet", "fire", "heal" ],
+  "projectiles" : [
+    {
+       "energyUsage" : 10,
+       "coolDown" : 4,
+       "projectileType" : "rocket",
+       "projectileConfig" : {
+           "speed" : 25,
+           "power" : 15,
+           "level" : 3
+       }
+    },
+    {
+        "energyUsage" : 3,
+        "coolDown" : 2,
+        "projectileType" : "woodenarrow",
+        "projectileConfig" : {
+            "speed" : 30,
+            "power" : 10,
+            "level" : 3
+        }
+    },
+    {
+       "energyUsage" : 5,
+       "coolDown" : 2.5,
+       "projectileType" : "bullet-1",
+       "projectileConfig" : {
+           "speed" : 40,
+           "power" : 15,
+           "level" : 3
+       }
+    },
+    {
+       "energyUsage" : 2,
+       "coolDown" : 0,
+       "projectileType" : "flame",
+       "projectileConfig" : {
+           "power" : 15,
+           "level" : 3
+       }
+    },
+    {
+        "energyUsage" : 5,
+        "coolDown" : 3,
+        "projectileType" : "teslabolt",
+        "projectileConfig" : {
+            "power" : 20,
+            "level" : 3
+         }
+    }
+  ]
+}

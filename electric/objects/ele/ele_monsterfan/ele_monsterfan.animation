@@ -1,0 +1,96 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_monsterfanState" : {
+        "default" : "bottom",
+        "states" : {
+          "bottom" : {
+            "frames" : 6,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          },
+          "top" : {
+            "frames" : 6,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          },
+          "right" : {
+            "frames" : 6,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          },
+          "left" : {
+            "frames" : 6,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          },
+          "offbottom" : {
+            "frames" : 1
+          },
+          "offtop" : {
+            "frames" : 1
+          },
+          "offright" : {
+            "frames" : 1
+          },
+          "offleft" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "ele_monsterfan" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "ele_monsterfanState" : {
+              "bottom" : {
+                  "properties" : {
+                    "image" : "<partImage>:bottom.<frame>"
+                  }
+              },
+              "top" : {
+                  "properties" : {
+                    "image" : "<partImage>:top.<frame>"
+                  }
+              },
+              "right" : {
+                  "properties" : {
+                    "image" : "<partImage>:right.<frame>"
+                  }
+              },
+              "left" : {
+                  "properties" : {
+                    "image" : "<partImage>:left.<frame>"
+                  }
+              },
+              "offbottom" : {
+                  "properties" : {
+                    "image" : "<partImage>:bottom.1"
+                  }
+              },
+              "offtop" : {
+                  "properties" : {
+                    "image" : "<partImage>:top.1"
+                  }
+              },
+              "offright" : {
+                  "properties" : {
+                    "image" : "<partImage>:right.1"
+                  }
+              },
+              "offleft" : {
+                  "properties" : {
+                    "image" : "<partImage>:left.1"
+                  }
+              }
+          }
+        }
+      }
+    }
+  }
+}

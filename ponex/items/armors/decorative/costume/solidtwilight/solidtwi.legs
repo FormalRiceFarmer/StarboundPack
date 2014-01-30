@@ -1,0 +1,37 @@
+{
+  "itemName" : "solidtwilightlegs",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Replica of the great Solid Twilight's battle pants. They say she was from the future.",
+  "shortdescription" : "Solid Twilight's Pants.",
+  "inspectionKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    {
+      "kind" : "ColdProtection",
+      "amount" : 5
+    },
+
+    {
+      "kind" : "Protection",
+      "level" : 1,
+      "amount" : 5
+    },
+    {
+      "kind" : "energyregenmodifier",
+      "amount" : 0.5
+    }
+  ],
+
+  "colorOptions" : [
+    /* DangerShy Original */
+    { "8baeb3" : "8baeb3", "759ea4" : "759ea4", "5f8a90" : "5f8a90", "1a2a2a" : "1a2a2a" },
+    /* pink */
+    { "8baeb3" : "ca877f", "759ea4" : "bf7066", "5f8a90" : "af5c50", "1a2a2a" : "3f1f1f" }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "ele_sawbladeState" : {
+        "default" : "bottomOff",
+        "states" : {
+          "bottomOff" : {
+            "frames" : 1
+          },
+          "bottomOn" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          },
+          "topOff" : {
+            "frames" : 1
+          },
+          "topOn" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "ele_sawblade" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "ele_sawbladeState" : {
+            "bottomOff" : {
+              "properties" : {
+                "image" : "<partImage>:bottom.<frame>"
+              }
+            },
+            "bottomOn" : {
+              "properties" : {
+                "image" : "<partImage>:bottom.<frame>"
+              }
+            },
+            "topOff" : {
+              "properties" : {
+                "image" : "<partImage>:top.<frame>"
+              }
+            },
+            "topOn" : {
+              "properties" : {
+                "image" : "<partImage>:top.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

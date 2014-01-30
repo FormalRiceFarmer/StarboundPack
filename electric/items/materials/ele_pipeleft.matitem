@@ -1,0 +1,10 @@
+{
+  "itemName" : "ele_pipeleft",
+  "rarity" : "Common",
+  "inventoryIcon" : "ele_pipeleft.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Left Pipe",
+  "description" : "Pipe only transporting to the left.",
+
+  "materialId" : 72807
+}

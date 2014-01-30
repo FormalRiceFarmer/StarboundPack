@@ -1,0 +1,50 @@
+{
+  "objectName" : "ele_portablebattery",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Stores energy and saves the content on deconstruction.",
+  "shortdescription" : "Portable Battery",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 1000,
+
+  "apexDescription" : "todo",
+  "avianDescription" : "todo",
+  "floranDescription" : "todo",
+  "glitchDescription" : "todo",
+  "humanDescription" : "todo",
+  "hylotlDescription" : "todo",
+
+  "inventoryIcon" : "ele_portablebatteryicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ele_portablebatteryicon.png:battery",
+	  "imageLayers" : [ { "image" : "ele_portablebattery.png:back" }, { "image" : "ele_portablebattery.png:battery" } ],
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "/objects/ele/ele_battery/ele_portablebattery.animation",
+  "animationParts" : {
+    "ele_battery" : "ele_portablebattery.png",
+    "ele_batteryback" : "ele_portablebattery.png",
+    "energy" : "energy.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [0.75, 0] ],
+  "outboundNodes" : [ [0.75, 2] ],
+
+  "scripts" : [
+    "/scripts/energyApi.lua",
+    "/objects/ele/lua/ele_battery.lua"
+  ],
+  "scriptDelta" : 450,
+
+  "energyDisplayLength" : 14,
+  "maxEnergy" : 10000,
+  "efficiency" : 0.9,
+  "portable" : true
+}

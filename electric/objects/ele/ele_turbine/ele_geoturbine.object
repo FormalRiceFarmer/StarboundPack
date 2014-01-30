@@ -1,0 +1,48 @@
+{
+  "objectName" : "ele_geoturbine",
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 50,
+  "objectType" : "wire",
+
+  "description" : "Generates energy from lava.",
+  "shortdescription" : "Geothermal Turbine",
+  "race" : "generic",
+
+  "apexDescription" : "todo",
+  "avianDescription" : "todo",
+  "floranDescription" : "todo",
+  "glitchDescription" : "todo",
+  "humanDescription" : "todo",
+  "hylotlDescription" : "todo",
+
+    "inventoryIcon" : "ele_geoturbineicon.png",
+    "orientations" : [
+        {
+          "dualImage" : "ele_geoturbine.png:turbine.1",
+          "imagePosition" : [0, 0],
+
+          "spaceScan" : 0.1,
+          "anchors" : [ "bottom" ]
+        }
+    ],
+    "animation" : "/objects/ele/ele_turbine/ele_turbine.animation",
+    "animationParts" : {
+      "ele_turbine" : "ele_geoturbine.png"
+    },
+    "animationPosition" : [0,0],
+
+  "scripts" : [
+    "/scripts/energyApi.lua",
+    "/scripts/liquidApi.lua",
+    "/scripts/transferApi.lua",
+    "/scripts/transferLiquids.lua",
+    "/objects/ele/lua/ele_turbine.lua"
+  ],
+  "scriptDelta" : 100,
+  "outboundNodes" : [ [2, 0.625] ],
+
+  "generatedEnergy" : 100,
+  "useLiquid" : 200,
+  "turbineLiquid" : 3
+}

@@ -1,0 +1,37 @@
+{
+  "objectName" : "projectilecraftingtable",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/projectilecraftingtable.config",
+    "filter" : [ "projectilecraftingtable" ]
+  },
+  "printable" : false,
+  "description" : "Craft all sorts of lovely deadly throwing things here",
+  "shortdescription" : "Projectile Crafting Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "Oook ah ah ah ah I cut myself",
+  "avianDescription" : "Why craft these things? Can't I shoot feathers?",
+  "floranDescription" : "Ahh, the thooorns in the rose bush",
+  "glitchDescription" : "Function. The pointy end sticks in the fleshy part",
+  "humanDescription" : "Now I can be a ninja just like those fancy Hylots",
+  "hylotlDescription" : "I see my calling . . . . calling.",
+
+  "inventoryIcon" : "projectilecraftingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "projectilecraftingtable.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

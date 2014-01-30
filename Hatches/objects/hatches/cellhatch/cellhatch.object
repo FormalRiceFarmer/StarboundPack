@@ -1,0 +1,52 @@
+{
+  "objectName" : "cellhatch",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 1500,
+  "description" : "A barrier composed of two coiling bars.",
+  "shortdescription" : "Cell Hatch",
+  "race" : "generic",
+
+  "apexDescription" : "Certainly not a secure hatch. If I were thinner I could just squeeze around the side.",
+  "avianDescription" : "It looks a little flimsy.",
+  "floranDescription" : "Ssspinny ssswirly ssstupid hatch.",
+  "glitchDescription" : "Critical. It looks wonderful, but it's so weak I could snap it in half if I tried.",
+  "humanDescription" : "Looking at this thing makes me kinda dizzy.",
+  "hylotlDescription" : "The hatch twists as it opens and closes. Very innovative.",
+
+  "inventoryIcon" : "cellhatchicon.png",
+  "orientations" : [
+   {
+      "dualImage" : "cellhatch.png:wall",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom" ]
+    },
+    {
+      "dualImage" : "cellhatch.png:floor",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/hatches/hatch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/hatches/hatch.animation",
+  "animationParts" : {
+    "door" : "cellhatch.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/bunkerslidingdoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/bunkerslidingdoor_close.wav" ]
+}

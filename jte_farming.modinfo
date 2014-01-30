@@ -1,0 +1,12 @@
+{
+  "name" : "jte_farming",
+  "version" : "Beta v. Furious Koala",
+  "path" : "jte_farming/jte_farming-rt.pak",
+  "dependencies" : [],
+  "metadata" : {
+	"version" : "1.03",
+    "author" : "JTE",
+    "description" : "Persistent farmables, as programmed by JTE.",
+    "support_url" : "http://community.playstarbound.com/index.php?threads/persistent-farmables.59259/"
+  }
+}

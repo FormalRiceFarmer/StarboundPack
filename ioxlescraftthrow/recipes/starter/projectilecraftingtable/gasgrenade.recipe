@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 350 }
+  ],
+  "output" : { "item" : "gasgrenade", "count" : 3 },
+  "groups" : [ "projectilecraftingtable", "tools", "all" ]
+}

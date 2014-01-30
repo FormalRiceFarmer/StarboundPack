@@ -1,0 +1,10 @@
+{
+  "itemName" : "ele_pipelb",
+  "rarity" : "Common",
+  "inventoryIcon" : "ele_pipelb.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Left-Bottom Bending Pipe",
+  "description" : "A left to bottom bending pipe.",
+
+  "materialId" : 72806
+}

@@ -1,0 +1,14 @@
+{
+  "materialId" : 72801,
+  "materialName" : "ele_pipehoriz",
+  "frames" : "ele_pipehoriz.png",
+  "particleColor" : [144, 158, 170, 255],
+  "variants" : 1,
+  "transparent" : true,
+  "itemDrop" : "ele_pipehoriz",
+  "shortdescription" : "Horizontal pipe",
+  "description" : "A horizontal pipe.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 2
+}

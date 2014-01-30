@@ -1,0 +1,10 @@
+{
+  "frameGrid" : {
+    "size" : [16, 8],
+    "dimensions" : [4, 2],
+    "names" : [
+      [ "left.acid", "left.water", "left.lava", "left.drain" ],
+      [ "right.drain", "right.lava", "right.water", "right.acid" ]
+    ]
+  }
+}

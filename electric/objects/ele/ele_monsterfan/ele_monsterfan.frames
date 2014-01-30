@@ -1,0 +1,15 @@
+{
+  "frameGrid" : {
+    "size" : [24, 24],
+    "dimensions" : [6, 4],
+    "names" : [
+      [ "bottom.1","bottom.2","bottom.3","bottom.4","bottom.5","bottom.6" ],
+      [ "top.1", "top.2", "top.3", "top.4", "top.5", "top.6" ],
+      [ "left.1","left.2","left.3", "left.4", "left.5", "left.6" ],
+      [ "right.1","right.2","right.3", "right.4", "right.5", "right.6" ]
+    ]
+  },
+  "aliases" : {
+    "tele.23" : "top.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "Feroziumbar", "count" : 15 },
+	{ "item" : "Violiumbar", "count" : 15 },
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : {
+    "item" : "dimYengine",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "all", "tools" ]
+}

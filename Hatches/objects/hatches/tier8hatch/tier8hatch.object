@@ -1,0 +1,52 @@
+{
+  "objectName" : "tier8hatch",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 500,
+  "description" : "A super-strong Violium hatch.",
+  "shortdescription" : "Violium Hatch",
+  "race" : "generic",
+
+  "apexDescription" : "This hatch is very secure.",
+  "avianDescription" : "A very sturdy hatch.",
+  "floranDescription" : "Floran hide behind hatch. Jump out. Ssstab!",
+  "glitchDescription" : "Approving. A useful hatch.",
+  "humanDescription" : "A sturdy Violium hatch.",
+  "hylotlDescription" : "A robust Violium hatch.",
+
+  "inventoryIcon" : "tier8hatchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tier8hatch.png:closeWall",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "dualImage" : "tier8hatch.png:closeFloor",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.3,
+      "anchors" : [ "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/hatches/hatch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/hatches/hatch.animation",
+  "animationParts" : {
+    "door" : "tier8hatch.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [1, 0] ],
+
+  "openSounds" : [ "/sfx/objects/wooddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/wooddoor_close.wav" ]
+}

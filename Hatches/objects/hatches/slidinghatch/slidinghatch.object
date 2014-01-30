@@ -1,0 +1,48 @@
+{
+  "objectName" : "slidinghatch",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 1500,
+  "description" : "This special prototype sliding door has been reinforced and can be placed dynamically.",
+  "shortdescription" : "Sliding Hatch",
+  "race" : "generic",
+
+  "apexDescription" : "A hatch with no handle. It appears to slide open.",
+  "avianDescription" : "This hatch opens quickly.",
+  "floranDescription" : "Sssilly hatch confuse Floran.",
+  "glitchDescription" : "Appreciation. The mechanism behind this hatch is intricate.",
+  "humanDescription" : "This hatch moves so quickly it produces a rush of air.",
+  "hylotlDescription" : "Hatches like this are used to control the flow of water in Hylotl cities.",
+
+  "inventoryIcon" : "slidinghatchicon.png",
+  "orientations" : [
+   {
+      "dualImage" : "slidinghatch.png:wall",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom" ]
+    },
+    {
+      "dualImage" : "slidinghatch.png:floor",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/hatches/hatch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/hatches/hatch.animation",
+  "animationParts" : {
+    "door" : "slidinghatch.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "inboundNodes" : [ [0, 1] ],
+  "outboundNodes" : [ [0, -1] ]
+}

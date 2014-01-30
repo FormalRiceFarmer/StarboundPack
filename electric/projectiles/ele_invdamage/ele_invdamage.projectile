@@ -1,0 +1,16 @@
+{
+  "projectileName" : "ele_invdamage",
+  "frames" : "ele_invdamage.png",
+  "physics" : "laser",
+  "level" : 3,
+  "frameNumber" : 1,
+  "timeToLife" : 0.01,
+  "speed" : 2,
+  "fallSpeed" : 0,
+  "animationLoops" : false,
+  "flippable" : true,
+  "universalDamage" : true,
+  "damagePoly" : [ [-16, 0], [-12, -12], [0, -16], [12, -12], [16, 0], [12, 12], [0, 16], [-12, 12] ],
+  "damageType" : "ignoresdef",
+  "damageKind" : "default"
+}

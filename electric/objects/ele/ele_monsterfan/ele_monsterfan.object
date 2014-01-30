@@ -1,0 +1,71 @@
+{
+  "objectName" : "ele_monsterfan",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Pushes enemies hardly into one direction.",
+  "shortdescription" : "Monster Fan",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 750,
+
+  "apexDescription" : "todo",
+  "avianDescription" : "todo",
+  "floranDescription" : "todo",
+  "glitchDescription" : "todo",
+  "humanDescription" : "todo",
+  "hylotlDescription" : "todo",
+
+  "inventoryIcon" : "ele_monsterfanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ele_monsterfan.png:bottom.1",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "ele_monsterfan.png:top.1",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "ele_monsterfan.png:right.1",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "direction" : "right"
+    },
+    {
+      "image" : "ele_monsterfan.png:left.1",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "direction" : "left"
+    }
+  ],
+
+  "scripts" : [
+    "/scripts/energyApi.lua",
+    "/objects/ele/lua/ele_monsterfan.lua"
+  ],
+  "scriptDelta" : 2,
+
+  "animation" : "ele_monsterfan.animation",
+  "animationParts" : {
+    "ele_monsterfan" : "ele_monsterfan.png",
+    "ele_monsterfanring" : "ele_monsterfan.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [0, -1] ],
+
+  "energyUsage" : 2,
+  "range" : 12,
+  "speed" : 3.5
+}

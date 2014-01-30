@@ -1,0 +1,57 @@
+{
+  "objectName" : "ele_speartrap",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "Wow, this looks sharp!",
+  "shortdescription" : "Spear Trap",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 2000,
+
+  "apexDescription" : "Looks sharp.",
+  "avianDescription" : "Avians protect their tombs.",
+  "floranDescription" : "Sssharp. Floran must avoid.",
+  "glitchDescription" : "Trepidation. This appears to be spinning at four thousand RPM.",
+  "humanDescription" : "Woah, I have to be careful here.",
+  "hylotlDescription" : "I'm not keen to become sushi.",
+
+  "inventoryIcon" : "ele_speartrapicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ele_speartrap.png:bottom.3",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "ele_speartrap.png:top.3",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+  "scripts" : [
+    "/scripts/energyApi.lua",
+    "/objects/ele/lua/ele_sawblade.lua"
+  ],
+  "scriptDelta" : 50,
+  "inboundNodes" : [ [0, 0] ],
+
+  "animation" : "/objects/ele/ele_speartrap/ele_speartrap.animation",
+  "animationParts" : {
+    "ele_sawblade" : "ele_speartrap.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  //mollys first object
+  "onSounds" : [ "/sfx/objects/sawblade.wav" ],
+  "projectileConfig" : { "power" : 17, "speed": 1.8},
+
+  "energyUsage" : 3,
+  "fireCooldown" : 2
+}

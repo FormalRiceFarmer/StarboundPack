@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ele_pipehoriz",
+    "count" : 1
+  },
+  "groups" : [ "mod", "ele_plumberstation", "tools", "all" ]
+}
