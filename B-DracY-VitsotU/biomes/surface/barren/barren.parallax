@@ -1,0 +1,101 @@
+{
+  "settings" : {
+    "verticalOrigin" : -15,
+    "definitions" : {
+      "glitters" : {
+        "baseCount" : 7,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "barrenmoonglow" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "barrenback" : {
+        "baseCount" : 3,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "barrenfront" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      },
+      "barrenback2" : {
+        "baseCount" : 1,
+        "mod1Count" : 0,
+        "mod2Count" : 0
+      }
+    }
+  },
+  "layers" : [
+
+    {
+      "kind" : "barrenback2",
+      "offset" : [0, 450],
+      "parallax" : 12,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "",
+      "fadePercent" : 0.3
+    },
+    {
+      "kind" : "barrenback",
+      "offset" : [0, 430],
+      "parallax" : 7,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "",
+      "fadePercent" : 0.20
+    },
+    {
+      "kind" : "barrenback",
+      "offset" : [0, 450],
+      "parallax" : 5,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : "",
+      "fadePercent" : 0.10
+    },
+    {
+      "kind" : "barrenfront",
+      "offset" : [0, 500],
+      "parallax" : 2,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "barrenfront",
+      "offset" : [0, 400],
+      "parallax" : 2.4,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "barrenmoonglow",
+      "offset" : [0, 450],
+      "parallax" : 12.01,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    },
+    {
+      "kind" : "glitters",
+      "offset" : [0, 35],
+      "parallax" : [20, 20],
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0,
+      "modifiers" : ""
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name" : "crystalhail",
+  
+  "particles" : [ ],
+  "projectiles" : [
+    {
+      "projectile" : "crystalhail",
+      "parameters" : {
+        "power" : 25
+      },
+      "velocity" : [0, -30],
+      "ratePerX" : 0.1,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0,
+      "autoRotate" : true
+    }
+  ],
+
+  "duration" : [50, 400],
+  "maximumWind" : 10.0
+}

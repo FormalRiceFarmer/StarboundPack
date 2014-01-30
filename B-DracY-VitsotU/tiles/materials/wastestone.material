@@ -1,0 +1,16 @@
+{
+  "materialId" : 3757,
+  "materialName" : "wastestone",
+  "frames" : "wastestone.png",
+  "particleColor" : [201, 114, 57, 255],
+  "variants" : 4,
+  "itemDrop" : "wastestone",
+  "description" : "Tough wastestone.",
+  "shortdescription" : "Wastestone Block",
+  "glitchdescription" : "Statement. Wastestone.",
+  "florandescription" : "Wastessstone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "soil": true,
+  "health" : 4
+
+}

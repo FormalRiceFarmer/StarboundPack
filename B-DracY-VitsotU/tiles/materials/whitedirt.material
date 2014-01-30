@@ -1,0 +1,16 @@
+{
+  "materialId" : 3062,
+  "materialName" : "whitedirt",
+  "frames" : "whitedirt.png",
+  "particleColor" : [112, 72, 39, 255],
+  "variants" : 5,
+  "itemDrop" : "whitedirtmaterial",
+  "description" : "White, sparkling dirt.",
+  "shortdescription" : "Glistening Dirt Block",
+  "glitchDescription" : "Statement. Glistening dirt. Sparkly.",
+  "floranDescription" : "Weird dirt!",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "tillableMod" : 31,
+  "soil": true,
+  "health" : 2.3
+}
