@@ -1,0 +1,6 @@
+{
+  "kind" : "stimjumpnothing",
+  "primitives" : [
+    { "name" : "jumpboost", "mode" : "max" }
+  ]
+}

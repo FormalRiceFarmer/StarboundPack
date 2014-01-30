@@ -1,0 +1,9 @@
+{
+  "itemName" : "tomatopowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "tomatopowder.png",
+  "description" : "Tomato powder.",
+  "shortdescription" : "Tomato powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext1en" ]
+}

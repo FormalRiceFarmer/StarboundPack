@@ -1,0 +1,15 @@
+{
+  "itemName" : "stimt2fe",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt2fe.png", "price" : 250, 
+  "description" : "Tier 2 Feather Fall",
+  "shortdescription" : "T2 Feather Stim",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimfeather", 
+		"duration" : 150
+      }
+    ] ],
+  "emote" : ""
+}

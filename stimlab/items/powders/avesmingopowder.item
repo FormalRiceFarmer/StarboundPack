@@ -1,0 +1,9 @@
+{
+  "itemName" : "avesmingopowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "avesmingopowder.png",
+  "description" : "Avesmingo powder.",
+  "shortdescription" : "Avesmingo powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext5en" ]
+}

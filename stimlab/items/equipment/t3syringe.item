@@ -1,0 +1,8 @@
+{
+  "itemName" : "t3syringe",
+  "rarity" : "Common",
+  "inventoryIcon" : "t3syringe.png",
+  "description" : "Small empty injector.",
+"price" : 250,
+  "shortdescription" : "Small Injector"
+}

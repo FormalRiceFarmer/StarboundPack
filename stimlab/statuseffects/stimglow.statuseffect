@@ -1,0 +1,8 @@
+{
+  "kind" : "stimglow",
+  "primitives" : [
+    { "name" : "glow" }
+  ],
+  "effectSources" : [ "stimglow" ],
+  "mainInterfaceIcon" : "/interface/statuses/stimglow.png"
+}

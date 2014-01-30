@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "ricepowder", "count" : 1 },
+	{ "item" : "cleanwater", "count" : 1 },
+	{ "item" : "wheatalcohol", "count" : 1 },
+	{ "item" : "t2container", "count" : 1 }
+  ],
+  "output" : { "item" : "ext2wa", "count" : 1 },
+  "groups" : [ "t2stimtable", "t2extracts", "all" ]
+}

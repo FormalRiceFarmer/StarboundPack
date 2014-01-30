@@ -1,0 +1,46 @@
+{
+  "objectName" : "t5stimdispenser",
+  "rarity" : "Common",
+  "description" : "Prototype stim dispenser, for all kinds of stims.",
+  "shortdescription" : "Prototype Dispenser",
+  "subtitle" : "Fill syringes with extracts",
+  "race" : "glitch",
+  "category" : "crafting",
+  "price" : 9000,
+"printable" : false,
+  "objectType" : "container",
+  "learnBlueprintsOnPickup" : [ "stimt5ar", "stimt5at", "stimt5br", "stimt5en", "stimt5fe", "stimt5gl", "stimt5he", "stimt5ju", "stimt5ru", "stimt5wa", "stimt5arat", "stimt5brwa", "stimt5enhe", "stimt5fegl", "stimt5ruju", "stimt5aratbrwa", "stimt5aratruju", "stimt5aratfegl", "stimt5brwafegl", "stimt5brwaruju", "stimt5feglruju", "stimt5aratbrwafegl", "stimt5aratbrwaruju", "stimt5aratfeglruju", "stimt5brwafeglruju", "stimt5aratbrwafeglruju", "stimt5glwa", "stimt5glwaruju", "stimt5aratglwa", "stimt5aratglwaruju" ],
+  "hydrophobic" : true,
+
+  "apexDescription" : "This is a prototype dispenser.",
+  "avianDescription" : "This is a prototype dispenser.",
+  "floranDescription" : "This is a prototype dispenser.",
+  "glitchDescription" : "Excited. This is a prototype dispenser.",
+  "humanDescription" : "This is a prototype dispenser.",
+  "hylotlDescription" : "This is a prototype dispenser.",
+
+  
+  "inventoryIcon" : "t5stimdispensericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "t5stimdispenser.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 8,
+      "animationCycle" : 2.4,
+
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "recipeGroup" : "t5stimdispenser",
+  "openSounds" : [ "/sfx/objects/fridge_open.wav" ],  "slotCount" : 3,
+  "uiConfig" : "/interface/objectcrafting/t5stimdispenser.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
+

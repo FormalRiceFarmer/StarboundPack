@@ -1,0 +1,17 @@
+{
+  "itemName" : "stimt3ju",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt3ju.png", "price" : 250, 
+  "description" : "Tier 3 Jumping Boost",
+  "shortdescription" : "T3 Jump Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimjump", 
+		"duration" : 210,
+		"amount" : 1.0
+	 
+      }
+    ] ],
+  "emote" : ""
+}

@@ -1,0 +1,8 @@
+{
+  "kind" : "stimrun",
+  "primitives" : [
+    { "name" : "runboost", "mode" : "max" }
+  ],
+  "effectSources" : [ "stimrun" ],
+  "mainInterfaceIcon" : "/interface/statuses/stimrun.png"
+}

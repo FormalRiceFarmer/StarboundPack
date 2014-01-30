@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt1ar",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt1ar.png", "price" : 250, 
+  "description" : "Tier 1 Armor Protection",
+  "shortdescription" : "T1 Armor Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimarmor", 
+		"duration" : 60, 
+		"amount" : 100
+      }
+    ] ],
+  "emote" : ""
+}

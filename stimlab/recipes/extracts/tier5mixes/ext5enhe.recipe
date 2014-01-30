@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "ext5en", "count" : 1 },
+	{ "item" : "ext5he", "count" : 1 }
+  ],
+  "output" : { "item" : "ext5enhe", "count" : 1 },
+  "groups" : [ "t5stimmixer" ]
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "stimt5glwa",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "stimt5glwa.png", "price" : 250, 
+  "description" : "Tier 5 Glow & Warmth",
+  "shortdescription" : "T5 Glow & Warmth",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimglwa", 
+		"duration" : 480
+      },
+	{ 
+		"kind" : "stimwarmthnothing", 
+		"duration" : 480 
+      }
+    ] ],
+  "emote" : ""
+}

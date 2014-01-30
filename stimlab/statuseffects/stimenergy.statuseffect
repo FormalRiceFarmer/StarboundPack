@@ -1,0 +1,10 @@
+{
+  "kind" : "stimenergy",
+  "primitives" : [
+    {
+      "name" : "energy"
+    }
+  ],
+  "effectSources" : [ "stimenergy" ],
+  "mainInterfaceIcon" : "/interface/statuses/stimenergy.png"
+}

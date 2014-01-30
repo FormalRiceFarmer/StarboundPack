@@ -1,0 +1,15 @@
+{
+  "itemName" : "stimt4fe",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt4fe.png", "price" : 250, 
+  "description" : "Tier 4 Feather Fall",
+  "shortdescription" : "T4 Feather Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimfeather", 
+		"duration" : 300
+      }
+    ] ],
+  "emote" : ""
+}

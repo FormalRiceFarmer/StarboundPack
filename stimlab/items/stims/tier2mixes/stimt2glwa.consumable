@@ -1,0 +1,19 @@
+{
+  "itemName" : "stimt2glwa",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "stimt2glwa.png", "price" : 250, 
+  "description" : "Tier 2 Glow & Warmth",
+  "shortdescription" : "T2 Glow & Warmth",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimglwa", 
+		"duration" : 180
+      },
+	{ 
+		"kind" : "stimwarmthnothing", 
+		"duration" : 180 
+      }
+    ] ],
+  "emote" : ""
+}

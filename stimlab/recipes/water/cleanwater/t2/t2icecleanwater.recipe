@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "coalore", "count" : 3 },
+	{ "item" : "ice", "count" : 25 }
+  ],
+  "output" : { "item" : "cleanwater", "count" : 1 },
+  "groups" : [ "t2stimpurifier" ]
+}

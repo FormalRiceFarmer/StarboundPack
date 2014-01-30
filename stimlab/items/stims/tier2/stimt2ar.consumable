@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt2ar",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt2ar.png", "price" : 250, 
+  "description" : "Tier 2 Armor Protection",
+  "shortdescription" : "T2 Armor Stim",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimarmor", 
+		"duration" : 150, 
+		"amount" : 150
+      }
+    ] ],
+  "emote" : ""
+}

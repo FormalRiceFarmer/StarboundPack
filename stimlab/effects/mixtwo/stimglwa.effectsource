@@ -1,0 +1,23 @@
+{
+  "kind" : "stimglwa",
+  "definition" : {
+    "duration" : 0.05,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "stimglwamessage" ]
+      ],
+      "sounds" : [
+        [ "/sfx/objects/bunkerslidingdoor_open.wav" ]
+      ]
+    },
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

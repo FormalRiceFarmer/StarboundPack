@@ -1,0 +1,8 @@
+{
+  "itemName" : "purifiedwater",
+  "rarity" : "Common",
+  "inventoryIcon" : "purifiedwater.png",
+  "description" : "Water in it's purest form.",
+"price" : 250,
+  "shortdescription" : "Purified Water"
+}

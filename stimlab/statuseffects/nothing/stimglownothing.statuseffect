@@ -1,0 +1,6 @@
+{
+  "kind" : "stimglownothing",
+  "primitives" : [
+    { "name" : "glow" }
+  ]
+}

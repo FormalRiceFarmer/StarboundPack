@@ -1,0 +1,7 @@
+{
+  "kind" : "stimglwafe",
+  "primitives" : [
+    { "name" : "glow" }
+  ],
+  "effectSources" : [ "stimglwafe" ]
+}

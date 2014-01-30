@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "bananapowder", "count" : 1 },
+	{ "item" : "grapespowder", "count" : 1 },
+	{ "item" : "distilledwater", "count" : 1 },
+	{ "item" : "sugaralcohol", "count" : 1 },
+	{ "item" : "wheatalcohol", "count" : 1 },
+	{ "item" : "t4container", "count" : 1 }
+  ],
+  "output" : { "item" : "ext4ju", "count" : 1 },
+  "groups" : [ "t4stimtable", "t4extracts", "all" ]
+}

@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt4ju",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt4ju.png", "price" : 250, 
+  "description" : "Tier 4 Jumping Boost",
+  "shortdescription" : "T4 Jump Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimjump", 
+		"duration" : 300,
+		"amount" : 1.25
+      }
+    ] ],
+  "emote" : ""
+}

@@ -1,0 +1,9 @@
+{
+  "kind" : "stimaratwa",
+  "primitives" : [
+    {
+      "name" : "protection"
+    }
+  ],
+  "effectSources" : [ "stimaratwa" ]
+}

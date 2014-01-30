@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext4feglruju",
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 4 Feather & Glow & Sprinting & Jumping Mixed Stim Extract.",
+  "shortdescription" : "T4 Fe&Gl&Ru&Ju Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T4FEGLRUJU Stim Extract.",
+  "avianDescription" : "T4FEGLRUJU Stim Extract.",
+  "floranDescription" : "T4FEGLRUJU Stim Extract.",
+  "glitchDescription" : "T4FEGLRUJU Stim Extract.",
+  "humanDescription" : "T4FEGLRUJU Stim Extract.",
+  "hylotlDescription" : "T4FEGLRUJU Stim Extract.",
+
+  "inventoryIcon" : "ext4feglrujuicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext4feglruju.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

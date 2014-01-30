@@ -1,0 +1,9 @@
+{
+  "kind" : "stimaratfegl",
+  "primitives" : [
+    {
+      "name" : "protection"
+    }
+  ],
+  "effectSources" : [ "stimaratfegl" ]
+}

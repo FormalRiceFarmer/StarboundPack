@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "feathercrownpowder", "count" : 1 },
+	{ "item" : "beakseedpowder", "count" : 1 },
+	{ "item" : "currentcornpowder", "count" : 1 },
+	{ "item" : "purifiedwater", "count" : 1 },
+	{ "item" : "sugaralcohol", "count" : 1 },
+	{ "item" : "wheatalcohol", "count" : 1 },
+	{ "item" : "t5container", "count" : 1 }
+  ],
+  "output" : { "item" : "ext5fe", "count" : 1 },
+  "groups" : [ "t5stimtable", "t5extracts", "all" ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext1at",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 1 Attack Power Stim Extract.",
+  "shortdescription" : "T1 Attack Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T1AT Stim Extract.",
+  "avianDescription" : "T1AT Stim Extract.",
+  "floranDescription" : "T1AT Stim Extract.",
+  "glitchDescription" : "T1AT Stim Extract.",
+  "humanDescription" : "T1AT Stim Extract.",
+  "hylotlDescription" : "T1AT Stim Extract.",
+
+  "inventoryIcon" : "ext1aticon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext1at.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

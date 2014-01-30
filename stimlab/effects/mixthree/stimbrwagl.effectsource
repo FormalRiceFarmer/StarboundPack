@@ -1,0 +1,23 @@
+{
+  "kind" : "stimbrwagl",
+  "definition" : {
+    "duration" : 0.05,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "stimbrwaglmessage" ]
+      ],
+      "sounds" : [
+        [ "/sfx/objects/bunkerslidingdoor_open.wav" ]
+      ]
+    },
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

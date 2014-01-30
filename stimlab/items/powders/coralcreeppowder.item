@@ -1,0 +1,9 @@
+{
+  "itemName" : "coralcreeppowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "coralcreeppowder.png",
+  "description" : "Coralcreep powder.",
+  "shortdescription" : "Coralcreep powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext1br" ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemName" : "stimt3rujufe",
+  "rarity" : "Rare",
+  "inventoryIcon" : "stimt3rujufe.png", "price" : 250, 
+  "description" : "Tier 3 Feather Fall & Sprint & Jump Boost",
+  "shortdescription" : "T3 Ru&Ju&Fe",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimrujufe", 
+		"duration" : 270,
+		"amount" : 1.1 
+      },
+	{ 
+		"kind" : "stimjumpnothing", 
+		"duration" : 270,
+		"amount" : 1.1
+      },
+	{ 
+		"kind" : "stimfeathernothing", 
+		"duration" : 270
+      }
+
+    ] ],
+  "emote" : ""
+}

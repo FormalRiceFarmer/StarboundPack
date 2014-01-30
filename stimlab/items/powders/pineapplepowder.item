@@ -1,0 +1,9 @@
+{
+  "itemName" : "pineapplepowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "pineapplepowder.png",
+  "description" : "Pineapple powder.",
+  "shortdescription" : "Pineapple powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext3at" ]
+}

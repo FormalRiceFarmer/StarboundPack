@@ -1,0 +1,30 @@
+{
+  "itemName" : "stimt5aratglwa",
+  "rarity" : "Rare",
+  "inventoryIcon" : "stimt5aratglwa.png", "price" : 250, 
+  "description" : "Tier 5 Armor & Attack & Glow & Warmth.",
+  "shortdescription" : "T5 Ar&At&Gl&Wa",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+		"kind" : "stimaratglwa", 
+		"duration" : 510, 
+		"amount" : 600
+      },
+	{
+		"kind" : "stimattacknothing",
+		"duration" : 510,
+		"amount" : 2.5 
+      },
+	{
+		"kind" : "stimglownothing", 
+		"duration" : 510
+      },
+	{
+		"kind" : "stimwarmthnothing",
+		"duration" : 510,
+		"amount" : 200
+      }
+    ] ],
+  "emote" : ""
+}

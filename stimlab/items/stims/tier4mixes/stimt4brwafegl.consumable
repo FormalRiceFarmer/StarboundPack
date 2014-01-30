@@ -1,0 +1,28 @@
+{
+  "itemName" : "stimt4brwafegl",
+  "rarity" : "Rare",
+  "inventoryIcon" : "stimt4brwafegl.png", "price" : 250, 
+  "description" : "Tier 4 Oxygen & Warmth & Feather & Glow",
+  "shortdescription" : "T4 Br&Wa&Fe&Gl",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimbrwafegl", 
+		"duration" : 390
+      },
+	{ 
+		"kind" : "stimwarmthnothing",
+		"duration" : 390,
+		"amount" : 200
+      },
+	{
+		"kind" : "stimfeathernothing", 
+		"duration" : 390
+      },
+	{ 
+		"kind" : "stimglownothing", 
+		"duration" : 390
+      }
+    ] ],
+  "emote" : ""
+}

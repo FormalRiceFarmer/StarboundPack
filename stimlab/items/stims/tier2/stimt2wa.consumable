@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt2wa",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt2wa.png", "price" : 250, 
+  "description" : "Tier 2 Cold Protection",
+  "shortdescription" : "T2 Warmth Stim",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimwarmth",
+		"duration" : 150,
+		"amount" : 200
+      }
+    ] ],
+  "emote" : ""
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 750 },
+	{ "item" : "t3stimdispenser", "count" : 1 },
+	{ "item" : "durasteelbar", "count" : 10 },
+	{ "item" : "glassmaterial", "count" : 4 },
+	{ "item" : "circuitboard", "count" : 1 }
+  ],
+  "output" : { "item" : "t4stimdispenser", "count" : 1 },
+  "groups" : [ "stimlab", "stimlabdispensers", "all" ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext2fe",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 2 Feather Fall Stim Extract.",
+  "shortdescription" : "T2 Feather Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T2FE Stim Extract.",
+  "avianDescription" : "T2FE Stim Extract.",
+  "floranDescription" : "T2FE Stim Extract.",
+  "glitchDescription" : "T2FE Stim Extract.",
+  "humanDescription" : "T2FE Stim Extract.",
+  "hylotlDescription" : "T2FE Stim Extract.",
+
+  "inventoryIcon" : "ext2feicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext2fe.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext1ju",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 1 Jumping Stim Extract.",
+  "shortdescription" : "T1 Jumping Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T1JU Stim Extract.",
+  "avianDescription" : "T1JU Stim Extract.",
+  "floranDescription" : "T1JU Stim Extract.",
+  "glitchDescription" : "T1JU Stim Extract.",
+  "humanDescription" : "T1JU Stim Extract.",
+  "hylotlDescription" : "T1JU Stim Extract.",
+
+  "inventoryIcon" : "ext1juicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext1ju.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

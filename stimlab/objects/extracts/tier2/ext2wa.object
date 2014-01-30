@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext2wa",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 2 Cold Protection Stim Extract.",
+  "shortdescription" : "T2 Warmth Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T2WA Stim Extract.",
+  "avianDescription" : "T2WA Stim Extract.",
+  "floranDescription" : "T2WA Stim Extract.",
+  "glitchDescription" : "T2WA Stim Extract.",
+  "humanDescription" : "T2WA Stim Extract.",
+  "hylotlDescription" : "T2WA Stim Extract.",
+
+  "inventoryIcon" : "ext2waicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext2wa.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "t1stimtable",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+  	"config" : "/interface/windowconfig/t1stimtable.config",
+  	"filter" : [ "t1stimtable" ]
+  			   },
+  "printable" : false,
+  "description" : "Simple lab table with some beakers and vials.",
+  "shortdescription" : "Simple Lab Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 500,
+  "learnBlueprintsOnPickup" : [ "t2stimtable", "boltbulbpowder", "boneboopowder", "coralcreeppowder", "tomatopowder", "feathercrownpowder", "kiwipowder", "eggshootpowder", "bananapowder", "cornpowder", "ricepowder", "t1container", "t1syringe" ],
+
+  "apexDescription" : "A simple lab table.",
+  "avianDescription" : "A simple lab table.",
+  "floranDescription" : "A simple lab table.",
+  "glitchDescription" : "A simple lab table.",
+  "humanDescription" : "A simple lab table.",
+  "hylotlDescription" : "A simple lab table.",
+
+  "inventoryIcon" : "t1stimtableicon.png",
+  "orientations" : [
+    {
+      "image" : "t1stimtable.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 2.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    },    
+    {
+      "image" : "t1stimtable.png:<color>.<frame>",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 2.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "tomatopowder", "count" : 1 },
+	{ "item" : "reefpodpowder", "count" : 1 },
+	{ "item" : "avesmingopowder", "count" : 1 },
+	{ "item" : "purifiedwater", "count" : 1 },
+	{ "item" : "sugaralcohol", "count" : 1 },
+	{ "item" : "wheatalcohol", "count" : 1 },
+	{ "item" : "t5container", "count" : 1 }
+  ],
+  "output" : { "item" : "ext5en", "count" : 1 },
+  "groups" : [ "t5stimtable", "t5extracts", "all" ]
+}

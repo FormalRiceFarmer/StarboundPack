@@ -1,0 +1,8 @@
+{
+  "kind" : "stimattacknothing",
+  "primitives" : [
+    {
+      "name" : "powerboost"
+    }
+  ]
+}

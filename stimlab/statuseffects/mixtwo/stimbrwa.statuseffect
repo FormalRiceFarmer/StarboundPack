@@ -1,0 +1,11 @@
+{
+  "kind" : "stimbrwa",
+  "primitives" : [
+    {
+      "name" : "breathprotection",
+      "mode" : "max", //don't stack
+      "amount" : 500
+    }
+  ],
+  "effectSources" : [ "stimbrwa" ]
+}

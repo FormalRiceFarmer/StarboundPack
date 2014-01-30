@@ -1,0 +1,9 @@
+{
+  "itemName" : "grapespowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "grapespowder.png",
+  "description" : "Grape powder.",
+  "shortdescription" : "Grape powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext3ju" ]
+}

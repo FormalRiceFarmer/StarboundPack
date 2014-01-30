@@ -1,0 +1,8 @@
+{
+  "itemName" : "t4syringe",
+  "rarity" : "Common",
+  "inventoryIcon" : "t4syringe.png",
+  "description" : "Jet Injector.",
+"price" : 250,
+  "shortdescription" : "Jet Injector"
+}

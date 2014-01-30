@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext3glwa",
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 3 Glow & Warmth Mixed Stim Extract.",
+  "shortdescription" : "T3 Gl&Wa Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T3GLWA Stim Extract.",
+  "avianDescription" : "T3GLWA Stim Extract.",
+  "floranDescription" : "T3GLWA Stim Extract.",
+  "glitchDescription" : "T3GLWA Stim Extract.",
+  "humanDescription" : "T3GLWA Stim Extract.",
+  "hylotlDescription" : "T3GLWA Stim Extract.",
+
+  "inventoryIcon" : "ext3glwaicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext3glwa.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

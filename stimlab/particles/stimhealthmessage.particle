@@ -1,0 +1,19 @@
+{
+  "kind" : "stimhealthmessage",
+  "definition" : {
+    "type" : "text",
+    "size" : 1.5,
+    "text" : "^shadow;Health Regen!",
+    "color" : [205, 48, 48, 255],
+    "light" : [0, 0, 0],
+    "initialVelocity" : [0.0, -10.0],
+    "finalVelocity" : [0.0, 0.0],
+    "approach" : [5, 70],
+    "position" : [0, -3],
+    "timeToLive" : 2.0,
+    "layer" : "front",
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.5,
+    "flipable" : false
+  }
+}

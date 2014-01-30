@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext5ju",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 5 Jumping Stim Extract.",
+  "shortdescription" : "T5 Jumping Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T5JU Stim Extract.",
+  "avianDescription" : "T5JU Stim Extract.",
+  "floranDescription" : "T5JU Stim Extract.",
+  "glitchDescription" : "T5JU Stim Extract.",
+  "humanDescription" : "T5JU Stim Extract.",
+  "hylotlDescription" : "T5JU Stim Extract.",
+
+  "inventoryIcon" : "ext5juicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext5ju.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

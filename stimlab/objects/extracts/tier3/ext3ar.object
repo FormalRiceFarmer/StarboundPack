@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext3ar",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 3 Armor Protection Stim Extract.",
+  "shortdescription" : "T3 Armor Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T3AR Stim Extract.",
+  "avianDescription" : "T3AR Stim Extract.",
+  "floranDescription" : "T3AR Stim Extract.",
+  "glitchDescription" : "T3AR Stim Extract.",
+  "humanDescription" : "T3AR Stim Extract.",
+  "hylotlDescription" : "T3AR Stim Extract.",
+
+  "inventoryIcon" : "ext3aricon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext3ar.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt4wa",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt4wa.png", "price" : 250, 
+  "description" : "Tier 4 Cold Protection",
+  "shortdescription" : "T4 Warmth Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimwarmth",
+		"duration" : 300,
+		"amount" : 200
+      }
+    ] ],
+  "emote" : ""
+}

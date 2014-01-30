@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt5at",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt5at.png", "price" : 250, 
+  "description" : "Tier 5 Attack Power",
+  "shortdescription" : "T5 Attack Stim",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+		"kind" : "stimattack",
+		"duration" : 450,
+		"amount" : 2.0 
+      }
+    ] ],
+  "emote" : ""
+}

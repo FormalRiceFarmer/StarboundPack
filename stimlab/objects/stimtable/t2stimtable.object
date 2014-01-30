@@ -1,0 +1,47 @@
+{
+  "objectName" : "t2stimtable",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/t2stimtable.config",
+    "filter" : [ "t2stimtable" , "t1stimtable" ]
+  },
+  "printable" : false,
+  "description" : "Basic lab table, comes with microscope!",
+  "shortdescription" : "Basic Lab Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 2000,
+  "learnBlueprintsOnPickup" : [ "t2stimmixer", "t3stimtable", "wheatalcohol", "t2container", "t2syringe" ],
+
+  "apexDescription" : "Basic lab table.",
+  "avianDescription" : "Basic lab table.",
+  "floranDescription" : "Basic lab table.",
+  "glitchDescription" : "Basic lab table.",
+  "humanDescription" : "Basic lab table.",
+  "hylotlDescription" : "Basic lab table.",
+
+  "inventoryIcon" : "t2stimtableicon.png",
+  "orientations" : [
+    {
+      "image" : "t2stimtable.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    },    
+    {
+      "image" : "t2stimtable.png:<color>.<frame>",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "frames" : 2,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    }
+  ]
+}

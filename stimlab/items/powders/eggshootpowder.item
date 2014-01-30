@@ -1,0 +1,9 @@
+{
+  "itemName" : "eggshootpowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "eggshootpowder.png",
+  "description" : "Eggshoot powder.",
+  "shortdescription" : "Eggshoot powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext1he" ]
+}

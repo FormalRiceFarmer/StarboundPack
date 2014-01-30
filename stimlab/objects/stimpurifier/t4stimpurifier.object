@@ -1,0 +1,44 @@
+{
+  "objectName" : "t4stimpurifier",
+  "rarity" : "Common",
+  "description" : "Advanced water purifier, works on plutonium, 88 galons per hour!",
+  "shortdescription" : "Advanced Water Purifier",
+  "subtitle" : "Blocks to water",
+  "race" : "glitch",
+  "category" : "crafting",
+  "price" : 5000,
+"printable" : false,
+  "objectType" : "container",
+  "hydrophobic" : true,
+  "learnBlueprintsOnPickup" : [ "t5stimpurifier", "distilledwater" ],
+
+  "apexDescription" : "Advanced water purifier.",
+  "avianDescription" : "Advanced water purifier.",
+  "floranDescription" : "Advanced water purifier.",
+  "glitchDescription" : "Advanced water purifier.",
+  "humanDescription" : "Advanced water purifier.",
+  "hylotlDescription" : "Advanced water purifier.",
+
+  "inventoryIcon" : "t4stimpurifiericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "t4stimpurifier.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 16,
+      "animationCycle" : 0.9,
+      "spaceScan" : 0.1,
+	"collision" : "platform",
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "recipeGroup" : "t4stimpurifier",
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+    "slotCount" : 3,
+  "uiConfig" : "/interface/objectcrafting/t4stimpurifier.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
+

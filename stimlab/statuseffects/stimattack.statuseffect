@@ -1,0 +1,10 @@
+{
+  "kind" : "stimattack",
+  "primitives" : [
+    {
+      "name" : "powerboost"
+    }
+  ],
+  "effectSources" : [ "stimattack" ],
+  "mainInterfaceIcon" : "/interface/statuses/stimattack.png"
+}

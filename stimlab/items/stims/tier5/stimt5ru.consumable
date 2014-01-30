@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt5ru",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt5ru.png", "price" : 250, 
+  "description" : "Tier 5 Sprint Boost",
+  "shortdescription" : "T5 Run Stim",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimrun", 
+		"duration" : 450,
+		"amount" : 1.5 
+      }
+    ] ],
+  "emote" : ""
+}

@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt4he",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt4he.png", "price" : 250, 
+  "description" : "Tier 4 Health Regen",
+  "shortdescription" : "T4 Health Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimhealth", 
+		"duration" : 45,
+		"amount" : 0.25
+      }
+    ] ],
+  "emote" : ""
+}

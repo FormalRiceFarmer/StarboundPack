@@ -1,0 +1,10 @@
+{
+  "kind" : "stimwarmth",
+  "primitives" : [
+    {
+      "name" : "ColdProtection"
+    }
+  ],
+  "effectSources" : [ "stimwarmth" ],
+  "mainInterfaceIcon" : "/interface/statuses/stimwarmth.png"
+}

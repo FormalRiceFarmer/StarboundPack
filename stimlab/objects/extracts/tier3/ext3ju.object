@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext3ju",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 3 Jumping Stim Extract.",
+  "shortdescription" : "T3 Jumping Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T3JU Stim Extract.",
+  "avianDescription" : "T3JU Stim Extract.",
+  "floranDescription" : "T3JU Stim Extract.",
+  "glitchDescription" : "T3JU Stim Extract.",
+  "humanDescription" : "T3JU Stim Extract.",
+  "hylotlDescription" : "T3JU Stim Extract.",
+
+  "inventoryIcon" : "ext3juicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext3ju.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

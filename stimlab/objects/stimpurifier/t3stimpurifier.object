@@ -1,0 +1,45 @@
+{
+  "objectName" : "t3stimpurifier",
+  "rarity" : "Common",
+  "description" : "Standard water purifier, works on uranium rods.",
+  "shortdescription" : "Standard Water Purifier",
+  "subtitle" : "Blocks to water",
+  "race" : "glitch",
+  "category" : "crafting",
+  "price" : 2500,
+"printable" : false,
+  "objectType" : "container",
+  "hydrophobic" : true,
+  "learnBlueprintsOnPickup" : [ "t4stimpurifier", "filteredwater" ],
+
+  "apexDescription" : "Standard water purifier.",
+  "avianDescription" : "Standard water purifier.",
+  "floranDescription" : "Standard water purifier.",
+  "glitchDescription" : "Standard water purifier.",
+  "humanDescription" : "Standard water purifier.",
+  "hylotlDescription" : "Standard water purifier.",
+
+  "inventoryIcon" : "t3stimpurifiericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "t3stimpurifier.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 32,
+      "animationCycle" : 4.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "recipeGroup" : "t3stimpurifier",
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+  "slotCount" : 3,
+  "uiConfig" : "/interface/objectcrafting/t3stimpurifier.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
+

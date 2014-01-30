@@ -1,0 +1,9 @@
+{
+  "kind" : "stimglwaruju",
+  "primitives" : [
+    {
+      "name" : "glow"
+    }
+  ],
+  "effectSources" : [ "stimglwaruju" ]
+}

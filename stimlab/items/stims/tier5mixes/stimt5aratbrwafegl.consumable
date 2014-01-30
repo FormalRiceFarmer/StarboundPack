@@ -1,0 +1,38 @@
+{
+  "itemName" : "stimt5aratbrwafegl",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "stimt5aratbrwafegl.png", "price" : 250, 
+  "description" : "Tier 5 Armor & Attack & Oxygen & Warmth & Feather & Glow",
+  "shortdescription" : "T5 Ar&At&Br&Wa&Fe&Gl",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+		"kind" : "stimaratbrwafegl", 
+		"duration" : 540, 
+		"amount" : 700
+      },
+	{
+		"kind" : "stimattacknothing",
+		"duration" : 540,
+		"amount" : 2.75 
+      },
+	{
+		"kind" : "stimbreathnothing", 
+		"duration" : 540 
+      },
+	{
+		"kind" : "stimwarmthnothing",
+		"duration" : 540,
+		"amount" : 200
+      },
+	{ 
+		"kind" : "stimfeathernothing", 
+		"duration" : 540
+      },
+	{ 
+		"kind" : "stimglownothing", 
+		"duration" : 540 
+      }
+    ] ],
+  "emote" : ""
+}

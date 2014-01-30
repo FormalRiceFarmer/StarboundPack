@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext5ruju",
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 5 Sprinting & Jumping Mixed Stim Extract.",
+  "shortdescription" : "T5 Ru&Ju Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T5RUJU Stim Extract.",
+  "avianDescription" : "T5RUJU Stim Extract.",
+  "floranDescription" : "T5RUJU Stim Extract.",
+  "glitchDescription" : "T5RUJU Stim Extract.",
+  "humanDescription" : "T5RUJU Stim Extract.",
+  "hylotlDescription" : "T5RUJU Stim Extract.",
+
+  "inventoryIcon" : "ext5rujuicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext5ruju.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

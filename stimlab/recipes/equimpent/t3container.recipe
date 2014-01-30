@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "titaniumbar", "count" : 1 },
+	{ "item" : "glassmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "t3container", "count" : 2 },
+  "groups" : [ "stimlab", "stimlabcontainers", "all" ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext4he",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 4 Health Regeneration Stim Extract.",
+  "shortdescription" : "T4 Health Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T4HE Stim Extract.",
+  "avianDescription" : "T4HE Stim Extract.",
+  "floranDescription" : "T4HE Stim Extract.",
+  "glitchDescription" : "T4HE Stim Extract.",
+  "humanDescription" : "T4HE Stim Extract.",
+  "hylotlDescription" : "T4HE Stim Extract.",
+
+  "inventoryIcon" : "ext4heicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext4he.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

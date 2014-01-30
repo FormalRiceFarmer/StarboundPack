@@ -1,0 +1,9 @@
+{
+  "itemName" : "wartweedpowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "wartweedpowder.png",
+  "description" : "Wartweed powder.",
+  "shortdescription" : "Wartweed powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext3br" ]
+}

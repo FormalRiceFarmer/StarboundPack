@@ -1,0 +1,8 @@
+{
+  "kind" : "stimenergynothing",
+  "primitives" : [
+    {
+      "name" : "energy"
+    }
+  ]
+}

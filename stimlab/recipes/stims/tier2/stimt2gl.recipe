@@ -1,0 +1,8 @@
+{
+  "input" : [
+		{ "item" : "ext2gl", "count" : 1 },
+		{ "item" : "t2syringe", "count" : 4 }
+  ],
+  "output" : { "item" : "stimt2gl", "count" : 4 },
+  "groups" : [ "t2stimdispenser", "t3stimdispenser", "t4stimdispenser", "t5stimdispenser" ]
+}

@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt5ju",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt5ju.png", "price" : 250, 
+  "description" : "Tier 5 Jumping Boost",
+  "shortdescription" : "T5 Jump Stim",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimjump", 
+		"duration" : 450,
+		"amount" : 1.5
+      }
+    ] ],
+  "emote" : ""
+}

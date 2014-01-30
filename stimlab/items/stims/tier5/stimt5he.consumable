@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt5he",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt5he.png", "price" : 250, 
+  "description" : "Tier 5 Health Regen",
+  "shortdescription" : "T5 Health Stim",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimhealth", 
+		"duration" : 55,
+		"amount" : 0.3
+      }
+    ] ],
+  "emote" : ""
+}

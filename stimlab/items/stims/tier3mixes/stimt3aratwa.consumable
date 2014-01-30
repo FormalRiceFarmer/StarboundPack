@@ -1,0 +1,27 @@
+{
+  "itemName" : "stimt3aratwa",
+  "rarity" : "Rare",
+  "inventoryIcon" : "stimt3aratwa.png", "price" : 250, 
+  "description" : "Tier 3 Armor & Attack & Warmth Boost",
+  "shortdescription" : "T3 Ar&At&Wa",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimaratwa", 
+		"duration" : 270, 
+		"amount" : 250
+      },
+	{
+		"kind" : "stimattacknothing",
+		"duration" : 270,
+		"amount" : 1.3 
+      },
+	{ 
+		"kind" : "stimwarmthnothing",
+		"duration" : 270,
+		"amount" : 200
+      }
+
+    ] ],
+  "emote" : ""
+}

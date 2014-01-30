@@ -1,0 +1,9 @@
+{
+  "itemName" : "diodiapowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "diodiapowder.png",
+  "description" : "Diodia powder.",
+  "shortdescription" : "Diodia powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext3ar" ]
+}

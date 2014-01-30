@@ -1,0 +1,9 @@
+{
+  "itemName" : "carrotpowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "carrotpowder.png",
+  "description" : "Carrot powder.",
+  "shortdescription" : "Carrot powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext3ru" ]
+}

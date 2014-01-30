@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext1gl",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 1 Glow Stim Extract.",
+  "shortdescription" : "T1 Glow Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T1GL Stim Extract.",
+  "avianDescription" : "T1GL Stim Extract.",
+  "floranDescription" : "T1GL Stim Extract.",
+  "glitchDescription" : "T1GL Stim Extract.",
+  "humanDescription" : "T1GL Stim Extract.",
+  "hylotlDescription" : "T1GL Stim Extract.",
+
+  "inventoryIcon" : "ext1glicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext1gl.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

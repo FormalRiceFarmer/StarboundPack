@@ -1,0 +1,67 @@
+{
+  "objectName" : "ext5aratbrwaruju",
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 5 Armor & Attack & Oxygen & Warmth & Sprinting & Jumping Extract.",
+  "shortdescription" : "T5 Ar&At&Br&Wa&Ru&Ju",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T5ARATBRWARUJU Stim Extract.",
+  "avianDescription" : "T5ARATBRWARUJU Stim Extract.",
+  "floranDescription" : "T5ARATBRWARUJU Stim Extract.",
+  "glitchDescription" : "T5ARATBRWARUJU Stim Extract.",
+  "humanDescription" : "T5ARATBRWARUJU Stim Extract.",
+  "hylotlDescription" : "T5ARATBRWARUJU Stim Extract.",
+"lightColor" : [20, 230, 180],
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [20, 230, 180, 255],
+      "light" : [20, 230, 180],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+  "statusEffects" : [
+    {
+      "kind" : "Warmth",
+      "amount" : 100,
+      "range" : 12
+    },
+    {
+      "kind" : "stimbreathnothing",
+      "range" : 12
+    }
+
+],
+
+  "inventoryIcon" : "ext5aratbrwarujuicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext5aratbrwaruju.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

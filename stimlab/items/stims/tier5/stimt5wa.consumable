@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt5wa",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt5wa.png", "price" : 250, 
+  "description" : "Tier 5 Cold Protection",
+  "shortdescription" : "T5 Warmth Stim",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimwarmth",
+		"duration" : 450,
+		"amount" : 200
+      }
+    ] ],
+  "emote" : ""
+}

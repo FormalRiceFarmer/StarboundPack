@@ -1,0 +1,9 @@
+{
+  "itemName" : "potatopowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "potatopowder.png",
+  "description" : "Potato powder.",
+  "shortdescription" : "Potato powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext3he" ]
+}

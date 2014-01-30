@@ -1,0 +1,9 @@
+{
+  "itemName" : "ricepowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "ricepowder.png",
+  "description" : "Rice powder.",
+  "shortdescription" : "Rice powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext1wa" ]
+}

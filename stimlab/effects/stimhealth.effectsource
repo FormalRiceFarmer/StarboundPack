@@ -1,0 +1,23 @@
+{
+  "kind" : "stimhealth",
+  "definition" : {
+    "duration" : 0.05,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "stimhealthmessage" ]
+      ],
+      "sounds" : [
+        [ "/sfx/objects/bunkerslidingdoor_open.wav" ]
+      ]
+    },
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

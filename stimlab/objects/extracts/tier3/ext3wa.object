@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext3wa",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 3 Cold Protection Stim Extract.",
+  "shortdescription" : "T3 Warmth Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T3WA Stim Extract.",
+  "avianDescription" : "T3WA Stim Extract.",
+  "floranDescription" : "T3WA Stim Extract.",
+  "glitchDescription" : "T3WA Stim Extract.",
+  "humanDescription" : "T3WA Stim Extract.",
+  "hylotlDescription" : "T3WA Stim Extract.",
+
+  "inventoryIcon" : "ext3waicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext3wa.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

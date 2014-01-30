@@ -1,0 +1,7 @@
+{
+  "kind" : "stimfegl",
+  "primitives" : [
+    { "name" : "reducefalldamage", "mode" : "max" }
+  ],
+  "effectSources" : [ "stimfegl" ]
+}

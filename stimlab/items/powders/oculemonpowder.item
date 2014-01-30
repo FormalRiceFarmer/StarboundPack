@@ -1,0 +1,9 @@
+{
+  "itemName" : "oculemonpowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "oculemonpowder.png",
+  "description" : "Oculemon powder.",
+  "shortdescription" : "Oculemon powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext5gl" ]
+}

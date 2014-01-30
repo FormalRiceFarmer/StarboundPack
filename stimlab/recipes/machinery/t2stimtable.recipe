@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 1000 },
+	{ "item" : "t1stimtable", "count" : 1 },
+	{ "item" : "steelbar", "count" : 15 },
+	{ "item" : "glassmaterial", "count" : 2 }
+  ],
+  "output" : { "item" : "t2stimtable", "count" : 1 },
+  "groups" : [ "stimlab", "stimlabtables", "all" ]
+}

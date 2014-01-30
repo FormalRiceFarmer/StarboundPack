@@ -1,0 +1,23 @@
+{
+  "kind" : "stimaratfegl",
+  "definition" : {
+    "duration" : 0.05,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "stimaratfeglmessage" ]
+      ],
+      "sounds" : [
+        [ "/sfx/objects/bunkerslidingdoor_open.wav" ]
+      ]
+    },
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "objectName" : "t2stimmixer",
+  "rarity" : "Common",
+  "description" : "Basic stim extract mixer, a little too loud.",
+  "shortdescription" : "Basic Mixer",
+  "subtitle" : "Mix extracts",
+  "race" : "glitch",
+  "category" : "crafting",
+  "price" : 1200,
+"printable" : false,
+  "objectType" : "container",
+  "learnBlueprintsOnPickup" : [ "t3stimmixer", "ext2arat", "ext2brwa", "ext2enhe", "ext2fegl", "ext2ruju", "ext2glwa" ],
+  "hydrophobic" : true,
+
+  "apexDescription" : "Basic stim extract mixer.",
+  "avianDescription" : "Basic stim extract mixer.",
+  "floranDescription" : "Basic stim extract mixer.",
+  "glitchDescription" : "Basic stim extract mixer.",
+  "humanDescription" : "Basic stim extract mixer.",
+  "hylotlDescription" : "Basic stim extract mixer.",
+
+  "inventoryIcon" : "t2stimmixericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "t2stimmixer.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+
+  "recipeGroup" : "t2stimmixer",
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+  "slotCount" : 3,
+  "uiConfig" : "/interface/objectcrafting/t2stimmixer.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
+

@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext2arat",
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 2 Armor & Attack Mixed Stim Extract.",
+  "shortdescription" : "T2 Ar&At Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T2ARAT Stim Extract.",
+  "avianDescription" : "T2ARAT Stim Extract.",
+  "floranDescription" : "T2ARAT Stim Extract.",
+  "glitchDescription" : "T2ARAT Stim Extract.",
+  "humanDescription" : "T2ARAT Stim Extract.",
+  "hylotlDescription" : "T2ARAT Stim Extract.",
+
+  "inventoryIcon" : "ext2araticon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext2arat.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

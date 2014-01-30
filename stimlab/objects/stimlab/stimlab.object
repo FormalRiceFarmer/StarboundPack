@@ -1,0 +1,38 @@
+{
+  "objectName" : "stimlab",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+  	"config" : "/interface/windowconfig/stimlab.config",
+  	"filter" : [ "stimlab" ]
+  			   },
+  "printable" : false,
+  "description" : "The Robotic Assembly Table, a tiny factory.",
+  "shortdescription" : "Stim Lab Assembler",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 500,
+  "learnBlueprintsOnPickup" : [ "t1stimtable", "t1stimpurifier", "t1stimdispenser", "laborantglasses", "scientistchest", "scientistlegs", "stimlabstorage", "stimlab101Codex" ],
+
+  "apexDescription" : "Laboratory robotic assembler.",
+  "avianDescription" : "Laboratory robotic assembler.",
+  "floranDescription" : "Laboratory robotic assembler.",
+  "glitchDescription" : "Laboratory robotic assembler.",
+  "humanDescription" : "Laboratory robotic assembler.",
+  "hylotlDescription" : "Laboratory robotic assembler.",
+
+  "inventoryIcon" : "stimlabicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "stimlab.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 22,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

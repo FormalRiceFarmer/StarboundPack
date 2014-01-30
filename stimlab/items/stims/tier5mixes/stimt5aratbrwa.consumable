@@ -1,0 +1,30 @@
+{
+  "itemName" : "stimt5aratbrwa",
+  "rarity" : "Rare",
+  "inventoryIcon" : "stimt5aratbrwa.png", "price" : 250, 
+  "description" : "Tier 5 Armor & Attack & Oxygen & Warmth.",
+  "shortdescription" : "T5 Ar&At&Br&Wa",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+		"kind" : "stimaratbrwa", 
+		"duration" : 510, 
+		"amount" : 600
+      },
+	{
+		"kind" : "stimattacknothing",
+		"duration" : 510,
+		"amount" : 2.5 
+      },
+	{
+		"kind" : "stimbreathnothing", 
+		"duration" : 510
+      },
+	{
+		"kind" : "stimwarmthnothing",
+		"duration" : 510,
+		"amount" : 200
+      }
+    ] ],
+  "emote" : ""
+}

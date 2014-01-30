@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 500 },
+	{ "item" : "t2stimdispenser", "count" : 1 },
+	{ "item" : "titaniumbar", "count" : 8 },
+	{ "item" : "glassmaterial", "count" : 2 }
+  ],
+  "output" : { "item" : "t3stimdispenser", "count" : 1 },
+  "groups" : [ "stimlab", "stimlabdispensers", "all" ]
+}

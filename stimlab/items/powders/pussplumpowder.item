@@ -1,0 +1,9 @@
+{
+  "itemName" : "pussplumpowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "pussplumpowder.png",
+  "description" : "Pussplum powder.",
+  "shortdescription" : "Pussplum powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext3gl" ]
+}

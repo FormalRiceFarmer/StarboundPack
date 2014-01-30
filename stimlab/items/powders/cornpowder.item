@@ -1,0 +1,9 @@
+{
+  "itemName" : "cornpowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "cornpowder.png",
+  "description" : "Corn powder.",
+  "shortdescription" : "Corn powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext1ru" ]
+}

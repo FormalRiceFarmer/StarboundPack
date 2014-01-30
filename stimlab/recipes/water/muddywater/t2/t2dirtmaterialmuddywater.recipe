@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "coalore", "count" : 3 },
+	{ "item" : "dirtmaterial", "count" : 50 }
+  ],
+  "output" : { "item" : "muddywater", "count" : 2 },
+  "groups" : [ "t2stimpurifier" ]
+}

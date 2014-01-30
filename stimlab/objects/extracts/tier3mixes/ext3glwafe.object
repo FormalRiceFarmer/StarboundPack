@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext3glwafe",
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 3 Glow & Warmth & Feather Mixed Stim Extract.",
+  "shortdescription" : "T3 Gl&Wa&Fe Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T3GLWAFE Stim Extract.",
+  "avianDescription" : "T3GLWAFE Stim Extract.",
+  "floranDescription" : "T3GLWAFE Stim Extract.",
+  "glitchDescription" : "T3GLWAFE Stim Extract.",
+  "humanDescription" : "T3GLWAFE Stim Extract.",
+  "hylotlDescription" : "T3GLWAFE Stim Extract.",
+
+  "inventoryIcon" : "ext3glwafeicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext3glwafe.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

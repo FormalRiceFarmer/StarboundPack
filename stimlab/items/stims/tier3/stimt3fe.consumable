@@ -1,0 +1,15 @@
+{
+  "itemName" : "stimt3fe",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt3fe.png", "price" : 250, 
+  "description" : "Tier 3 Feather Fall",
+  "shortdescription" : "T3 Feather Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimfeather", 
+		"duration" : 210
+      }
+    ] ],
+  "emote" : ""
+}

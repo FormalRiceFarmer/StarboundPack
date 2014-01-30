@@ -1,0 +1,20 @@
+{
+  "itemName" : "stimt5brwa",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "stimt5brwa.png", "price" : 250, 
+  "description" : "Tier 5 Oxygen & Cold Protection",
+  "shortdescription" : "T5 Oxygen & Warmth",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimbrwa", 
+		"duration" : 480
+      },
+	{ 
+		"kind" : "stimwarmthnothing",
+		"duration" : 480,
+		"amount" : 200
+      }
+    ] ],
+  "emote" : ""
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "stimt5brwaruju",
+  "rarity" : "Rare",
+  "inventoryIcon" : "stimt5brwaruju.png", "price" : 250, 
+  "description" : "Tier 5 Oxygen & Warmth & Run & Jump",
+  "shortdescription" : "T5 Br&Wa&Ru&Ju",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+		"kind" : "stimbrwaruju", 
+		"duration" : 510
+      },
+	{
+		"kind" : "stimwarmthnothing",
+		"duration" : 510,
+		"amount" : 200
+      },
+	{
+		"kind" : "stimrunnothing", 
+		"duration" : 510,
+		"amount" : 1.8 
+      },
+	{
+		"kind" : "stimjumpnothing", 
+		"duration" : 510,
+		"amount" : 1.8
+      }
+    ] ],
+  "emote" : ""
+}

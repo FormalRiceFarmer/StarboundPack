@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "uraniumrod", "count" : 1 },
+	{ "item" : "mud", "count" : 40 }
+  ],
+  "output" : { "item" : "cleanwater", "count" : 2 },
+  "groups" : [ "t3stimpurifier" ]
+}

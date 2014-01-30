@@ -1,0 +1,10 @@
+{
+  "kind" : "stimarmor",
+  "primitives" : [
+    {
+      "name" : "protection"
+    }
+  ],
+  "effectSources" : [ "stimarmor" ],
+  "mainInterfaceIcon" : "/interface/statuses/stimarmor.png"
+}

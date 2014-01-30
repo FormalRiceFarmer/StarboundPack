@@ -1,0 +1,8 @@
+{
+  "kind" : "stimwarmthnothing",
+  "primitives" : [
+    {
+      "name" : "ColdProtection"
+    }
+  ]
+}

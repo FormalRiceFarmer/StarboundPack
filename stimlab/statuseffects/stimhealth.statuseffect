@@ -1,0 +1,10 @@
+{
+  "kind" : "stimhealth",
+  "primitives" : [
+    {
+      "name" : "Health"
+    }
+  ],
+  "effectSources" : [ "stimhealth" ],
+  "mainInterfaceIcon" : "/interface/statuses/stimhealth.png"
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "stimt5aratruju",
+  "rarity" : "Rare",
+  "inventoryIcon" : "stimt5aratruju.png", "price" : 250, 
+  "description" : "Tier 5 Armor & Attack & Run & Jump Boost!",
+  "shortdescription" : "T5 Ar&At&Ru&Ju",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      {
+		"kind" : "stimaratruju", 
+		"duration" : 510, 
+		"amount" : 600
+      },
+	{
+		"kind" : "stimattacknothing",
+		"duration" : 510,
+		"amount" : 2.5 
+      },
+	{
+		"kind" : "stimrunnothing", 
+		"duration" : 510,
+		"amount" : 1.8 
+      },
+	{
+		"kind" : "stimjumpnothing", 
+		"duration" : 510,
+		"amount" : 1.8
+      }
+    ] ],
+  "emote" : ""
+}

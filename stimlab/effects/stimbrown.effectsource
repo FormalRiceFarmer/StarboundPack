@@ -1,0 +1,24 @@
+{
+  "kind" : "stimbrown",
+   "definition" : {
+    "duration" : 0.05,
+    "loops" : false,
+    "location" : "mouth",
+    "start" : {
+          },
+    "particles" : [
+      [ "stimbrown" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

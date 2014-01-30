@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt1he",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt1he.png", "price" : 250, 
+  "description" : "Tier 1 Health Regen",
+  "shortdescription" : "T1 Health Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimhealth", 
+		"duration" : 15,
+		"amount" : 0.1
+      }
+    ] ],
+  "emote" : ""
+}

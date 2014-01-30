@@ -1,0 +1,8 @@
+{
+  "itemName" : "t3container",
+  "rarity" : "Common",
+  "inventoryIcon" : "t3container.png",
+  "description" : "Tier 3 empty container.",
+"price" : 250,
+  "shortdescription" : "T3 Empty Container"
+}

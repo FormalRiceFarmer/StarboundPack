@@ -1,0 +1,9 @@
+{
+  "itemName" : "wheatalcohol",
+  "rarity" : "Common",
+  "inventoryIcon" : "wheatalcohol.png",
+  "description" : "Wheat Alcohol.",
+  "shortdescription" : "Wheat Alcohol",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext2ar", "ext2at", "ext2br", "ext2en", "ext2fe", "ext2gl", "ext2he", "ext2ju", "ext2ru", "ext2wa" ]
+}

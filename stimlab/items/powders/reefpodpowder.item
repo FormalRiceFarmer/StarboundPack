@@ -1,0 +1,9 @@
+{
+  "itemName" : "reefpodpowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "reefpodpowder.png",
+  "description" : "Reefpod powder.",
+  "shortdescription" : "Reefpod powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext3en" ]
+}

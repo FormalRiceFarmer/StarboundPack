@@ -1,0 +1,23 @@
+{
+  "kind" : "stimruju",
+  "definition" : {
+    "duration" : 0.05,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "stimrujumessage" ]
+      ],
+      "sounds" : [
+        [ "/sfx/objects/bunkerslidingdoor_open.wav" ]
+      ]
+    },
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

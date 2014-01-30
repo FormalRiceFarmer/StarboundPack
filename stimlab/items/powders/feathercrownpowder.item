@@ -1,0 +1,9 @@
+{
+  "itemName" : "feathercrownpowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "feathercrownpowder.png",
+  "description" : "Feathercrown powder.",
+  "shortdescription" : "Feathercrown powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext1fe" ]
+}

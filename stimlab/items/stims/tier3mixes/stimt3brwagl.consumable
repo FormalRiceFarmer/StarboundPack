@@ -1,0 +1,25 @@
+{
+  "itemName" : "stimt3brwagl",
+  "rarity" : "Rare",
+  "inventoryIcon" : "stimt3brwagl.png", "price" : 250, 
+  "description" : "Tier 3 Oxygen & Warmth & Glow",
+  "shortdescription" : "T3 Br&Wa&Gl",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimbrwagl", 
+		"duration" : 270
+      },
+	{ 
+		"kind" : "stimwarmthnothing",
+		"duration" : 270,
+		"amount" : 200
+      },
+	{ 
+		"kind" : "stimglownothing", 
+		"duration" : 270
+      }
+
+    ] ],
+  "emote" : ""
+}

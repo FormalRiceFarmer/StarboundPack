@@ -1,0 +1,9 @@
+{
+  "itemName" : "bananapowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "bananapowder.png",
+  "description" : "Banana powder.",
+  "shortdescription" : "Banana powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext1ju" ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "oculemon", "count" : 1 }
+  ],
+  "output" : { "item" : "oculemonpowder", "count" : 1 },
+  "groups" : [ "t5stimtable", "t5powders", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "sugaralcohol",
+  "rarity" : "Common",
+  "inventoryIcon" : "sugaralcohol.png",
+  "description" : "Sugar Alcohol.",
+  "shortdescription" : "Sugar Alcohol",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext4ar", "ext4at", "ext4br", "ext4en", "ext4fe", "ext4gl", "ext4he", "ext4ju", "ext4ru", "ext4wa" ]
+}

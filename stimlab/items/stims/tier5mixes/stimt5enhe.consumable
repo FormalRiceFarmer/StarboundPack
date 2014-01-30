@@ -1,0 +1,22 @@
+{
+  "itemName" : "stimt5enhe",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "stimt5enhe.png", "price" : 250, 
+  "description" : "Tier 5 Energy & Health Regen",
+  "shortdescription" : "T5 Energy & Health",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimenhe", 
+  		"duration" : 60,
+		"amount" : 0.4 
+      },
+	{ 
+		"kind" : "stimhealthnothing", 
+		"duration" : 60,
+		"amount" : 0.4
+      }
+
+    ] ],
+  "emote" : ""
+}

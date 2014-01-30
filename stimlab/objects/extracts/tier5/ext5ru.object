@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext5ru",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 5 Sprinting Stim Extract.",
+  "shortdescription" : "T5 Sprinting Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T5RU Stim Extract.",
+  "avianDescription" : "T5RU Stim Extract.",
+  "floranDescription" : "T5RU Stim Extract.",
+  "glitchDescription" : "T5RU Stim Extract.",
+  "humanDescription" : "T5RU Stim Extract.",
+  "hylotlDescription" : "T5RU Stim Extract.",
+
+  "inventoryIcon" : "ext5ruicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext5ru.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

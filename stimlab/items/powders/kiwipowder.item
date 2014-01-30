@@ -1,0 +1,9 @@
+{
+  "itemName" : "kiwipowder",
+  "rarity" : "Common",
+  "inventoryIcon" : "kiwipowder.png",
+  "description" : "Kiwi powder.",
+  "shortdescription" : "Kiwi powder",
+"price" : 250,
+  "learnBlueprintsOnPickup" : [ "ext1gl" ]
+}

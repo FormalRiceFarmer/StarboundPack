@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt3ar",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt3ar.png", "price" : 250, 
+  "description" : "Tier 3 Armor Protection",
+  "shortdescription" : "T3 Armor Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimarmor", 
+		"duration" : 210, 
+		"amount" : 200
+      }
+    ] ],
+  "emote" : ""
+}

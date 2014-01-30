@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt4ar",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt4ar.png", "price" : 250, 
+  "description" : "Tier 4 Armor Protection",
+  "shortdescription" : "T4 Armor Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimarmor", 
+		"duration" : 300, 
+		"amount" : 300
+      }
+    ] ],
+  "emote" : ""
+}

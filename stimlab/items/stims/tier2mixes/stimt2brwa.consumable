@@ -1,0 +1,20 @@
+{
+  "itemName" : "stimt2brwa",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "stimt2brwa.png", "price" : 250, 
+  "description" : "Tier 2 Oxygen & Cold Protection",
+  "shortdescription" : "T2 Oxygen & Warmth",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimbrwa", 
+		"duration" : 180 
+      },
+	{ 
+		"kind" : "stimwarmthnothing",
+		"duration" : 180,
+		"amount" : 200
+      }
+    ] ],
+  "emote" : ""
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "stimt5br",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt5br.png", "price" : 250, 
+  "description" : "Tier 5 Breath Protection",
+  "shortdescription" : "T5 Oxygen Stim",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimbreath", 
+		"duration" : 450
+      }
+    ] ],
+  "emote" : ""
+}

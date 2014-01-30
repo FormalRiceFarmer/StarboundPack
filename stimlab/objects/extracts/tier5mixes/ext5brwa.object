@@ -1,0 +1,32 @@
+{
+  "objectName" : "ext5brwa",
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 500,
+  "description" : "Tier 5 Oxygen & Warmth Mixed Stim Extract.",
+  "shortdescription" : "T5 Br&Wa Extract",
+  "printable" : false,
+  "race" : "generic",
+  "hydrophobic" : false,
+
+  "apexDescription" : "T5BRWA Stim Extract.",
+  "avianDescription" : "T5BRWA Stim Extract.",
+  "floranDescription" : "T5BRWA Stim Extract.",
+  "glitchDescription" : "T5BRWA Stim Extract.",
+  "humanDescription" : "T5BRWA Stim Extract.",
+  "hylotlDescription" : "T5BRWA Stim Extract.",
+
+  "inventoryIcon" : "ext5brwaicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ext5brwa.png:<color>.<frame>",
+      "frames" : 12,
+      "animationCycle" : 2.4,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

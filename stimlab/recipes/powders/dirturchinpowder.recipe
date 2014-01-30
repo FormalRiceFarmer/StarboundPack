@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "dirturchin", "count" : 1 }
+  ],
+  "output" : { "item" : "dirturchinpowder", "count" : 1 },
+  "groups" : [ "t3stimtable", "t3powders", "all" ]
+}

@@ -1,0 +1,46 @@
+{
+  "objectName" : "t4stimdispenser",
+  "rarity" : "Common",
+  "description" : "Advanced stim dispenser, for advanced scientists.",
+  "shortdescription" : "Advanced Dispenser",
+  "subtitle" : "Fill syringes with extracts",
+  "race" : "glitch",
+  "category" : "crafting",
+  "price" : 6000,
+"printable" : false,
+  "objectType" : "container",
+  "learnBlueprintsOnPickup" : [ "t5stimdispenser", "stimt4ar", "stimt4at", "stimt4br", "stimt4en", "stimt4fe", "stimt4gl", "stimt4he", "stimt4ju", "stimt4ru", "stimt4wa", "stimt4arat", "stimt4brwa", "stimt4enhe", "stimt4fegl", "stimt4ruju", "stimt4aratbrwa", "stimt4aratruju", "stimt4aratfegl", "stimt4brwafegl", "stimt4brwaruju", "stimt4feglruju", "stimt4glwa", "stimt4glwaruju", "stimt4aratglwa" ],
+  "hydrophobic" : true,
+
+  "apexDescription" : "Advanced dispenser, brand new.",
+  "avianDescription" : "Advanced dispenser, brand new.",
+  "floranDescription" : "Advanced dispenser, brand new.",
+  "glitchDescription" : "Advanced dispenser, brand new.",
+  "humanDescription" : "Advanced dispenser, brand new.",
+  "hylotlDescription" : "Advanced dispenser, brand new.",
+
+  
+  "inventoryIcon" : "t4stimdispensericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "t4stimdispenser.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 8,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "recipeGroup" : "t4stimdispenser",
+  "openSounds" : [ "/sfx/objects/fridge_open.wav" ],  "slotCount" : 3,
+  "uiConfig" : "/interface/objectcrafting/t4stimdispenser.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
+

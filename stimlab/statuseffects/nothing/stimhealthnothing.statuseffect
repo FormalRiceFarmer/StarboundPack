@@ -1,0 +1,8 @@
+{
+  "kind" : "stimhealthnothing",
+  "primitives" : [
+    {
+      "name" : "Health"
+    }
+  ]
+}

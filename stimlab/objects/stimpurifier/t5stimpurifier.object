@@ -1,0 +1,46 @@
+{
+  "objectName" : "t5stimpurifier",
+  "rarity" : "Common",
+  "description" : "Prototype water purifier, powered by solarium.",
+  "shortdescription" : "Prototype Water Purifier",
+  "subtitle" : "Blocks to water",
+  "race" : "glitch",
+  "category" : "crafting",
+  "price" : 7500,
+"printable" : false,
+  "objectType" : "container",
+  "hydrophobic" : true,
+  "learnBlueprintsOnPickup" : [ "purifiedwater" ],
+
+
+  "apexDescription" : "A prototype water purifier.",
+  "avianDescription" : "A prototype water purifier.",
+  "floranDescription" : "A prototype water purifier.",
+  "glitchDescription" : "Excited. A prototype water purifier.",
+  "humanDescription" : "A prototype water purifier.",
+  "hylotlDescription" : "A prototype water purifier.",
+
+  "inventoryIcon" : "t5stimpurifiericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "t5stimpurifier.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 8,
+      "animationCycle" : 2.5,
+      "spaceScan" : 0.1,
+	"collision" : "platform",
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "recipeGroup" : "t5stimpurifier",
+  "openSounds" : [ "/sfx/objects/metalbox_open.wav" ],
+  "slotCount" : 3,
+  "uiConfig" : "/interface/objectcrafting/t5stimpurifier.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+
+}
+

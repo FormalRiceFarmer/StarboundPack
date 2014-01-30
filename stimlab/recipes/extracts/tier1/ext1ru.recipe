@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "cornpowder", "count" : 1 },
+	{ "item" : "muddywater", "count" : 1 },
+	{ "item" : "t1container", "count" : 1 }
+  ],
+  "output" : { "item" : "ext1ru", "count" : 1 },
+  "groups" : [ "t1stimtable", "t1extracts", "all" ]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "stimt2br",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt2br.png", "price" : 250, 
+  "description" : "Tier 2 Breath Protection",
+  "shortdescription" : "T2 Oxygen Stim",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimbreath", 
+		"duration" : 150 
+      }
+    ] ],
+  "emote" : ""
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "ext5arat", "count" : 1 },
+	{ "item" : "ext5fegl", "count" : 1 }
+  ],
+  "output" : { "item" : "ext5aratfegl", "count" : 1 },
+  "groups" : [ "t5stimmixer" ]
+}

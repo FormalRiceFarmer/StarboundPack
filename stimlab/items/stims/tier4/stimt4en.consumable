@@ -1,0 +1,16 @@
+{
+  "itemName" : "stimt4en",
+  "rarity" : "Common",
+  "inventoryIcon" : "stimt4en.png", "price" : 250, 
+  "description" : "Tier 4 Energy Regen",
+  "shortdescription" : "T4 Energy Stim",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      { 
+		"kind" : "stimenergy", 
+  		"duration" : 45,
+		"amount" : 0.25 
+      }
+    ] ],
+  "emote" : ""
+}
