@@ -1,0 +1,10 @@
+{
+  "input" : [
+
+  ],
+  "output" : {
+    "item" : "cheatflighttech-chip",
+    "count" : 1
+  },
+  "groups" : [ "cheatingtable", "all", "other" ]
+}

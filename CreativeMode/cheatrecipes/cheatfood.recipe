@@ -1,0 +1,10 @@
+{
+  "input" : [
+
+  ],
+  "output" : {
+    "item" : "cheatfood",
+    "count" : 1
+  },
+  "groups" : [ "cheatingtable", "all", "other" ]
+}

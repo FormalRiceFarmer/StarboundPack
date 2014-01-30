@@ -1,0 +1,15 @@
+{
+  "itemName" : "cheatsectorxunlock",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "cheatsectorxunlock.png",
+  "image" : "cheatsectorxunlock.png",
+
+  "shortdescription" : "Sector X Unlock",
+  "description" : "Unlocks Sector X.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "sectorUnlock" : "sectorx",
+  "tierRecipesUnlock" : "starter",
+  "unlockMessage" : "Ship engine is now powered up! Sector X Unlocked!"
+}

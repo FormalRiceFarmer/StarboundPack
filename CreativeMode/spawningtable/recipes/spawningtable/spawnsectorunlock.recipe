@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "sectorunlock", "count" : 1 },
+	"groups" : [ "spawningtable", "other" ]
+}

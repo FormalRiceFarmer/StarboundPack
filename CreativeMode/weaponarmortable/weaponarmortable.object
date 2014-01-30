@@ -1,0 +1,44 @@
+{
+  "objectName" : "weaponarmortable",
+  "rarity" : "Legendary",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/weaponarmortable.config",
+    "filter" : [ "weaponarmortable" ]
+  },
+  "printable" : false,
+  "description" : "All your weapons are belong to us.",
+  "shortdescription" : "Weapon & Armor Box",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 9001,
+  
+  "lightColor" : [36, 186, 43],
+  "flickerDistance" : 0.1,
+  "flickerStrength" : 0.1,
+
+  
+  "apexDescription" : "For testing!",
+  "avianDescription" : "For testing!",
+  "floranDescription" : "For testing!",
+  "glitchDescription" : "For testing!",
+  "humanDescription" : "For testing!",
+  "hylotlDescription" : "For testing!",
+  
+  "inventoryIcon" : "weaponarmortableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "weaponarmortable.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 14,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ]
+}

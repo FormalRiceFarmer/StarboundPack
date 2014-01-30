@@ -1,0 +1,26 @@
+{
+  "itemName" : "cheattech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "cheattech.png",
+  "description" : "Obtain all the tech at once with this item.",
+  "shortdescription" : "All Tech Unlocker",
+
+  "learnBlueprintsOnPickup" : [
+      "randblinktech",
+      "targetblinktech",
+      "bubbleboost",
+      "butterflyboost",
+      "cameramanboost",
+      "dashTech",
+      "hoverTech",
+      "jetpackTech",
+      "humanMechTech",
+      "morphballTech",
+      "doublejumpTech",
+      "rocketjump",
+	  "humancar",
+	  "humanjeep",
+	  "apexMechTech",
+	  "glitchMechTech"
+  ]
+}

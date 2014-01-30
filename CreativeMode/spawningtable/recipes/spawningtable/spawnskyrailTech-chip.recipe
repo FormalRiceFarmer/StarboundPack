@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "skyrailTech-chip", "count" : 1 },
+	"groups" : [ "spawningtable", "weapons" ]
+}

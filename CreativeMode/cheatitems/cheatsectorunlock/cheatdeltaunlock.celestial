@@ -1,0 +1,15 @@
+{
+  "itemName" : "cheatdeltaunlock",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "cheatdeltaunlock.png",
+  "image" : "cheatdeltaunlock.png",
+
+  "shortdescription" : "Delta Sector Unlock",
+  "description" : "Unlocks the Delta sector.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "sectorUnlock" : "delta",
+  "tierRecipesUnlock" : "starter",
+  "unlockMessage" : "Ship engine is now powered up! Delta Sector Unlocked!"
+}

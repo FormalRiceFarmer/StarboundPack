@@ -1,0 +1,15 @@
+{
+  "itemName" : "cheatbetaunlock",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "cheatbetaunlock.png",
+  "image" : "cheatbetaunlock.png",
+
+  "shortdescription" : "Beta Sector Unlock",
+  "description" : "Unlocks the Beta sector.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "sectorUnlock" : "beta",
+  "tierRecipesUnlock" : "starter",
+  "unlockMessage" : "Ship engine is now powered up! Beta Sector Unlocked!"
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+
+  ],
+  "output" : { "item" : "cheatgammaunlock", "count" : 1 },
+  "groups" : [ "cheatingtable", "tools", "all" ]
+}

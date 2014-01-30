@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "slapfish", "count" : 1 },
+	"groups" : [ "weaponarmortable", "tools" ]
+}

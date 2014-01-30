@@ -1,0 +1,15 @@
+{
+  "itemName" : "cheatbandage",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "cheatbandage.png",
+  "description" : "A bandage that heals you immediately up to full health.",
+  "shortdescription" : "Super Bandage",
+  "effects" : [ [
+      {
+        "kind" : "bandage",
+        "amount" : 10000
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ]
+}

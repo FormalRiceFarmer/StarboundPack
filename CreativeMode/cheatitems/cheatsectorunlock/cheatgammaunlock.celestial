@@ -1,0 +1,15 @@
+{
+  "itemName" : "cheatgammaunlock",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "cheatgammaunlock.png",
+  "image" : "cheatgammaunlock.png",
+
+  "shortdescription" : "Gamma Sector Unlock",
+  "description" : "Unlocks the Gamma sector.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "sectorUnlock" : "gamma",
+  "tierRecipesUnlock" : "starter",
+  "unlockMessage" : "Ship engine is now powered up! Gamma Sector Unlocked!"
+}

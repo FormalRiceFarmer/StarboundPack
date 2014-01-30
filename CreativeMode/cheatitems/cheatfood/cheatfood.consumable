@@ -1,0 +1,13 @@
+{
+  "itemName" : "cheatfood",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "cheatfood.png",
+  "description" : "Meat that's crushed into a cube. Will eliminate any hunger you have.",
+  "shortdescription" : "Cube of Meat",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 100
+      }
+    ] ]
+}
