@@ -1,0 +1,14 @@
+{
+  "materialId" : 13002,
+  "materialName" : "camppole",
+  "frames" : "camppole.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 5,
+  "itemDrop" : "camppole",
+  "description" : "A literal stick in the mud.",
+  "shortdescription" : "Tent Pole",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "health" : 1.0
+}
+
