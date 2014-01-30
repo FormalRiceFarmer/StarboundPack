@@ -34,7 +34,7 @@
   "statusEffects" : [
     {
       "kind" : "coldprotection",
-      "amount" : 30,
+      "amount" : 75,
       "range" : 15
     }
   ]

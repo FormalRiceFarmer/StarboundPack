@@ -1,3 +1,6 @@
+zMisc R1.4.1 (Bugfix):
+ - Lowered the chance of getting hats from loot boxes.
+ - Increased the heat output from Heat Vents.
 zMisc R1.4:
  - Added 3 new hats - Poker Face, Bag Boy and Elephant Face.
  - Added 'Zima's Loot Box'. These spawn on Super Asteroids and are now the only way to get ancient files.
