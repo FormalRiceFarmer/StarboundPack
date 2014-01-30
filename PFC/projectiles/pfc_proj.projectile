@@ -13,7 +13,7 @@
     {
       "action" : "liquid",
       "quantity" : 3000,
-      "liquidId" : 8
+      "liquidId" : 14
     }
   ],
   "damageKind" : "default"
