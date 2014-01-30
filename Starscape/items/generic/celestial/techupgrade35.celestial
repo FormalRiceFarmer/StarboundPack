@@ -1,9 +1,0 @@
-{
-  "__merge" : [],
-  
-  "description" : "(temporary). Unlocks theta sector and the ability to work with Violium, an alloy made of Cerulium and coal.",
-  
-  "sectorUnlock" : "theta",
-  "unlockMessage" : "Starmap Updated. New data has been uploaded to your ships navigation systems. Select the theta sector from the top of the navigator when in galaxy view to advance."
-  
-}

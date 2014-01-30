@@ -1,9 +1,0 @@
-{
-  "__merge" : [],
-  
-  "description" : "(temporary). Unlocks iota sector and the ability to work with Rubium, an ore found on level 9 planets.",
-  
-  "sectorUnlock" : "iota",
-  "unlockMessage" : "Starmap Updated. New data has been uploaded to your ships navigation systems. Select the iota sector from the top of the navigator when in galaxy view to advance."
-  
-}

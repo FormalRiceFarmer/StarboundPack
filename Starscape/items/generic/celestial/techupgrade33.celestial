@@ -1,9 +1,0 @@
-{
-  "__merge" : [],
-  
-  "description" : "Unlocks zeta sector and the ability to work with Ferozium, an alloy made of Aegisalt and coal.",
-  
-  "sectorUnlock" : "zeta",
-  "unlockMessage" : "Starmap Updated. New data has been uploaded to your ships navigation systems. Select the zeta sector from the top of the navigator when in galaxy view to advance."
-  
-}

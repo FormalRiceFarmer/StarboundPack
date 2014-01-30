@@ -1,9 +1,0 @@
-{
-  "__merge" : [],
-  
-  "description" : "(temporary). Unlocks epsilon sector and the ability to work with Aegisalt found on level 5 planets.",
-  
-  "sectorUnlock" : "epsilon",
-  "unlockMessage" : "Starmap Updated. New data has been uploaded to your ships navigation systems. Select the epsilon sector from the top of the navigator when in galaxy view to advance."
-  
-}

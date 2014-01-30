@@ -1,9 +1,0 @@
-{
-  "__merge" : [],
-  
-  "description" : "(temporary). Unlocks kappa sector and the ability to work with Impervium, an alloy made of Rubium and coal.",
-  
-  "sectorUnlock" : "kappa",
-  "unlockMessage" : "Starmap Updated. New data has been uploaded to your ships navigation systems. Select the kappa sector from the top of the navigator when in galaxy view to advance."
-  
-}
