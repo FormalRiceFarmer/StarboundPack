@@ -1,0 +1,10 @@
+{
+	"itemName": "human_hoverbike",
+	"rarity": "Legendary",
+	"inventoryIcon": "/tech/hoverbikes/hoverbike_techitem.png",
+	"description": "Use this tech, spawn a human hoverbike. Then drive.",
+	"shortdescription": "Human Hoverbike",
+	"inspectionKind": "tech",
+
+	"techModule": "human_hoverbike.tech"
+}

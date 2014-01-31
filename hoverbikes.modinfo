@@ -1,0 +1,7 @@
+{
+    "name" : "Hoverbikes",
+	  "version" : "Beta v. Furious Koala",
+	  "author": "Vladimir Kryukov",
+    "path" : "Hoverbikes",
+    "dependencies" : []
+}

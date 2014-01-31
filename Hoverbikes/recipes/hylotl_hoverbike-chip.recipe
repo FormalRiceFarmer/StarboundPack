@@ -1,0 +1,25 @@
+{
+	"input": [
+		{
+			"item": "humanMechTech-chip",
+			"count": 1
+		},
+		{
+			"item": "Violiumbar",
+			"count": 50
+		},
+		{
+			"item": "durasteelbar",
+			"count": 15
+		},
+		{
+			"item": "plutoniumrod",
+			"count": 15
+		}
+	],
+	"output": {
+		"item": "hylotl_hoverbike-chip",
+		"count": 1
+	},
+	"groups": [ "roboticcraftingtable", "all", "other" ]
+}

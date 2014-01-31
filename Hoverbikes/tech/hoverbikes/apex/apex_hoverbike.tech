@@ -1,0 +1,47 @@
+{
+	"script" : "/tech/hoverbikes/hoverbike.lua",
+	"actions" : ["mechActivate", "mechDeactivate", "mechMove", "mechJump"],
+	"animator" : "apex_hoverbike.animation",
+
+	"mechCustomMovementParameters" : {
+		"standingPoly" : [[-3.7, -0.5], [-2, -2.25], [2, -2.25], [3.7, -0.5], [3.7, 0.5], [1, 2], [-1, 2], [-3.7, 0.5]],
+		"crouchingPoly" : [[-3.7, -0.5], [-2, -2.25], [2, -2.25], [3.7, -0.5], [3.7, 0.5], [1, 2], [-1, 2], [-3.7, 0.5]],
+
+		"mass" : 5.0,
+
+		"normalGroundFriction" : 20.0,
+		"ambulatingGroundFriction" : 6.0,
+		"skiddingGroundFriction" : 10.0,
+
+		"groundForce" : 150.0,
+		"airForce" : 50.0,
+		"liquidForce" : 70.0,
+
+		"walkSpeed" : 10.0,
+		"runSpeed" : 40.0,
+
+		"airJumpProfile" : {
+			"jumpSpeed" : 1.2,
+			"jumpControlForce" : 900.0,
+			"jumpInitialPercentage" : 0.75,
+			"jumpHoldTime" : 0.15
+		},
+
+		"liquidJumpProfile" : {
+			"jumpSpeed" : 1,
+			"jumpControlForce" : 500.0,
+			"jumpInitialPercentage" : 0.75,
+			"jumpHoldTime" : 0.1
+		}
+	},
+
+	"mechJumpCost" : 90,
+	"mechJumpSpeed": 10,
+	"mechJumpForce": 450,
+
+	// In tiles?
+	"parentOffset" : [-1.2, 1.2],
+
+	"mechTransformPositionChange" : [0.0, 0.0],
+	"mechTransformCollisionTest" : [-3.5, -2.5, 3.5, 5]
+}
