@@ -1,0 +1,6 @@
+{
+  "name" : "Ludsoe's StarFoundry MagmaPower",
+  "version" : "Beta v. Furious Koala",
+  "path" : "FoundryMagPower",
+  "dependencies" : ["starfoundry"]
+}
