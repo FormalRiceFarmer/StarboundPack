@@ -1,4 +1,5 @@
 {
+  "script" : "superjump.lua",
   "itemName" : "wayofthewarriorTech",
   "rarity" : "Legendary",
   "inventoryIcon" : "/tech/wayofthewarrior/wotw_icon.png",
