@@ -1,6 +1,5 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   "script" : "superjump.lua",
   "actions" : [ "wayofthewarrior" ],
   "animator" : "rocketjump.animation",
@@ -9,10 +8,7 @@
   "superjumpSpeed" : 250,
   "superjumpControlForce" : 400,
   "superjumpTime" : 0.1,
-  "superjumpSound" : "/sfx/tech/tech_superjump.wav"
-=======
-=======
->>>>>>> 285272a3fd3c0e82845b0b97b9f4161aca144ab9
+  "superjumpSound" : "/sfx/tech/tech_superjump.wav",
   "actions" : [ "dashRight", "dashLeft", "hadouken" ],
   "animator" : "wayofthewarrior.animation",
 
@@ -21,9 +17,5 @@
   "mouseMode" : false,
   
   "controlForce" : 600,
-  "energyUsage" : 30.0,
-<<<<<<< HEAD
->>>>>>> 285272a3fd3c0e82845b0b97b9f4161aca144ab9
-=======
->>>>>>> 285272a3fd3c0e82845b0b97b9f4161aca144ab9
+  "energyUsage" : 30.0
 }

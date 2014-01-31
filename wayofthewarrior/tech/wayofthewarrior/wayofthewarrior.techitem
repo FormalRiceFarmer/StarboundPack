@@ -2,14 +2,8 @@
   "script" : "superjump.lua",
   "itemName" : "wayofthewarriorTech",
   "rarity" : "Legendary",
-<<<<<<< HEAD
   "inventoryIcon" : "wotw_icon.png",
-=======
   "inventoryIcon" : "/tech/wayofthewarrior/wotw_icon.png",
-<<<<<<< HEAD
->>>>>>> 285272a3fd3c0e82845b0b97b9f4161aca144ab9
-=======
->>>>>>> 285272a3fd3c0e82845b0b97b9f4161aca144ab9
   "description" : "This tech has been removed from the server.",
   "shortdescription" : "Way of the Warrior",
   "inspectionKind" : "tech",
