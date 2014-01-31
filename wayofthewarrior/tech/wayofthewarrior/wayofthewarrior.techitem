@@ -1,0 +1,10 @@
+{
+  "itemName" : "wayofthewarriorTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/wayofthewarrior/wotw_icon.png",
+  "description" : "This tech has been removed from the server.",
+  "shortdescription" : "Way of the Warrior",
+  "inspectionKind" : "tech",
+
+  "techModule" : "wayofthewarrior.tech"
+}

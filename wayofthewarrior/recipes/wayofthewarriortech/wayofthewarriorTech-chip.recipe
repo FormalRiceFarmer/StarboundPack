@@ -1,0 +1,8 @@
+{
+  "input" : [{ "item" : "penis", "count" : 1 } ],
+  "output" : {
+    "item" : "wayofthewarriorTech-chip",
+    "count" : 1
+  },
+  "groups" : [ "all", "plain" ]
+}
