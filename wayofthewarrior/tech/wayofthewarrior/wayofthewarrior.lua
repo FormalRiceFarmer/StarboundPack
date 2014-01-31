@@ -7,6 +7,9 @@ function init()
   data.doHadouken = false
   data.currSHadoRStep = 1
   data.currShorStep = 1
+  data.currHadoLStep = 1
+  data.currShorLStep = 1
+  data.currSHadoLStep = 1
   data.doSHadouken = false
   data.doShoryuken = false
   data.shoryukenPeak = false --used to mark when hit peak of shoryuken uppercut
@@ -29,11 +32,77 @@ function init()
   data.maxEnergy = 0 --used for modular energy cost
   data.currEnergy = 0 --used for modular energy cost
   data.showBar = true
+  data.currMousePosition = {}
+  
+  data.debugMode = tech.parameter("debugMode")
+  data.mouseMode = tech.parameter("mouseMode")
+  
+  if tech.parameter("easyInput") then
+    ---easier inputs
+    data.hadoukenCommandsR = { "down", "right", "primaryFire" }
+    data.hadoukenCommandsR2 = { "down", "right", "rightprimaryFire" }
+	data.shadoukenCommandsR = { "down", "right", "down", "right", "primaryFire" }
+    data.shadoukenCommandsR2 = { "down", "right", "down", "right", "rightprimaryFire" }
+	data.shoryukenCommandsR = { "right", "down", "rightprimaryFire" }
+    data.shoryukenCommandsR2 = { "right", "down", "right", "primaryFire" }
+    data.shoryukenCommandsR3 = { "right", "down", "downright", "right", "primaryFire" }
+    data.shoryukenCommandsR4 = { "right", "down", "downright", "rightprimaryFire" }
+	if data.mouseMode == false then
+	  ---use directional inputs for left side instead of based on mouse
+      data.hadoukenCommandsL = { "down", "left", "primaryFire" }
+      data.hadoukenCommandsL2 = { "down", "left", "leftprimaryFire" }
+	  data.shadoukenCommandsL = { "down", "left", "down", "left", "primaryFire" }
+      data.shadoukenCommandsL2 = { "down", "left", "down", "left", "leftprimaryFire" }
+	  data.shoryukenCommandsL = { "left", "down", "leftprimaryFire" }
+      data.shoryukenCommandsL2 = { "left", "down", "left", "primaryFire" }
+      data.shoryukenCommandsL3 = { "left", "down", "downleft", "left", "primaryFire" }
+      data.shoryukenCommandsL4 = { "left", "down", "downleft", "leftprimaryFire" }
+	end
+  else
+    ---original inputs
+    data.hadoukenCommandsR = { "down", "downright", "right", "rightprimaryFire" }
+    data.hadoukenCommandsR2 = { "down", "downright", "right", "primaryFire" }
+    data.shadoukenCommandsR = { "down", "downright", "right", "down", "downright", "right", "rightprimaryFire" }
+    data.shadoukenCommandsR2 = { "down", "downright", "right", "down", "downright", "right", "primaryFire" }
+    data.shoryukenCommandsR = { "right", "down", "downright", "primaryFire" }
+    data.shoryukenCommandsR2 = { "right", "down", "downright", "downrightprimaryFire" }
+    data.shoryukenCommandsR3 = { "right", "down", "downright", "right", "primaryFire" }
+    data.shoryukenCommandsR4 = { "right", "down", "downright", "rightprimaryFire" }
+	if data.mouseMode == false then
+	  ---use directional inputs for left side
+      data.hadoukenCommandsL = { "down", "downleft", "left", "leftprimaryFire" }
+      data.hadoukenCommandsL2 = { "down", "downleft", "left", "primaryFire" }
+      data.shadoukenCommandsL = { "down", "downleft", "left", "down", "downleft", "left", "leftprimaryFire" }
+      data.shadoukenCommandsL2 = { "down", "downleft", "left", "down", "downleft", "left", "primaryFire" }
+      data.shoryukenCommandsL = { "left", "down", "downleft", "primaryFire" }
+      data.shoryukenCommandsL2 = { "left", "down", "downleft", "downleftprimaryFire" }
+      data.shoryukenCommandsL3 = { "left", "down", "downleft", "left", "primaryFire" }
+      data.shoryukenCommandsL4 = { "left", "down", "downleft", "leftprimaryFire" }
+	end
+  end
+end
+
+function uninit()
+  tech.setParentAppearance("normal")
+  tech.setAnimationState("fighting", "off")
+  tech.setAnimationState("shadoukenbeam", "off")
+  tech.setAnimationState("beameffect1", "off")
+  tech.setAnimationState("hypercharge", "off")
+  tech.setAnimationState("warping", "off")
+  data.entityTable = {}
 end
 
 function getDirection(position, techpos)
   if position < techpos then
     return -1
+  else
+    return 1
+  end
+end
+
+function directionCheck()
+  if data.mouseMode == true then
+    return getDirection(data.currMousePosition[1], tech.position()[1])
   else
     return 1
   end
@@ -93,23 +162,7 @@ end
 
 
 function input(args)
-  
-  -- local hadoukenCommandsR = { "down", "downright", "right", "rightspecial1" }
-  -- local hadoukenCommandsR2 = { "down", "downright", "right", "special1" }
-  -- local shadoukenCommandsR = { "down", "downright", "right", "down", "downright", "right", "rightspecial1" }
-  -- local shadoukenCommandsR2 = { "down", "downright", "right", "down", "downright", "right", "special1" }
-  -- local shoryukenCommandsR = { "right", "down", "downright", "special1" }
-  -- local shoryukenCommandsR2 = { "right", "down", "downright", "downrightspecial1" }
-  -- local shoryukenCommandsR3 = { "right", "down", "downright", "right", "special1" }
-  -- local shoryukenCommandsR4 = { "right", "down", "downright", "rightspecial1" }
-  local hadoukenCommandsR = { "down", "downright", "right", "rightprimaryFire" }
-  local hadoukenCommandsR2 = { "down", "downright", "right", "primaryFire" }
-  local shadoukenCommandsR = { "down", "downright", "right", "down", "downright", "right", "rightprimaryFire" }
-  local shadoukenCommandsR2 = { "down", "downright", "right", "down", "downright", "right", "primaryFire" }
-  local shoryukenCommandsR = { "right", "down", "downright", "primaryFire" }
-  local shoryukenCommandsR2 = { "right", "down", "downright", "downrightprimaryFire" }
-  local shoryukenCommandsR3 = { "right", "down", "downright", "right", "primaryFire" }
-  local shoryukenCommandsR4 = { "right", "down", "downright", "rightprimaryFire" }
+
   
   if args.moves["special"] == 2 then
     if data.showBar == true then
@@ -120,16 +173,23 @@ function input(args)
   end
 
   ---- debug stuff  
-  -- if args.moves["special"] == 3 then
-    -- data.hyperBarStep = 11
-  -- end
+  if data.debugMode then
+    if args.moves["special"] == 3 then
+      data.hyperBarStep = 11
+    end
+  end
   
   ------suppress fire----------- (prevents person from swinging when clicking)
   
-  if data.currHadoRStep == #hadoukenCommandsR-1 or data.currShorStep == #shoryukenCommandsR-1 or data.currSHadoRStep == #shadoukenCommandsR-1 then
+  if data.currHadoRStep == #data.hadoukenCommandsR or data.currShorStep == #data.shoryukenCommandsR2 or data.currSHadoRStep == #data.shadoukenCommandsR then
     tech.setToolUsageSuppressed(true) --get unsuppressed after attack animation in update
   -- else
     -- tech.setToolUsageSuppressed(false)
+  elseif data.mouseMode == false then
+    if data.currHadoLStep == #data.hadoukenCommandsL or data.currShorLStep == #data.shoryukenCommandsL2 or data.currSHadoLStep == #data.shadoukenCommandsL then
+	  --world.logInfo("move: %s, hadoL %d, shorL %d, shadoL %d", inputStr, data.currHadoLStep, data.currShorLStep, data.currSHadoLStep)
+	  tech.setToolUsageSuppressed(true)
+	end
   end
   
   if data.inputTimer <= 0.05 and not data.doHadouken and not data.doShoryuken and not data.doSHadouken then --half of maxStepTime
@@ -161,58 +221,135 @@ function input(args)
 	data.currHadoRStep = 1
 	data.currSHadoRStep = 1
 	data.currShorStep = 1
+	data.currHadoLStep = 1
+	data.currSHadoLStep = 1
+	data.currShorLStep = 1
   else
     --now you can tell whether your inputs match with just one comparison
-	if shadoukenCommandsR[data.currSHadoRStep] == inputStr then
+	if data.shadoukenCommandsR[data.currSHadoRStep] == inputStr then
 	  data.currSHadoRStep = data.currSHadoRStep + 1
-	  if seqCheck(data.currSHadoRStep, shadoukenCommandsR) then
+	  if seqCheck(data.currSHadoRStep, data.shadoukenCommandsR) then
+	    data.direction = directionCheck()
 	    if data.hyperBarStep < 11 then
 	      return "hadouken"
 		else
 		  return "shadouken"
 		end
 	  end
-	elseif shadoukenCommandsR2[data.currSHadoRStep] == inputStr then
+	elseif data.shadoukenCommandsR2[data.currSHadoRStep] == inputStr then
 	  data.currSHadoRStep = data.currSHadoRStep + 1
-	  if seqCheck(data.currSHadoRStep, shadoukenCommandsR2) then
+	  if seqCheck(data.currSHadoRStep, data.shadoukenCommandsR2) then
+        data.direction = directionCheck()
 	    if data.hyperBarStep < 11 then
 	      return "hadouken"
 		else
 		  return "shadouken"
 		end
 	  end
-	elseif shoryukenCommandsR[data.currShorStep] == inputStr then
+	elseif data.shoryukenCommandsR[data.currShorStep] == inputStr then
 	  data.currShorStep = data.currShorStep + 1
-	  if seqCheck(data.currShorStep, shoryukenCommandsR) then
+	  if seqCheck(data.currShorStep, data.shoryukenCommandsR) then
+        data.direction = directionCheck()
 	    return "shoryuken"
 	  end
-	elseif shoryukenCommandsR2[data.currShorStep] == inputStr then
+	elseif data.shoryukenCommandsR2[data.currShorStep] == inputStr then
 	  data.currShorStep = data.currShorStep + 1
-	  if seqCheck(data.currShorStep, shoryukenCommandsR2) then
+	  if seqCheck(data.currShorStep, data.shoryukenCommandsR2) then
+        data.direction = directionCheck()
 	    return "shoryuken"
 	  end
-	elseif shoryukenCommandsR3[data.currShorStep] == inputStr then
+	elseif data.shoryukenCommandsR3[data.currShorStep] == inputStr then
 	  data.currShorStep = data.currShorStep + 1
-	  if seqCheck(data.currShorStep, shoryukenCommandsR3) then
+	  if seqCheck(data.currShorStep, data.shoryukenCommandsR3) then
+        data.direction = directionCheck()
 	    return "shoryuken"
 	  end
-	elseif shoryukenCommandsR4[data.currShorStep] == inputStr then
+	elseif data.shoryukenCommandsR4[data.currShorStep] == inputStr then
 	  data.currShorStep = data.currShorStep + 1
-	  if seqCheck(data.currShorStep, shoryukenCommandsR4) then
+	  if seqCheck(data.currShorStep, data.shoryukenCommandsR4) then
+        data.direction = directionCheck()
 	    return "shoryuken"
 	  end
-    elseif hadoukenCommandsR[data.currHadoRStep] == inputStr then
+    elseif data.hadoukenCommandsR[data.currHadoRStep] == inputStr then
 	  --input correct; continue the sequence
 	  data.currHadoRStep = data.currHadoRStep + 1
 	  
 	  --check if sequence complete
-	  if seqCheck(data.currHadoRStep, hadoukenCommandsR) then
+	  if seqCheck(data.currHadoRStep, data.hadoukenCommandsR) then
+        data.direction = directionCheck()
 	    return "hadouken"
 	  end
-	elseif hadoukenCommandsR2[data.currHadoRStep] == inputStr then
+	elseif data.hadoukenCommandsR2[data.currHadoRStep] == inputStr then
 	  data.currHadoRStep = data.currHadoRStep + 1
-	  if seqCheck(data.currHadoRStep, hadoukenCommandsR2) then
+	  if seqCheck(data.currHadoRStep, data.hadoukenCommandsR2) then
+		data.direction = directionCheck()
 	    return "hadouken"
+	  end
+	elseif data.mouseMode == false then
+	--------------------------do all left sided checking here-----------------------
+	  if data.shadoukenCommandsL[data.currSHadoLStep] == inputStr then
+  	    data.currSHadoLStep = data.currSHadoLStep + 1
+	    if seqCheck(data.currSHadoLStep, data.shadoukenCommandsL) then
+	      if data.hyperBarStep < 11 then
+		    data.direction = directionCheck()
+	        return "hadouken"
+		  else
+		    data.direction = directionCheck()
+		    return "shadouken"
+		  end
+	    end
+	  elseif data.shadoukenCommandsL2[data.currSHadoLStep] == inputStr then
+	    data.currSHadoLStep = data.currSHadoLStep + 1
+	    if seqCheck(data.currSHadoLStep, data.shadoukenCommandsL2) then
+	      if data.hyperBarStep < 11 then
+		    data.direction = directionCheck()
+	        return "hadouken"
+		  else
+		    data.direction = directionCheck()
+		    return "shadouken"
+		  end
+	    end
+	  elseif data.shoryukenCommandsL[data.currShorLStep] == inputStr then
+	    data.currShorLStep = data.currShorLStep + 1
+	    if seqCheck(data.currShorLStep, data.shoryukenCommandsL) then
+		  data.direction = directionCheck()
+	      return "shoryuken"
+	    end
+	  elseif data.shoryukenCommandsL2[data.currShorLStep] == inputStr then
+	    data.currShorLStep = data.currShorLStep + 1
+	    if seqCheck(data.currShorLStep, data.shoryukenCommandsL2) then
+		  data.direction = directionCheck()
+	      return "shoryuken"
+	    end
+	  elseif data.shoryukenCommandsL3[data.currShorLStep] == inputStr then
+	    data.currShorLStep = data.currShorLStep + 1
+	    if seqCheck(data.currShorLStep, data.shoryukenCommandsL3) then
+		  data.direction = directionCheck()
+	      return "shoryuken"
+	    end
+	  elseif data.shoryukenCommandsL4[data.currShorLStep] == inputStr then
+	    data.currShorLStep = data.currShorLStep + 1
+	    if seqCheck(data.currShorLStep, data.shoryukenCommandsL4) then
+		  data.direction = directionCheck()
+	      return "shoryuken"
+	    end
+      elseif data.hadoukenCommandsL[data.currHadoLStep] == inputStr then
+	    --input correct; continue the sequence
+	    data.currHadoLStep = data.currHadoLStep + 1
+	  
+	    --check if sequence complete
+	    if seqCheck(data.currHadoLStep, data.hadoukenCommandsL) then
+		  data.direction = directionCheck()
+	      return "hadouken"
+	    end
+	  elseif data.hadoukenCommandsL2[data.currHadoLStep] == inputStr then
+	    data.currHadoLStep = data.currHadoLStep + 1
+	    if seqCheck(data.currHadoLStep, data.hadoukenCommandsL2) then
+		  data.direction = directionCheck()
+	      return "hadouken"
+	    end
+	  else
+	    --input not detected this frame (but keep waiting)
 	  end
 	else
       --input not detected this frame (but keep waiting)
@@ -257,10 +394,12 @@ function update(args)
   local diag = 1 / math.sqrt(2)
   local usedEnergy = 0
   
+  data.currMousePosition = args.aimPosition
+  
   
   if args.actions["shadouken"] and data.animTimer <= 0 and args.availableEnergy > energyUsage then
     data.animTimer = 3.1 --for now
-	data.direction = getDirection(args.aimPosition[1], tech.position()[1])
+    data.direction = directionCheck()
 	usedEnergy = energyUsage*3
 	data.air = not tech.onGround()
 	data.doSHadouken = true
@@ -268,7 +407,7 @@ function update(args)
 	data.entityTable = world.entityQuery(tech.position(), 50)
   elseif args.actions["shoryuken"] and data.animTimer <= 0 and args.availableEnergy > energyUsage then
 	if tech.onGround() then -- can't perform move in air
-	  data.direction = getDirection(args.aimPosition[1], tech.position()[1])
+      data.direction = directionCheck()
 	  usedEnergy = energyUsage
       data.animTimer = 1.05
       data.doShoryuken = true
@@ -279,7 +418,7 @@ function update(args)
 	  return 0
 	end
     data.animTimer = maxAnimTimer
-    data.direction = getDirection(args.aimPosition[1], tech.position()[1])
+    data.direction = directionCheck()
     usedEnergy = energyUsage
     data.air = not tech.onGround()
 	data.doHadouken = true
@@ -335,6 +474,8 @@ function update(args)
 	  
 	  local startpoint = {tech.position()[1]+(data.direction*3), tech.position()[2]-2.7}
 	  local endpoint = {tech.position()[1]+(40*data.direction), tech.position()[2]-2.7}
+	  local startpoint2 = {tech.position()[1]+(data.direction*3), tech.position()[2]}
+	  local endpoint2 = {tech.position()[1]+(40*data.direction), tech.position()[2]}
 	  
 	  if data.animTimer < 0.2 then
 	    tech.setAnimationState("warping", "warpout")
@@ -347,7 +488,7 @@ function update(args)
 	    tech.setAnimationState("fighting", "superhadouken")
 		tech.setAnimationState("shadoukenbeam", "full")
 		if data.projCounter%2==0 then
-		  if world.lineCollision(startpoint, endpoint) then
+		  if world.lineCollision(startpoint, endpoint) or world.lineCollision(startpoint2, endpoint2) then
 		    world.spawnProjectile(shsplode, {tech.position()[1]+(data.direction*2.5), tech.position()[2]-1.2}, tech.parentEntityId(), {1*data.direction,0})
 		  else
 		    world.spawnProjectile(shblue, {tech.position()[1]+(data.direction*2.5), tech.position()[2]-1.2}, tech.parentEntityId(), {1*data.direction,0})

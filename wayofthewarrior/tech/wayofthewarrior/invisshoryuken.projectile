@@ -10,6 +10,6 @@
   "speed" : 0.001,
   "supportsProcessing" : true,
   "lightColor" : [200, 200, 200],
-  "damagePoly" : [ [-8, -22], [8, -22], [8, 22], [-8, 22] ],
+  "damagePoly" : [ [-8, -22], [8, -22], [8, 18], [-8, 18] ],
   "damageKind" : "plasma"
 }
