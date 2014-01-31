@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 2500 },
+	{ "item" : "foodabo", "count" : 1},
+	{ "item" : "matteritem", "count" : 20}
+  ],
+  "output" : { "item" : "breathingpinworms", "count" : 1 },
+  "groups" : [ "mod","kitchen", "consumables", "entree" ]
+}

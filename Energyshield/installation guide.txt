@@ -1,0 +1,5 @@
+Energy Shield v1.0
+Author: Soraph
+--------------------------------------------------------
+How to install: Copy this folder to \Starbound\mods\
+Unistall: Just delete this folder in your mod directory

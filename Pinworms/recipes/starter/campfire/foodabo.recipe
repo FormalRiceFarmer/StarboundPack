@@ -1,0 +1,11 @@
+{
+
+  "input" : [
+    { "item" : "meatchunks", "count" : 1 } 
+	
+  ],
+
+  "output" : { "item" : "foodabo", "count" : 1 },
+  "groups" : [ "mod","cooking", "consumables", "all" ]  
+
+}

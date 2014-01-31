@@ -1,0 +1,12 @@
+{
+  "kind" : "energyshield1",
+  "duration" : 0,
+  "primitives" : [ {
+      "name" : "Health",
+      "mode" : "max", //don't stack
+      "amount" : 0
+    }
+  ],
+  "effectSources" : [ "energyshield1" ]
+  
+}

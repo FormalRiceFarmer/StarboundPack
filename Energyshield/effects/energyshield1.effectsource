@@ -1,0 +1,29 @@
+{
+  "kind" : "energyshield1",
+  "definition" : {
+    "duration" : 2,
+    "loops" : false,
+    "start" : {
+      "particles" : [
+        [  ]
+      ],
+      "sounds" : [
+        [  ]
+      ]
+    },
+    "particles" : [
+      [  ]
+    ],
+    "sounds" : [
+      [ "/sfx/tech/tech_hoverloop.wav" ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

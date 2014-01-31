@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1500 },
+	{ "item" : "foodabo", "count" : 1},
+	{ "item" : "yellowstim", "count" : 15}
+	
+  ],
+  "output" : { "item" : "glowingpinworms", "count" : 1 },
+  "groups" : [ "mod","kitchen", "consumables", "entree" ]
+}
