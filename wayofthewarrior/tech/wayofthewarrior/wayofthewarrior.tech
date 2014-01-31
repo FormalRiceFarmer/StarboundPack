@@ -3,9 +3,9 @@
   "actions" : [ "dashRight", "dashLeft", "hadouken" ],
   "animator" : "wayofthewarrior.animation",
 
-  "debugMode" : false,
+  "debugMode" : true,
   "easyInput" : false,
-  "mouseMode" : true,
+  "mouseMode" : false,
   
   "controlForce" : 600,
   "energyUsage" : 30.0,

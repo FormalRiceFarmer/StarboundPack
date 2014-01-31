@@ -291,10 +291,10 @@ function input(args)
   	    data.currSHadoLStep = data.currSHadoLStep + 1
 	    if seqCheck(data.currSHadoLStep, data.shadoukenCommandsL) then
 	      if data.hyperBarStep < 11 then
-		    data.direction = directionCheck()
+		    data.direction = -1
 	        return "hadouken"
 		  else
-		    data.direction = directionCheck()
+		    data.direction = -1
 		    return "shadouken"
 		  end
 	    end
@@ -302,35 +302,35 @@ function input(args)
 	    data.currSHadoLStep = data.currSHadoLStep + 1
 	    if seqCheck(data.currSHadoLStep, data.shadoukenCommandsL2) then
 	      if data.hyperBarStep < 11 then
-		    data.direction = directionCheck()
+		    data.direction = -1
 	        return "hadouken"
 		  else
-		    data.direction = directionCheck()
+		    data.direction = -1
 		    return "shadouken"
 		  end
 	    end
 	  elseif data.shoryukenCommandsL[data.currShorLStep] == inputStr then
 	    data.currShorLStep = data.currShorLStep + 1
 	    if seqCheck(data.currShorLStep, data.shoryukenCommandsL) then
-		  data.direction = directionCheck()
+		  data.direction = -1
 	      return "shoryuken"
 	    end
 	  elseif data.shoryukenCommandsL2[data.currShorLStep] == inputStr then
 	    data.currShorLStep = data.currShorLStep + 1
 	    if seqCheck(data.currShorLStep, data.shoryukenCommandsL2) then
-		  data.direction = directionCheck()
+		  data.direction = -1
 	      return "shoryuken"
 	    end
 	  elseif data.shoryukenCommandsL3[data.currShorLStep] == inputStr then
 	    data.currShorLStep = data.currShorLStep + 1
 	    if seqCheck(data.currShorLStep, data.shoryukenCommandsL3) then
-		  data.direction = directionCheck()
+		  data.direction = -1
 	      return "shoryuken"
 	    end
 	  elseif data.shoryukenCommandsL4[data.currShorLStep] == inputStr then
 	    data.currShorLStep = data.currShorLStep + 1
 	    if seqCheck(data.currShorLStep, data.shoryukenCommandsL4) then
-		  data.direction = directionCheck()
+		  data.direction = -1
 	      return "shoryuken"
 	    end
       elseif data.hadoukenCommandsL[data.currHadoLStep] == inputStr then
@@ -339,13 +339,13 @@ function input(args)
 	  
 	    --check if sequence complete
 	    if seqCheck(data.currHadoLStep, data.hadoukenCommandsL) then
-		  data.direction = directionCheck()
+		  data.direction = -1
 	      return "hadouken"
 	    end
 	  elseif data.hadoukenCommandsL2[data.currHadoLStep] == inputStr then
 	    data.currHadoLStep = data.currHadoLStep + 1
 	    if seqCheck(data.currHadoLStep, data.hadoukenCommandsL2) then
-		  data.direction = directionCheck()
+		  data.direction = -1
 	      return "hadouken"
 	    end
 	  else
@@ -399,7 +399,9 @@ function update(args)
   
   if args.actions["shadouken"] and data.animTimer <= 0 and args.availableEnergy > energyUsage then
     data.animTimer = 3.1 --for now
-    data.direction = directionCheck()
+	if data.mouseMode then
+      data.direction = directionCheck()
+	end
 	usedEnergy = energyUsage*3
 	data.air = not tech.onGround()
 	data.doSHadouken = true
@@ -407,7 +409,9 @@ function update(args)
 	data.entityTable = world.entityQuery(tech.position(), 50)
   elseif args.actions["shoryuken"] and data.animTimer <= 0 and args.availableEnergy > energyUsage then
 	if tech.onGround() then -- can't perform move in air
-      data.direction = directionCheck()
+	  if data.mouseMode then
+        data.direction = directionCheck()
+	  end
 	  usedEnergy = energyUsage
       data.animTimer = 1.05
       data.doShoryuken = true
@@ -418,7 +422,9 @@ function update(args)
 	  return 0
 	end
     data.animTimer = maxAnimTimer
-    data.direction = directionCheck()
+	if data.mouseMode then
+      data.direction = directionCheck()
+	end
     usedEnergy = energyUsage
     data.air = not tech.onGround()
 	data.doHadouken = true
