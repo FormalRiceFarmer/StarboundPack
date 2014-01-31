@@ -8,14 +8,5 @@
   "superjumpSpeed" : 250,
   "superjumpControlForce" : 400,
   "superjumpTime" : 0.1,
-  "superjumpSound" : "/sfx/tech/tech_superjump.wav",
-  "actions" : [ "dashRight", "dashLeft", "hadouken" ],
-  "animator" : "wayofthewarrior.animation",
-
-  "debugMode" : true,
-  "easyInput" : false,
-  "mouseMode" : false,
-  
-  "controlForce" : 600,
-  "energyUsage" : 30.0
+  "superjumpSound" : "/sfx/tech/tech_superjump.wav"
 }
