@@ -1,0 +1,47 @@
+{
+  "objectName" : "zshipmusic",
+  "rarity" : "Common",
+  "objectType" : "noisy",
+  "category" : "decorative",
+  "price" : 2000,
+  "description" : "Plays some music for ya!",
+  "shortdescription" : "On-Board Music Player",
+  "race" : "generic",
+
+  "apexDescription" : "It looks like it plays some music.",
+  "avianDescription" : "It looks like it plays some music.",
+  "glitchDescription" : "It looks like it plays some music.",
+  "humanDescription" : "It looks like it plays some music.",
+  "hylotlDescription" : "It looks like it plays some music.",
+
+  "inventoryIcon" : "zshipmusicicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "zshipmusic.png:<color>.<frame>",
+      "imagePosition" : [-19, -8],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "sounds" : [ 
+    "/music/interlude.ogg", 
+    "/music/bt.ogg", 
+    "/music/Chronomantique.ogg", 
+    "/music/shorebordering.ogg", 
+    "/music/holyground.ogg", 
+    "/music/drowningvalley.ogg",
+	"/music/lamentation.ogg",
+	"/music/inyourbelief.ogg",
+	"/music/Devoured-by-Gaea.ogg",
+	"/music/The-End-of-All-Things.ogg",
+	"/music/The-Mist-Shrouded-Forest.ogg",
+	"/music/To-The-Ancient-Land.ogg",
+	"/music/Trail-of-Tears.ogg",
+	"/music/Withdrawn-Art.ogg"
+  ]
+}

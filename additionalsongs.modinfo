@@ -1,0 +1,6 @@
+{
+  "name" : "AdditionalSongs",
+  "version" : "Beta v. Furious Koala",
+  "path" : "AdditionalSongs",
+  "dependencies" : [ "ZimaZang's Miscellaneous Mod R1.4" ]
+}
