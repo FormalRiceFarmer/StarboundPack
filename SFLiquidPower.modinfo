@@ -1,6 +1,6 @@
 {
-  "name" : "Ludsoe's StarFoundry MagmaPower",
+  "name" : "StarFoundry Liquid Power",
   "version" : "Beta v. Furious Koala",
-  "path" : "FoundryMagPower",
+  "path" : "SFLiquidPower",
   "dependencies" : ["starfoundry"]
 }
