@@ -1,0 +1,32 @@
+{
+  "itemName" : "avalitier1minigun",
+  "inventoryIcon" : "avaliminigun.png",
+  "rarity" : "Rare",
+  "description" : "The Avali primary fire suppression, support weapon",
+  "shortdescription" : "M268 Hailstorm",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "level" : 1,
+  "inspectionKind" : "gun",
+  "image" : "avaliminigun.png",
+  "recoilTime" : 0.1,
+  "handPosition" : [-4.0, 4],
+  "firePosition" : [16, -4],
+  "classMultiplier" : 0.13,
+
+  "fireTime" : 0.10,
+  "twoHanded" : true,
+
+  "projectileType" : "bullet-4",
+  "projectile" : {
+	"power" : 2.0,
+	"speed" : 70,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar1.wav" } ]
+  }
+}
+
+

@@ -1,0 +1,250 @@
+{
+  "kind" : "avali",
+  "playerSpecies" : true,
+  "nameGen" : [ "/species/avalinamegen.config:names", "/species/avalinamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/npc/smallbiped/spidermonkey_pain2.wav", "/sfx/npc/smallbiped/spidermonkey_pain2.wav" ],
+  "charGenTextLabels" : [ "FLUFF COLOR", "PLUMAGE", "SHIRT", "PANTS", "TRIM COLOR", "FEATHER COLOR", "SHIRT COLOR", "PANTS COLOR", "AVALI", "PERSONALITY" ],
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+	  /* Anvil: Avali-only racial armour */
+	  { "item" : "avalitier1head" },
+      { "item" : "avalitier1chest" },
+      { "item" : "avalitier1pants" },
+      { "item" : "avalitier1shield" },
+	  
+	  /* Loom: Clothing masks, to hide non-avali armour */
+      { "item" : "maskhead" },
+      { "item" : "maskpants" },
+      { "item" : "maskback" },
+      { "item" : "maskchest" },	  
+	  
+	  /* Anvil: TODO: Racial weapons */
+      { "item" : "hylotltier1hammer" },
+      { "item" : "hylotltier1shortsword" },
+      { "item" : "hylotltier1broadsword" },
+      { "item" : "hylotltier1spear" },
+      { "item" : "hylotltier1axe" },
+      { "item" : "hylotltier1dagger" },
+	  
+	  /* Cooking: TODO: Racial food */	  
+      { "item" : "coralcreepcurry" },
+      { "item" : "saltsalad" },
+      { "item" : "ricecake" },
+      { "item" : "bread" },
+      { "item" : "candiedpearlpeas" },
+      { "item" : "brineapple" },
+      { "item" : "flaghylotl" }
+    ],
+    "tier2" : [
+	
+      /* Anvil: Avali-only racial armour */	  
+	  { "item" : "avalitier2head" },
+      { "item" : "avalitier2chest" },
+      { "item" : "avalitier2pants" },
+      { "item" : "avalitier2shield" },
+	  
+	  
+      { "item" : "hylotltier2hammer" },
+      { "item" : "hylotltier2shortsword" },
+      { "item" : "hylotltier2broadsword" },
+      { "item" : "hylotltier2spear" },
+      { "item" : "hylotltier2axe" },
+      { "item" : "hylotltier2dagger" },
+      { "item" : "spawnerhylotl" }
+	  
+
+    ],
+    "tier3" : [
+      { "item" : "hylotltier3head" },
+      { "item" : "hylotltier3chest" },
+      { "item" : "hylotltier3pants" },
+      { "item" : "hylotltier3hammer" },
+      { "item" : "hylotltier3shortsword" },
+      { "item" : "hylotltier3broadsword" },
+      { "item" : "hylotltier3spear" },
+      { "item" : "hylotltier3axe" },
+      { "item" : "hylotltier3dagger" }
+    ],
+    "tier4" : [
+      { "item" : "hylotltier4head" },
+      { "item" : "hylotltier4chest" },
+      { "item" : "hylotltier4pants" },
+      { "item" : "hylotltier4hammer" },
+      { "item" : "hylotltier4shortsword" },
+      { "item" : "hylotltier4broadsword" },
+      { "item" : "hylotltier4spear" },
+      { "item" : "hylotltier4axe" },
+      { "item" : "hylotltier4dagger" }
+    ],
+    "level32" : [
+      { "item" : "hylotltier5head" },
+      { "item" : "hylotltier5chest" },
+      { "item" : "hylotltier5pants" },
+      { "item" : "hylotltier5hammer" },
+      { "item" : "hylotltier5shortsword" },
+      { "item" : "hylotltier5broadsword" },
+      { "item" : "hylotltier5spear" },
+      { "item" : "hylotltier5axe" },
+      { "item" : "hylotltier5dagger" }
+    ],
+    "level33" : [
+      { "item" : "hylotltier6head" },
+      { "item" : "hylotltier6chest" },
+      { "item" : "hylotltier6pants" },
+      { "item" : "hylotltier6hammer" },
+      { "item" : "hylotltier6shortsword" },
+      { "item" : "hylotltier6broadsword" },
+      { "item" : "hylotltier6spear" },
+      { "item" : "hylotltier6axe" },
+      { "item" : "hylotltier6dagger" }
+    ],
+    "level34" : [
+      { "item" : "hylotltier7head" },
+      { "item" : "hylotltier7chest" },
+      { "item" : "hylotltier7pants" },
+      { "item" : "hylotltier7hammer" },
+      { "item" : "hylotltier7shortsword" },
+      { "item" : "hylotltier7broadsword" },
+      { "item" : "hylotltier7spear" },
+      { "item" : "hylotltier7axe" },
+      { "item" : "hylotltier7dagger" }
+    ],
+    "level35" : [
+      { "item" : "hylotltier8head" },
+      { "item" : "hylotltier8chest" },
+      { "item" : "hylotltier8pants" },
+      { "item" : "hylotltier8hammer" },
+      { "item" : "hylotltier8shortsword" },
+      { "item" : "hylotltier8broadsword" },
+      { "item" : "hylotltier8spear" },
+      { "item" : "hylotltier8axe" },
+      { "item" : "hylotltier8dagger" }
+    ],
+    "level36" : [
+      { "item" : "hylotltier9head" },
+      { "item" : "hylotltier9chest" },
+      { "item" : "hylotltier9pants" },
+      { "item" : "hylotltier9hammer" },
+      { "item" : "hylotltier9shortsword" },
+      { "item" : "hylotltier9broadsword" },
+      { "item" : "hylotltier9spear" },
+      { "item" : "hylotltier9axe" },
+      { "item" : "hylotltier9dagger" }
+    ],
+    "level37" : [
+      { "item" : "hylotltier10head" },
+      { "item" : "hylotltier10chest" },
+      { "item" : "hylotltier10pants" },
+      { "item" : "hylotltier10hammer" },
+      { "item" : "hylotltier10shortsword" },
+      { "item" : "hylotltier10broadsword" },
+      { "item" : "hylotltier10spear" },
+      { "item" : "hylotltier10axe" },
+      { "item" : "hylotltier10dagger" }
+    ]
+  },
+  
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/avalimale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7" ],
+      "shirt" : [ "maskchest" ],
+      "pants" : [ "maskpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/avalifemale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7" ],
+      "shirt" : [ "maskchest" ],
+      "pants" : [ "maskpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+// 	{ "CCB07F" : "xxxxxx", "A2885C" : "xxxxxx", "786440" : "xxxxxx", "42331C" : "xxxxxx" }, // Template
+ 
+	{ "CCB07F" : "FEFEFE", "A2885C" : "CCCCCC", "786440" : "AAAAAA", "42331C" : "808080" }, //Snow
+	{ "CCB07F" : "CDCDCC", "A2885C" : "9A9A9B", "786440" : "707070", "42331C" : "505049" }, //Ash
+  	{ "CCB07F" : "787878", "A2885C" : "4E4E4E", "786440" : "3C3C3C", "42331C" : "212121" }, //Stone
+	{ "CCB07F" : "363636", "A2885C" : "232323", "786440" : "1B1B1B", "42331C" : "0F0F0F" }, //Obsidian
+	
+	{ "CCB07F" : "CC7F83", "A2885C" : "A25C61", "786440" : "784043", "42331C" : "421C1F" }, //Rust
+	{ "CCB07F" : "C1CC7F", "A2885C" : "99A25C", "786440" : "707840", "42331C" : "3E421C" }, //Grass	
+	{ "CCB07F" : "CCB07E", "A2885C" : "A2885B", "786440" : "786439", "42331C" : "42331B" }, //Sand
+	{ "CCB07F" : "967F56", "A2885C" : "5A4B31", "786440" : "3F3119", "42331C" : "302510" }, //Bark
+	{ "CCB07F" : "7F9ACC", "A2885C" : "5C76A2", "786440" : "405478", "42331C" : "1C2B42" }, //Slate
+	
+	{ "CCB07F" : "F92F01", "A2885C" : "D51D24", "786440" : "8D1425", "42331C" : "421C28" }, //Blood
+    { "CCB07F" : "F9A700", "A2885C" : "D57B1C", "786440" : "8D6119", "42331C" : "42281C" }, //Flame
+    { "CCB07F" : "FFEC68", "A2885C" : "D5A31B", "786440" : "8D6119", "42331C" : "42331C" }, //Honey
+	{ "CCB07F" : "92F900", "A2885C" : "A5D51D", "786440" : "738D14", "42331C" : "40421C" }, //Acid
+    { "CCB07F" : "67FFA1", "A2885C" : "1AD588", "786440" : "1B8D77", "42331C" : "1C3B41" }, //Aqua 
+    { "CCB07F" : "68E0FF", "A2885C" : "1CB4D5", "786440" : "17688D", "42331C" : "1C2F42" }, //Sky
+	{ "CCB07F" : "FF67F2", "A2885C" : "D51A9E", "786440" : "8D1B52", "42331C" : "421C20" }, //Candy
+    { "CCB07F" : "C82FFF", "A2885C" : "8D1DD5", "786440" : "48148D", "42331C" : "2E1C42" } //Violet
+  ],
+  "undyColor" : [
+// 	{ "67FFA2" : "xxxxxx", "1AD589" : "xxxxxx", "1B8D78" : "xxxxxx", "1C3B42" : "xxxxxx" }, // Template
+	
+	{ "67FFA2" : "FEFEFE", "1AD589" : "CCCCCC", "1B8D78" : "AAAAAA", "1C3B42" : "808080" }, //Snow
+	{ "67FFA2" : "CDCDCC", "1AD589" : "9A9A99", "1B8D78" : "707070", "1C3B42" : "505049" }, //Ash
+  	{ "67FFA2" : "787878", "1AD589" : "4E4E4E", "1B8D78" : "3C3C3C", "1C3B42" : "212121" }, //Stone
+	{ "67FFA2" : "363636", "1AD589" : "232323", "1B8D78" : "1B1B1B", "1C3B42" : "0F0F0F" }, //Obsidian
+	
+	{ "67FFA2" : "CC7F83", "1AD589" : "A25C61", "1B8D78" : "784043", "1C3B42" : "421C1F" }, //Rust
+	{ "67FFA2" : "C1CC7F", "1AD589" : "99A25C", "1B8D78" : "707840", "1C3B42" : "3E421C" }, //Grass	
+	{ "67FFA2" : "CCB07E", "1AD589" : "A2885B", "1B8D78" : "786439", "1C3B42" : "42331B" }, //Sand
+	{ "67FFA2" : "967F56", "1AD589" : "5A4B31", "1B8D78" : "3F3119", "1C3B42" : "302510" }, //Bark
+	{ "67FFA2" : "7F9ACC", "1AD589" : "5C76A2", "1B8D78" : "405478", "1C3B42" : "1C2B42" }, //Slate
+	
+	{ "67FFA2" : "F92F01", "1AD589" : "D51D24", "1B8D78" : "8D1425", "1C3B42" : "421C28" }, //Blood
+    { "67FFA2" : "F9A700", "1AD589" : "D57B1C", "1B8D78" : "8D6119", "1C3B42" : "42281C" }, //Flame
+    { "67FFA2" : "FFEC68", "1AD589" : "D5A31B", "1B8D78" : "8D6119", "1C3B42" : "42331C" }, //Honey
+	{ "67FFA2" : "92F900", "1AD589" : "A5D51D", "1B8D78" : "738D14", "1C3B42" : "40421C" }, //Acid
+    { "67FFA2" : "67FFA1", "1AD589" : "1AD588", "1B8D78" : "1B8D77", "1C3B42" : "1C3B41" }, //Aqua 
+    { "67FFA2" : "68E0FF", "1AD589" : "1CB4D5", "1B8D78" : "17688D", "1C3B42" : "1C2F42" }, //Sky
+	{ "67FFA2" : "FF67F2", "1AD589" : "D51A9E", "1B8D78" : "8D1B52", "1C3B42" : "421C20" }, //Candy	
+    { "67FFA2" : "C82FFF", "1AD589" : "8D1DD5", "1B8D78" : "48148D", "1C3B42" : "2E1C42" } //Violet
+
+  ],
+  "hairColor" : [
+//  { "787878" : "xxxxxx", "4E4E4E" : "xxxxxx", "3C3C3C" : "xxxxxx", "212121" : "xxxxxx" }, // Template
+	
+	{ "787878" : "FEFEFE", "4E4E4E" : "CCCCCC", "3C3C3C" : "AAAAAA", "212121" : "808080" }, //Snow
+	{ "787878" : "CDCDCC", "4E4E4E" : "9A9A9A", "3C3C3C" : "707070", "212121" : "505049" }, //Ash
+  	{ "787878" : "787878", "4E4E4E" : "636363", "3C3C3C" : "434343", "212121" : "212121" }, //Stone
+	{ "787878" : "363636", "4E4E4E" : "232323", "3C3C3C" : "1B1B1B", "212121" : "0F0F0F" }, //Obsidian
+	
+	{ "787878" : "CC7F83", "4E4E4E" : "A25C61", "3C3C3C" : "784043", "212121" : "421C1F" }, //Rust
+	{ "787878" : "C1CC7F", "4E4E4E" : "99A25C", "3C3C3C" : "707840", "212121" : "3E421C" }, //Grass	
+	{ "787878" : "CCB07E", "4E4E4E" : "A2885B", "3C3C3C" : "786439", "212121" : "42331B" }, //Sand
+	{ "787878" : "967F56", "4E4E4E" : "5A4B31", "3C3C3C" : "3F3119", "212121" : "302510" }, //Bark
+	{ "787878" : "7F9ACC", "4E4E4E" : "5C76A2", "3C3C3C" : "405478", "212121" : "1C2B42" }, //Slate
+	
+	{ "787878" : "F92F01", "4E4E4E" : "D51D24", "3C3C3C" : "8D1425", "212121" : "421C28" }, //Blood
+    { "787878" : "F9A700", "4E4E4E" : "D57B1C", "3C3C3C" : "8D6119", "212121" : "42281C" }, //Flame
+    { "787878" : "FFEC68", "4E4E4E" : "D5A31B", "3C3C3C" : "8D6119", "212121" : "42331C" }, //Honey
+	{ "787878" : "92F900", "4E4E4E" : "A5D51D", "3C3C3C" : "738D14", "212121" : "40421C" }, //Acid
+    { "787878" : "67FFA1", "4E4E4E" : "1AD588", "3C3C3C" : "1B8D77", "212121" : "1C3B41" }, //Aqua 
+    { "787878" : "68E0FF", "4E4E4E" : "1CB4D5", "3C3C3C" : "17688D", "212121" : "1C2F42" }, //Sky
+	{ "787878" : "FF67F2", "4E4E4E" : "D51A9E", "3C3C3C" : "8D1B52", "212121" : "421C20" }, //Candy	
+    { "787878" : "C82FFF", "4E4E4E" : "8D1DD5", "3C3C3C" : "48148D", "212121" : "2E1C42" } //Violet
+	
+  ]
+}

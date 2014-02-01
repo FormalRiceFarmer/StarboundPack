@@ -1,0 +1,13 @@
+{
+  "materialId" : 13000,
+  "materialName" : "campcanvas",
+  "frames" : "campcanvas.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "campcanvas",
+  "description" : "Avali tent fabric can stop bullets!",
+  "shortdescription" : "Tent Fabric",
+  "multicolored" : false,
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "health" : 1.0
+}

@@ -1,0 +1,12 @@
+{
+  "materialId" : 12004,
+  "materialName" : "camptapestry2",
+  "frames" : "camptapestry2.png",
+  "particleColor" : [176, 174, 168, 255],
+  "variants" : 5,
+  "itemDrop" : "camptapestry2",
+  "description" : "A soft decorative trim material",
+  "shortdescription" : "Avali Trim",
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "health" : 1.0
+}

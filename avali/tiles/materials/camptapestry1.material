@@ -1,0 +1,13 @@
+{
+  "materialId" : 12003,
+  "materialName" : "camptapestry1",
+  "frames" : "camptapestry1.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 5,
+  "itemDrop" : "camptapestry1",
+  "description" : "A soft, decorative tapestry",
+  "shortdescription" : "Avali Tapestry",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "health" : 1
+}
