@@ -1,9 +1,0 @@
-{
-  "itemName" : "mushroompowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "mushroompowder.png",
-  "description" : "Mushroom powder.",
-  "shortdescription" : "Mushroom powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext5ju" ]
-}

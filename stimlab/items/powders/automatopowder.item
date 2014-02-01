@@ -1,9 +1,0 @@
-{
-  "itemName" : "automatopowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "automatopowder.png",
-  "description" : "Automato powder.",
-  "shortdescription" : "Automato powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext5ar" ]
-}

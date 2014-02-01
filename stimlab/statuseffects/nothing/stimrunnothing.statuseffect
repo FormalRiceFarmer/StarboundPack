@@ -1,6 +1,0 @@
-{
-  "kind" : "stimrunnothing",
-  "primitives" : [
-    { "name" : "runboost", "mode" : "max" }
-  ]
-}

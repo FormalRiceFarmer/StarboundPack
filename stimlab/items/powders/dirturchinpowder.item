@@ -1,9 +1,0 @@
-{
-  "itemName" : "dirturchinpowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "dirturchinpowder.png",
-  "description" : "Dirturchin powder.",
-  "shortdescription" : "Dirturchin powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext3wa" ]
-}

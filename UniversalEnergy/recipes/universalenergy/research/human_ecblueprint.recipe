@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "humantech", "count" : 15 }
-  ],
-  "output" : { "item" : "energycompblueprint", "count" : 1 },
-  "groups" : [ "analyzer", "all" ]
-}

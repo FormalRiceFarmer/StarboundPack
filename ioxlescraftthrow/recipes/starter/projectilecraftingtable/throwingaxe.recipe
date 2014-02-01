@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 3 },
-	{ "item" : "darkwoodmaterial", "count" : 3 },
-    { "item" : "money", "count" : 50 }
-  ],
-  "output" : { "item" : "throwingaxe", "count" : 3 },
-  "groups" : [ "projectilecraftingtable", "tools", "all" ]
-}

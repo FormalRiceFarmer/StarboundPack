@@ -1,9 +1,0 @@
-{
-  "itemName" : "toxictoppowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "toxictoppowder.png",
-  "description" : "Toxic top powder.",
-  "shortdescription" : "Toxic top powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext5ru" ]
-}

@@ -1,8 +1,0 @@
-{
-  "kind" : "stimarmornothing",
-  "primitives" : [
-    {
-      "name" : "protection"
-    }
-  ]
-}

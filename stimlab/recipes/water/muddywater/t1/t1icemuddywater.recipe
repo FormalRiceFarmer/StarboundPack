@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "fullwood1", "count" : 4 },
-	{ "item" : "ice", "count" : 25 }
-  ],
-  "output" : { "item" : "muddywater", "count" : 1 },
-  "groups" : [ "t1stimpurifier" ]
-}

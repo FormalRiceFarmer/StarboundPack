@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 3 },
-    { "item" : "plantfibre", "count" : 5 },
-    { "item" : "money", "count" : 150 }
-  ],
-  "output" : { "item" : "throwingkunai", "count" : 7 },
-  "groups" : [ "projectilecraftingtable", "tools", "all" ]
-}

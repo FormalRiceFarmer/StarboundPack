@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "wartweed", "count" : 1 }
-  ],
-  "output" : { "item" : "wartweedpowder", "count" : 1 },
-  "groups" : [ "t3stimtable", "t3powders", "all" ]
-}

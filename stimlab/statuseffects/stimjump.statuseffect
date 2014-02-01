@@ -1,8 +1,0 @@
-{
-  "kind" : "stimjump",
-  "primitives" : [
-    { "name" : "jumpboost", "mode" : "max" }
-  ],
-  "effectSources" : [ "stimjump" ],
-  "mainInterfaceIcon" : "/interface/statuses/stimjump.png"
-}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "chili", "count" : 1 }
-  ],
-  "output" : { "item" : "chilipowder", "count" : 1 },
-  "groups" : [ "t5stimtable", "t5powders", "all" ]
-}

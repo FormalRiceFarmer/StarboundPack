@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "coralcreep", "count" : 1 }
-  ],
-  "output" : { "item" : "coralcreeppowder", "count" : 1 },
-  "groups" : [ "t1stimtable", "t1powders", "all" ]
-}

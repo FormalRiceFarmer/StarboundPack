@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "pussplum", "count" : 1 }
-  ],
-  "output" : { "item" : "pussplumpowder", "count" : 1 },
-  "groups" : [ "t3stimtable", "t3powders", "all" ]
-}

@@ -1,9 +1,0 @@
-{
-  "itemName" : "crystalplantpowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "crystalplantpowder.png",
-  "description" : "Crystal plant powder.",
-  "shortdescription" : "Crystal plant powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext5he" ]
-}

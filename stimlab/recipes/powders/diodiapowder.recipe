@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "diodia", "count" : 1 }
-  ],
-  "output" : { "item" : "diodiapowder", "count" : 1 },
-  "groups" : [ "t3stimtable", "t3powders", "all" ]
-}

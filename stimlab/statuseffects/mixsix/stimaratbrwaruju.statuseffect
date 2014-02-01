@@ -1,9 +1,0 @@
-{
-  "kind" : "stimaratbrwaruju",
-  "primitives" : [
-    {
-      "name" : "protection"
-    }
-  ],
-  "effectSources" : [ "stimaratbrwaruju" ]
-}

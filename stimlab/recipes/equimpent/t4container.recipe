@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "durasteelbar", "count" : 1 },
-	{ "item" : "glassmaterial", "count" : 1 }
-  ],
-  "output" : { "item" : "t4container", "count" : 2 },
-  "groups" : [ "stimlab", "stimlabcontainers", "all" ]
-}

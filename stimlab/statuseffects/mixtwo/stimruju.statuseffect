@@ -1,7 +1,0 @@
-{
-  "kind" : "stimruju",
-  "primitives" : [
-    { "name" : "runboost", "mode" : "max" }
-  ],
-  "effectSources" : [ "stimruju" ]
-}

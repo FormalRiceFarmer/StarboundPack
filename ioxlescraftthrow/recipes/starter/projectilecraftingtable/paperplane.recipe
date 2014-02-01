@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 5 }
-  ],
-  "output" : { "item" : "paperplane", "count" : 1 },
-  "groups" : [ "projectilecraftingtable", "tools", "all" ]
-}

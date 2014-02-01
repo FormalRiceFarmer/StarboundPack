@@ -1,8 +1,0 @@
-{
-  "itemName" : "distilledwater",
-  "rarity" : "Common",
-  "inventoryIcon" : "distilledwater.png",
-  "description" : "It's so clean that you can't even kill a toaster with it.",
-"price" : 250,
-  "shortdescription" : "Distilled Water"
-}

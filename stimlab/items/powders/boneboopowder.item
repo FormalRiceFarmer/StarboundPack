@@ -1,9 +1,0 @@
-{
-  "itemName" : "boneboopowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "boneboopowder.png",
-  "description" : "Boneboo powder.",
-  "shortdescription" : "Boneboo powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext1at" ]
-}

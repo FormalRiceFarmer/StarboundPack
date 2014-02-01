@@ -1,9 +1,0 @@
-{
-  "kind" : "stimarat",
-  "primitives" : [
-    {
-      "name" : "protection"
-    }
-  ],
-  "effectSources" : [ "stimarat" ]
-}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "money", "count" : 2000 },
-	{ "item" : "apexlocker", "count" : 2 }
-  ],
-  "output" : { "item" : "stimlabstorage", "count" : 1 },
-  "groups" : [ "stimlab", "other", "all" ]
-}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "plutoniumrod", "count" : 1 },
-	{ "item" : "dirtmaterial", "count" : 50 }
-  ],
-  "output" : { "item" : "muddywater", "count" : 4 },
-  "groups" : [ "t4stimpurifier" ]
-}

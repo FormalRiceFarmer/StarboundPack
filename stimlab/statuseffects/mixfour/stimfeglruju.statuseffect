@@ -1,7 +1,0 @@
-{
-  "kind" : "stimfeglruju",
-  "primitives" : [
-    { "name" : "reducefalldamage", "mode" : "max" }
-  ],
-  "effectSources" : [ "stimfeglruju" ]
-}

@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 20 },
-	{ "item" : "torch", "count" : 1 },
-    { "item" : "glassmaterial", "count" : 2 }
-  ],
-  "output" : { "item" : "molotov", "count" : 1 },
-  "groups" : [ "projectilecraftingtable", "tools", "all" ]
-}

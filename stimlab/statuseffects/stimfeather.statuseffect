@@ -1,8 +1,0 @@
-{
-  "kind" : "stimfeather",
-  "primitives" : [
-    { "name" : "reducefalldamage", "mode" : "max" }
-  ],
-  "effectSources" : [ "stimfeather" ],
-  "mainInterfaceIcon" : "/interface/statuses/stimfeather.png"
-}

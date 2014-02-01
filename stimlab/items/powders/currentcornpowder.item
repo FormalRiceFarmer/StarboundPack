@@ -1,9 +1,0 @@
-{
-  "itemName" : "currentcornpowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "currentcornpowder.png",
-  "description" : "Currentcorn powder.",
-  "shortdescription" : "Currentcorn powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext5fe" ]
-}

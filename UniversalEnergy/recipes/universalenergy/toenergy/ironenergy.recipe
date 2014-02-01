@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 1 }
-  ],
-  "output" : { "item" : "uenergy", "count" : 20 },
-  "groups" : [ "energyconverter", "all" ]
-}

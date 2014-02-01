@@ -1,9 +1,0 @@
-{
-  "itemName" : "neonmelonpowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "neonmelonpowder.png",
-  "description" : "Neonmelon powder.",
-  "shortdescription" : "Neonmelon powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext5wa" ]
-}

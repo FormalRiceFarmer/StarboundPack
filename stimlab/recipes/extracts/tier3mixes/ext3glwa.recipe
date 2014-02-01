@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "ext3gl", "count" : 1 },
-	{ "item" : "ext3wa", "count" : 1 }
-  ],
-  "output" : { "item" : "ext3glwa", "count" : 1 },
-  "groups" : [ "t3stimmixer", "t4stimmixer", "t5stimmixer" ]
-}

@@ -1,9 +1,0 @@
-{
-  "itemName" : "boltbulbpowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "boltbulbpowder.png",
-  "description" : "Boltbulb powder.",
-  "shortdescription" : "Boltbulb powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext1ar" ]
-}

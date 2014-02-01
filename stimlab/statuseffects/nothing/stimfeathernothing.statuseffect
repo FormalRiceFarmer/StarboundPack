@@ -1,6 +1,0 @@
-{
-  "kind" : "stimfeathernothing",
-  "primitives" : [
-    { "name" : "reducefalldamage", "mode" : "max" }
-  ]
-}

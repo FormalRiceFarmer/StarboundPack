@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "ironbar", "count" : 1 },
-	{ "item" : "glassmaterial", "count" : 1 }
-  ],
-  "output" : { "item" : "t1syringe", "count" : 5 },
-  "groups" : [ "stimlab", "stimlabsyringes", "all" ]
-}

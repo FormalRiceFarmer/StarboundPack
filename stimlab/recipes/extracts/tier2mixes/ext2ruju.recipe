@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "ext2ru", "count" : 1 },
-	{ "item" : "ext2ju", "count" : 1 }
-  ],
-  "output" : { "item" : "ext2ruju", "count" : 1 },
-  "groups" : [ "t2stimmixer", "t3stimmixer", "t4stimmixer", "t5stimmixer" ]
-}

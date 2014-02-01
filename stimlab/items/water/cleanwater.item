@@ -1,8 +1,0 @@
-{
-  "itemName" : "cleanwater",
-  "rarity" : "Common",
-  "inventoryIcon" : "cleanwater.png",
-  "description" : "It looks clean enough, but who knows what kind of germs might be in there.",
-"price" : 250,
-  "shortdescription" : "Clean Water"
-}

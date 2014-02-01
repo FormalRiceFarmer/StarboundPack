@@ -1,9 +1,0 @@
-{
-  "itemName" : "beakseedpowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "beakseedpowder.png",
-  "description" : "Beakseed powder.",
-  "shortdescription" : "Beakseed powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext3fe" ]
-}

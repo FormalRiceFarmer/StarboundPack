@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "money", "count" : 100 },
-	{ "item" : "copperbar", "count" : 10 },
-	{ "item" : "ironbar", "count" : 5 }
-  ],
-  "output" : { "item" : "t1stimdispenser", "count" : 1 },
-  "groups" : [ "stimlab", "stimlabdispensers", "all" ]
-}

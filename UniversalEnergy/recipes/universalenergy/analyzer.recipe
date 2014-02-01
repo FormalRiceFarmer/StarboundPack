@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "bunkerserver", "count" : 2 },
-	{ "item" : "networkcard", "count" : 1 }
-  ],
-  "output" : { "item" : "analyzer", "count" : 1 },
-  "groups" : [ "roboticcraftingtable", "all" ]
-}

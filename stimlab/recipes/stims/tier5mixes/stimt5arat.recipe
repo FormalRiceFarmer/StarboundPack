@@ -1,8 +1,0 @@
-{
-  "input" : [
-		{ "item" : "ext5arat", "count" : 1 },
-		{ "item" : "t5syringe", "count" : 3 }
-  ],
-  "output" : { "item" : "stimt5arat", "count" : 3 },
-  "groups" : [ "t5stimdispenser" ]
-}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "potato", "count" : 1 }
-  ],
-  "output" : { "item" : "potatopowder", "count" : 1 },
-  "groups" : [ "t3stimtable", "t3powders", "all" ]
-}

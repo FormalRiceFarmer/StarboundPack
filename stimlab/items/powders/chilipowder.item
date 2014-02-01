@@ -1,9 +1,0 @@
-{
-  "itemName" : "chilipowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "chilipowder.png",
-  "description" : "Chili powder.",
-  "shortdescription" : "Chili powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext5at" ]
-}

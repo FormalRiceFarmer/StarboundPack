@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "solariumrod", "count" : 1 },
-	{ "item" : "slush", "count" : 35 }
-  ],
-  "output" : { "item" : "filteredwater", "count" : 3 },
-  "groups" : [ "t5stimpurifier" ]
-}

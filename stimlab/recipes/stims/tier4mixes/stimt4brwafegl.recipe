@@ -1,8 +1,0 @@
-{
-  "input" : [
-		{ "item" : "ext4brwafegl", "count" : 1 },
-		{ "item" : "t4syringe", "count" : 2 }
-  ],
-  "output" : { "item" : "stimt4brwafegl", "count" : 2 },
-  "groups" : [ "t4stimdispenser", "t5stimdispenser" ]
-}

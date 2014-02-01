@@ -1,9 +1,0 @@
-{
-  "itemName" : "pearlpeapowder",
-  "rarity" : "Common",
-  "inventoryIcon" : "pearlpeapowder.png",
-  "description" : "Pearlpea powder.",
-  "shortdescription" : "Pearlpea powder",
-"price" : 250,
-  "learnBlueprintsOnPickup" : [ "ext5br" ]
-}

@@ -1,8 +1,0 @@
-{
-  "itemName" : "t5container",
-  "rarity" : "Common",
-  "inventoryIcon" : "t5container.png",
-  "description" : "Tier 5 empty container.",
-"price" : 250,
-  "shortdescription" : "T5 Empty Container"
-}

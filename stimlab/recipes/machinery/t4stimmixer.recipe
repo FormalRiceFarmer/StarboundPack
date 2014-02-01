@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "money", "count" : 750 },
-	{ "item" : "t3stimmixer", "count" : 1 },
-	{ "item" : "durasteelbar", "count" : 12 }
-  ],
-  "output" : { "item" : "t4stimmixer", "count" : 1 },
-  "groups" : [ "stimlab", "stimlabmixers", "all" ]
-}

@@ -1,9 +1,0 @@
-{
-  "kind" : "warmglow",
-  "primitives" : [
-    {
-      "name" : "ColdProtection"
-    }
-  ],
-  "effectSources" : [ "sparkles" ]
-}

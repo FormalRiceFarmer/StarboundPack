@@ -1,9 +1,0 @@
-{
-  "kind" : "stimenhe",
-  "primitives" : [
-    {
-      "name" : "energy"
-    }
-  ],
-  "effectSources" : [ "stimenhe" ]
-}
