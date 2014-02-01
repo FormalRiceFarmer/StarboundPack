@@ -4,5 +4,5 @@
 	
   ],
   "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "energyshield", "level" : 1 } },
-  "groups" : [ "roboticcraftingtable", "weapons", "all" ]
+  "groups" : [ "roboticcraftingtable", "armors", "all" ]
 }

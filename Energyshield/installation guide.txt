@@ -1,4 +1,4 @@
-Energy Shield v1.0
+Energy Shield v1.2
 Author: Soraph
 --------------------------------------------------------
 How to install: Copy this folder to \Starbound\mods\

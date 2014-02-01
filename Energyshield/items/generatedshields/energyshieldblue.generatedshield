@@ -1,6 +1,6 @@
 {
-  "name" : "energyshield",
-  "kind" : "energy1",
+  "name" : "energyshieldblue",
+  "kind" : "energyblue",
   
   "description" : "A very futuristic shield!",
   "inventoryIcon" : "iconblue.png",

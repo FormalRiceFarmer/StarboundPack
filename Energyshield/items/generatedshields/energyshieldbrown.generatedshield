@@ -1,13 +1,13 @@
 {
-  "name" : "energyshield",
-  "kind" : "energy1",
+  "name" : "energyshieldbrown",
+  "kind" : "energybrown",
   
   "description" : "A very futuristic shield!",
-  "inventoryIcon" : "iconblue.png",
+
   "palette" : [
     { }
   ],
-  
+  "inventoryIcon" : "iconbrown.png",
   "hitSound" : "/sfx/projectiles/swing_electric2.wav",
   "baseline" : {
     "recoil" : 0.2,
