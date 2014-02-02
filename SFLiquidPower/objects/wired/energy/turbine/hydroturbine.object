@@ -50,8 +50,8 @@
   "fueluserate" : 200,	
   "energenrate" : 4,	
 	
-  "energySendRate" : 10,
+  "energySendRate" : 5,
   "energyGenerationRate" : 5,
-  "energyCapacity" : 500
+  "energyCapacity" : 5
 
 }

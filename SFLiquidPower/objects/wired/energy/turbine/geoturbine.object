@@ -52,6 +52,6 @@
 	
   "energySendRate" : 20,
   "energyGenerationRate" : 20,
-  "energyCapacity" : 500
+  "energyCapacity" : 20
 
 }
