@@ -1,0 +1,11 @@
+{
+  "name" : "Dyeing Bucket",
+  "version" : "Beta v. Furious Koala",
+  "path" : "DyeingBucket.pak",
+  "dependencies" : [],
+  "metadata": {
+    "author" : "MrMagical",
+    "description" : "The bucket that dyes armor, clothes and objects.",
+    "version" : "1.5"
+  }
+}

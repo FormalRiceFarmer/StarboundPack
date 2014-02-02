@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "girdirmaterial", "count" : 1 },
-	"groups" : [ "spawningtable", "materials" ]
-}

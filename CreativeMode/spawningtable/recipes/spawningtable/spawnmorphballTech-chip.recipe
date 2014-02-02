@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "morphballTech-chip", "count" : 1 },
-	"groups" : [ "spawningtable", "weapons" ]
-}

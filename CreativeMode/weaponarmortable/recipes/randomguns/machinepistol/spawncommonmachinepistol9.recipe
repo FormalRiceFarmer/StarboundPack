@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 1 }
-  ],
-  "output" : { "item" : "generatedgun", "count" : 1, "data" : { "definition" : "commonmachinepistol", "level" : 9 } },
-  "groups" : [ "weaponarmortable", "objects" ]
-}

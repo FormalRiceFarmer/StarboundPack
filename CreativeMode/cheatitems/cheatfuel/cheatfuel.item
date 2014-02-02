@@ -1,8 +1,0 @@
-{
-  "itemName" : "cheatfuel",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "cheatfuel.png",
-  "description" : "Highly condensed fuel, capable of filling your ship almost instantly.",
-  "shortdescription" : "Condensed Fuel",
-  "fuelAmount" : 100
-}

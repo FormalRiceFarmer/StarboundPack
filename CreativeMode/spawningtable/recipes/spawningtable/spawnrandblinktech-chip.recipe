@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "randblinktech-chip", "count" : 1 },
-	"groups" : [ "spawningtable", "weapons" ]
-}

@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "tier2engine", "count" : 1 },
-	"groups" : [ "spawningtable", "other" ]
-}
