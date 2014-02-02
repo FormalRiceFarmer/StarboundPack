@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 400 },
-    { "item" : "holidayspirit", "count" : 100 },
-    { "item" : "diamond", "count" : 1 }
-  ],
-  "output" : { "item" : "zholidaystaff", "count" : 1 },
-  "groups" : [ "zstaffstation" ]
-}

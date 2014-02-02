@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 250 },
-    { "item" : "ironaxe", "count" : 1 },
-    { "item" : "silverbar", "count" : 25 }
-  ],
-  "output" : { "item" : "silveraxe", "count" : 1 },
-  "groups" : [ "zcraftingtable" ]
-}

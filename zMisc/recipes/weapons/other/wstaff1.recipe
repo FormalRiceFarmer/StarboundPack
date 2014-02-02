@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 250 },
-    { "item" : "zstaff1", "count" : 1 },
-    { "item" : "plantfibre", "count" : 20 }
-  ],
-  "output" : { "item" : "wstaff1", "count" : 1 },
-  "groups" : [ "zstaffstation" ]
-}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 1000 },
-    { "item" : "ironbar", "count" : 35 }
-  ],
-  "output" : { "item" : "zresearchtable", "count" : 1 },
-  "groups" : [ "zcraftingtable" ]
-}
