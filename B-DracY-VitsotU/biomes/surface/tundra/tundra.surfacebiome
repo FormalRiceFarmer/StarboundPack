@@ -1,9 +1,0 @@
-{
-  "__merge" : [ 
-    [ "overwrite", "allowedDetachedBiomes" ] 
-  ],
-  "allowedDetachedBiomes" : [ "geometric", "orb", "spring", "ice", "flowers", "microforest", "microsnowforest" ],
-  
-  "name" : "Tundra",
-  "caveLiquidType" : "icywater"
-}

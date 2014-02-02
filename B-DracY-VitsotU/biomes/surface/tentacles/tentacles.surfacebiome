@@ -1,7 +1,0 @@
-{
-  "__merge" : [ 
-    [ "delete", "allowedDetachedBiomes" ] 
-  ],
-  
-  "name" : "Tentacles"
-}

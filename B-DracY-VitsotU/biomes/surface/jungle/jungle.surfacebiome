@@ -1,9 +1,0 @@
-{
-  "__merge" : [ 
-    [ "overwrite", "allowedDetachedBiomes" ] 
-  ],
-  "allowedDetachedBiomes" : [ "flesh", "giantflowers", "toxicplains", "charred", "rocky", "flowers", "eyepatch", "mushroompatch", "microjungle", "microforest", "microdesert", "microsnowforest", "micrograsslands", "microrainbow" ],
-  
-  "name" : "Jungle",
-  "caveLiquidType" : "water"
-}

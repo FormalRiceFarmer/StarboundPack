@@ -1,9 +1,0 @@
-{
-  "__merge" : [ 
-    [ "overwrite", "allowedDetachedBiomes" ] 
-  ],
-  "allowedDetachedBiomes" : [ "shrubby", "aridbones", "microdesert", "rocky", "charred" ],
-  
-  "name" : "Arid",
-  "caveLiquidType" : "water"
-}
