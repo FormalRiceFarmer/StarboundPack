@@ -1,0 +1,52 @@
+{
+  "objectName" : "greyairlockhatch",
+  "rarity" : "Common",
+  "objectType" : "wire",
+
+  "category" : "door",
+  "price" : 1000,
+  "description" : "A reinforced space-grade hatch using advanced dynamic technology for placement.",
+  "shortdescription" : "Grey Ship Hatch",
+  "race" : "apex",
+
+  "apexDescription" : "We use these hatches on our... wait, I've never seen this alloy.",
+  "avianDescription" : "A hatch.",
+  "floranDescription" : "Hatch!",
+  "glitchDescription" : "Statement. A hatch.",
+  "humanDescription" : "Cool hatch.",
+  "hylotlDescription" : "A basic hatch.",
+
+
+  "inventoryIcon" : "greyairlockhatchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "greyairlockhatch.png:closeWall",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom" ]
+    },
+	{
+      "dualImage" : "greyairlockhatch.png:closeFloor",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.3,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/hatches/hatch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/hatches/hatch.animation",
+  "animationParts" : {
+    "door" : "greyairlockhatch.png"
+  },
+  "animationPosition" : [-16, -16],
+  
+  "inboundNodes" : [ [0, 1] ],
+  "outboundNodes" : [ [0, -1] ],
+  
+  "openSounds" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+}
