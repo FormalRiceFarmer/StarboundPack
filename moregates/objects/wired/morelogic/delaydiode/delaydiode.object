@@ -7,7 +7,7 @@
   "race" : "human",
 
   "category" : "wire",
-  "price" : "300",
+  "price" : 300,
 
   "inventoryIcon" : "delaydiode_icon.png",
   "orientations" : [

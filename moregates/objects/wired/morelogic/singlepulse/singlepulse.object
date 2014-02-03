@@ -7,7 +7,7 @@
   "race" : "human",
 
   "category" : "wire",
-  "price" : "300",
+  "price" : 300,
 
   "inventoryIcon" : "singlepulse.png:default.1",
   "orientations" : [
