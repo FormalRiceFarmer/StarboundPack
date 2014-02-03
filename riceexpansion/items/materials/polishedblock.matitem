@@ -1,0 +1,11 @@
+{
+  "itemName" : "polishedblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "polishedblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Polished block",
+  "description" : "A shiny polished block.",
+  "glitchdescription" : "Statement. A vertical pipe.",
+  "florandescription" : "Ssstanding up pipe.",
+
+  "materialId" : 2504}
