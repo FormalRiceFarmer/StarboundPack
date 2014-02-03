@@ -1,6 +1,0 @@
-{
-  "name" : "starfoundryexpansion",
-  "version" : "Beta v. Furious Koala",
-  "path" : "starfoundryexpansion",
-  "dependencies" : [ "starfoundry" ]
-}

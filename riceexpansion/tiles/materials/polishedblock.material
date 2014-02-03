@@ -1,0 +1,15 @@
+{
+  "materialId" : 2504,
+  "materialName" : "polishedblock",
+  "frames" : "polishedblock.png",
+  "particleColor" : [111, 98, 90, 255],
+  "variants" : 3,
+  "itemDrop" : "polishedblock",
+  "description" : "A polished old block.",
+  "shortdescription" : "Polished Block",
+  "glitchdescription" : "Statement. A polished block.",
+  "florandescription" : "polissshed.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "health" : 35
+}

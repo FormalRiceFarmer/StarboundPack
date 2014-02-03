@@ -1,0 +1,15 @@
+{
+  "materialId" : 2503,
+  "materialName" : "polishedmetal",
+  "frames" : "polishedmetal.png",
+  "particleColor" : [111, 98, 90, 255],
+  "variants" : 3,
+  "itemDrop" : "polishedmetal",
+  "description" : "Old metal polished.",
+  "shortdescription" : "Polished Metal",
+  "glitchdescription" : "Great. This metal makes me new.",
+  "florandescription" : "Russsty.",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_girder.wav",
+  "health" : 35
+}

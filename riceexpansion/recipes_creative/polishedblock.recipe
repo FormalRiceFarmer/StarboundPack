@@ -1,0 +1,7 @@
+{
+  "input" : [
+
+  ],
+  "output" : { "item" : "polishedblock", "count" : 1 },
+  "groups" : [ "mod", "materials" ]
+}

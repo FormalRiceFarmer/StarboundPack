@@ -1,0 +1,33 @@
+{
+  "objectName" : "anodynestatue",
+  "rarity" : "Common",
+  "description" : "An old looking statue",
+  "shortdescription" : "Ancient Statue",
+  "race" : "novakid+",
+  "price" : 500,
+  
+  /*
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "craftingtable", "plain" ]
+  },
+  */
+
+  "novakid+Description" : "This thing gives me the willies",
+
+  "inventoryIcon" : "anodynestatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "anodynestatue.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

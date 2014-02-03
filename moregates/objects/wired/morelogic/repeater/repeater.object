@@ -1,0 +1,35 @@
+{
+  "objectName" : "repeater",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "<A repeater. It's really just for convenience.>",
+  "shortdescription" : "Repeater",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : "300",
+
+  "inventoryIcon" : "repeater.png:default.1",
+  "orientations" : [
+    {
+      "image" : "repeater.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "repeater.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "repeater.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [-1, -1] ],
+  "outboundNodes" : [ [1, 0] ]
+}

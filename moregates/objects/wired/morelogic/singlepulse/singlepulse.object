@@ -1,0 +1,35 @@
+{
+  "objectName" : "singlepulse",
+  "rarity" : "Common",
+  "objectType" : "wire",
+  "description" : "<A logic gate that outputs once per input signal recieved.>",
+  "shortdescription" : "Single Pulse",
+  "race" : "human",
+
+  "category" : "wire",
+  "price" : "300",
+
+  "inventoryIcon" : "singlepulse.png:default.1",
+  "orientations" : [
+    {
+      "image" : "singlepulse.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "singlepulse.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "singlepulse.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [-1, -1] ],
+  "outboundNodes" : [ [1, 0] ]
+}
