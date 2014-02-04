@@ -23,15 +23,17 @@
       "__merge" : [ 
         [ "overwrite", "items" ] 
       ],
-      "items" : [ {
+      "items" : [ 
+		{
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:asteroidEncounters",
+          "distribution" : "/biomes/distributions.config:spacehulk",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "asteroidencounter" ]
-        } ]
+          "microdungeons" : [ "spacehulktest" ]
+        }		
+		]
     }
   }
 }
