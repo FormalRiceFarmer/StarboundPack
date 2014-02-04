@@ -635,6 +635,32 @@
       ],
       "rules": [],
       "name": "test hallway 1"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "test hallway 2-backgroundtiles.png",
+          "test hallway 2-foregroundtiles.png",
+          "test hallway 2-objects.png",
+          "test hallway 2-wires.png"
+        ]
+      ],
+      "rules": [],
+      "name": "test hallway 2"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Core room-backgroundtiles.png",
+          "Core room-foregroundtiles.png",
+          "Core room-objects.png",
+          "Core room-wires.png"
+        ]
+      ],
+      "rules": [],
+      "name": "Core room"
     }
   ]
 }

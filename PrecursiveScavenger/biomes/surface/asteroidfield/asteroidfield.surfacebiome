@@ -86,7 +86,7 @@
         {
         
           "mode" : "floor",
-          "priority" : 1.0,
+          "priority" : 10,
           "variants" : 1,
           "distribution" : "/biomes/distributions.config:asteroidLotus",
 
