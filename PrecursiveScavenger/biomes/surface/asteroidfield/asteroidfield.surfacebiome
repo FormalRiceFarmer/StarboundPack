@@ -1,0 +1,37 @@
+{
+  "__merge" : [ 
+    ["overwrite", "skyOptions" ] 
+  ],
+  "skyOptions" : [
+    {
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [255, 224, 129], [252, 230, 164] ],
+      "dayColors" : [ [255, 152, 107], [255, 183, 152] ],
+      "eveningColors" : [ [254, 121, 69], [254, 165, 129] ],
+      "nightColors" : [ [254, 101, 64], [254, 142, 115] ],
+
+      "morningLightColor" : [202, 177, 100],
+      "dayLightColor" : [202, 138, 100],
+      "eveningLightColor" : [202, 100, 100],
+      "nightLightColor" : [202, 80, 80]
+    }
+  ],
+
+  "surfaceParameters" : {
+    "surfacePlaceables" : {
+      "__merge" : [ 
+        [ "overwrite", "items" ] 
+      ],
+      "items" : [ {
+          "mode" : "floor",
+          "priority" : 3.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:asteroidEncounters",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "asteroidencounter" ]
+        } ]
+    }
+  }
+}
