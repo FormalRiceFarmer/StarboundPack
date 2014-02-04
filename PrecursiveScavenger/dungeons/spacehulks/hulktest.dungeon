@@ -608,6 +608,118 @@
         ]
       ],
       "connector": false
+    },
+    {
+      "value": [
+        162,
+        14,
+        158,
+        255
+      ],
+      "comment": "wreckchairR",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "wreckchair",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        26,
+        164,
+        69,
+        255
+      ],
+      "comment": "wreckroof wire",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "wreckwiresceiling",
+          {
+            "direction": "left"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        10,
+        184,
+        39,
+        255
+      ],
+      "comment": "wreckconsole R",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "wreckconsole1",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        24,
+        22,
+        186,
+        255
+      ],
+      "comment": "wreckgenR",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "wreckgenerator",
+          {
+            "direction": "right"
+          }
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        234,
+        191,
+        140,
+        255
+      ],
+      "comment": "foreground rustymetal",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "front",
+          "rustymetal"
+        ]
+      ],
+      "rules": [],
+      "connector": false
     }
   ],
   "parts": [
@@ -615,9 +727,9 @@
       "def": [
         "image",
         [
-          "center1-b.png",
-          "center1-f.png",
-          "center1-o.png"
+          "cores/1/b.png",
+          "cores/1/f.png",
+          "cores/1/o.png"
         ]
       ],
       "rules": [
@@ -652,25 +764,169 @@
       "def": [
         "image",
         [
-          "HIT-backgroundtiles.png",
-          "HIT-foregroundtiles.png",
-          "HIT-objects.png"
+          "b.png",
+          "f.png",
+          "o.png"
         ]
       ],
       "rules": [],
+      "name": "Wip"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/HIT/b.png",
+          "Halls/HIT/f.png",
+          "Halls/HIT/o.png"
+        ]
+      ],
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "HIT"
+          ]
+        ]
+      ],
       "name": "HIT"
     },
     {
       "def": [
         "image",
         [
-          "HT-b.png",
-          "HT-f.png",
-          "HT-o.png"
+          "Halls/HT/b.png",
+          "Halls/HT/f.png",
+          "Halls/HT/o.png"
         ]
       ],
-      "rules": [],
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "HT"
+          ]
+        ]
+      ],
       "name": "HT"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/HS/1/b.png",
+          "Halls/HS/1/f.png",
+          "Halls/HS/1/o.png"
+        ]
+      ],
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "HS1"
+          ]
+        ]
+      ],
+      "name": "HS1"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/HS/2/b.png",
+          "Halls/HS/2/f.png",
+          "Halls/HS/2/o.png"
+        ]
+      ],
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "HS2"
+          ]
+        ]
+      ],
+      "name": "HS2"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/HS/3/L/b.png",
+          "Halls/HS/3/L/f.png",
+          "Halls/HS/3/L/o.png"
+        ]
+      ],
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "HS3L",
+            "HS3R"
+          ]
+        ]
+      ],
+      "name": "HS3L"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/HS/3/R/b.png",
+          "Halls/HS/3/R/f.png",
+          "Halls/HS/3/R/o.png"
+        ]
+      ],
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "HS3R",
+            "HS3L"
+          ]
+        ]
+      ],
+      "name": "HS3R"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/HS/4/L/b.png",
+          "Halls/HS/4/L/f.png",
+          "Halls/HS/4/L/o.png"
+        ]
+      ],
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "HS4L",
+            "HS4R"
+          ]
+        ]
+      ],
+      "name": "HS4L"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/HS/4/R/b.png",
+          "Halls/HS/4/R/f.png",
+          "Halls/HS/4/R/o.png"
+        ]
+      ],
+      "rules": [
+        [
+          "doNotConnectToPart",
+          [
+            "HS4R",
+            "HS4L"
+          ]
+        ]
+      ],
+      "name": "HS4R"
     }
   ]
 }
