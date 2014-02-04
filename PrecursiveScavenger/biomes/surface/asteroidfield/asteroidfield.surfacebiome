@@ -19,21 +19,71 @@
   ],
 
   "surfaceParameters" : {
+    "__merge" : [
+      [ "overwrite", "musicTrack" ], [ "overwrite", "undergroundMusicTrack"], [ "overwrite", "weather"]
+    ],
+    "weather" : [
+      [
+        [0.1, "glowingrain" ],
+        [0.9, "clear" ]
+      ],
+      [
+        [0.03, "meteorshower" ],
+        [0.97, "clear" ]
+      ],
+      [
+        [0.01, "largemeteor" ],
+        [0.99, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ],
+      [
+        [1.0, "clear" ]
+      ]
+    ],
+    "musicTrack" : {
+      "day" : {
+        "tracks" : [ "/music/Below-the-Asteroids.ogg", "/music/Borderlines.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/music/Below-the-Asteroids.ogg", "/music/Borderlines.ogg" ]
+      }
+    },
+    "undergroundMusicTrack" : {
+      "day" : {
+        "tracks" : [ "/music/At-the-End-of-Your-Journey.ogg" ]
+      },
+      "night" : {
+        "tracks" : [ "/music/At-the-End-of-Your-Journey.ogg" ]
+      }
+    },
     "surfacePlaceables" : {
       "__merge" : [ 
-        [ "overwrite", "items" ] 
+        [ "overwrite", "items" ]
       ],
-      "items" : [ 
-		{
+      "items" : [ {
           "mode" : "floor",
           "priority" : 3.0,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:spacehulk",
+          "distribution" : "/biomes/distributions.config:asteroidEncounters",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "spacehulktest" ]
-        }		
-		]
+          "microdungeons" : [ "lotuswreck", "hulktest" ]
+        } ]
+        
     }
   }
 }
