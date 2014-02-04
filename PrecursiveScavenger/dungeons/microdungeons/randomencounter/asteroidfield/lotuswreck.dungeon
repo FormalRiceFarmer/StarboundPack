@@ -1,12 +1,11 @@
 {
   "metadata": {
-    "name": "lotuswreck",
+    "name": "lotusWreck",
     "species": "dummy",
     "rules": [],
     "maxRadius": 2000,
     "maxParts": 100,
     "anchor": [
-      "smallcave1",
       "miningcamp1"
     ]
   },
@@ -612,12 +611,149 @@
     },
     {
       "value": [
-        113,
-        191,
-        126,
+        71,
+        60,
+        3,
         255
       ],
-      "comment": "Entrance Hatch",
+      "comment": "PFC",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "pfcpump"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        68,
+        239,
+        163,
+        255
+      ],
+      "comment": "foreground rustymetal",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "front",
+          "rustymetal"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        222,
+        121,
+        166,
+        255
+      ],
+      "comment": "drain",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "drain"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        20,
+        124,
+        211,
+        255
+      ],
+      "comment": "not",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "not"
+        ]
+      ],
+      "rules": [],
+      "connector": false
+    },
+    {
+      "value": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "comment": "wire #1 Red",
+      "brush": [
+        [
+          "wire",
+          {
+            "group": "group1",
+            "local": true
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        0,
+        255,
+        0,
+        255
+      ],
+      "comment": "wire #2 Green",
+      "brush": [
+        [
+          "wire",
+          {
+            "group": "group2",
+            "local": true
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        0,
+        0,
+        255,
+        255
+      ],
+      "comment": "wire #3 Blue",
+      "brush": [
+        [
+          "wire",
+          {
+            "group": "group3",
+            "local": true
+          }
+        ]
+      ],
+      "connector": false
+    },
+    {
+      "value": [
+        64,
+        204,
+        149,
+        255
+      ],
+      "comment": "hatch",
       "brush": [
         [
           "clear"
@@ -627,26 +763,28 @@
           "angelsshiphatch"
         ]
       ],
-      "rules": []
+      "rules": [],
+      "connector": false
     },
     {
       "value": [
-        253,
-        202,
-        241,
+        111,
+        194,
+        22,
         255
       ],
-      "comment": "glass",
+      "comment": "switch",
       "brush": [
         [
           "clear"
         ],
         [
-          "front",
-          "glass"
+          "object",
+          "smallwallswitch"
         ]
       ],
-      "rules": []
+      "rules": [],
+      "connector": false
     }
   ],
   "parts": [
@@ -655,63 +793,13 @@
         "image",
         [
           "miningcamp1.png",
-          "miningcamp1-objects.png"
+          "miningcamp1-objects.png",
+          "miningcamp1-wire.png",
+          "miningcamp1-wire2.png"
         ]
       ],
       "rules": [],
       "name": "miningcamp1"
-    },
-    {
-      "def": [
-        "image",
-        [
-          "test hallway 1-backgroundtiles.png",
-          "test hallway 1-foregroundtiles.png",
-          "test hallway 1-objects.png",
-          "test hallway 1-wires.png"
-        ]
-      ],
-      "rules": [],
-      "name": "test hallway 1"
-    },
-    {
-      "def": [
-        "image",
-        [
-          "test hallway 2-backgroundtiles.png",
-          "test hallway 2-foregroundtiles.png",
-          "test hallway 2-objects.png",
-          "test hallway 2-wires.png"
-        ]
-      ],
-      "rules": [],
-      "name": "test hallway 2"
-    },
-    {
-      "def": [
-        "image",
-        [
-          "Core room-backgroundtiles.png",
-          "Core room-foregroundtiles.png",
-          "Core room-objects.png",
-          "Core room-wires.png"
-        ]
-      ],
-      "rules": [],
-      "name": "Core room"
-    },
-    {
-      "def": [
-        "image",
-        [
-          "cap-backgroundtiles.png",
-          "cap-foregroundtiles.png",
-          "cap-objects.png",
-          "cap-wires.png"
-        ]
-      ],
-      "rules": [],
-      "name": "cap"
     }
   ]
 }

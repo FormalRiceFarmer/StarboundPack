@@ -2,7 +2,7 @@
     "name": "PrecursiveScavenger",
     "version": "Beta v. Furious Koala",
     "path": "PrecursiveScavenger",
-    "dependencies": [],
+    "dependencies": [ "starfoundry", "Hatches"],
     "metadata": {
         "author": "FormalRiceFarm[e]r and Ludsoe",
         "version": "0.0",
