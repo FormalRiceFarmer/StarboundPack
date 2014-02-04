@@ -927,6 +927,66 @@
         ]
       ],
       "name": "HS4R"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/EC/1/L/b.png",
+          "Halls/EC/1/L/f.png",
+          "Halls/EC/1/L/o.png"
+        ]
+      ],
+      "rules": [
+		[ "ignorePartMaximumRule" ]
+      ],
+      "name": "HEC1L",
+	  "chance" : 0
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/EC/1/R/b.png",
+          "Halls/EC/1/R/f.png",
+          "Halls/EC/1/R/o.png"
+        ]
+      ],
+      "rules": [
+		[ "ignorePartMaximumRule" ]
+      ],
+      "name": "HEC1R",
+	  "chance" : 0
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/EC/2/L/b.png",
+          "Halls/EC/2/L/f.png",
+          "Halls/EC/2/L/o.png"
+        ]
+      ],
+      "rules": [
+		[ "ignorePartMaximumRule" ]
+      ],
+      "name": "HEC2L",
+	  "chance" : 0
+    },
+    {
+      "def": [
+        "image",
+        [
+          "Halls/EC/2/R/b.png",
+          "Halls/EC/2/R/f.png",
+          "Halls/EC/2/R/o.png"
+        ]
+      ],
+      "rules": [
+		[ "ignorePartMaximumRule" ]
+      ],
+      "name": "HEC2R",
+	  "chance" : 0
     }
   ]
 }
