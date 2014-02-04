@@ -7,7 +7,8 @@
     "maxParts": 100,
     "anchor": [
       "Center"
-    ]
+    ],
+    "gravity": 30
   },
   "tiles": [
     {
@@ -626,24 +627,6 @@
           [
             1
           ]
-        ],
-        [
-          "doNotCombineWith",
-          [
-            ""
-          ]
-        ],
-        [
-          "doNotConnectToPart",
-          [
-            ""
-          ]
-        ],
-        [
-          "maxSpawnCount",
-          [
-            1
-          ]
         ]
       ],
       "name": "Center"
@@ -652,12 +635,25 @@
       "def": [
         "image",
         [
-          "HIT-backgroundtiles.png",
-          "HIT-foregroundtiles.png",
-          "HIT-objects.png"
+          "HIT-b.png",
+          "HIT-f.png",
+          "HIT-o.png"
         ]
       ],
-      "rules": [],
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            6
+          ]
+        ],
+        [
+          "doNotConnectToPart",
+          [
+            "HIT"
+          ]
+        ]
+      ],
       "name": "HIT"
     },
     {
@@ -669,7 +665,20 @@
           "HT-o.png"
         ]
       ],
-      "rules": [],
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            6
+          ]
+        ],
+        [
+          "doNotConnectToPart",
+          [
+            "HT"
+          ]
+        ]
+      ],
       "name": "HT"
     }
   ]
