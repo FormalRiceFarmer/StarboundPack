@@ -76,13 +76,24 @@
       ],
       "items" : [ {
           "mode" : "floor",
-          "priority" : 3.0,
+          "priority" : 1,
           "variants" : 1,
-          "distribution" : "/biomes/distributions.config:asteroidEncounters",
+          "distribution" : "/biomes/distributions.config:asteroidHulk",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "lotuswreck", "spacehulktest" ]
-        } ]
+          "microdungeons" : [ "spacehulktest" ]
+        },
+        {
+        
+          "mode" : "floor",
+          "priority" : 1.0,
+          "variants" : 1,
+          "distribution" : "/biomes/distributions.config:asteroidLotus",
+
+          "type" : "microdungeon",
+          "microdungeons" : [ "lotuswreck" ]
+        }
+        ]
         
     }
   }
