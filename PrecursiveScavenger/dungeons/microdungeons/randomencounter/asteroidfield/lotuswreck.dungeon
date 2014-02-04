@@ -609,6 +609,44 @@
         ]
       ],
       "connector": false
+    },
+    {
+      "value": [
+        113,
+        191,
+        126,
+        255
+      ],
+      "comment": "Entrance Hatch",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "object",
+          "angelsshiphatch"
+        ]
+      ],
+      "rules": []
+    },
+    {
+      "value": [
+        253,
+        202,
+        241,
+        255
+      ],
+      "comment": "glass",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "front",
+          "glass"
+        ]
+      ],
+      "rules": []
     }
   ],
   "parts": [
@@ -661,6 +699,19 @@
       ],
       "rules": [],
       "name": "Core room"
+    },
+    {
+      "def": [
+        "image",
+        [
+          "cap-backgroundtiles.png",
+          "cap-foregroundtiles.png",
+          "cap-objects.png",
+          "cap-wires.png"
+        ]
+      ],
+      "rules": [],
+      "name": "cap"
     }
   ]
 }
