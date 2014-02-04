@@ -81,7 +81,7 @@
           "distribution" : "/biomes/distributions.config:asteroidEncounters",
 
           "type" : "microdungeon",
-          "microdungeons" : [ "lotuswreck", "hulktest" ]
+          "microdungeons" : [ "lotuswreck", "spacehulktest" ]
         } ]
         
     }
