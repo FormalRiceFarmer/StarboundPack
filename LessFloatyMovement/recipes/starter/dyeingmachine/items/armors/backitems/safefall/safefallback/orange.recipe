@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "safefall",
+        "count": 1,
+        "data": {
+            "colorIndex": 5
+        }
+    },
+    "input": [
+        {
+            "item": "orangedye",
+            "count": 1
+        },
+        {
+            "item": "safefall",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "dyeingmachine",
+        "all"
+    ]
+}

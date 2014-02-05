@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "safefall",
+        "count": 1,
+        "data": {
+            "directives": "?replace;ffca8a=a8e6e2;e0975c=4facb2;a85636=30636c;6f2919=233c43"
+        }
+    },
+    "input": [
+        {
+            "item": "tealdye",
+            "count": 1
+        },
+        {
+            "item": "safefall",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "dyeingmachine",
+        "all"
+    ]
+}

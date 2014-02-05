@@ -1,0 +1,20 @@
+{
+    "output": {
+        "item": "safefall",
+        "count": 1
+    },
+    "input": [
+        {
+            "item": "cleardye",
+            "count": 1
+        },
+        {
+            "item": "safefall",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "dyeingmachine",
+        "all"
+    ]
+}

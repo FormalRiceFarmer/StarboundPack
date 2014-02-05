@@ -1,0 +1,23 @@
+{
+    "output": {
+        "item": "safefall",
+        "count": 1,
+        "data": {
+            "directives": "?replace;ffca8a=af91fb;e0975c=7863da;a85636=3d3ca2;6f2919=1c226a"
+        }
+    },
+    "input": [
+        {
+            "item": "violetdye",
+            "count": 1
+        },
+        {
+            "item": "safefall",
+            "count": 1
+        }
+    ],
+    "groups": [
+        "dyeingmachine",
+        "all"
+    ]
+}
