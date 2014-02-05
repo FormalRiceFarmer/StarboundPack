@@ -1,7 +1,7 @@
 {
 	"script" : "/tech/hoverbikes/hoverbike.lua",
 	"actions" : ["mechActivate", "mechDeactivate", "mechMove", "mechJump"],
-	"animator" : "hylotl_hoverbike.animation",
+	"animator" : "glitch_hoverbike.animation",
 
 	"mechCustomMovementParameters" : {
 		"standingPoly" : [[-3.7, -0.5], [-2, -2.25], [2, -2.25], [3.7, -0.5], [3.7, 0.5], [1, 2], [-1, 2], [-3.7, 0.5]],
@@ -20,7 +20,7 @@
 		"liquidBuoyancy" : 1.0,
 
 		"walkSpeed" : 10.0,
-		"runSpeed" : 45.0,
+		"runSpeed" : 40.0,
 
 		"airJumpProfile" : {
 			"jumpSpeed" : 1,
@@ -37,12 +37,12 @@
 		}
 	},
 
-	"mechJumpCost" : 100,
+	"mechJumpCost" : 80,
 	"mechJumpSpeed": 8,
-	"mechJumpForce": 450,
+	"mechJumpForce": 500,
 
 	// In tiles?
-	"parentOffset" : [-1.2, 1.2],
+	"parentOffset" : [1.4, 2.2],
 
 	"mechTransformPositionChange" : [0.0, 0.0],
 	"mechTransformCollisionTest" : [-3.5, -2.5, 3.5, 5]

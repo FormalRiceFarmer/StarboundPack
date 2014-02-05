@@ -31,7 +31,7 @@ end
 function update(args)
 
 	-- Mech parameters
-	local mechCustomMovementParameters	= tech.parameter("mechCustomMovementParameters")
+	local physicSettings                = tech.parameter("mechCustomMovementParameters")
 	local parentOffset					= tech.parameter("parentOffset")
 	local mechCollisionTest				= tech.parameter("mechTransformCollisionTest")
 	
@@ -85,12 +85,20 @@ function update(args)
 		end
 		
 		-- Calculate current angle and flip state
+        -- local position = tech.position();
 		local diff = world.distance(args.aimPosition, tech.position())
 		local aimAngle = math.atan2(diff[2], diff[1])
 		local flip = aimAngle > math.pi / 2 or aimAngle < -math.pi / 2
 
 		-- Move mech
-		tech.applyMovementParameters(mechCustomMovementParameters)
+        --world.logInfo(world.liquidAt({ position[1], position[2]+5 }))
+        --if world.liquidAt({ position[1], position[2]+5 }) or tech.inLiquid() then
+        if tech.inLiquid() then
+            -- tech.yControl({0, 1}, mechJumpForce, false, true)
+            -- physicSettings.mass = 0
+            tech.yControl(mechJumpSpeed, mechJumpForce, true)
+        end
+		tech.applyMovementParameters(physicSettings)
 
 		-- Flip and offset player
 		if flip then
@@ -105,7 +113,8 @@ function update(args)
 			tech.setParentFacingDirection(1)
 		end
 
-		if isJumping then
+        -- Jumping and hovering
+        if isJumping then
             if not tech.canJump() then
                 tech.yControl(mechJumpSpeed, mechJumpForce, true)
                 return jumpEnergyUsed
@@ -121,6 +130,12 @@ end
 
 -- Activate mech
 function activate()
+
+    -- Cant activate in liquid
+    if tech.inLiquid() then
+        return 0
+    end
+
 	local mechTransformPositionChange = tech.parameter("mechTransformPositionChange")
 	
 	tech.burstParticleEmitter("mechActivateParticles")

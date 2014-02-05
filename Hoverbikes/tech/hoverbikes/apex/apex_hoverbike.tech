@@ -17,6 +17,8 @@
 		"airForce" : 50.0,
 		"liquidForce" : 70.0,
 
+		"liquidBuoyancy" : 1.0,
+
 		"walkSpeed" : 10.0,
 		"runSpeed" : 40.0,
 
