@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Little more than an robust headset and microphone",
+  "description" : "Little more than a robust headset and microphone",
   "shortdescription" : "Survival Headgear",
   "inspectionKind" : "armor",
 

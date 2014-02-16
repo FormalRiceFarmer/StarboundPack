@@ -1,0 +1,12 @@
+{
+  "materialId" : 12501,
+  "materialName" : "avalitechpanel",
+  "frames" : "avalitechpanel.png",
+  "particleColor" : [176, 174, 168, 255],
+  "variants" : 10,
+  "itemDrop" : "avalitechpanel",
+  "description" : "Polymer panels used to hide and protect electronics",
+  "shortdescription" : "Tech panels",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 1.0
+}

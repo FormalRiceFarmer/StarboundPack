@@ -1,0 +1,16 @@
+{
+  "materialId" : 13003,
+  "materialName" : "avaliaeroponics",
+  "frames" : "avaliaeroponics.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "avaliaeroponics",
+  "description" : "These tubes transport a nutrient aerosol for growing plants indoors.",
+  "shortdescription" : "Aeroponics Tubing",
+  "multicolored" : false,
+  "transparent" : true,
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "tillableMod" : 12000,
+  "soil" : true,
+  "health" : 1.0
+}

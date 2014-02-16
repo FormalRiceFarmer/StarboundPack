@@ -29,39 +29,18 @@
       { "item" : "avaliracial2pants" },
       { "item" : "avaliracial2chest" },
 	  
-      { "item" : "coralcreepcurry" },
-      { "item" : "saltsalad" },
-      { "item" : "ricecake" },
-      { "item" : "bread" },
-      { "item" : "candiedpearlpeas" },
-      { "item" : "brineapple" },
-      { "item" : "flaghylotl" },
+      { "item" : "avaliflour" },
+      { "item" : "avalinoodle" },
+      { "item" : "avalitaco" },
+      { "item" : "avalinoodle2" },
+      { "item" : "avalimeat" },
 	  
-	  // CRAFTING STUFF
-	  { "item" : "fabric2" },	  
-	  { "item" : "graphene" },
+      { "item" : "avaliloom" },
+      { "item" : "avalibench" },
 	  
-      { "item" : "avaliloom" },	  
-	  
-      { "item" : "avalicushion1" },	  
-      { "item" : "avalicushion2" },	 	  
-      { "item" : "campdoor" },
-	  
-      { "item" : "avalichest1" },
-	  { "item" : "campcanvas" },	
-      { "item" : "camppole" },	  
-      { "item" : "camptapestry1" },
-	  { "item" : "camptapestry2" },	  
-      { "item" : "camplargeentry1" },
-      { "item" : "camplargeentry2" },
-	  { "item" : "camplargewall1" },	  
-      { "item" : "camplargewall2" },
-      { "item" : "campslope1" },	  
-      { "item" : "campslope2" },
-      { "item" : "campsmallentry1" },	  
-      { "item" : "campsmallentry2" },
-	  { "item" : "campsmallwall1" },	  
-      { "item" : "campsmallwall2" }
+	  { "item" : "avalichest1" },
+	  { "item" : "avalichest2" }
+			
 	  
     ],
     "tier2" : [
@@ -76,7 +55,8 @@
       { "item" : "avalitier2shortsword" },
       { "item" : "avalitier2spear" },
 	  
-	  { "item" : "spawneravali" }
+	  { "item" : "spawneravali" },
+	  { "item" : "spawneravaliguard" }
     ],
     "tier3" : [
 	

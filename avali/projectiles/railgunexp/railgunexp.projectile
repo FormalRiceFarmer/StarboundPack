@@ -1,0 +1,19 @@
+{
+  "projectileName" : "railgunexp",
+  "frames" : "railgunexp.png",
+  "animationCycle" : 0.25,
+  "level" : 3,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "lightColor" : [255, 200, 120],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "damageType" : "hitTest",
+  "damageKind" : "default"
+}

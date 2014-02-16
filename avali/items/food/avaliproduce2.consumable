@@ -1,0 +1,13 @@
+{
+  "itemName" : "avaliproduce2",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce2.png",
+  "description" : "The spicey bark of the Nakati plant. Usually ground up before use.",
+  "shortdescription" : "Nakati Bark",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 25
+      }
+    ] ]
+}

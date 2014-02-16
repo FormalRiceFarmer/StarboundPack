@@ -1,0 +1,13 @@
+{
+  "itemName" : "avaliproduce3",
+  "rarity" : "Common",
+  "inventoryIcon" : "avaliproduce3.png",
+  "description" : "A long, fiberous frond from a Piru barnacle.",
+  "shortdescription" : "Piru Frond",
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 10
+      }
+    ] ]
+}

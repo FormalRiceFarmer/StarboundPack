@@ -1,0 +1,59 @@
+{
+  "__merge" : [],
+  "scriptConfig" : {
+    "guard" : {
+      "dialog" : {
+        "hail" : {
+          "avali" : {
+            "default" : [
+              "Perimeter secure.",
+              "*Hums to self*",
+              "I'm overworked, I'm starting think the birds are out to get me.",
+              "When are we going to see some action?",
+			  "Huh, what, sorry. I was checking my messages"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+		"avali": [
+			[
+			0,
+				[
+					{
+						"chest" : [
+							{ "name" : "avalitier3chest", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avalitier1chest", "data" : { "colorIndex" : 1 } }
+						],
+						"legs" : [
+							{ "name" : "avalitier3pants", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avalitier2pants", "data" : { "colorIndex" : 1 } }
+						],
+						"head" : [
+							{ "name" : "avalitier1head", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avalitier3head", "data" : { "colorIndex" : 1 } },
+							{ "name" : "maskhead", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avaliracial1head", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avaliracial2head", "data" : { "colorIndex" : 1 } }
+						],
+						"primary" : [
+							{ "name" : "avalitier4minigun", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avalitier4rifle", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avalitier4pistol", "data" : { "colorIndex" : 1 } }
+						],
+						"sheathedprimary" : [
+							{ "name" : "avalitier4shortsword", "data" : { "colorIndex" : 1 } }
+						],
+						"alt" : [
+							{ "name" : "avalitier4pistol", "data" : { "colorIndex" : 1 } },
+							{ "name" : "generatedshield", "data" : { "definition" : "avalitier4barrier" } }
+						]
+					}
+				]
+			]
+		]
+  }
+}

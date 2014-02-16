@@ -1,0 +1,20 @@
+{
+  "itemName" : "avalitaco",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalitaco.png",
+  "description" : "Super-hot nakati spiced taco; Sometimes eaten on a dare by non-Avali.",
+  "shortdescription" : "Avalon-Style Taco",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+      {
+        "kind" : "food",
+        "amount" : 75
+      },
+      {
+        "kind" : "mollyhealing2" },
+      {
+        "kind" : "energy",
+        "amount" : 15
+      }
+    ] ]
+}

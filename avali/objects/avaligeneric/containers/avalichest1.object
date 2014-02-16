@@ -4,7 +4,7 @@
   "objectType" : "container",
 
   "category" : "storage",
-  "price" : 500,
+  "price" : 200,
   "description" : "A small, easily transported storage unit",
   "shortdescription" : "Avali Chest",
   "race" : "avali",
@@ -21,7 +21,7 @@
   "orientations" : [
     {
       "dualImage" : "avalichest1.png:<color>.<key>",
-      "imagePosition" : [-8, 0],
+      "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
