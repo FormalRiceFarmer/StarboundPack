@@ -1469,13 +1469,14 @@
         [
           "object",
           "avalichest1",
-          {
-            "parameters": {
-              "treasurePools": [
-                "basicTreasure"
-              ]
-            }
-          }
+		  {
+          "parameters": {
+            "treasurePools": [
+              "avaliTemporaryLoot"
+             ]
+           }
+		  } 
+		  
         ]
       ],
       "rules": [],
@@ -1598,11 +1599,11 @@
           "bunkercrate",
           {
             "direction": "left",
-            "parameters": {
-              "treasurePools": [
-                "basicTreasure"
-              ]
-            }
+          "parameters": {
+            "treasurePools": [
+              "avaliTemporaryLoot"
+             ]
+           }
           }
         ]
       ],
@@ -1626,11 +1627,11 @@
           "bunkercrate",
           {
             "direction": "right",
-            "parameters": {
-              "treasurePools": [
-                "basicTreasure"
-              ]
-            }
+          "parameters": {
+            "treasurePools": [
+              "avaliTemporaryLoot"
+             ]
+           }
           }
         ]
       ],
@@ -2307,7 +2308,12 @@
           "object",
           "avalichest2",
           {
-            "direction": "left"
+            "direction": "left",
+          "parameters": {
+            "treasurePools": [
+              "avaliTemporaryLoot"
+             ]
+           }
           }
         ]
       ],
@@ -2330,7 +2336,12 @@
           "object",
           "avalichest2",
           {
-            "direction": "right"
+            "direction": "right",
+          "parameters": {
+            "treasurePools": [
+              "avaliTemporaryLoot"
+             ]
+           }
           }
         ]
       ],
