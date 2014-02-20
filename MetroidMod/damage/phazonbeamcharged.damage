@@ -1,0 +1,32 @@
+{
+  "kind" : "phazonbeamcharged",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/phazonbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/phazonbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/phazonbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/phazonbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+
+
+

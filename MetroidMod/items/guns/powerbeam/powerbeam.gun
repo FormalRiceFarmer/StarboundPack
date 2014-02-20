@@ -1,0 +1,46 @@
+{
+  "itemName" : "powerbeam",
+  "inventoryIcon" : "powerbeamicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The preferred starter weapon for any interstellar bounty hunter.",
+  "shortdescription" : "Power Beam",
+  "inspectionKind" : "gun",
+  "image" : "cannon.png",
+  "handPosition" : [-5, -1],
+  "firePosition" : [1, 1],
+  "level" : 2,
+  "fireTime" : 0.1,
+  "twoHanded" : false,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "powerbeamshot",
+  "powerProjectileType" : "powerbeamshotcharged",
+  "powerProjectileTime" : [0.7, 50],
+  "projectile" : {
+    "speed" : 60,
+    "power" : 3,
+    "color" : [10, 255, 10] },
+  
+  "muzzleEffect" : {
+	"fireSound" : [ { "file" : "/sfx/powerbeamfire.wav" } ]
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}

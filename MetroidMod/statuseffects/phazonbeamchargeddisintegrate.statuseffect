@@ -1,0 +1,12 @@
+{
+  "kind" : "phazonbeamchargeddisintegrate",
+  "tooltipLabel" : "FireDamage(%)",
+  "tooltipAmountLabel" : "%amount%",
+  "mainInterfaceIcon" : "/interface/statuses/fire.png",
+  "duration" : 1,
+  "primitives" : [
+    { "name" : "directdamage", "value" : 2000 }
+  ],
+  "damageKind" : "phazonbeamcharged",
+  "effectSources" : [ ]
+}

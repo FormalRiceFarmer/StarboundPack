@@ -1,0 +1,12 @@
+{
+  "kind" : "lightbeamchargedburn",
+  "tooltipLabel" : "FireDamage(%)",
+  "tooltipAmountLabel" : "%amount%",
+  "mainInterfaceIcon" : "/interface/statuses/fire.png",
+  "duration" : 1,
+  "primitives" : [
+    { "name" : "directdamage", "value" : 100 }
+  ],
+  "damageKind" : "lightbeamcharged",
+  "effectSources" : [ ]
+}

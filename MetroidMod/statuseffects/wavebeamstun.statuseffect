@@ -1,0 +1,11 @@
+{
+  "kind" : "wavebeamstun",
+  "duration" : 5,
+  "primitives" : [
+    { "name" : "groundmovementmodifier", "mode" : "min", "amount" : -50 },
+    { "name" : "jumpboost", "mode" : "min", "amount" : -50 },
+    { "name" : "glide", "mode" : "min", "amount" : -50 }
+  ],
+  "damageKind" : "wavebeamcharged",
+  "effectSources" : [ ]
+}

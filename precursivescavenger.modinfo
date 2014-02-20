@@ -1,6 +1,6 @@
 {
     "name": "PrecursiveScavenger",
-    "version": "Beta v. Furious Koala",
+    "version": "Beta v. Enraged Koala",
     "path": "PrecursiveScavenger",
     "dependencies": [ "starfoundry", "Hatches"],
     "metadata": {

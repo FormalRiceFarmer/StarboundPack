@@ -1,0 +1,32 @@
+{
+  "kind" : "darkbeamcharged",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/darkbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/darkbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/darkbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/darkbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+
+
+

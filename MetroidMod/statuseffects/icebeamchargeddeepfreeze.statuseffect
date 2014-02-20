@@ -1,0 +1,10 @@
+{
+  "kind" : "icebeamchargeddeepfreeze",
+  "duration" : 10,
+  "primitives" : [
+    { "name" : "groundmovementmodifier", "mode" : "min", "amount" : -100 },
+    { "name" : "jumpboost", "mode" : "min", "amount" : -100 },
+    { "name" : "glide", "mode" : "min", "amount" : -100 }
+  ],
+  "effectSources" : [ ]
+}

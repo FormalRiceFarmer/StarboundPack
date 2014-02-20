@@ -1,0 +1,32 @@
+{
+  "kind" : "lightbeamcharged",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/lightbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/lightbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/lightbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/lightbeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+
+
+

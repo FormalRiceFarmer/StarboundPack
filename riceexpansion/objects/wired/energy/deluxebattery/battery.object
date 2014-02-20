@@ -35,6 +35,6 @@
   },
   "animationPosition" : [0, 0],
 
-  "energyCapacity" : 1000,
+  "energyCapacity" : 2000,
   "energyAllowConnection" : false
 }

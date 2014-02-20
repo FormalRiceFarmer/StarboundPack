@@ -1469,14 +1469,13 @@
         [
           "object",
           "avalichest1",
-		  {
-          "parameters": {
-            "treasurePools": [
-              "avaliTemporaryLoot"
-             ]
-           }
-		  } 
-		  
+          {
+            "parameters": {
+              "treasurePools": [
+                "avaliTemporaryLoot"
+              ]
+            }
+          }
         ]
       ],
       "rules": [],
@@ -1599,11 +1598,11 @@
           "bunkercrate",
           {
             "direction": "left",
-          "parameters": {
-            "treasurePools": [
-              "avaliTemporaryLoot"
-             ]
-           }
+            "parameters": {
+              "treasurePools": [
+                "avaliTemporaryLoot"
+              ]
+            }
           }
         ]
       ],
@@ -1627,11 +1626,11 @@
           "bunkercrate",
           {
             "direction": "right",
-          "parameters": {
-            "treasurePools": [
-              "avaliTemporaryLoot"
-             ]
-           }
+            "parameters": {
+              "treasurePools": [
+                "avaliTemporaryLoot"
+              ]
+            }
           }
         ]
       ],
@@ -2309,11 +2308,11 @@
           "avalichest2",
           {
             "direction": "left",
-          "parameters": {
-            "treasurePools": [
-              "avaliTemporaryLoot"
-             ]
-           }
+            "parameters": {
+              "treasurePools": [
+                "avaliTemporaryLoot"
+              ]
+            }
           }
         ]
       ],
@@ -2337,16 +2336,58 @@
           "avalichest2",
           {
             "direction": "right",
-          "parameters": {
-            "treasurePools": [
-              "avaliTemporaryLoot"
-             ]
-           }
+            "parameters": {
+              "treasurePools": [
+                "avaliTemporaryLoot"
+              ]
+            }
           }
         ]
       ],
       "rules": [],
       "connector": false
+    },
+    {
+      "value": [
+        77,
+        118,
+        136,
+        255
+      ],
+      "comment": "avali panel, background",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalipaneling"
+        ]
+      ],
+      "rules": []
+    },
+    {
+      "value": [
+        54,
+        38,
+        137,
+        255
+      ],
+      "comment": "avali panel, foreground",
+      "brush": [
+        [
+          "clear"
+        ],
+        [
+          "back",
+          "avalipaneling"
+        ],
+        [
+          "front",
+          "avalipaneling"
+        ]
+      ],
+      "rules": []
     }
   ],
   "parts": [

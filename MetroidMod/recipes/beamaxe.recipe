@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 10 },
+	{ "item" : "goldbar", "count" : 5 },
+	{ "item" : "flashlight", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "beamaxe", "count" : 1 },
+  "groups" : [ "mod", "metroid", "craftingtable", "tools", "all" ]
+}

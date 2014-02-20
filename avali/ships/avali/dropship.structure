@@ -375,6 +375,22 @@
         188,
         255
       ]
+    },
+    {
+      "comment": "strip light, 360",
+      "foregroundBlock": false,
+      "backgroundBlock": true,
+      "backgroundMat": "avalitechpanel",
+      "object": "apexshiplight",
+      "objectParameters": {
+        "unbreakable": true
+      },
+      "value": [
+        202,
+        199,
+        203,
+        255
+      ]
     }
   ],
   "blockImage": "dropshipblocks.png"

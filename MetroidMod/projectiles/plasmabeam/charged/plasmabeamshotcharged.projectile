@@ -1,0 +1,27 @@
+{
+  "projectileName" : "plasmabeamshotcharged",
+  "physics" : "plasmabeam",
+  "bounces" : 0,
+  "pointLight" : true,
+  "level" : 4,
+  "timeToLive" : 3,
+  "frames" : "plasmabeamshotcharged.png",
+  "damageKindImage" : "plasmabeamshotchargedicon.png",
+  "speed" : 1,
+  "animationCycle" : 3,
+  "lightColor" : [159, 151, 7],
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "power" : 110,
+  "damageKind" : "plasmabeamcharged",
+  "statusEffects" : [
+  
+    { "kind" : "plasmabeamchargedmelt" }
+	
+  ]
+}

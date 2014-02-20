@@ -4,6 +4,6 @@
   "animator" : "jetpack.animation",
 
   "jetpackSpeed" : 20.0,
-  "jetpackControlForce" : 200.0,
+  "jetpackControlForce" : 180.0,
   "energyUsagePerSecond" : 90.0
 }

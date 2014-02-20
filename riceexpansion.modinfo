@@ -1,6 +1,6 @@
 {
   "name" : "riceexpansion",
-  "version" : "Beta v. Furious Koala",
+  "version" : "Beta v. Enraged Koala",
   "path" : "riceexpansion",
   "dependencies" : [ "starfoundry" ]
 }

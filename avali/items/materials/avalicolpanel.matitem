@@ -1,0 +1,10 @@
+{
+  "itemName" : "avalicolpanel",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalidarktile.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "The nemesis of dark paneling",
+  "shortdescription" : "Coloured Wall Panels",
+
+  "materialId" : 13007
+}

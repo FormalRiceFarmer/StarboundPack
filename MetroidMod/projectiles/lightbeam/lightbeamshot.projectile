@@ -1,0 +1,20 @@
+{
+  "projectileName" : "lightbeamshot",
+  "physics" : "lightbeam",
+  "bounces" : 0,
+  "level" : 4,
+  "damageKindImage" : "lightbeamshoticon.png",
+  "frames" : "lightbeamshot.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "power" : 30,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [159, 151, 7],
+  "damageKind" : "lightbeam"
+}

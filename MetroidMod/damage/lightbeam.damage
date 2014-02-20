@@ -1,0 +1,32 @@
+{
+  "kind" : "lightbeam",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/lightbeamblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/lightbeamblast.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/lightbeamblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/lightbeamblast.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+
+
+

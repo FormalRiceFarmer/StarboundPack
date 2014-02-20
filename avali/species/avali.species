@@ -28,6 +28,16 @@
 	  { "item" : "avaliracial2head" },
       { "item" : "avaliracial2pants" },
       { "item" : "avaliracial2chest" },
+	  		  
+      { "item" : "avaliarmor1head" },
+      { "item" : "avaliarmor1pants" },
+      { "item" : "avaliarmor1chest" },
+	  { "item" : "avaliarmor2head" },
+      { "item" : "avaliarmor2pants" },
+      { "item" : "avaliarmor2chest" },	  
+	  { "item" : "avaliarmor3head" },
+      { "item" : "avaliarmor3pants" },
+      { "item" : "avaliarmor3chest" },	 
 	  
       { "item" : "avaliflour" },
       { "item" : "avalinoodle" },
@@ -73,9 +83,9 @@
 	  
     ],
     "tier4" : [
-      { "item" : "hylotltier4head" },
-      { "item" : "hylotltier4chest" },
-      { "item" : "hylotltier4pants" },
+	  { "item" : "avalitier4head" },
+      { "item" : "avalitier4chest" },
+      { "item" : "avalitier4pants" },
 	  { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "avalitier4barrier", "level" : 1 } },
 	  
       { "item" : "avalitier4broadsword" },  
@@ -85,9 +95,10 @@
       { "item" : "avalitier4spear" }
     ],
     "level32" : [
-      { "item" : "hylotltier5head" },
-      { "item" : "hylotltier5chest" },
-      { "item" : "hylotltier5pants" },
+	  { "item" : "avalitier5head" },
+      { "item" : "avalitier5chest" },
+      { "item" : "avalitier5pants" },
+	  
       { "item" : "hylotltier5hammer" },
       { "item" : "hylotltier5shortsword" },
       { "item" : "hylotltier5broadsword" },
@@ -96,9 +107,10 @@
       { "item" : "hylotltier5dagger" }
     ],
     "level33" : [
-      { "item" : "hylotltier6head" },
-      { "item" : "hylotltier6chest" },
-      { "item" : "hylotltier6pants" },
+	  { "item" : "avalitier6head" },
+      { "item" : "avalitier6chest" },
+      { "item" : "avalitier6pants" },
+	  
       { "item" : "hylotltier6hammer" },
       { "item" : "hylotltier6shortsword" },
       { "item" : "hylotltier6broadsword" },
@@ -107,9 +119,10 @@
       { "item" : "hylotltier6dagger" }
     ],
     "level34" : [
-      { "item" : "hylotltier7head" },
-      { "item" : "hylotltier7chest" },
-      { "item" : "hylotltier7pants" },
+	  { "item" : "avalitier7head" },
+      { "item" : "avalitier7chest" },
+      { "item" : "avalitier7pants" },
+	  
       { "item" : "hylotltier7hammer" },
       { "item" : "hylotltier7shortsword" },
       { "item" : "hylotltier7broadsword" },
@@ -118,9 +131,10 @@
       { "item" : "hylotltier7dagger" }
     ],
     "level35" : [
-      { "item" : "hylotltier8head" },
-      { "item" : "hylotltier8chest" },
-      { "item" : "hylotltier8pants" },
+	  { "item" : "avalitier8head" },
+      { "item" : "avalitier8chest" },
+      { "item" : "avalitier8pants" },
+	  
       { "item" : "hylotltier8hammer" },
       { "item" : "hylotltier8shortsword" },
       { "item" : "hylotltier8broadsword" },
@@ -129,9 +143,10 @@
       { "item" : "hylotltier8dagger" }
     ],
     "level36" : [
-      { "item" : "hylotltier9head" },
-      { "item" : "hylotltier9chest" },
-      { "item" : "hylotltier9pants" },
+	  { "item" : "avalitier9head" },
+      { "item" : "avalitier9chest" },
+      { "item" : "avalitier9pants" },
+	  
       { "item" : "hylotltier9hammer" },
       { "item" : "hylotltier9shortsword" },
       { "item" : "hylotltier9broadsword" },
@@ -140,9 +155,10 @@
       { "item" : "hylotltier9dagger" }
     ],
     "level37" : [
-      { "item" : "hylotltier10head" },
-      { "item" : "hylotltier10chest" },
-      { "item" : "hylotltier10pants" },
+	  { "item" : "avalitier10head" },
+      { "item" : "avalitier10chest" },
+      { "item" : "avalitier10pants" },
+	  
       { "item" : "hylotltier10hammer" },
       { "item" : "hylotltier10shortsword" },
       { "item" : "hylotltier10broadsword" },

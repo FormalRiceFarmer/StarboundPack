@@ -1,0 +1,11 @@
+{
+  "kind" : "wavebeamelectroshock",
+  "tooltipLabel" : "ElectroDamage(%)",
+  "tooltipAmountLabel" : "%amount%",
+  "mainInterfaceIcon" : "/interface/statuses/electric.png",
+  "primitives" : [
+    { "name" : "directdamage", "value" : 5 }
+  ],
+  "damageKind" : "wavebeam",
+  "effectSources" : [ ]
+}

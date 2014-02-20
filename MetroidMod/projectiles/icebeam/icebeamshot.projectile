@@ -1,0 +1,25 @@
+{
+  "projectileName" : "icebeamshot",
+  "physics" : "icebeam",
+  "bounces" : 0,
+  "level" : 3,
+  "damageKindImage" : "icebeamshoticon.png",
+  "frames" : "icebeamshot.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 2,
+  "power" : 40,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [159, 151, 7],
+  "damageKind" : "icebeam",
+  "statusEffects" : [
+  
+    { "kind" : "icebeamslow" }
+	
+  ]
+}

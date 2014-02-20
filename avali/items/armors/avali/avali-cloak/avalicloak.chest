@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A lightweight rainproof poncho",
-  "shortdescription" : "Avali Poncho",
+  "description" : "A long fur cloak made from some unspeakable horror",
+  "shortdescription" : "Fur Cloak",
   "inspectionKind" : "armor",
 
   "maleFrames" : {
@@ -23,18 +23,7 @@
   "statusEffects" : [
     {
       "kind" : "ColdProtection",
-      "amount" : 22.5
-    },
-
-    {
-      "kind" : "Protection",
-      "level" : 31,
-      "amount" : 65
-    },
-
-    {
-      "kind" : "healthincrease",
-      "amount" : 135
+      "amount" : 1
     }
   ],
 

@@ -1,0 +1,22 @@
+{
+  "projectileName" : "powerbeamshotcharged",
+  "physics" : "powerbeam",
+  "bounces" : 0,
+  "pointLight" : true,
+  "level" : 2,
+  "timeToLive" : 3,
+  "frames" : "powerbeamshotcharged.png",
+  "damageKindImage" : "powerbeamdshotchargedicon.png",
+  "speed" : 1,
+  "animationCycle" : 3,
+  "lightColor" : [159, 151, 7],
+  "frameNumber" : 25,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "power" : 20,
+  "damageKind" : "plasma"
+}

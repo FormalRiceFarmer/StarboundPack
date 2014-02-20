@@ -1,0 +1,46 @@
+{
+  "itemName" : "icebeam",
+  "inventoryIcon" : "icebeamicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Shoots supercharged ice. Powerful, but slow and very energy costing.",
+  "shortdescription" : "Ice beam",
+  "inspectionKind" : "gun",
+  "image" : "cannon.png",
+  "handPosition" : [-5, -1],
+  "firePosition" : [1, 1],
+  "level" : 3,
+  "fireTime" : 0.5,
+  "twoHanded" : false,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "icebeamshot",
+  "powerProjectileType" : "icebeamshotcharged",
+  "powerProjectileTime" : [0.7, 50],
+  "projectile" : {
+    "speed" : 20,
+    "power" : 40,
+    "color" : [10, 255, 10] },
+  
+  "muzzleEffect" : {
+	"fireSound" : [ { "file" : "/sfx/icebeamfire.wav" } ]
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}

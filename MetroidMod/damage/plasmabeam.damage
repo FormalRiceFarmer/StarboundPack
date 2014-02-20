@@ -1,0 +1,32 @@
+{
+  "kind" : "plasmabeam",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/plasmabeamblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/plasmabeamblast.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/plasmabeamblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/plasmabeamblast.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+
+
+

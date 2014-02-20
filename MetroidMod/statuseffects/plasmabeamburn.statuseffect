@@ -1,0 +1,12 @@
+{
+  "kind" : "plasmabeamburn",
+  "tooltipLabel" : "FireDamage(%)",
+  "tooltipAmountLabel" : "%amount%",
+  "mainInterfaceIcon" : "/interface/statuses/fire.png",
+  "duration" : 5,
+  "primitives" : [
+    { "name" : "directdamage", "value" : 5 }
+  ],
+  "damageKind" : "plasmabeam",
+  "effectSources" : [ ]
+}

@@ -1,0 +1,27 @@
+{
+  "projectileName" : "wavebeamshotcharged",
+  "physics" : "wavebeam",
+  "bounces" : 0,
+  "pointLight" : true,
+  "level" : 3,
+  "timeToLive" : 3,
+  "frames" : "wavebeamshotcharged.png",
+  "damageKindImage" : "wavebeamshotchargedicon.png",
+  "speed" : 1,
+  "animationCycle" : 3,
+  "lightColor" : [159, 151, 7],
+  "frameNumber" : 3,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "power" : 30,
+  "damageKind" : "wavebeamcharged",
+  "statusEffects" : [
+  
+    { "kind" : "wavebeamstun" }
+	
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "kind" : "wavebeamcharged",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/wavebeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/wavebeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/wavebeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/wavebeamchargedblast.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+
+
+

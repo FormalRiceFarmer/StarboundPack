@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 100 },
+	{ "item" : "fabric", "count" : 20 }
+	
+  ],
+  "output" : { "item" : "zerosuitchest", "count" : 1 },
+  "groups" : [ "mod", "metroid", "craftingtable", "armors", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "powerbeam", "count" : 1 },
+	{ "item" : "beamaxe", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "grapplebeam", "count" : 1 },
+  "groups" : [ "mod", "metroid", "metalworkstation", "tools", "all" ]
+}

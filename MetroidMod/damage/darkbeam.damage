@@ -1,0 +1,32 @@
+{
+  "kind" : "darkbeam",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/darkbeamblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/darkbeamblast.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/darkbeamblast.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/darkbeamblast.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+
+
+

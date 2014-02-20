@@ -1,0 +1,30 @@
+{
+  "kind" : "icebeam",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/icebeamblast1.wav", "/sfx/icebeamblast2.wav", "/sfx/icebeamblast3.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/icebeamblast1.wav", "/sfx/icebeamblast2.wav", "/sfx/icebeamblast3.wav" ],
+        "particles" : [
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/icebeamblast1.wav", "/sfx/icebeamblast2.wav", "/sfx/icebeamblast3.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/icebeamblast1.wav", "/sfx/icebeamblast2.wav", "/sfx/icebeamblast3.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}
+

@@ -1,6 +1,6 @@
 {
   "name" : "StarFoundry Liquid Power",
-  "version" : "Beta v. Furious Koala",
+  "version" : "Beta v. Enraged Koala",
   "path" : "SFLiquidPower",
   "dependencies" : ["starfoundry"]
 }

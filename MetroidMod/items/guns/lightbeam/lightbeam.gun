@@ -1,0 +1,46 @@
+{
+  "itemName" : "lightbeam",
+  "inventoryIcon" : "lightbeamicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Fires beams of concentrated light energy.",
+  "shortdescription" : "Light Beam",
+  "inspectionKind" : "gun",
+  "image" : "cannon.png",
+  "handPosition" : [-5, -1],
+  "firePosition" : [1, 1],
+  "level" : 4,
+  "fireTime" : 0.2,
+  "twoHanded" : false,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "lightbeamshot",
+  "powerProjectileType" : "lightbeamshotcharged",
+  "powerProjectileTime" : [0.7, 50],
+  "projectile" : {
+    "speed" : 50,
+    "power" : 30,
+    "color" : [10, 255, 10] },
+  
+  "muzzleEffect" : {
+	"fireSound" : [ { "file" : "/sfx/lightbeamfire.wav" } ]
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}

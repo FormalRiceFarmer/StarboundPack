@@ -1,0 +1,13 @@
+{
+  "materialId" : 13007,
+  "materialName" : "avalicolpanel",
+  "frames" : "avalicolpanel.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "avalicolpanel",
+  "description" : "The nemesis of dark paneling",
+  "shortdescription" : "Coloured Wall Panels",
+  "multicolored" : false,
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "health" : 1.0
+}

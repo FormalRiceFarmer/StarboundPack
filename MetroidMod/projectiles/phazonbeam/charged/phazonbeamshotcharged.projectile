@@ -1,0 +1,25 @@
+{
+  "projectileName" : "phazonbeamshotcharged",
+  "physics" : "phazonbeam",
+  "bounces" : 0,
+  "pointLight" : true,
+  "level" : 7,
+  "timeToLive" : 3,
+  "frames" : "phazonbeamshotcharged.png",
+  "damageKindImage" : "phazonbeamshotchargedicon.png",
+  "speed" : 1,
+  "animationCycle" : 3,
+  "lightColor" : [159, 151, 7],
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    }
+  ],
+  "power" : 250,
+  "damageKind" : "phazonbeamcharged",
+  "statusEffects" : [
+	{ "kind" : "phazonbeamchargeddisintegrate" }
+  ]
+}

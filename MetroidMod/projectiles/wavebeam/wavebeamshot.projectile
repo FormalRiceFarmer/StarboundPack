@@ -1,0 +1,26 @@
+{
+  "projectileName" : "wavebeamshot",
+  "physics" : "wavebeam",
+  "piercing" : true,
+  "bounces" : 0,
+  "level" : 3,
+  "damageKindImage" : "wavebeamshoticon.png",
+  "frames" : "wavebeamshot.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "power" : 30,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [159, 151, 7],
+  "damageKind" : "wavebeam",
+  "statusEffects" : [
+  
+    { "kind" : "wavebeamelectroshock" }
+	
+  ]
+}
