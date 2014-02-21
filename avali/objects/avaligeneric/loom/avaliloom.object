@@ -1,7 +1,6 @@
 {
   "objectName" : "avaliloom",
   "rarity" : "Common",
-  "objectType" : "interactable",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/avaliloom.config",

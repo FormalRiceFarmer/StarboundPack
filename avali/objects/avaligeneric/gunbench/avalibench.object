@@ -1,7 +1,6 @@
 {
   "objectName" : "avalibench",
   "rarity" : "Common",
-  "objectType" : "interactable",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/avalibench.config",
