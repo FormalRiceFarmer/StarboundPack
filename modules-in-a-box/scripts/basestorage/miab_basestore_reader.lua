@@ -92,7 +92,9 @@ if(debug_mode ) then world.logInfo("self.miab.cleanupStage: " .. self.miab.clean
 	if self.miab.cleanupStage == 4 then
 if(debug_mode ) then world.logInfo("self.miab.cleanupStage: " .. self.miab.cleanupStage) end
 		if (set_green_animation) then set_green_animation() end
-		collectItemDrops(self.miab.Main_Hoover_BB,false)
+		-- just skip this as we dont need to pick up drops anymore
+		--collectItemDrops(self.miab.Main_Hoover_BB,false)
+		self.miab.cleanupStage = self.miab.cleanupStage + 1;
 	end
 	if self.miab.cleanupStage == 5 then
 if(debug_mode ) then world.logInfo("self.miab.cleanupStage: " .. self.miab.cleanupStage) end
@@ -241,7 +243,8 @@ if(debug_mode ) then world.logInfo("Bounding box too small: " .. xMax .. "," .. 
 	end
 
 	-- scan objects
-	local ObjectIds = world.objectQuery({self.miab.boundingBox[1], self.miab.boundingBox[2]}, {self.miab.boundingBox[3], self.miab.boundingBox[4]})
+--	local ObjectIds = world.objectQuery({self.miab.boundingBox[1], self.miab.boundingBox[2]}, {self.miab.boundingBox[3], self.miab.boundingBox[4]})
+	local ObjectIds = fixedObjectQuery({self.miab.boundingBox[1], self.miab.boundingBox[2]}, {self.miab.boundingBox[3], self.miab.boundingBox[4]})
 	if ObjectIds then
 		for i, ObjectId in pairs(ObjectIds) do
 			pos = world.entityPosition(ObjectId)
@@ -259,6 +262,12 @@ if(debug_mode ) then world.logInfo("Bounding box too small: " .. xMax .. "," .. 
 					blueprint.addItemsRequired(Descriptor)
 				--end
 				
+				-- smash it
+				if world.breakObject(ObjectId,true) then
+					-- add it to inventory so it doesnt get lost. if we cant place it later it will be spit out
+					blueprint.addItemsAccquired(Descriptor)
+				end
+				
 				did_scan_anything_at_all = true;
 			end
 		end
@@ -272,17 +281,7 @@ if(debug_mode ) then world.logInfo("Bounding box too small: " .. xMax .. "," .. 
 end
 
 function destroyObjects()
--- doesn't work for some reason, leave it as a placeholder for when there's a world.destroyObject() function or something equally useful
---[[ 
-	local pos = {}
-	for _y, _tbl in pairs(blueprint.objectTable) do
-		for _x, _objTbl in pairs(_tbl) do
-			pos = {self.miab.boundingBox[1] + _x, self.miab.boundingBox[2] + _y}
-			world.placeMaterial(pos, "background", "concrete", nil, true)
-			blueprint.clearBlock(pos, "background")
-		end
-	end
-]]
+	-- not needed anymore
 end
 
 function destroyBlocks()
@@ -298,10 +297,10 @@ function destroyBlocks()
 			blueprint.clearBlock(pos,"background");
 			blueprint.clearBlock(pos,"foreground");
 
-			if world.material(pos, "background") ~= nil then
+			if world.material(pos, "background") ~= false then
 				allClear = false
 			end
-			if world.material(pos, "foreground") ~= nil then
+			if world.material(pos, "foreground") ~= false then
 				allClear = false
 			end
 		end
@@ -334,7 +333,7 @@ if(debug_mode ) then world.logInfo("Bounding box too small: " .. xMax .. "," .. 
 			pos = {self.miab.boundingBox[1] + x, self.miab.boundingBox[2] + y}
 			matName_back = world.material(pos, "background")
 			matName_fore = world.material(pos, "foreground")
-			if (matName_back ~= nil) then
+			if (matName_back ~= false) then
 				-- remove this block from blueprint
 				blueprint.setBlock(x, y, nil, "background")
 				-- remove requirements for this from blueprint
@@ -344,7 +343,7 @@ if(debug_mode ) then world.logInfo("Bounding box too small: " .. xMax .. "," .. 
 				blueprint.removeItemsFromTable(Descriptor,blueprint.requiredItemsTable)
 			else
 			end
-			if (matName_back ~= nil) then
+			if (matName_back ~= false) then
 				-- remove this block from blueprint
 				blueprint.setBlock(x, y, nil, "foreground")
 				-- remove requirements for this from blueprint
@@ -357,7 +356,8 @@ if(debug_mode ) then world.logInfo("Bounding box too small: " .. xMax .. "," .. 
 		end
 	end
 	-- scan objects
-	local ObjectIds = world.objectQuery({self.miab.boundingBox[1], self.miab.boundingBox[2]}, {self.miab.boundingBox[3], self.miab.boundingBox[4]})
+--	local ObjectIds = world.objectQuery({self.miab.boundingBox[1], self.miab.boundingBox[2]}, {self.miab.boundingBox[3], self.miab.boundingBox[4]})
+	local ObjectIds = fixedObjectQuery({self.miab.boundingBox[1], self.miab.boundingBox[2]}, {self.miab.boundingBox[3], self.miab.boundingBox[4]})
 	if ObjectIds then
 		for i, ObjectId in pairs(ObjectIds) do
 			pos = world.entityPosition(ObjectId)
@@ -395,6 +395,8 @@ function collectItemDrops(BoundingBox, LoopUnlimitted)
 end
 
 function Post_Hoover_Stage()
+--[[
+-- Old code which was used when we still had to pick up objects.
 	if (self.miab.useInventory) then
 		-- Post Hoover stage
 		-- In this stage the reader will hoover up anything
@@ -417,6 +419,9 @@ function Post_Hoover_Stage()
 		-- dont use inventory -> dont use post hoover also
 		End_Post_Hoover_Stage();
 	end
+]]
+	-- as we just smashed them without drop now we can just skip this
+	End_Post_Hoover_Stage();
 end
 
 function End_Post_Hoover_Stage()

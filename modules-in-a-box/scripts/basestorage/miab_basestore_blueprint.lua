@@ -125,6 +125,9 @@ function blueprint.setObject(x, y, Id)
 	if ObjectParameter_tbl.Facing == nil then
 		ObjectParameter_tbl.Facing = 1
 	end
+	if world.containerSize(Id) then
+		ObjectParameter_tbl.Contents = world.containerTakeAll(Id)
+	end
 --	if (debug_mode) then world.logInfo(tostring(Id) .. ".Facing: " .. tostring(ObjectParameter_tbl.Facing)) end
 	-- create entry
 	if blueprint.objectTable[y] == nil then
@@ -465,13 +468,6 @@ end
 
 function blueprint.Dump_Obj_JSON()
 	-- see: http://jsonlint.com/ for json validation tool
-	local L = 0;
-	local L2 = 0;
-	local L3 = 0;
-	local cur_L = 0;
-	local cur_L2 = 0;
-	local cur_L3 = 0;
-	
 	world.logInfo("-------------------------------------------")
 	world.logInfo("Blueprint config serialisation:")
 	world.logInfo("-------------------------------------------")
@@ -479,139 +475,49 @@ function blueprint.Dump_Obj_JSON()
 	world.logInfo("\t\"boundingBoxSize\" : [")
 	world.logInfo("\t\t" .. tostring(blueprint.boundingBoxSize[1]) .. ", " .. tostring(blueprint.boundingBoxSize[2]))
 	world.logInfo("\t],")
-	world.logInfo("\t\"blocksTable\" : {")
-	L = blueprint.tablelength(blueprint.blocksTable)
-	cur_L = 0
-	for _name, _id in pairs(blueprint.blocksTable) do
-		cur_L = cur_L+1
-		if (cur_L == L)then
-			world.logInfo("\t\t\"" .. tostring(_name) .. "\" : " .. toJSON(_id))
-		else
-			world.logInfo("\t\t\"" .. tostring(_name) .. "\" : " .. toJSON(_id) .. ",")
-		end
-	end
-	world.logInfo("\t},")
+	tableToJSON("\t", "blocksTable", blueprint.blocksTable, ",")
 	world.logInfo("\t\"nextBlockId\" : " .. blueprint.nextBlockId .. ",")
-	world.logInfo("\t\"layoutTableBackground\" : {")
-	L = blueprint.tablelength(blueprint.layoutTableBackground)
-	cur_L = 0
-	for _y, _tbl in pairs(blueprint.layoutTableBackground) do
-		world.logInfo("\t\t\"" .. tostring(_y) .. "\" : {")
-		L2 = blueprint.tablelength(_tbl)
-		cur_L2 = 0
-		for _x, _id in pairs(_tbl) do
-			cur_L2 = cur_L2+1
-			if (cur_L2 == L2) then
-				world.logInfo("\t\t\t\"" .. tostring(_x) .. "\" : " .. toJSON(_id))
-			else
-				world.logInfo("\t\t\t\"" .. tostring(_x) .. "\" : " .. toJSON(_id) .. ",")
-			end
-		end
-		cur_L = cur_L+1
-		if (cur_L == L) then
-			world.logInfo("\t\t}")
-		else
-			world.logInfo("\t\t},")
-		end
-	end
-	world.logInfo("\t},")
-	world.logInfo("\t\"layoutTableForeground\" : {")
-	L = blueprint.tablelength(blueprint.layoutTableForeground)
-	cur_L = 0
-	for _y, _tbl in pairs(blueprint.layoutTableForeground) do
-		world.logInfo("\t\t\"" .. tostring(_y) .. "\" : {")
-		L2 = blueprint.tablelength(_tbl)
-		cur_L2 = 0
-		for _x, _id in pairs(_tbl) do
-			cur_L2 = cur_L2+1
-			if (cur_L2 == L2) then
-				world.logInfo("\t\t\t\"" .. tostring(_x) .. "\" : " .. toJSON(_id))
-			else
-				world.logInfo("\t\t\t\"" .. tostring(_x) .. "\" : " .. toJSON(_id) .. ",")
-			end
-		end
-		cur_L = cur_L+1
-		if (cur_L == L) then
-			world.logInfo("\t\t}")
-		else
-			world.logInfo("\t\t},")
-		end
-	end
-	world.logInfo("\t},")
-	world.logInfo("\t\"objectTable\" : {")
-	L = blueprint.tablelength(blueprint.objectTable)
-	cur_L = 0
-	for _y, _tbl in pairs(blueprint.objectTable) do
-		world.logInfo("\t\t\"" .. tostring(_y) .. "\" : {")
-		L2 = blueprint.tablelength(_tbl)
-		cur_L2 = 0
-		for _x, _objTbl in pairs(_tbl) do
-			world.logInfo("\t\t\t\"" .. tostring(_x) .. "\" : {")
-			L3 = blueprint.tablelength(_objTbl)
-			cur_L3 = 0
-			for _key, _val in pairs(_objTbl) do
-				cur_L3 = cur_L3+1
-				if (cur_L3 == L3) then
-					world.logInfo("\t\t\t\t\"" .. tostring(_key) .. "\" : " .. toJSON(_val))
-				else
-					world.logInfo("\t\t\t\t\"" .. tostring(_key) .. "\" : " .. toJSON(_val) .. ",")
-				end
-			end
-			cur_L2 = cur_L2 + 1
-			if (cur_L2 == L2) then
-				world.logInfo("\t\t\t}")
-			else
-				world.logInfo("\t\t\t},")
-			end
-		end
-		cur_L = cur_L+1
-		if (cur_L == L) then
-			world.logInfo("\t\t}")
-		else
-			world.logInfo("\t\t},")
-		end
-	end
-	world.logInfo("\t},")
-	world.logInfo("\t\"optionsTable\" : {")
-	L = blueprint.tablelength(blueprint.optionsTable)
-	cur_L = 0
-	for _key, _val in pairs(blueprint.optionsTable) do
-		cur_L = cur_L+1
-		if (cur_L == L) then
-			world.logInfo("\t\t\"" .. tostring(_key) .. "\" : " .. toJSON(_val))
-		else
-			world.logInfo("\t\t\"" .. tostring(_key) .. "\" : " .. toJSON(_val) .. ",")
-		end
-	end
-	world.logInfo("\t},")
-	world.logInfo("\t\"accquiredItemsTable\" : {")
-	L = blueprint.tablelength(blueprint.accquiredItemsTable)
-	cur_L = 0
-	for _name, _nr in pairs(blueprint.accquiredItemsTable) do
-		cur_L = cur_L+1
-		if (cur_L == L) then
-			world.logInfo("\t\t\"" .. tostring(_name) .. "\" : " .. toJSON(_nr))
-		else
-			world.logInfo("\t\t\"" .. tostring(_name) .. "\" : " .. toJSON(_nr) .. ",")
-		end
-	end
-	world.logInfo("\t},")
-	world.logInfo("\t\"requiredItemsTable\" : {")
-	L = blueprint.tablelength(blueprint.requiredItemsTable)
-	cur_L = 0
-	for _name, _nr in pairs(blueprint.requiredItemsTable) do
-		cur_L = cur_L+1
-		if (cur_L == L) then
-			world.logInfo("\t\t\"" .. tostring(_name) .. "\" : " .. toJSON(_nr))
-		else
-			world.logInfo("\t\t\"" .. tostring(_name) .. "\" : " .. toJSON(_nr) .. ",")
-		end
-	end
-	world.logInfo("\t}")
+	tableToJSON("\t", "layoutTableBackground", blueprint.layoutTableBackground, ",")
+	tableToJSON("\t", "layoutTableForeground", blueprint.layoutTableForeground, ",")
+	tableToJSON("\t", "objectTable", blueprint.objectTable, ",")
+	tableToJSON("\t", "optionsTable", blueprint.optionsTable, ",")
+	tableToJSON("\t", "accquiredItemsTable", blueprint.accquiredItemsTable, ",")
+	tableToJSON("\t", "requiredItemsTable", blueprint.requiredItemsTable, "")
 	world.logInfo("}")
 	world.logInfo("-------------------------------------------")
 	world.logInfo("Blueprint config serialisation ends")
 	world.logInfo("-------------------------------------------")
+end
+
+function tableToJSON(prefix, name, val, suffix)
+	if type(val) == "boolean" then
+		if table == true then
+			world.logInfo(prefix .. "\"" .. name .. "\" : true" .. suffix)
+		else
+			world.logInfo(prefix .. "\"" .. name .. "\" : false" .. suffix)
+		end
+	elseif type(val) == "number" then
+		world.logInfo(prefix .. "\"" .. name .. "\" : " .. tostring(val) .. suffix)
+	elseif type(val) == "string" then
+		world.logInfo(prefix .. "\"" .. name .. "\" : \"" .. val .. "\"" .. suffix)
+	elseif type(val) == "table" then
+		local _k, _v
+		local itemCount, itemCurrent
+		itemCount = blueprint.tablelength(val)
+		itemCurrent = 0
+		world.logInfo(prefix .. "\"" .. name .. "\" : {")
+		for _k, _v in pairs(val) do
+			itemCurrent = itemCurrent + 1
+			if itemCount == itemCurrent then
+				tableToJSON(prefix .. "\t", _k, _v, "")
+			else
+				tableToJSON(prefix .. "\t", _k, _v, ",")
+			end
+		end
+		world.logInfo(prefix .. "}" .. suffix)
+	else
+		world.logInfo(prefix .. "\"" .. name .. "\" : \"Serialisation error: not basic type or table\"" .. suffix)
+	end
 end
 
 function toJSON(val)
@@ -710,11 +616,19 @@ function blueprint.is_inside_BB (pos,BB)
 	   return false
    end
 	]]
+	local distBL = world.distance(pos, { BB[1], BB[2] })
+	local distTR = world.distance(pos, { BB[3], BB[4] })
+	
+	if distBL[1] < 0 then return false end
+	if distBL[2] < 0 then return false end
+	if distTR[1] > 0 then return false end
+	if distTR[2] > 0 then return false end
+	--[[
 	if (pos[1] < BB[1]) then return false end
 	if (pos[1] > BB[3]) then return false end
 	if (pos[2] < BB[2]) then return false end
 	if (pos[2] > BB[4]) then return false end
-
+	--]]
 	return true
 end
 

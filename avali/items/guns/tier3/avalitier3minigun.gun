@@ -2,7 +2,7 @@
   "itemName" : "avalitier3minigun",
   "inventoryIcon" : "avaliminigun.png",
   "rarity" : "Uncommon",
-  "description" : "The Avali primary fire suppression support weapon",
+  "description" : "The primary Avali suppressive fire and support weapon.",
   "shortdescription" : "MG2 Hailstorm",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,

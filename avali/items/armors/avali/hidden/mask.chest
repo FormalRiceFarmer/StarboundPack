@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Place this in your chest vanity slot to hide your chestpiece",
+  "description" : "Place this in your chest vanity slot to hide your chestpiece.",
   "shortdescription" : "Hidden Chestpiece",
   "inspectionKind" : "armor",
 

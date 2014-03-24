@@ -9,12 +9,12 @@
   "race" : "avali",
 
   "apexDescription" : "What a primitive piece of decoration.",
-  "avianDescription" : "I hope none of these feathers are Avian",
+  "avianDescription" : "I hope none of these feathers are Avian.",
   "floranDescription" : "They have big ssssspiders on this planet.",
   "glitchDescription" : "Observation. A primitive hanging decoration with audiable properties.",
   "humanDescription" : "Hey, this looks just like a dreamcatcher from Earth.",
   "hylotlDescription" : "What a quaint decoration.",
-  "avaliDescription" : "Traditionally packs add ribbons, feathers, crystals and other trinkets to the web giving a record of major events in their life.", 
+  "avaliDescription" : "Traditionally, packs add ribbons, feathers, crystals and other trinkets to the web, giving a record of major events in their life.", 
 
   "inventoryIcon" : "avalidreamcatcher1.png",
   "orientations" : [

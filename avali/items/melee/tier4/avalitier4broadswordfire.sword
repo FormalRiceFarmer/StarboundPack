@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "The blade can be super-heatted, for cutting armour.",
+  "description" : "The blade can be super-heated for cutting armour.",
   "shortdescription" : "Assault Longblade",
   "inspectionKind" : "sword",
   "kind" : "Broadsword",

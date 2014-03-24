@@ -5,7 +5,7 @@
   "particleColor" : [110, 110, 110, 255],
   "variants" : 1,
   "itemDrop" : "avalipaneling",
-  "description" : "Like paneling, but darker",
+  "description" : "Like paneling, but darker.",
   "shortdescription" : "Dark Paneling",
   "multicolored" : false,
   "footstepSound" : "/sfx/blocks/footstep_sand.wav",

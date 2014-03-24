@@ -45,7 +45,7 @@
       { "item" : "humantier2head" },
       { "item" : "humantier2chest" },
       { "item" : "humantier2pants" },
-      { "item" : "spawnerhuman" }
+      { "item" : "spawnernovakid+" }
     ],
     "tier3" : [
       { "item" : "humantier3head" },

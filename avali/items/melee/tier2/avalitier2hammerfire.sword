@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "This model of sledge has a built in motor to bring the head down with immense force",
-  "shortdescription" : "Scouts Sledge",
+  "description" : "This model of sledge has a built-in motor to bring the head down with immense force.",
+  "shortdescription" : "Scout's Sledge",
   "inspectionKind" : "sword",
   "kind" : "Hammer",
 

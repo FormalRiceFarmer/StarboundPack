@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "It takes special kind of maniac to bring a knife to a railgun fight",
+  "description" : "It takes a special kind of maniac to bring a knife to a railgun fight.",
   "shortdescription" : "Assault Dagger",
   "inspectionKind" : "sword",
   "kind" : "Dagger",

@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Little more than a robust headset and microphone",
-  "shortdescription" : "Survival Headgear",
+  "description" : "^green;Avali, Head Slot. ^white; Little more than a robust headset and microphone.",
+  "shortdescription" : "Avali Headset",
   "inspectionKind" : "armor",
 
   "maleFrames" : "head.png",

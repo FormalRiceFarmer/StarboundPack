@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "This set of leg armour features it's own powered exoskeleton, a soldier wearing this could perform ballet carrying a support weapon!",
-  "shortdescription" : "Soldier's Cuisses",
+  "description" : "^green;Avali, Leg Slot. ^white; Features a powered exoskeleton, allowing the user to perform ballet in full combat armour.",
+  "shortdescription" : "Combat Armour",
   "inspectionKind" : "armor",
 
   "maleFrames" : "pants.png",

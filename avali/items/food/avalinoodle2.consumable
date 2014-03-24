@@ -2,7 +2,7 @@
   "itemName" : "avalinoodle2",
   "rarity" : "Common",
   "inventoryIcon" : "avalinoodle2.png",
-  "description" : "Spicey meat noodles with a rich Kiri sauce",
+  "description" : "Spicey meat noodles with a rich Kiri sauce.",
   "shortdescription" : "Kiri Curry",
   "handPosition" : [0, 4],
   "effects" : [ [

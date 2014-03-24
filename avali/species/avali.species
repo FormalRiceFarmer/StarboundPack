@@ -2,8 +2,8 @@
   "kind" : "avali",
   "playerSpecies" : true,
   "nameGen" : [ "/species/avalinamegen.config:names", "/species/avalinamegen.config:names" ],
-  "ouchNoises" : [ "/sfx/npc/smallbiped/spidermonkey_pain2.wav", "/sfx/npc/smallbiped/spidermonkey_pain2.wav" ],
-  "charGenTextLabels" : [ "FLUFF COLOR", "PLUMAGE", "SHIRT", "PANTS", "TRIM COLOR", "FEATHER COLOR", "SHIRT COLOR", "PANTS COLOR", "AVALI", "PERSONALITY" ],
+  "ouchNoises" : [ "/sfx/npc/smallbiped/spidermonkey_idle2.wav", "/sfx/npc/smallbiped/spidermonkey_idle1.wav" ],
+  "charGenTextLabels" : [ "FLUFF COLOR", "PLUMAGE", "ACCESSORY", "OUTFIT", "TRIM COLOR", "FEATHER COLOR", "ACCESSORY COLOR", "OUTFIT COLOR", "AVALI", "PERSONALITY" ],
   "defaultBlueprints" : {
     "tier1" : [
 	  { "item" : "avalitier1head"},
@@ -21,6 +21,20 @@
       { "item" : "maskpants" },
       { "item" : "maskback" },
       { "item" : "maskchest" },	  
+	
+	  { "item" : "avaliset1chest" },
+	  { "item" : "avaliset1bchest" },	
+	  { "item" : "avaliset1cchest" },		  
+	  { "item" : "avaliset1pants" },
+	  { "item" : "avaliset1bpants" },	  
+	  { "item" : "avaliset1cpants" },
+	  
+	  { "item" : "avaliset5chest" },
+	  { "item" : "avaliset5bchest" },	
+	  { "item" : "avaliset5cchest" },		  
+	  { "item" : "avaliset5pants" },
+	  { "item" : "avaliset5bpants" },	  
+	  { "item" : "avaliset5cpants" },	
 	  
       { "item" : "avaliracial1head" },
       { "item" : "avaliracial1pants" },
@@ -31,13 +45,10 @@
 	  		  
       { "item" : "avaliarmor1head" },
       { "item" : "avaliarmor1pants" },
-      { "item" : "avaliarmor1chest" },
 	  { "item" : "avaliarmor2head" },
-      { "item" : "avaliarmor2pants" },
-      { "item" : "avaliarmor2chest" },	  
+      { "item" : "avaliarmor2pants" },	
 	  { "item" : "avaliarmor3head" },
-      { "item" : "avaliarmor3pants" },
-      { "item" : "avaliarmor3chest" },	 
+      { "item" : "avaliarmor3pants" },	
 	  
       { "item" : "avaliflour" },
       { "item" : "avalinoodle" },
@@ -47,6 +58,7 @@
 	  
       { "item" : "avaliloom" },
       { "item" : "avalibench" },
+      { "item" : "avalilathe" },
 	  
 	  { "item" : "avalichest1" },
 	  { "item" : "avalichest2" }
@@ -64,7 +76,7 @@
       { "item" : "avalitier2dagger" },	  
       { "item" : "avalitier2shortsword" },
       { "item" : "avalitier2spear" },
-	  
+	  	  	  
 	  { "item" : "spawneravali" },
 	  { "item" : "spawneravaliguard" }
     ],
@@ -179,8 +191,8 @@
       "image" : "/interface/title/male.png",
       "characterImage" : "/interface/title/avalimale.png",
       "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"  ],
-      "shirt" : [ "maskchest", "avaliracial1chest", "avaliracial2chest" ],
-      "pants" : [ "maskpants", "avaliracial1pants", "avaliracial2pants" ],
+      "shirt" : [ "maskchest", "avaliset1chest", "avaliset1bchest", "avaliset5chest", "avaliset5bchest", "avaliracial1chest", "avaliracial2chest" ],
+      "pants" : [ "maskpants", "avaliset1pants", "avaliset1bpants", "avaliset5pants", "avaliset5bpants", "avaliracial1pants", "avaliracial2pants", "avaliarmor1pants" ],
       "facialHairGroup" : "",
       "facialHair" : [ ],
       "facialMaskGroup" : "",
@@ -191,8 +203,8 @@
       "image" : "/interface/title/female.png",
       "characterImage" : "/interface/title/avalifemale.png",
       "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14" ],
-      "shirt" : [ "maskchest", "avaliracial1chest", "avaliracial2chest" ],
-      "pants" : [ "maskpants", "avaliracial1pants", "avaliracial2pants" ],
+      "shirt" : [ "maskchest", "avaliset1chest", "avaliset1bchest", "avaliset5chest", "avaliset5bchest", "avaliracial1chest", "avaliracial2chest" ],
+      "pants" : [ "maskpants", "avaliset1pants", "avaliset1bpants", "avaliset5pants", "avaliset5bpants", "avaliracial1pants", "avaliracial2pants", "avaliarmor1pants" ],
       "facialHairGroup" : "",
       "facialHair" : [ ],
       "facialMaskGroup" : "",

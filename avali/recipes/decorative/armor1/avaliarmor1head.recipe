@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 1  }
-  ],
-  "output" : { "item" : "avaliarmor1head", "count" : 1 },
-  "groups" : [ "spinningwheel", "armors", "chest" ]
-}

@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "A typical avali trench knife. More often used for picking stones out of sabatons than stabbing",
-  "shortdescription" : "Soldiers Dagger",
+  "description" : "A typical Avali trench knife. More often used for picking stones out of sabatons than stabbing.",
+  "shortdescription" : "Soldier's Dagger",
   "inspectionKind" : "sword",
   "kind" : "Dagger",
 

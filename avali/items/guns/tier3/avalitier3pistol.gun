@@ -2,7 +2,7 @@
   "itemName" : "avalitier3pistol",
   "inventoryIcon" : "avalipistol.png",
   "rarity" : "uncommon",
-  "description" : "The basic Avali military grade sidearm",
+  "description" : "The basic Avali military grade sidearm.",
   "shortdescription" : "PD3 Frostbite",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,

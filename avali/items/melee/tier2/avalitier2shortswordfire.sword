@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "A popular choice for hacking through alien flora, less so for hacking through alien fauna",
-  "shortdescription" : "Scouts Blade",
+  "description" : "A popular choice for hacking through alien flora, less so for hacking through alien fauna.",
+  "shortdescription" : "Scout's Blade",
   "inspectionKind" : "sword",
   "kind" : "Shortsword",
 

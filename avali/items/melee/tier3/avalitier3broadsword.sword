@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "A popular backup weapon amongst avali infantry",
-  "shortdescription" : "Soldiers Longblade",
+  "description" : "A popular backup weapon amongst Avali infantry.",
+  "shortdescription" : "Soldier's Longblade",
   "inspectionKind" : "sword",
   "kind" : "Broadsword",
 

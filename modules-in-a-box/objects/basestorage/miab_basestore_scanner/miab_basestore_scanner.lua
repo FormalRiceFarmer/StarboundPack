@@ -39,6 +39,18 @@ function onActivation(args)
 		Reader_options.Plot_Recipe_JSON             = false;
 		Reader_options.Length_of_BP_Animation_in_s  = 3
 		
+		--[[ This is me debugging world.objectQuery()
+		local debugEntBox = Reader_options.AreaToScan
+		local debugEntList = world.entityQuery( { debugEntBox[1], debugEntBox[2] }, { debugEntBox[3], debugEntBox[4] } )
+		local debugIndex, debugID
+		world.logInfo("Entity IDs inside area [" .. tostring(debugEntBox[1]) .. ", " .. tostring(debugEntBox[2]) .. " -> " .. tostring(debugEntBox[3]) .. ", " .. tostring(debugEntBox[4]) .. "]:")
+		if debugEntList ~= nil then
+			for debugIndex, debugID in pairs(debugEntList) do
+				world.logInfo("\t" .. tostring(debugID))
+			end
+		end
+		world.logInfo("List ends")
+		--]]
 		if(Reader_options.AreaToScan ~= nil) then
 			-- start reading process
 			Read_Start(Reader_options);
@@ -112,7 +124,7 @@ function define_area_to_scan()
 	else
 		return nil
 	end
-	
+
 	-- find smallest Y Corner coordinate of the two corners
 	-- and use that for the bottom of the bounding box
 	-- use the bigger one for top side

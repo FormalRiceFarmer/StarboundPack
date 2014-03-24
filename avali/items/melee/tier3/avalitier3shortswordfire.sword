@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "The basic fallback weapon of most avali infantry, though no less deadly",
-  "shortdescription" : "Soldiers Blade",
+  "description" : "The basic fallback weapon of most avali infantry, though no less deadly.",
+  "shortdescription" : "Soldier's Blade",
   "inspectionKind" : "sword",
   "kind" : "Shortsword",
 

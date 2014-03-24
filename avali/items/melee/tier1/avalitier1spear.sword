@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "A basic aerotech lance, typical used as an emergency hunting tool",
+  "description" : "A basic aerotech lance, typically used as an emergency hunting tool.",
   "shortdescription" : "Survival Lance",
   "inspectionKind" : "sword",
   "kind" : "Spear",

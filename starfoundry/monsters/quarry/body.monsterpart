@@ -1,9 +1,0 @@
-{
-  "name" : "squarry",
-  "category" : "squarry",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "quarry.png"
-  }
-}

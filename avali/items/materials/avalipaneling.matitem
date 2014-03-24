@@ -3,8 +3,8 @@
   "rarity" : "Common",
   "inventoryIcon" : "avalipaneling.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "Like paneling, but darker",
-  "shortdescription" : "Dark Paneling",
+  "description" : "Light and airy panels.",
+  "shortdescription" : "Horizontal Panels",
 
   "materialId" : 13004
 }

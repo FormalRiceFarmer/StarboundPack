@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "Specialists use these lances to strike deep into large beasts that threaten colonies",
-  "shortdescription" : "Soldiers Lance",
+  "description" : "Specialists use these lances to strike deep into large beasts that threaten colonies.",
+  "shortdescription" : "Soldier's Lance",
   "inspectionKind" : "sword",
   "kind" : "Spear",
 

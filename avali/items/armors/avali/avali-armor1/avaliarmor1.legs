@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "For when you absolutely positively can't afford real protection",
-  "shortdescription" : "Survival Shinguards",
+  "description" : "^green;Avali, Leg Slot. ^white; The most basic life support and protection for the spacefaring Avali.",
+  "shortdescription" : "Survival Gear",
   "inspectionKind" : "armor",
 
   "maleFrames" : "pants.png",

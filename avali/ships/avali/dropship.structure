@@ -342,9 +342,6 @@
       "backgroundBlock": true,
       "backgroundMat": "avalitechpanel",
       "object": "avalistriplight",
-      "objectParameters": {
-        "unbreakable": true
-      },
       "value": [
         83,
         190,
@@ -382,9 +379,6 @@
       "backgroundBlock": true,
       "backgroundMat": "avalitechpanel",
       "object": "apexshiplight",
-      "objectParameters": {
-        "unbreakable": true
-      },
       "value": [
         202,
         199,

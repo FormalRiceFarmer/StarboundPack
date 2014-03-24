@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "For those who do not want to get too close to the action",
-  "shortdescription" : "Scouts Lance",
+  "description" : "For those who do not want to get too close to the action.",
+  "shortdescription" : "Scout's Lance",
   "inspectionKind" : "sword",
   "kind" : "Spear",
 

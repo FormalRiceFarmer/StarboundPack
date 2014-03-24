@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "A simple yet light aerotech blade, for emergencies only",
-  "shortdescription" : "Scouts Longblade",
+  "description" : "A simple yet light aerotech blade, for emergencies only.",
+  "shortdescription" : "Scout's Longblade",
   "inspectionKind" : "sword",
   "kind" : "Broadsword",
 

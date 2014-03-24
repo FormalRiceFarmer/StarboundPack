@@ -3,8 +3,9 @@
   "rarity" : "Common",
   "category" : "light",
   "price" : 100,
+  "printable" : false,  
   "lightColors" : {
-    "default" : [255, 255, 255],
+    "default" : [255, 228, 207],
     "red" : [255, 127, 127],
     "blue" : [71, 134, 255],
     "green" : [88, 255, 0],
@@ -15,77 +16,40 @@
     "white" : [255, 255, 255]
   },
   "pointLight" : true,
-  "pointBeam" : 0.4,
-  "description" : "A small wireless strip light with a battery lifetime longer than my own.",
-  "shortdescription" : "Strip-light",
+  "pointBeam" : 0.6,
+  "description" : "A small inset directonal light.",
+  "shortdescription" : "Inset Lighting",
   "race" : "avali",
 
   "apexDescription" : "It's a strip light, not much I can really add to that.",
   "avianDescription" : "I have the inexplicable urge to stash this in my bed-nest...",
   "floranDescription" : "Portable sunlight!",
-  "glitchDescription" : "Ambivolent. It is fluorescent light source",
+  "glitchDescription" : "Ambivalent. It is a fluorescent light source.",
   "humanDescription" : "Wireless, I wonder how long the battery lasts?",
   "hylotlDescription" : "The fuel cell on this lamp has a longer lifespan than it's user.",
 
   "inventoryIcon" : "avalistriplighticon.png",
   "orientations" : [
     {
-      "image" : "avalistripdown.png",
+      "image" : "avalistriplight.png",
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.01,
-      "anchors" : [ "top" ],
-      "lightPosition" : [1, 1],
-      "pointAngle" : 270
-    },
-
-    {
-      "image" : "avalistripup.png",
-      "frames" : 1,
-      "animationCycle" : 0.5,
-      "imagePosition" : [0, 0],
-
-      "spaceScan" : 0.01,
-      "anchors" : [ "bottom" ],
-      "lightPosition" : [1, -1],
+      "anchors" : [ "bottom", "background"],
+      "lightPosition" : [0, -1],
       "pointAngle" : 90
     },
-
-    {
-      "image" : "avalistripright.png",
-      "frames" : 1,
-      "animationCycle" : 0.5,
-      "imagePosition" : [0, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "left" ],
-      "lightPosition" : [0, 0],
-      "pointAngle" : 0
-    },
-
-    {
-      "image" : "avalistripleft.png",
-      "frames" : 1,
-      "animationCycle" : 0.5,
-      "imagePosition" : [0, 0],
-
-      "spaceScan" : 0.01,
-      "anchors" : [ "right" ],
-      "lightPosition" : [0, 0],
-      "pointAngle" : 180
-    },
-	
 	{
-      "image" : "avalistripdown.png",
+      "image" : "avalistriplight.png",
       "frames" : 1,
       "animationCycle" : 0.5,
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.01,
       "anchors" : [ "background" ],
-      "lightPosition" : [1, 1],
+      "lightPosition" : [0, 1],
       "pointAngle" : 270
     }
   ]

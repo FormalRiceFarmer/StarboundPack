@@ -37,7 +37,6 @@
 		"/scripts/basestorage/miab_basestore_blueprint.lua",
 		"/scripts/basestorage/miab_basestore_matsTable.lua",
 		"/scripts/basestorage/miab_basestore_util.lua"
-		
 	],
 	"scriptDelta" : 5,
 

@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Place this in your chest vanity slot to hide your headgear",
+  "description" : "Place this in your head vanity slot to hide your headgear.",
   "shortdescription" : "Hidden Hat",
   "inspectionKind" : "armor",
 

@@ -7,11 +7,11 @@
   "race" : "avali",
   "category" : "light",
   "price" : 50,
-  "printable" : true,
+  "printable" : false,
 
   "apexDescription" : "How intriguing, it appears someone has carefully grown these crystals into shapes.",
   "avianDescription" : "Pretty, but not as useful as a resonance crystal.",
-  "floranDescription" : "Ssssshiny",
+  "floranDescription" : "Ssssshiny.",
   "glitchDescription" : "Avarice. These crystals would look better on my own mantlepiece.",
   "humanDescription" : "It doesn't matter what species you are, everyone finds crystals fascinating.",
   "hylotlDescription" : "I absolutely must bring back some of these for the tads.",

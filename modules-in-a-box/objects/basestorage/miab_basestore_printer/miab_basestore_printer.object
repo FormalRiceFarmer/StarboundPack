@@ -30,7 +30,8 @@
 		"/objects/basestorage/miab_basestore_printer/miab_basestore_print_activator.lua",
 		"/scripts/basestorage/miab_basestore_printer.lua",
 		"/scripts/basestorage/miab_basestore_blueprint.lua",
-		"/scripts/basestorage/miab_basestore_matsTable.lua"
+		"/scripts/basestorage/miab_basestore_matsTable.lua",
+		"/scripts/basestorage/miab_basestore_util.lua"
 	],
 	"scriptDelta" : 5,
 	"breakDropOptions" : [],

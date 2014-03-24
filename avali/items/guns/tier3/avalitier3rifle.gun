@@ -2,7 +2,7 @@
   "itemName" : "avalitier3rifle",
   "inventoryIcon" : "avalirifle.png",
   "rarity" : "uncommon",
-  "description" : "The standard Avali infantry weapon",
+  "description" : "The standard Avali infantry weapon.",
   "shortdescription" : "AR3 Blizzard",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,

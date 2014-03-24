@@ -10,11 +10,11 @@
   "price" : 300,
 
   "apexDescription" : "I could spawn some Avali friends.",
-  "avianDescription" : "This transporter could bring in some feathered cousins",
+  "avianDescription" : "This transporter could bring in some feathered cousins.",
   "floranDescription" : "Floran bring space-chicken to Floran!",
   "glitchDescription" : "Apprehensive. Will an Avali shackle my AI too?",
-  "humanDescription" : "I always wanted a pet raptor",
-  "hylotlDescription" : "Ugh, Avali. For such an advanced race they have such a primitive lifestyle",
+  "humanDescription" : "I always wanted a pet raptor.",
+  "hylotlDescription" : "Ugh, Avali. For such an advanced race they have such a primitive lifestyle.",
   "avaliDescription" : "Let's bring in the rest of the pack!",
   
   "inventoryIcon" : "defaulticon.png",

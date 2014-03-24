@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Insulated sabatons, to keep toes cosy and knees unscratched",
-  "shortdescription" : "Scout's Boots",
+  "description" : "^green;Avali, Leg Slot. ^white; Lightweight armour for the explorer.",
+  "shortdescription" : "Scout's Armour",
   "inspectionKind" : "armor",
 
   "maleFrames" : "pants.png",

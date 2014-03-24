@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "These combat sledges feature a targetting system and rocket motor, because nothing says I hate you like a rocket propelled hammer in the face.",
+  "description" : "These combat sledges feature a targeting system and rocket motor, because nothing says 'I hate you' like a rocket-propelled hammer in the face.",
   "shortdescription" : "Assault Sledge",
   "inspectionKind" : "sword",
   "kind" : "Hammer",

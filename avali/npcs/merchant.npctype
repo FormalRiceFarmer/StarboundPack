@@ -7,7 +7,7 @@
 					"avali" : [
 						"Come, stay a while.",
 						"Would you like to browse our supplies?",
-						"We only accept pixels",
+						"We only accept pixels.",
 						"Here's what we have in stock.",
 						"I guess we can part with some equipment."
 					]		
@@ -121,6 +121,12 @@
 			[0, [
 				{
 					"chest" : [
+						{ "name" : "avaliset1chest", "data" : { "colorIndex" : 1 } },					
+						{ "name" : "avaliset1bchest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset1cchest", "data" : { "colorIndex" : 1 } },						
+						{ "name" : "avaliset5chest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5bchest", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5cchest", "data" : { "colorIndex" : 1 } },					
 						{ "name" : "avaliracial1chest", "data" : { "colorIndex" : 1 } },
 						{ "name" : "avaliracial2chest", "data" : { "colorIndex" : 1 } },
 						{ "name" : "maskchest", "data" : { "colorIndex" : 1 } }
@@ -128,6 +134,12 @@
 					"legs" : [
 						{ "name" : "avaliracial1pants", "data" : { "colorIndex" : 1 } },
 						{ "name" : "avaliracial2pants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset1pants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5pants", "data" : { "colorIndex" : 1 } },	
+						{ "name" : "avaliset1bpants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5bpants", "data" : { "colorIndex" : 1 } },	
+						{ "name" : "avaliset1cpants", "data" : { "colorIndex" : 1 } },
+						{ "name" : "avaliset5cpants", "data" : { "colorIndex" : 1 } },							
 						{ "name" : "maskpants", "data" : { "colorIndex" : 1 } }
 					],
 					"head" : [

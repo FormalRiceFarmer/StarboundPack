@@ -2,7 +2,7 @@
   "itemName" : "avalitier2rifleexplosive",
   "inventoryIcon" : "avalirifle.png",
   "rarity" : "Rare",
-  "description" : "The standard Avali infantry weapon",
+  "description" : "The standard Avali infantry weapon.",
   "shortdescription" : "AR2-HE Blizzard",
   "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
   "maxStack" : 1,

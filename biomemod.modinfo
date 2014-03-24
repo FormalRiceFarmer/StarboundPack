@@ -1,7 +1,7 @@
 {
   "name" : "Variety is the spice of the Universe",
   "version" : "Beta v. Enraged Koala",
-  "path" : "biomemod.pak",
+  "path" : "biomemod",
   "dependencies" : [  ],
   "metadata": {
     "author" : "Dracyoshi",

@@ -1,8 +1,0 @@
-{
-  "input" : [ ],
-  "output" : {
-    "item" : "liquidextractor",
-    "count" : 1
-  },
-  "groups" : [ "mod" ]
-}

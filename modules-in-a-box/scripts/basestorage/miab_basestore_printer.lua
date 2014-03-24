@@ -264,23 +264,26 @@ function Process_Blueprint(args)
 		Nr_EntityIDs = 0;
 		for _y, _tbl in pairs(blueprint.layoutTableBackground) do
 			for _x, _id in pairs(_tbl) do
-				wpos = { self.miab.pos[1] + _x, self.miab.pos[2] + _y }
-				EntityIDs = world.entityQuery(wpos, wpos)
-				for i, EntityID in pairs(EntityIDs) do
-					if (EntityID ~= entity.id()) and (entityInOurBox(EntityID)) then
-						-- "player","monster","object","itemdrop","projectile","plant","plantdrop","effect","npc"
-						cur_ent_Type = world.entityType(EntityID)
-						if (   (cur_ent_Type == "player")
-							or (cur_ent_Type == "monster")
-							or (cur_ent_Type == "npc")
-							--or (cur_ent_Type == "plant")
-							or (cur_ent_Type == "object")
-							) then
-							Nr_EntityIDs = Nr_EntityIDs+1;
-							self.miab.obstructionTable[EntityID] = true
+				if _id > 0 then
+					wpos = { self.miab.pos[1] + _x, self.miab.pos[2] + _y }
+--					EntityIDs = world.entityQuery(wpos, wpos)
+					EntityIDs = fixedEntityQuery(wpos, wpos)
+					for i, EntityID in pairs(EntityIDs) do
+						if (EntityID ~= entity.id()) and (entityInOurBox(EntityID, wpos, wpos)) then
+							-- "player","monster","object","itemdrop","projectile","plant","plantdrop","effect","npc"
+							cur_ent_Type = world.entityType(EntityID)
+							if (   (cur_ent_Type == "player")
+								or (cur_ent_Type == "monster")
+								or (cur_ent_Type == "npc")
+								--or (cur_ent_Type == "plant")
+								or (cur_ent_Type == "object")
+								) then
+								Nr_EntityIDs = Nr_EntityIDs+1;
+								self.miab.obstructionTable[EntityID] = true
+							end
 						end
 					end
-				end				
+				end
 			end
 		end
 		if (Nr_EntityIDs > 0) then
@@ -293,32 +296,41 @@ function Process_Blueprint(args)
 	if not (Override_Background) then
 		for _y, _tbl in pairs(blueprint.layoutTableBackground) do
 			for _x, _id in pairs(_tbl) do
-				matName = blueprint.materialFromId(_id)
+				if _id > 0 then
+					matName = blueprint.materialFromId(_id)
+				else
+					matName = blueprint.materialFromId(0 - _id)
+				end
 				wpos = { self.miab.pos[1] + _x, self.miab.pos[2] + _y }
 				if matName ~= nil then
 					-- clearance check
-					if(args.Clearance_Check_Background) then
-						if world.material(wpos, "background") ~= nil then
-							-- world block is not empty
-							Done = false;
+					if _id > 0 then
+						if(args.Clearance_Check_Background) then
+							if world.material(wpos, "background") ~= false then
+								-- world block is not empty
+								Done = false;
+							end
 						end
 					end
 					-- place
 					if (args.Place_Background) then
-						EntityIDs = world.entityQuery(wpos, wpos)
+--						EntityIDs = world.entityQuery(wpos, wpos)
+						EntityIDs = fixedEntityQuery(wpos, wpos)
 						Nr_EntityIDs = 0;
-						for i, EntityID in pairs(EntityIDs) do
-							if (EntityID ~= entity.id()) and (entityInOurBox(EntityID)) then
-								-- "player","monster","object","itemdrop","projectile","plant","plantdrop","effect","npc"
-								cur_ent_Type = world.entityType(EntityID)
-								if (   (cur_ent_Type == "player")
-									or (cur_ent_Type == "monster")
-									or (cur_ent_Type == "npc")
-									--or (cur_ent_Type == "plant")
-									or (cur_ent_Type == "object")
-									) then
-									Nr_EntityIDs = Nr_EntityIDs+1;
-									self.miab.obstructionTable[EntityID] = true
+						if _id > 0 then
+							for i, EntityID in pairs(EntityIDs) do
+								if (EntityID ~= entity.id()) and (entityInOurBox(EntityID, wpos, wpos)) then
+									-- "player","monster","object","itemdrop","projectile","plant","plantdrop","effect","npc"
+									cur_ent_Type = world.entityType(EntityID)
+									if (   (cur_ent_Type == "player")
+										or (cur_ent_Type == "monster")
+										or (cur_ent_Type == "npc")
+										--or (cur_ent_Type == "plant")
+										or (cur_ent_Type == "object")
+										) then
+										Nr_EntityIDs = Nr_EntityIDs+1;
+										self.miab.obstructionTable[EntityID] = true
+									end
 								end
 							end
 						end
@@ -336,7 +348,9 @@ function Process_Blueprint(args)
 												blueprint.removeItemsFromTable({matsTable[matName],1},blueprint.accquiredItemsTable)
 											else
 												-- coudn`t place
-												Done = false;
+												if _id > 0 then
+													Done = false;
+												end
 											end
 										else
 											-- we dont have that item
@@ -349,7 +363,9 @@ function Process_Blueprint(args)
 											blueprint.removeItemsFromTable({matsTable[matName],1},blueprint.accquiredItemsTable)
 										else
 											-- coudn`t place
-											Done = false;
+											if _id > 0 then
+												Done = false;
+											end
 										end
 									end
 								end
@@ -361,7 +377,9 @@ function Process_Blueprint(args)
 											anything_could_be_printed_this_run = true;
 										else
 											-- coudn`t place
-											Done = false;
+											if _id > 0 then
+												Done = false;
+											end
 										end
 									end
 								end
@@ -372,7 +390,7 @@ function Process_Blueprint(args)
 --[[
 					if(args.Mark_Background)then
 						if (matName ~= "miab_scaffold") then
-							if world.material(wpos, "background") ~= nil then
+							if world.material(wpos, "background") ~= false then
 								-- world block is not empty
 								world.spawnProjectile("miab_marker_occupied_block",wpos);
 							else
@@ -387,7 +405,7 @@ function Process_Blueprint(args)
 							-- place scaffold
 							if world.material(wpos, "background") == self.miab.ScaffoldmatName then
 								blueprint.clearBlock(wpos,"background");
-								if world.material(wpos, "background") ~= nil then
+								if world.material(wpos, "background") ~= false then
 									Done = false
 								end
 							end
@@ -402,32 +420,41 @@ function Process_Blueprint(args)
 	if not (Override_Foreground) then
 		for _y, _tbl in pairs(blueprint.layoutTableForeground) do
 			for _x, _id in pairs(_tbl) do
-				matName = blueprint.materialFromId(_id)
+				if _id > 0 then
+					matName = blueprint.materialFromId(_id)
+				else
+					matName = blueprint.materialFromId(0 - _id)
+				end
 				wpos = { self.miab.pos[1] + _x, self.miab.pos[2] + _y }
 				if matName ~= nil then
 					-- clearance check
-					if(args.Clearance_Check_Foreground) then
-						if world.material(wpos, "foreground") ~= nil then
-							-- world block is not empty
-							Done = false;
+					if _id > 0 then
+						if(args.Clearance_Check_Foreground) then
+							if world.material(wpos, "foreground") ~= false then
+								-- world block is not empty
+								Done = false;
+							end
 						end
 					end
 					-- place
 					if(args.Place_Foreground)then
-						EntityIDs = world.entityQuery(wpos, wpos)
+--						EntityIDs = world.entityQuery(wpos, wpos)
+						EntityIDs = fixedEntityQuery(wpos, wpos)
 						Nr_EntityIDs = 0;
-						for i, EntityID in pairs(EntityIDs) do
-							if (EntityID ~= entity.id()) and (entityInOurBox(EntityID)) then
-								-- "player","monster","object","itemdrop","projectile","plant","plantdrop","effect","npc"
-								cur_ent_Type = world.entityType(EntityID)
-								if (   (cur_ent_Type == "player")
-									or (cur_ent_Type == "monster")
-									or (cur_ent_Type == "npc")
-									--or (cur_ent_Type == "plant")
-									or (cur_ent_Type == "object")
-									) then
-									Nr_EntityIDs = Nr_EntityIDs+1;
-									self.miab.obstructionTable[EntityID] = true
+						if _id > 0 then
+							for i, EntityID in pairs(EntityIDs) do
+								if (EntityID ~= entity.id()) and (entityInOurBox(EntityID, wpos, wpos)) then
+									-- "player","monster","object","itemdrop","projectile","plant","plantdrop","effect","npc"
+									cur_ent_Type = world.entityType(EntityID)
+									if (   (cur_ent_Type == "player")
+										or (cur_ent_Type == "monster")
+										or (cur_ent_Type == "npc")
+										--or (cur_ent_Type == "plant")
+										or (cur_ent_Type == "object")
+										) then
+										Nr_EntityIDs = Nr_EntityIDs+1;
+										self.miab.obstructionTable[EntityID] = true
+									end
 								end
 							end
 						end
@@ -445,7 +472,9 @@ function Process_Blueprint(args)
 												blueprint.removeItemsFromTable({matsTable[matName],1},blueprint.accquiredItemsTable)
 											else
 												-- coudn`t place
-												Done = false;
+												if _id > 0 then
+													Done = false;
+												end
 											end
 										else
 											-- we dont have that item
@@ -458,7 +487,9 @@ function Process_Blueprint(args)
 											blueprint.removeItemsFromTable({matsTable[matName],1},blueprint.accquiredItemsTable)
 										else
 											-- coudn`t place
-											Done = false;
+											if _id > 0 then
+												Done = false;
+											end
 										end
 									end
 								end
@@ -470,7 +501,9 @@ function Process_Blueprint(args)
 											anything_could_be_printed_this_run = true;
 										else
 											-- coudn`t place
-											Done = false;
+											if _id > 0 then
+												Done = false;
+											end
 										end
 									end
 								end
@@ -481,7 +514,7 @@ function Process_Blueprint(args)
 --[[
 					if(args.Mark_Foreground)then
 						if (matName ~= "miab_scaffold") then
-							if world.material(wpos, "foreground") ~= nil then
+							if world.material(wpos, "foreground") ~= false then
 								-- world block is not empty
 								world.spawnProjectile("miab_marker_occupied_block",wpos);
 							else
@@ -496,7 +529,7 @@ function Process_Blueprint(args)
 						if (matName == "miab_scaffold") then
 							if world.material(wpos, "foreground") == self.miab.ScaffoldmatName then
 								blueprint.clearBlock(wpos,"foreground");
-								if world.material(wpos, "foreground") ~= nil then
+								if world.material(wpos, "foreground") ~= false then
 									Done = false
 								end
 							end
@@ -517,10 +550,11 @@ function Process_Blueprint(args)
 					if (matName ~= nil) then
 						-- place
 						if(args.Place_Objects)then
-							EntityIDs = (world.entityQuery(wpos,wpos,{notAnObject = true}))
+							EntityIDs = (world.entityQuery(wpos,wpos,{notAnObject = true})) -- back to the old method because this was working and the
+--							EntityIDs = (fixedEntityQuery(wpos,wpos,{notAnObject = true}))  -- args parameter is breaking stuff in my fixed function
 							Nr_EntityIDs = 0;
 							for i, EntityID in pairs(EntityIDs) do
-								if (EntityID ~= entity.id()) and (entityInOurBox(EntityID)) then
+								if (EntityID ~= entity.id()) and (entityInOurBox(EntityID, wpos, wpos)) then
 									-- "player","monster","object","itemdrop","projectile","plant","plantdrop","effect","npc"
 									cur_ent_Type = world.entityType(EntityID)
 									if (   (cur_ent_Type == "player")
@@ -540,6 +574,17 @@ function Process_Blueprint(args)
 									if (blueprint.haveItemsInTable({matName,1},blueprint.accquiredItemsTable)) then
 										-- try to place
 										if(world.placeObject(matName, wpos, ObjectParameter_tbl.Facing))then
+											local _objects = world.objectQuery(wpos, 0)
+											local _i, _objID
+											for _i, _objID in pairs(_objects) do
+												if (world.entityName(_objID) == matName) and (world.entityPosition(_objID)[1] == wpos[1]) and (world.entityPosition(_objID)[2] == wpos[2]) then
+													if ObjectParameter_tbl.Contents then
+														for _i, _v in pairs(ObjectParameter_tbl.Contents) do
+															world.containerAddItems(_objID, _v)
+														end
+													end
+												end
+											end
 											-- was placed -> remove from stash
 											blueprint.removeItemsFromTable({matName,1},blueprint.accquiredItemsTable)
 											anything_could_be_printed_this_run = true;
@@ -556,9 +601,20 @@ function Process_Blueprint(args)
 									end
 								else
 									-- try to place
+									-- TODO: implement set other object properties,
+									-- like content of chests, here.
 									if (world.placeObject(matName, wpos, ObjectParameter_tbl.Facing)) then
-	-- TODO: implement set other object properties,
-	-- like content of chests, here.
+										local _objects = world.objectQuery(wpos, 0)
+										local _i, _objID
+										for _i, _objID in pairs(_objects) do
+											if (world.entityName(_objID) == matName) and (world.entityPosition(_objID)[1] == wpos[1]) and (world.entityPosition(_objID)[2] == wpos[2]) then
+												if ObjectParameter_tbl.Contents then
+													for _i, _v in pairs(ObjectParameter_tbl.Contents) do
+														world.containerAddItems(_objID, _v)
+													end
+												end
+											end
+										end
 										-- was placed -> remove from stash
 										blueprint.removeItemsFromTable({matName,1},blueprint.accquiredItemsTable)
 										anything_could_be_printed_this_run = true;
@@ -622,8 +678,10 @@ function Process_Blueprint(args)
 	end
 end
 
-function entityInOurBox(entId)
-	local box = { self.miab.pos[1], self.miab.pos[2], self.miab.pos[1] + blueprint.boundingBoxSize[1], self.miab.pos[2] + blueprint.boundingBoxSize[2] }
+--function entityInOurBox(entId)
+function entityInOurBox(entId, bl, tr)
+	--local box = { self.miab.pos[1], self.miab.pos[2], self.miab.pos[1] + blueprint.boundingBoxSize[1], self.miab.pos[2] + blueprint.boundingBoxSize[2] }
+	local box = { bl[1], bl[2], tr[1], tr[2] }
 	local pos = world.entityPosition(entId)
 	if (pos[1] < box[1]) then
 		return false

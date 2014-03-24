@@ -9,7 +9,8 @@
           [ "torch", 10],
           [ "avaliplant2", 3],
           [ "avaliplant3", 3],
-          [ "avalistarter", 1]
+		  "avalistarter"
+			
         ],
         "levelVariance" : [0, 0],
         "allowDuplication" : false
@@ -30,6 +31,32 @@
         "levelVariance" : [0, 0],
         "allowDuplication" : false
       } ]
+  ],
+  "avaliEncounterLoot" : [
+    [0, {
+        "fill" : [
+			"avalitoken"
+         ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+    } ]
+  ],
+  "avaliCodexLoot" : [
+    [1, {
+        "pool" : [
+          [0.36, [ "money", 10] ],
+          [0.26, [ "money", 25] ],
+          [0.20, [ "money", 50] ],
+          [0.18, [ "money", 100 ] ]
+        ],
+        "poolRounds" : [
+          [1.0, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
   ]
 }
+
+
 

@@ -5,7 +5,7 @@
   "particleColor" : [255, 255, 128, 255],
   "variants" : 5,
   "itemDrop" : "avalidisplay",
-  "description" : "An LED display works away quietly",
+  "description" : "An LED display works away quietly.",
   "shortdescription" : "LED Display",
   "footstepSound" : "/sfx/blocks/footstep_composite.wav",
   "health" : 1.0

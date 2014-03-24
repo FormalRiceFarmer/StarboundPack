@@ -8,9 +8,9 @@
             "default" : [
               "Perimeter secure.",
               "*Hums to self*",
-              "I'm overworked, I'm starting think the birds are out to get me.",
+              "I'm overworked, I'm starting to think the birds are out to get me.",
               "When are we going to see some action?",
-			  "Huh, what, sorry. I was checking my messages"
+			  "Huh, what, sorry. I was checking my messages."
             ]
           }
         }
@@ -25,16 +25,20 @@
 				[
 					{
 						"chest" : [
-							{ "name" : "avalitier3chest", "data" : { "colorIndex" : 1 } },
-							{ "name" : "avalitier1chest", "data" : { "colorIndex" : 1 } }
+							{ "name" : "avaliset1bchest", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avaliset5chest", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avaliset5bchest", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avaliset5cchest", "data" : { "colorIndex" : 1 } },						
+							{ "name" : "maskchest", "data" : { "colorIndex" : 1 } }
 						],
 						"legs" : [
-							{ "name" : "avalitier3pants", "data" : { "colorIndex" : 1 } },
-							{ "name" : "avalitier2pants", "data" : { "colorIndex" : 1 } }
+							{ "name" : "avaliarmor3pants", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avaliarmor2pants", "data" : { "colorIndex" : 1 } }
 						],
 						"head" : [
-							{ "name" : "avalitier1head", "data" : { "colorIndex" : 1 } },
-							{ "name" : "avalitier3head", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avaliarmor1head", "data" : { "colorIndex" : 1 } },
+							{ "name" : "avaliarmor2head", "data" : { "colorIndex" : 1 } },							
+							{ "name" : "avaliarmor3head", "data" : { "colorIndex" : 1 } },
 							{ "name" : "maskhead", "data" : { "colorIndex" : 1 } },
 							{ "name" : "avaliracial1head", "data" : { "colorIndex" : 1 } },
 							{ "name" : "avaliracial2head", "data" : { "colorIndex" : 1 } }

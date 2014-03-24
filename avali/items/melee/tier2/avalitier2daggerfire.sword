@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "Pretty much every spacefarer has one of these lying around somewhere in storage, cheap and efficient way of cutting your food",
-  "shortdescription" : "Scouts Dagger",
+  "description" : "Pretty much every spacefarer has one of these lying around somewhere in storage, cheap and efficient way of cutting your food.",
+  "shortdescription" : "Scout's Dagger",
   "inspectionKind" : "sword",
   "kind" : "Dagger",
 

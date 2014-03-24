@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "level" : 1,
   "rarity" : "uncommon",
-  "description" : "This aerotech blades nanite feed is broken. Just, whack em with the hilt.",
+  "description" : "This aerotech blade's nanite feed is broken. Just whack 'em with the hilt.",
   "shortdescription" : "Broken Longblade",
   "inspectionKind" : "sword",
   "kind" : "Broadsword",
