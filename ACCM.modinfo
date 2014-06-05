@@ -1,9 +1,0 @@
-{
-  "name" : "ACCM",
-  "version" : "Beta v. Enraged Koala",
-  "path" : "ACCM",
-  "metadata": {
-    "author" : "Motionless",
-    "description" : "'Another Character Creation Menu with custom race support."
-        }
-}

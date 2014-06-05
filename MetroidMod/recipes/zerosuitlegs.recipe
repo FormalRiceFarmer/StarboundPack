@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 50 },
-    { "item" : "fabric", "count" : 20 }
-	
-  ],
-  "output" : { "item" : "zerosuitpants", "count" : 1 },
-  "groups" : [ "mod", "metroid", "craftingtable", "armors", "all" ]
-}

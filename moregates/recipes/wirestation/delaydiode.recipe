@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "circuitboard", "count" : 2 },
-    { "item" : "timer", "count" : 1 }
-  ],
-  "output" : { "item" : "delaydiode", "count" : 1 },
-  "groups" : [ "wiringstation", "all" ]
-}

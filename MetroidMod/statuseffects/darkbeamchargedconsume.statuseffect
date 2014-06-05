@@ -1,9 +1,0 @@
-{
-  "kind" : "darkbeamchargedconsume",
-  "duration" : 3,
-  "primitives" : [
-    { "name" : "directdamage", "value" : 70 }
-  ],
-  "damageKind" : "darkbeamcharged",
-  "effectSources" : [ ]
-}

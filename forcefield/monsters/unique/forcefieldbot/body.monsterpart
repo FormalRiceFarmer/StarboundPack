@@ -1,9 +1,0 @@
-{
-  "name" : "body",
-  "category" : "forcefieldbot",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "chicken.png"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name" : "NoLavaRock",
-  "version" : "Beta v. Enraged Koala",
-  "path" : "NoLavaRock",
-  "metadata": {
-    "author" : "FormalRiceFarmr",
-    "description" : "Removes magmarock spawning in lava"
-        }
-}

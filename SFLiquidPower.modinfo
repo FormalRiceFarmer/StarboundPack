@@ -1,6 +1,0 @@
-{
-  "name" : "StarFoundry Liquid Power",
-  "version" : "Beta v. Enraged Koala",
-  "path" : "SFLiquidPower",
-  "dependencies" : ["starfoundry"]
-}

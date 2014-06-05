@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 850 }
-  ],
-  "output" : { "item" : "solidtwilightchest", "count" : 1 },
-  "groups" : [ "ponexmagicrafter", "armors", "all" ]
-}

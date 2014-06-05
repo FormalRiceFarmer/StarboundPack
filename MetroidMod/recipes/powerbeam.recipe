@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "copperbar", "count" : 10 },
-	{ "item" : "beamaxe", "count" : 1 }
-	
-  ],
-  "output" : { "item" : "powerbeam", "count" : 1 },
-  "groups" : [ "mod", "metroid", "craftingtable", "weapons", "all" ]
-}

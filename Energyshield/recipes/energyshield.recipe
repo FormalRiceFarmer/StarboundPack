@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 500 }
-	
-  ],
-  "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "energyshield", "level" : 1 } },
-  "groups" : [ "roboticcraftingtable", "armors", "all" ]
-}

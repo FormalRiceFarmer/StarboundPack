@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 4 }
-  ],
-  "output" : { "item" : "tier4hatch", "count" : 1 },
-  "groups" : [ "mod", "metalworkstation", "door", "objects", "all" ]
-}

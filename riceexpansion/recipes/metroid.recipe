@@ -1,7 +1,0 @@
-{
-  "input" : [
-
-  ],
-  "output" : { "item" : "metroid", "count" : 1 },
-  "groups" : [ "mod", "materials" ]
-}

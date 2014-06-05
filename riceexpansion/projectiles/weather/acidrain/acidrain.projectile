@@ -1,4 +1,0 @@
-{
-  "__merge" : [],
-  "actionOnReap" : [ { "action" : "liquid", "liquidId" : 4, "quantity" : 500 } ]
-}
