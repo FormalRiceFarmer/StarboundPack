@@ -1,0 +1,18 @@
+{
+  "__merge" : [],
+  "retainObjectParametersInItem" : true,
+  "learnBlueprintsOnPickup" : [
+    "dyestation",
+    "blackdye",
+    "browndye",
+    "greendye",
+    "greydye",
+    "orangedye",
+    "pinkdye",
+    "purpledye",
+    "whitedye",
+    "limedye",
+    "tealdye",
+    "violetdye"
+  ]
+}
