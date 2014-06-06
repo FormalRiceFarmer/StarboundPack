@@ -9,7 +9,7 @@ foreach (@files) {
   open my $file, ">", "$dir/$name.modinfo" or die "Can't open '$dir/$name.modinfo'\n";
   print $file "
 {
-  \"name\" : \"FormalRiceFarmer's Pack!\",
+  \"name\" : \"$name\",
   \"version\" : \"Beta v. Enraged Koala\",
   \"path\" : \"$_\",
   \"dependencies\" : []
