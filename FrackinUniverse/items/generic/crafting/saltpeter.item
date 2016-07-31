@@ -1,0 +1,11 @@
+{
+  "itemName" : "saltpeter",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "saltpeter.png",
+  "description" : "Useful for various compounds",
+  "shortdescription" : "Saltpeter",
+  "radioMessagesOnPickup" : [ "pickupSaltpeter" ],
+  "learnBlueprintsOnPickup" : [ "saltpeter" ],
+  "itemTags" : [ "reagent" ]
+}

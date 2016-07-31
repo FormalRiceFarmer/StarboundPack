@@ -1,0 +1,12 @@
+{
+  "itemName" : "protostim",
+  "rarity" : "legendary",
+  "category" : "medicine",
+  "inventoryIcon" : "protostim.png",
+  "description" : "A long-lasting energy enhancer.",
+  "shortdescription" : "Organic Energy Stim",
+  "effects" : [ [
+     "percentenergybooststim"
+    ] ],
+  "learnBlueprintsOnPickup" : [ "protostim" ]
+}

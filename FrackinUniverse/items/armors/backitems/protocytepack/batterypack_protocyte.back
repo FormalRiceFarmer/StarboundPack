@@ -1,0 +1,27 @@
+{
+  "itemName" : "batterypack_protocyte",
+  "inventoryIcon" : "batterypack_protocyteicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "uncommon",
+  "description" : "Provides a sizeable energy regen and max energy increase. Blocks proto-poison.",
+  "shortdescription" : "Protocite Energy Pack",
+  "tooltipKind" : "baseaugment",
+  "category" : "enviroProtectionPack",
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ],
+  
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    "protoimmunity",
+    "energyregenfu_proto",
+    {
+      "stat" : "maxEnergy",
+      "amount" : 35
+    },
+    "glowyellow2"
+  ]
+  
+  
+}

@@ -1,0 +1,24 @@
+{
+  "projectileName" : "starburst",
+  "image" : "starburst.png",
+  "physics" : "laser",
+  "level" : 3,
+  "animationCycle" : 0.7,
+  "damageKindImage" : "icon.png",
+  "frameNumber" : 7,
+  "speed" : 45,
+  "timeToLive" : 0.7,
+  "bounces" : 0,
+  "lightColor" : [155, 147, 27],
+  "piercing" : false,
+  "damageKind" : "ice",
+  "periodicActions" : [
+    {
+      "time" : 0.1,
+      "loop" : true,
+      "action" : "projectile",
+      "type" : "lunarishot",
+      "fuzzAngle" : 360
+   }
+  ]
+}

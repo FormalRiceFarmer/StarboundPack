@@ -1,0 +1,12 @@
+{
+  "itemName" : "gravstim",
+  "rarity" : "rare",
+  "category" : "medicine",
+  "inventoryIcon" : "gravstim.png",
+  "description" : "Temporarily alters your gravity. Don't ask how.",
+  "shortdescription" : "Grav-Stim",
+  "effects" : [ [
+     "lowgrav_stim"
+    ] ],
+  "learnBlueprintsOnPickup" : [ "gravstim" ]
+}

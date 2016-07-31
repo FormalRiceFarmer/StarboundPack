@@ -1,0 +1,21 @@
+{
+  "itemName" : "orangehoneystraw",
+  "rarity" : "Common",
+  "category" : "food",
+  "inventoryIcon" : "orangehoneystraw.png",
+  "description" : "An orange honey straw! Vitamin C++",
+  "shortdescription" : "Honey Straw Orange",
+ 
+  "effects" : [ [
+    {
+        "effect" : "honeyheal2",
+        "duration" :120  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 120
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

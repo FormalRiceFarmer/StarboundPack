@@ -1,0 +1,8 @@
+{
+  "itemName" : "yeastwater",
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "yeastwater.png",
+  "description" : "A bottle filled with brewing yeast.",
+  "shortdescription" : "Yeast Water"
+}

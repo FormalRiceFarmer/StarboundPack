@@ -1,0 +1,44 @@
+{
+  "itemName" : "fumonsterplatedchest",
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A chestplate made with tough monster hide. Immune to muck and black tar.",
+  "shortdescription" : "Monster Plate Chestguard",
+  "tooltipKind" : "armornew",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2.25
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 33
+    },
+    {
+      "stat" : "maxEnergy",
+      "amount" : 30
+    },
+    {
+      "stat" : "maxHealth",
+      "amount" : 70
+    },
+    "fumudslowimmunity",
+    "blacktarimmunity"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "quietusore",
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "quietusore.png",
+  "description" : "A strange ore that is both mineral and biological.",
+  "shortdescription" : "Quietus Ore",
+  "radioMessagesOnPickup" : [ "pickupQuietus" ],
+  "learnBlueprintsOnPickup" : [ "blooddiamond", "quietusknave", "quietusassassin", "quietusrogue", "quietusmercenary", "quietuscaptain", "quietusknight", "quietusgeneral", "quietusemperor" ],
+  "itemTags" : [ "reagent" ]
+}

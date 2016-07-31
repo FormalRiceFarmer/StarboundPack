@@ -1,0 +1,19 @@
+{
+  "itemName" : "stranglevineroot",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "stranglevineroot.png",
+  "description" : "Thorns damage attackers",
+  "shortdescription" : "Stranglevine Root",
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "foodValue" : 2,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 100,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 3.0,
+  "effects" : [ [
+        "thornsstranglevine"
+    ] ]
+}

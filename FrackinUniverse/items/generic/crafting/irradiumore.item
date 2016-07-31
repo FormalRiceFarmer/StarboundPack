@@ -1,0 +1,11 @@
+{
+  "itemName" : "irradiumore",
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "irradiumore.png",
+  "description" : "rare and valuable radioactive metal",
+  "shortdescription" : "Irradium Ore",
+  "radioMessagesOnPickup" : [ "pickupIrradium" ],
+  "learnBlueprintsOnPickup" : [ "irradiumaxe", "irradiumbar", "liquidirradium", "irradiumore" ],
+  "itemTags" : [ "reagent" ]
+}

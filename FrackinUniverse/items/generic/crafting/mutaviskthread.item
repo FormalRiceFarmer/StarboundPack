@@ -1,0 +1,16 @@
+{
+  "itemName" : "mutaviskthread",
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "mutaviskthread.png",
+  "description" : "A strange, super-tough bio-thread.",
+  "shortdescription" : "Mutavisk Nanofibre",
+  "radioMessagesOnPickup" : [ "pickupMutaviskthread" ],
+  "learnBlueprintsOnPickup" : [ 
+  "mutaviskbandage", 
+  "hoodedchest", 
+  "hoodedlegs", 
+  "hoodedhead",
+  "syntheticmaterial" ],
+  "itemTags" : [ "reagent" ]
+}

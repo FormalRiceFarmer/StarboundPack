@@ -1,0 +1,8 @@
+{
+  "itemName" : "emptybottle2",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "emptybottle2.png",
+  "description" : "Just an empty glass bottle.",
+  "shortdescription" : "Empty Glass Bottle"
+}

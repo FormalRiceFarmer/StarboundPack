@@ -1,0 +1,11 @@
+{
+  "itemName" : "algaegreen",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "algaegreen.png",
+  "description" : "A decent fuel source once refined.",
+  "shortdescription" : "Algae",
+  "radioMessagesOnPickup" : [ "pickupAlgae" ],
+  "learnBlueprintsOnPickup" : [ "fu_nitrogen", "biofuelcannister", "metalchunk", "ff_spareparts" ],
+  "itemTags" : [ "reagent" ]
+}

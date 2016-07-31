@@ -1,0 +1,11 @@
+{
+  "itemName" : "shieldpatch",
+  "rarity" : "legendary",
+  "category" : "medicine",
+  "inventoryIcon" : "shieldpatch.png",
+  "description" : "Repairs damaged shields.",
+  "shortdescription" : "Shield Patch",
+  "effects" : [ [
+     "shieldregen2"
+    ] ]
+}

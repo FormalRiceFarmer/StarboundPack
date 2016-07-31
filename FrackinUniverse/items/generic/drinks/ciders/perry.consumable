@@ -1,0 +1,24 @@
+{
+  "itemName" : "perry",
+  "rarity" : "Common",
+  "category" : "drink",
+  "inventoryIcon" : "perry.png",
+  "description" : "A bottle of sweet perry!",
+  "shortdescription" : "Perry",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+        {
+        "effect" : "defense2",
+	"duration" : 45
+         },
+		{
+        "effect" : "slow",
+        "duration" : 60
+		},
+		{
+		"effect" : "booze",
+		"amount" : 1,
+		"duration" : 60
+        }
+    ] ]
+}

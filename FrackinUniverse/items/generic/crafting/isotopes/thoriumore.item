@@ -1,0 +1,15 @@
+{
+  "itemName" : "thoriumore",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "category" : "fuel",
+  "inventoryIcon" : "thoriumore.png",
+  "description" : "It's thorium. A reliable, potent source of fuel.",
+  "shortdescription" : "Thorium Ore",
+  "radioMessagesOnPickup" : [ "pickupThorium" ],
+    "learnBlueprintsOnPickup" : [
+    "thoriumrod"
+  ],
+  "fuelAmount" : 40,
+  "itemTags" : [ "reagent" ]
+}

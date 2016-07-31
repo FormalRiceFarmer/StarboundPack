@@ -1,0 +1,11 @@
+{
+  "itemName" : "densiniumore",
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "densiniumore.png",
+  "description" : "A multi-phasic super-dense metal.",
+  "shortdescription" : "Densinium Ore",
+  "radioMessagesOnPickup" : [ "pickupDensinium" ],
+  "learnBlueprintsOnPickup" : [ "densiniumbar", "voidstorage" ],
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "grapehoneystraw",
+  "rarity" : "Common",
+  "category" : "food",
+  "inventoryIcon" : "grapehoneystraw.png",
+  "description" : "A grape honey straw! More nutricious and delicious!",
+  "shortdescription" : "Honey Straw Grape",
+ 
+  "effects" : [ [
+    {
+        "effect" : "honeyheal2",
+        "duration" :120  },
+    {
+        "effect" : "fedhoney",
+        "duration" : 120
+    }
+  ] ],
+  "blockingEffects" : [
+     "fedhoney"
+  ]
+}

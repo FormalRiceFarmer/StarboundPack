@@ -1,0 +1,8 @@
+{
+  "itemName" : "caramel",
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "caramel.png",
+  "description" : "Ooey-Gooey Caramel!",
+  "shortdescription" : "Caramel"
+}

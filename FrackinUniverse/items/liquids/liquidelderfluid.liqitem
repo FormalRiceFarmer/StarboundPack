@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidelderfluid",
+  "rarity" : "legendary",
+  "category" : "liquid",
+  "inventoryIcon" : "liquidelderfluid.png",
+  "shortdescription" : "Elder Fluid",
+  "description" : "A measure of elder fluid.",
+
+  "liquid" : "elderfluid"
+}

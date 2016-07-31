@@ -1,0 +1,8 @@
+{
+  "itemName" : "darkwort",
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "darkwort.png",
+  "description" : "Wort! Used for making lager!",
+  "shortdescription" : "Dark Wort"
+}

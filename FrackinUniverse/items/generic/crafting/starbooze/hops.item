@@ -1,0 +1,8 @@
+{
+  "itemName" : "hops",
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "hops.png",
+  "description" : "Hops! Used for making beer!",
+  "shortdescription" : "Hops"
+}

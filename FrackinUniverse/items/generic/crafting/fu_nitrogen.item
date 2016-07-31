@@ -1,0 +1,10 @@
+{
+  "itemName" : "fu_nitrogen",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "fu_nitrogen.png",
+  "description" : "Pure nitrogen gas.",
+  "radioMessagesOnPickup" : [ "pickupNitrogen" ],
+  "shortdescription" : "Nitrogen",
+  "itemTags" : [ "reagent" ]
+}
