@@ -10,6 +10,7 @@
       {
         "select" : 2,
         "pool" : [ 
+          [ 0.1111, "anglure3" ],
           [ 0.1111, "orbide" ],     
           [ 0.1111, "petricub" ],
           [ 0.1111, "quagmutt" ],        
@@ -228,7 +229,7 @@
           "treeFoliageHueShiftMax" : 180,
           "treeStemHueShiftMax" : 15,
           "treeStemList" : [ "burnttreestem", "barren", "old", "skeletal", "stripey" ],
-          "treeFoliageList" : [ "burntleaves", "burntmoss", "mossy", "scattered" ]
+          "treeFoliageList" : [ "burntleaves", "burntmoss", "aridblank", "autumny", "patchy", "piney", "weirdly", "willowy" ]
         },
         {
           "mode" : "floor",

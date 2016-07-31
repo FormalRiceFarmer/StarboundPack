@@ -2,18 +2,17 @@
   "objectName" : "elderstatue",
   "colonyTags" : [ "elder", "hideous" ],
   "rarity" : "Common",
-  "category" : "pot",
-  "price" : 400,
+  "category" : "furniture",
+  "price" : 23400,
   "printable" : false,  
   "description" : "Even looking at this feels unclean...",
-  "shortdescription" : "Cthulu Statue",
-  "lightColor" : [0, 90, 0],
+  "shortdescription" : "Cthulhu Statue",
   "inventoryIcon" : "elderstatue.png",
-  "health" : 12220,
+  "health" : 500,
   "orientations" : [
     {
       "image" : "elderstatue.png:<color>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-35, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
@@ -21,13 +20,5 @@
       "anchors" : [ "bottom" ]
 
     }
-  ],
-  "smashSounds" : [ "/sfx/tools/axe_chop_alt_heavy.ogg" ],
-  "smashDropOptions" : [
-    [ [ "obsidian", 25, { } ], [ "densiniumore", 10, { } ] ]
-  ],
-
-  "breakDropOptions" : [
-    [ [ "obsidian", 25, { } ], [ "densiniumore", 10, { } ] ]
   ]
 }
