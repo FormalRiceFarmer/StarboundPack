@@ -1,0 +1,11 @@
+{
+  "author" : "Maddo",
+  "description" : "This mod adds breathing capabilities to the upgraded EPPs in Frackin Universe, specifically: Radiation EPP, Cold EPP, Heat EPP. \n\nAlso adds the light feature from the other light back items. \nNo light version is available: http://steamcommunity.com/sharedfiles/filedetails/?id=733624421 \n\nThis mod requires the steam version of Frackin Universe and is not compatible with the non-workshop version. \n\nLink to the non-workshop version of this mod: http://community.playstarbound.com/resources/frackin-epp-fix.3841/\n\nChangelog: \n\n1.3\n- Added breathing to the ultimate EPP (field generator)\n- Added extreme radiation resistance to regular radiation EPP\n",
+  "friendlyName" : "Frackin Breathing - add back breathing to EPP",
+  "includes" : [],
+  "link" : "steam://url/CommunityFilePage/733606478",
+  "name" : "eppfix",
+  "requires" : ["FrackinUniverse"],
+  "steamContentId" : "733606478",
+  "version" : "1.3"
+}
