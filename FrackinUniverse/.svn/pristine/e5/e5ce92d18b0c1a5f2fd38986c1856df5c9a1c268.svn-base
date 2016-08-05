@@ -1,0 +1,12 @@
+{
+  "itemName" : "ff_plastic",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "ff_plastic.png",
+  "description" : "Synthetic compound enhanced through science!",
+  "shortdescription" : "Advanced Plastic",
+  "radioMessagesOnPickup" : [ "pickupPlastic" ],
+  "learnBlueprintsOnPickup" : [ "apexcoolshelf2", "waterball", "fupioneershield", "fupioneerchest", "fupioneerpants", "fupioneerhead", "goggles1", "goggles2", "hydrotubematerial", "ff_bubblegun", "ff_gasmask", "ff_divingmaskhead" ],
+  "itemTags" : [ "reagent" ]
+}

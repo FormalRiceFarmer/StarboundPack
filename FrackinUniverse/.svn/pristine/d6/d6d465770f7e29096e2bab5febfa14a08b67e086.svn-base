@@ -1,0 +1,12 @@
+{
+  "itemName" : "morphiteore",
+  "rarity" : "Legendary",
+  "price" : 400,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "eridianore.png",
+  "description" : "A lab-built custom alloy. Tough but malleable.",
+  "shortdescription" : "^#b84cbc;Morphite^white;",
+  "radioMessagesOnPickup" : [ "pickupMorphite" ],
+  "learnBlueprintsOnPickup" : [ "morphitebar", "isn_terawattlaser", "heliosblade" ],
+  "itemTags" : [ "reagent" ]
+}

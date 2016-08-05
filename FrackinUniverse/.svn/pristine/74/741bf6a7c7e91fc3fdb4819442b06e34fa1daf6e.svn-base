@@ -1,0 +1,36 @@
+{
+  "itemName" : "heliosblade",
+  "price" : 150,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Morphite honed to dangerous perfection",
+  "shortdescription" : "Helios",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "heliosblade.png",
+
+  "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "heliosblade.png"
+  },
+  
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.63,
+    "baseDps" : 6.32
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  
+}

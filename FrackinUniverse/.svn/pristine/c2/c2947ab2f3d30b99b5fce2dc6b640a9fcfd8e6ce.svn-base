@@ -1,0 +1,10 @@
+[
+  {"op":"add","path":"/learnBlueprintsOnPickup","value": [ 
+  "fusunwalkerhead", 
+  "fusunwalkerchest", 
+  "fusunwalkerpants",
+  "fuinfernopants",
+  "fuinfernohead",
+  "fuinfernochest"
+] }
+]

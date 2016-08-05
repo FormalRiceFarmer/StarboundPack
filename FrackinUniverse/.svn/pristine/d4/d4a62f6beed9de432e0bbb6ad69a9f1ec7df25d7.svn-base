@@ -1,0 +1,11 @@
+{
+  "itemName" : "ff_spareparts",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "ff_spareparts.png",
+  "radioMessagesOnPickup" : [ "pickupSpareparts" ],
+  "description" : "handy bits. probably worth extracting, too.",
+  "shortdescription" : "Spare Parts",
+  "itemTags" : [ "reagent" ]
+}

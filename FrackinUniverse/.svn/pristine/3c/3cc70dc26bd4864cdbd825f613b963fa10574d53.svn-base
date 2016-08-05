@@ -1,0 +1,25 @@
+{
+  "itemName" : "biospore",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "biospore.png",
+  "description" : "could prove useful in experiments.",
+  "shortdescription" : "Bioluminescent Spore",
+  "radioMessagesOnPickup" : [ "pickupBiospore" ],
+  "learnBlueprintsOnPickup" : [  
+  "hermespill", 
+  "fubioshroomblue", 
+  "fubioshroomgreen", 
+  "fubioshroompurple", 
+  "fubioshroomred",  
+  "fubioshroomyellow",   
+  "ff_biolight1", 
+  "ff_biolight2", 
+  "ff_biolight3", 
+  "ff_biolight4", 
+  "ff_biolight5" 
+  ],
+  "itemTags" : [ "reagent" ]
+}
+ 

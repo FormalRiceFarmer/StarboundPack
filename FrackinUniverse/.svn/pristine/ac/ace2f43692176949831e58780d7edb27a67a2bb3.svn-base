@@ -1,0 +1,12 @@
+{
+  "itemName" : "mutagene2",
+  "rarity" : "legendary",
+  "price" : 500,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "mutagene2.png",
+  "description" : "Powerful mutagenic extract.",
+  "shortdescription" : "^#b84cbc;Powerful Mutagene^white;",
+  "radioMessagesOnPickup" : [ "pickupMutagene2" ],
+  "learnBlueprintsOnPickup" : [ "wretchelseed" ],
+  "itemTags" : [ "reagent" ]
+}

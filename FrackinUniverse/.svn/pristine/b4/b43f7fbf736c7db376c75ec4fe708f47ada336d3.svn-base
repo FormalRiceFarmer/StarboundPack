@@ -1,0 +1,19 @@
+{
+  "itemName" : "penumbriteshard",
+  "rarity" : "uncommon",
+    "price" : 200,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "penumbriteshard.png",
+  "description" : "Perfectly refined.",
+  "shortdescription" : "^#77acc3;Penumbrite Shard^white;",
+  "learnBlueprintsOnPickup" : [ 
+  "advancealloy", 
+  "penumbriteblockmaterial", 
+  "ff_scoutchest", 
+  "ff_scouthelm", 
+  "ff_scoutpants",
+  "furavagerhead", 
+  "furavagerchest", 
+  "furavagerpants"],
+  "itemTags" : [ "reagent" ]
+}

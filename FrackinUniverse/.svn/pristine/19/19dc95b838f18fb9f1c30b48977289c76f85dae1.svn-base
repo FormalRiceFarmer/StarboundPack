@@ -1,0 +1,12 @@
+{
+  "itemName" : "fu_nodule",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "fu_nodule.png",
+  "description" : "A nodule of strange gunk from the deep.",
+  "shortdescription" : "Plageus Nodule",
+  "radioMessagesOnPickup" : [ "pickupNodule" ],
+  "learnBlueprintsOnPickup" : [ "mutagene4", "mireurchinseed", "whitespine", "fudiverchest", "fudiverhead", "fudiverlegs" ],
+  "itemTags" : [ "reagent" ]
+}

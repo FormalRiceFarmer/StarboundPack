@@ -1,0 +1,15 @@
+[
+	{"op":"add","path":"/learnBlueprintsOnPickup","value": [     
+    "tier1bed",
+    "tier1chair",
+    "tier1door",
+    "tier1light",
+    "tier1switch",
+    "tier1table",
+    "beestation", 
+    "armoredsnowpants", 
+    "bonemealmaterial",
+    "armory",
+    "armoredsnowpants"
+    ] }
+]

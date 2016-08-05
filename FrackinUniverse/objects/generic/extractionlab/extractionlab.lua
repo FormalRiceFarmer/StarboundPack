@@ -240,6 +240,7 @@ local recipes =
 {inputs = { shadowblock=50 }, outputs = { rawminerals=3 }, time = 0.75},
 {inputs = { concretematerial=50 }, outputs = { rawminerals=2 }, time = 0.75},
 {inputs = { honeycombmaterial=50 }, outputs = { fu_liquidhoney=2 }, time = 0.75},
+{inputs = { redhoneycombmaterial=50 }, outputs = { fu_liquidhoney=2 }, time = 0.75},
 {inputs = { fu_honeycombblock=50 }, outputs = { fu_liquidhoney=2 }, time = 0.75},
 {inputs = { fu_redhoneycombblock=50 }, outputs = { fu_liquidhoney=2 }, time = 0.75},
 {inputs = { grassy=50 }, outputs = { geneticmaterial=2 }, time = 0.75},
@@ -400,6 +401,8 @@ local recipes =
 {inputs = { energywood=50 }, outputs = { penumbriteore=1 }, time = 0.75},
 {inputs = { vine=50 }, outputs = { plantfibre=2, fu_oxygen=1 }, time = 0.75},
 -- seeds
+{inputs = { cocoaseed=1 }, outputs = { tissueculture=1 }, time = 0.75},
+{inputs = { wildcocoaseed=1 }, outputs = { tissueculture=1 }, time = 0.75},
 {inputs = { cottonseed=1 }, outputs = { tissueculture=2 }, time = 0.75},
 {inputs = { cinnamonseed=1 }, outputs = { fu_nitrogen=2 }, time = 0.75},
 {inputs = { algaeseed=1 }, outputs = { fu_nitrogen=3 }, time = 0.75},

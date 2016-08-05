@@ -1,0 +1,12 @@
+{
+  "itemName" : "unstableparticles",
+  "rarity" : "uncommon",
+  "price" : 400,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "unstableparticles.png",
+  "description" : "unshielded particles for weapons",
+  "shortdescription" : "^#77acc3;Unstable Particles^white;",
+  "radioMessagesOnPickup" : [ "pickupUnstableparticles" ],
+  "learnBlueprintsOnPickup" : [ "fuonewayteleporter", "solariumstar", "shadowblade", "particlecannister", "nuclearcore", "particlegrenade", "particlecore" ],
+  "itemTags" : [ "reagent" ]
+}

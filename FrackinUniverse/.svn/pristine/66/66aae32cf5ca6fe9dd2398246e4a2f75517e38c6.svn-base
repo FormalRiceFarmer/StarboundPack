@@ -1,0 +1,12 @@
+{
+  "itemName" : "penumbriteore",
+  "rarity" : "uncommon",
+  "price" : 200,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "penumbriteore.png",
+  "description" : "Super-hard Penumbrite",
+  "shortdescription" : "Penumbrite Ore",
+  "radioMessagesOnPickup" : [ "pickupPenumbrite" ],
+  "learnBlueprintsOnPickup" : [ "penumbrabow", "penumbriteshard", "staticcell" ],
+  "itemTags" : [ "reagent" ]
+}

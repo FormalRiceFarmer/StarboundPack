@@ -1,0 +1,11 @@
+{
+  "itemName" : "raptoregg",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "raptoregg.png",
+  "description" : "Jammed full of genetic materials.",
+"radioMessagesOnPickup" : [ "pickupRaptoregg" ],
+  "shortdescription" : "Dinosaur Egg",
+  "itemTags" : [ "reagent" ]
+}

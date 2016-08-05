@@ -1,0 +1,12 @@
+{
+  "itemName" : "shoggothflesh",
+  "rarity" : "Uncommon",
+  "price" : 6000,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "shoggothflesh.png",
+  "description" : "Chunks of flesh from a horrifying Shoggoth.",
+  "shortdescription" : "Shoggoth Flesh",
+  "radioMessagesOnPickup" : [ "pickupShoggoth" ],
+  "learnBlueprintsOnPickup" : [ "shoggothgun", "fuarmoredcultistback", "fuarmoredcultistchest", "fuarmoredcultisthead", "fuarmoredcultistlegs", "shoggothhead", "shoggothpants", "shoggothchest" ],
+  "itemTags" : [ "reagent" ]
+}

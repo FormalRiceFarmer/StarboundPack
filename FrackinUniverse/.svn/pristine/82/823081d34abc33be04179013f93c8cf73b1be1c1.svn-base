@@ -1,0 +1,12 @@
+{
+  "itemName" : "cinnabarore",
+  "rarity" : "uncommon",
+  "price" : 210,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cinnabarore.png",
+  "description" : "A reliable source of mercury.",
+  "shortdescription" : "Cinnabar Ore",
+  "radioMessagesOnPickup" : [ "pickupCinnabar" ],
+  "learnBlueprintsOnPickup" : [ "ff_mercury" ],
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "garpberry",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "garpberry.png",
+  "description" : "Not a great idea to eat, but quite useful via extraction.",
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "foodValue" : 3,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 100,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 3.0,
+  "shortdescription" : "Garp Berry",
+  "effects" : [ [
+      "weakpoison"
+    ] ]
+}

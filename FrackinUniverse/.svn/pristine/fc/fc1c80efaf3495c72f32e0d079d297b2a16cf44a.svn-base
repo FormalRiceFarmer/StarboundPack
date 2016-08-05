@@ -1,0 +1,11 @@
+{
+  "itemName" : "biofuelcannister",
+  "rarity" : "Common",
+  "category" : "fuel",
+  "price" : 100,
+  "inventoryIcon" : "biofuelcannister.png",
+  "description" : "A decent biofuel.",
+  "shortdescription" : "Biofuel Canister",
+  "fuelAmount" : 25,
+  "itemTags" : [ "reagent" ]
+}
