@@ -7,10 +7,7 @@
   "shortdescription" : "Lasher Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
-  "lightColor" : [1, 1, 1],
-  "flickerDistance" : 0.0,
-  "flickerStrength" : 0.0,
+  "price" : 16,
   "inventoryIcon" : "lasherplantseedicon.png",
   "orientations" : [
     {
@@ -26,14 +23,14 @@
   ],
   "stages" : [
     {
-      "duration" : [120, 360]
+      "duration" : [320, 640]
     },
     {
-      "duration" : [120, 360]
+      "duration" : [320, 640]
     },
     {
       "alts" : 3,
-      "duration" : [110, 130]
+      "duration" : [320, 630]
     },
     {
       "alts" : 3,
@@ -41,6 +38,5 @@
       "resetToStage" : 2
     }
   ],
-  "learnBlueprintsOnPickup" : [ "porphisplantseed", "lasherwhip" ],
-    "maxImmersion" : 0.125
+  "learnBlueprintsOnPickup" : [ "porphisplantseed", "lasherwhip" ]
 }

@@ -7,7 +7,7 @@
   "shortdescription" : "Heartroot Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 20,
   "inventoryIcon" : "ginsengseedicon.png",
   "orientations" : [
     {
@@ -25,10 +25,10 @@
 
   "stages" : [
     {
-      "duration" : [120, 240]
+      "duration" : [220, 340]
     },
     {
-      "duration" : [120, 240]
+      "duration" : [220, 340]
     },
 
     {

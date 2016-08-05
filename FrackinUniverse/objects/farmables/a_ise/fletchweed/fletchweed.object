@@ -7,7 +7,7 @@
   "shortdescription" : "Fletchweed",
   "objectType" : "farmable",
   "printable" : false, 
-"price" : 300,
+"price" : 19,
   "inventoryIcon" : "fletchweedicon.png",
   "orientations" : [
     {
@@ -27,11 +27,11 @@
 "stages" : [
     {
       "alts" : 3,
-      "duration" : [240, 420]
+      "duration" : [440, 620]
     },
     {
       "alts" : 3,
-      "duration" : [240, 420]
+      "duration" : [440, 620]
     },
     {
       "alts" : 5,

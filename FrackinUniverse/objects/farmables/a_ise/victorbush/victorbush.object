@@ -7,7 +7,7 @@
   "shortdescription" : "Victorleaf",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 300,
+  "price" : 40,
   "inventoryIcon" : "victorbushicon.png",
   "orientations" : [
     {
@@ -27,11 +27,11 @@
 "stages" : [
     {
       "alts" : 3,
-      "duration" : [240, 420]
+      "duration" : [440, 820]
     },
     {
       "alts" : 3,
-      "duration" : [240, 420]
+      "duration" : [440, 820]
     },
     {
       "alts" : 5,

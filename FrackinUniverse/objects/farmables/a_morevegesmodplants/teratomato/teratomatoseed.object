@@ -7,7 +7,7 @@
   "shortdescription" : "Teratomato Seed",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 300,
+  "price" : 32,
   "inventoryIcon" : "teratomatoseedicon.png",
   "orientations" : [
     {
@@ -25,10 +25,10 @@
 
   "stages" : [
     {
-      "duration" : [320, 600]
+      "duration" : [720, 1600]
     },
     {
-      "duration" : [320, 600]
+      "duration" : [720, 1600]
     },
 
     {

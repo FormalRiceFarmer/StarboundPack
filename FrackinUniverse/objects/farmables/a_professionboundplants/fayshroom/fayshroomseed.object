@@ -7,7 +7,7 @@
   "shortdescription" : "Fayshroom Spore",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 22,
   "learnBlueprintsOnPickup" : [ "tetherhookseed" ],
   "inventoryIcon" : "fayshroomseedicon.png",
   "orientations" : [
@@ -26,10 +26,10 @@
 
   "stages" : [
     {
-      "duration" : [120, 360]
+      "duration" : [320, 560]
     },
     {
-      "duration" : [120, 360]
+      "duration" : [320, 560]
     },
 
     {

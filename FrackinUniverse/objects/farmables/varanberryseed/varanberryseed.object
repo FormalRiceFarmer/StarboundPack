@@ -7,7 +7,7 @@
   "shortdescription" : "Varan Berry Bush",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 7,
   "learnBlueprintsOnPickup" : [ "varanberryseed" ],
   "inventoryIcon" : "varanberryseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [60, 120]
+      "duration" : [260, 420]
     },
     {
-      "duration" : [60, 120]
+      "duration" : [260, 420]
     },
     {
       "alts" : 5,
-      "duration" : [110, 130]
+      "duration" : [210, 430]
     },
     {
       "alts" : 5,

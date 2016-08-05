@@ -7,7 +7,7 @@
   "shortdescription" : "Golden Root Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 27,
     "learnBlueprintsOnPickup" : [ "pinkloomseed" ],
   "inventoryIcon" : "goldenrootseedicon.png",
   "orientations" : [
@@ -26,10 +26,10 @@
 
   "stages" : [
     {
-      "duration" : [120, 240]
+      "duration" : [320, 740]
     },
     {
-      "duration" : [120, 240]
+      "duration" : [320, 740]
     },
 
     {

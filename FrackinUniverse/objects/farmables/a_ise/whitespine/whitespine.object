@@ -7,7 +7,7 @@
   "shortdescription" : "Whitespine",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 300,
+  "price" : 14,
   "inventoryIcon" : "whitespineicon.png",
   "orientations" : [
     {
@@ -27,11 +27,11 @@
 "stages" : [
     {
       "alts" : 3,
-      "duration" : [120, 360]
+      "duration" : [320, 460]
     },
     {
       "alts" : 3,
-      "duration" : [125, 360]
+      "duration" : [325, 460]
     },
     {
       "alts" : 5,

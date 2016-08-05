@@ -7,7 +7,7 @@
   "shortdescription" : "Snowberry",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 17,
   "learnBlueprintsOnPickup" : [ "blizzberryseed", "pekkitseed"],
   "inventoryIcon" : "snowberryseedicon.png",
   "orientations" : [
@@ -25,10 +25,10 @@
   ],
   "stages" : [
     {
-      "duration" : [120, 360]
+      "duration" : [420, 660]
     },
     {
-      "duration" : [120, 360]
+      "duration" : [420, 660]
     },
     {
       "alts" : 5,

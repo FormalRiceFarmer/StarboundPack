@@ -7,7 +7,7 @@
   "shortdescription" : "Adv. Ignus Chili",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 550,
+  "price" : 22,
   "learnBlueprintsOnPickup" : [ "hellfireplantseed" ],  
   "apexDescription" : "Two hundred and forty times as spicy as ordinary Chili.",
   "avianDescription" : "Two hundred and forty times as spicy as ordinary Chili.",
@@ -31,14 +31,14 @@
   ],
   "stages" : [
     {
-      "duration" : [240, 420]
+      "duration" : [520, 740]
     },
     {
-      "duration" : [240, 420]
+      "duration" : [520, 740]
     },
     {
       "alts" : 5,
-      "duration" : [210, 230]
+      "duration" : [520, 730]
     },
     {
       "alts" : 5,

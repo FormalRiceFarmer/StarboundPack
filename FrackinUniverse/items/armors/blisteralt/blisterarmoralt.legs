@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "Decent protection for something made from blisters.",
-  "shortdescription" : "Blister Greaves",
+  "shortdescription" : "Blister Greaves II",
   "tooltipKind" : "armornew",
 
   "maleFrames" : "pants.png",
@@ -14,7 +14,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.65
+      "baseMultiplier" : 1.5
     },
 
     {
@@ -29,7 +29,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 9
+      "amount" : 11
     },
   "glowyellow"
   ],

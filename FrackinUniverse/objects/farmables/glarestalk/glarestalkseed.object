@@ -7,7 +7,7 @@
   "shortdescription" : "Glarestalk Gib",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300, 
+  "price" : 44, 
   
   "inventoryIcon" : "glarestalkseedicon.png",
   "orientations" : [
@@ -25,10 +25,10 @@
   ],
   "stages" : [
     {
-      "duration" : [220, 320]
+      "duration" : [720, 1140]
     },
     {
-      "duration" : [220, 320]
+      "duration" : [720, 1140]
     },
     {
       "alts" : 5,

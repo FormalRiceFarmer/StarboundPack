@@ -7,7 +7,7 @@
   "shortdescription" : "Ita Flower Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 12,
   "learnBlueprintsOnPickup" : [ "itaseed", "darklightflower" ],
 
   "inventoryIcon" : "itaseedicon.png",
@@ -25,15 +25,15 @@
   ],
   "stages" : [
     {
-      "duration" : [60, 120]
+      "duration" : [320, 640]
     },
     {
-      "duration" : [60, 120]
+      "duration" : [320, 640]
     },
     {
       "alts" : 5,
-      "duration" : [110, 130]
-    },    
+      "duration" : [320, 630]
+    },  
     {
       "alts" : 5,
       "harvestPool" : "itaHarvest",

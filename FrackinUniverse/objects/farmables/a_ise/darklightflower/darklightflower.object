@@ -7,7 +7,7 @@
   "shortdescription" : "Darklight Flower",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 300,
+  "price" : 20,
   "lightColor" : [22, 34, 176],
   "inventoryIcon" : "darklightflowericon.png",
   "learnBlueprintsOnPickup" : [ "bellamorte", "darklightflower" ],
@@ -29,11 +29,11 @@
 "stages" : [
     {
       "alts" : 3,
-      "duration" : [111, 120]
+      "duration" : [321, 520]
     },
     {
       "alts" : 3,
-      "duration" : [111, 120]
+      "duration" : [321, 520]
     },
     {
       "alts" : 5,

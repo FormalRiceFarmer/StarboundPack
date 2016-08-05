@@ -4,8 +4,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "An effective lightsource and radiation shield.",
-  "shortdescription" : "Blister Helm",
+  "description" : "An effective lightsource and radiation immune.",
+  "shortdescription" : "Blister Helm II",
   "tooltipKind" : "armornew",
 
   "maleFrames" : "head.png",

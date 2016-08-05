@@ -7,7 +7,7 @@
   "description" : "This piece is immune to deadly cold. ^#e43774;-Upgradeable-^reset;",
   "shortdescription" : "Quantum Greaves",
   "tooltipKind" : "armornew",
-
+  "learnBlueprintsOnPickup" : [ "fuquantumlegsadv" ], 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
@@ -23,12 +23,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 27
+      "amount" : 17
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 20
+      "amount" : 8
     },
     "ffextremecoldresist"
   ],

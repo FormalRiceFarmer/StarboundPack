@@ -7,7 +7,7 @@
   "shortdescription" : "Crystallite",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 300,
+  "price" : 30,
   "inventoryIcon" : "crystalliteicon.png",
   "orientations" : [
     {
@@ -27,11 +27,11 @@
 "stages" : [
     {
       "alts" : 3,
-      "duration" : [120, 360]
+      "duration" : [420, 760]
     },
     {
       "alts" : 3,
-      "duration" : [120, 360]
+      "duration" : [420, 760]
     },
     {
       "alts" : 5,

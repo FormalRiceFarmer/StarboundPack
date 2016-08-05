@@ -7,7 +7,7 @@
   "shortdescription" : "Energiflower Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 16,
   "learnBlueprintsOnPickup" : [ "energiflowerseed" ],
   "lightColor" : [100, 255, 185],
   "flickerDistance" : 0.5,
@@ -28,14 +28,14 @@
   ],
   "stages" : [
     {
-      "duration" : [120, 360]
+      "duration" : [320, 640]
     },
     {
-      "duration" : [120, 360]
+      "duration" : [320, 640]
     },
     {
       "alts" : 5,
-      "duration" : [110, 130]
+      "duration" : [320, 630]
     },
     {
       "alts" : 5,

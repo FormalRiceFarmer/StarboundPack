@@ -7,7 +7,7 @@
   "shortdescription" : "Sporing Kiri Fruit",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 22,
   "learnBlueprintsOnPickup" : [ "kirifruitseed" ],
   "inventoryIcon" : "avaliplant1icon.png",
   "orientations" : [
@@ -24,10 +24,10 @@
   ],
   "stages" : [
     {
-      "duration" : [240, 300]
+      "duration" : [240, 600]
     },
     {
-      "duration" : [240, 300]
+      "duration" : [240, 600]
     },
     {
       "alts" : 5,

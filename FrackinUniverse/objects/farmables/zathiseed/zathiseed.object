@@ -7,7 +7,7 @@
   "shortdescription" : "Zathi Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 22,
   "lightColor" : [12, 65, 12],
     "learnBlueprintsOnPickup" : [ "xaxseed" ],
   "inventoryIcon" : "zathiseedicon.png",
@@ -25,10 +25,10 @@
   ],
   "stages" : [
     {
-      "duration" : [120, 240]
+      "duration" : [320, 740]
     },
     {
-      "duration" : [120, 240]
+      "duration" : [320, 740]
     },
     {
       "alts" : 5,

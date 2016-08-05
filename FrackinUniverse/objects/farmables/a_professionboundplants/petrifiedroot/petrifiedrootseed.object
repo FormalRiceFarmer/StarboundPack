@@ -7,7 +7,7 @@
   "shortdescription" : "Shadow Root Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 300,
+  "price" : 23,
   "learnBlueprintsOnPickup" : [ "petrifiedrootseed" ],
   "inventoryIcon" : "petrifiedrootseedicon.png",
   "orientations" : [
@@ -26,10 +26,10 @@
 
   "stages" : [
     {
-      "duration" : [300, 600]
+      "duration" : [500, 1200]
     },
     {
-      "duration" : [300, 600]
+      "duration" : [500, 1200]
     },
 
     {
