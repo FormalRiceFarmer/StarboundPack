@@ -1,9 +1,0 @@
-{
-  "name" : "adaptivebee",
-  "category" : "adaptivebee",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "adaptivebee.png"
-  }
-}

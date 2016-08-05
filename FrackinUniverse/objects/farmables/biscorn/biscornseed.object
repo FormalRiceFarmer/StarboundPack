@@ -7,7 +7,7 @@
   "shortdescription" : "Biscorn Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 15,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "littlerascalseed" ],
 
   "inventoryIcon" : "biscornseedicon.png",
@@ -25,14 +25,14 @@
   ],
   "stages" : [
     {
-      "duration" : [320, 640]
+      "duration" : [100, 120]
     },
     {
-      "duration" : [320, 640]
+      "duration" : [100, 120]
     },
     {
       "alts" : 5,
-      "duration" : [320, 630]
+      "duration" : [110, 130]
     },
     {
       "alts" : 5,

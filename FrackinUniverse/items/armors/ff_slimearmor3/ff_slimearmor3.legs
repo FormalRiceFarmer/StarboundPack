@@ -23,7 +23,7 @@
     "energyregenfu_armor20",
     {
       "stat" : "maxHealth",
-      "amount" : 15
+      "amount" : 9
     },
     {
       "stat" : "wetImmunity",

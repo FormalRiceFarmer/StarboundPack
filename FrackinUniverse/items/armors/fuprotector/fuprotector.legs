@@ -19,12 +19,12 @@
 
     {
       "stat" : "protection",
-      "amount" : 17
+      "amount" : 15
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 17
+      "amount" : 37
     },
     {
       "stat" : "maxHealth",
@@ -34,6 +34,7 @@
     "fumudslowimmunity"
   ],
 
+    "triggerKeys" : [ "durasteelarmor" ],
 
   "colorOptions" : [
     /* GREY BLUE */

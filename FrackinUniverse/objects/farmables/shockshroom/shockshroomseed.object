@@ -7,7 +7,7 @@
   "shortdescription" : "Shock-Shroom",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 12,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "deathblossomseed" ],
   "inventoryIcon" : "shockshroomseedicon.png",
   "orientations" : [
@@ -24,10 +24,10 @@
   ],
   "stages" : [
     {
-      "duration" : [420, 660]
+      "duration" : [120, 360]
     },
     {
-      "duration" : [420, 660]
+      "duration" : [120, 360]
     },
     {
       "alts" : 5,

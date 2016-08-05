@@ -1,9 +1,0 @@
-{
-  "name" : "morbidbee",
-  "category" : "morbidbee",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "morbidbee.png"
-  }
-}

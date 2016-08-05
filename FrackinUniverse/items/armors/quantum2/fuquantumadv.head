@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Modified to hold excess energy. Immune to deadly heat.",
+  "description" : "Modified to hold excess energy.",
   "shortdescription" : "Quantum Helm MK2",
   "tooltipKind" : "armornew",
 
@@ -24,12 +24,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 25
+      "amount" : 65
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 12
+      "amount" : 20
     },
     "ffextremeheatresist"    
   ],

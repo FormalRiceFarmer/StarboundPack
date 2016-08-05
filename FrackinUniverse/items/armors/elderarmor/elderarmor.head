@@ -14,21 +14,21 @@
   "statusEffects" : [
       {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 2.2
+      "baseMultiplier" : 2.5
     },
     {
       "stat" : "protection",
-      "amount" : 26
+      "amount" : 27
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 30
+      "amount" : 120
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 22
+      "amount" : 35
     },
     "darkregen"
   ],

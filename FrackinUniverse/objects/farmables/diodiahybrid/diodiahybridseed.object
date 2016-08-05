@@ -7,7 +7,7 @@
   "shortdescription" : "Diodia Hybrid Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 16,
+  "price" : 300,
   "inventoryIcon" : "diodiahybridseedicon.png",
   "orientations" : [
     {
@@ -23,14 +23,14 @@
   ],
   "stages" : [
     {
-      "duration" : [320, 640]
+      "duration" : [100, 120]
     },
     {
-      "duration" : [320, 640]
+      "duration" : [100, 120]
     },
     {
       "alts" : 5,
-      "duration" : [320, 630]
+      "duration" : [110, 130]
     },
     {
       "alts" : 5,

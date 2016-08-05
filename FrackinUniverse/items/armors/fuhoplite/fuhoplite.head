@@ -26,12 +26,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 11
+      "amount" : 30
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 12
+      "amount" : 9
     },
     "protoimmunity",
     "percentenergyboost10"

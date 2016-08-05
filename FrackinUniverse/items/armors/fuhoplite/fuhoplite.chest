@@ -29,17 +29,17 @@
 
     {
       "stat" : "protection",
-      "amount" : 28
+      "amount" : 24
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 15
+      "amount" : 53
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 20
+      "amount" : 14
     },
     "protoimmunity",
     "shieldregen3"

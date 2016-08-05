@@ -30,7 +30,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 8
+      "amount" : 11
     },
     "damagebonus2"
   ],

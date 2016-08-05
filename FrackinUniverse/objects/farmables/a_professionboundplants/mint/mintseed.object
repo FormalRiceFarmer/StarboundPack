@@ -7,7 +7,7 @@
   "shortdescription" : "Star Mint Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 15,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "mintseed" ],
   "inventoryIcon" : "mintseedicon.png",
   "orientations" : [
@@ -26,10 +26,10 @@
 
   "stages" : [
     {
-      "duration" : [200, 320]
+      "duration" : [100, 120]
     },
     {
-      "duration" : [200, 320]
+      "duration" : [100, 120]
     },
 
     {

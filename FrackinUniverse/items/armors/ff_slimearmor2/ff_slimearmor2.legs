@@ -19,12 +19,12 @@
 
     {
       "stat" : "protection",
-      "amount" : 12
+      "amount" : 10
     },
     "energyregenfu_armor20",    
     {
       "stat" : "maxHealth",
-      "amount" : 8
+      "amount" : 6
     },
     {
       "stat" : "wetImmunity",

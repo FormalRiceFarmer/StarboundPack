@@ -7,7 +7,7 @@
   "shortdescription" : "Porphis Bulb",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 25,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "glarestalkseed" ],  
   "inventoryIcon" : "porphisplantseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [520, 740]
+      "duration" : [240, 420]
     },
     {
-      "duration" : [520, 740]
+      "duration" : [240, 420]
     },
     {
-      "alts" : 5,
-      "duration" : [520, 730]
+      "alts" : 3,
+      "duration" : [110, 130]
     },
     {
       "alts" : 3,

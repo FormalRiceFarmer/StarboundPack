@@ -24,22 +24,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 2.15
+      "baseMultiplier" : 2.75
     },
 
     {
       "stat" : "protection",
-      "amount" : 32
+      "amount" : 30
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 20
+      "amount" : 100
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 25
+      "amount" : 15
     },
     "infernosuiteffects"
   ],

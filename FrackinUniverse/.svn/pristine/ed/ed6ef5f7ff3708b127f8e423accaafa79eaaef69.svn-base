@@ -1,9 +1,0 @@
-{
-  "name" : "redbee",
-  "category" : "redbee",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "redbee.png"
-  }
-}

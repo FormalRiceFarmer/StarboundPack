@@ -7,7 +7,7 @@
   "shortdescription" : "Wretchel Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 40,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "herrodbush" ],
   
   "inventoryIcon" : "wretchelseedicon.png",

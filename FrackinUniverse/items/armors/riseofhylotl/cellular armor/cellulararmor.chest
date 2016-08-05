@@ -31,11 +31,11 @@
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 20
+      "amount" : 60
     },    
     {
       "stat" : "maxHealth",
-      "amount" : 14
+      "amount" : 24
     },
     {
       "stat" : "healthRegen",

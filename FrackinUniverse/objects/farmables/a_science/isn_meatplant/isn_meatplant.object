@@ -6,7 +6,7 @@
   "shortdescription" : "Meatvine Bulb",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 12,
+  "price" : 300,
 
   "inventoryIcon" : "isn_meatplant_inv.png",
   "orientations" : [
@@ -25,14 +25,14 @@
 
   "stages" : [
     {
-      "duration" : [300, 755]
+      "duration" : [100, 255]
     },
     {
-      "duration" : [300, 755]
+      "duration" : [100, 255]
     },
     {
       "alts" : 5,
-      "duration" : [360, 640]
+      "duration" : [160, 240]
     },
     {
       "alts" : 5,

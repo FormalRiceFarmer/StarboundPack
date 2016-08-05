@@ -24,12 +24,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 22
+      "amount" : 36
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 20
+      "amount" : 29
     },
     "regeneration01"
   ],

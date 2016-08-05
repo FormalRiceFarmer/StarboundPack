@@ -19,15 +19,15 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 21
-    },
-    {
-      "stat" : "maxEnergy",
       "amount" : 18
     },
     {
+      "stat" : "maxEnergy",
+      "amount" : 20
+    },
+    {
       "stat" : "maxHealth",
-      "amount" : 14
+      "amount" : 40
     },
 
     "thornsstranglevine"

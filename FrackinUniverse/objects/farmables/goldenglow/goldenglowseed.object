@@ -7,7 +7,7 @@
   "shortdescription" : "Goldenglow Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 21, 
+  "price" : 300, 
   "lightColor" : [255, 204, 0],
   "flickerDistance" : 0.7,
   "flickerStrength" : 0.2,
@@ -27,15 +27,15 @@
   ],
   "stages" : [
     {
-      "duration" : [320, 640]
+      "duration" : [120, 360]
     },
     {
-      "duration" : [320, 640]
+      "duration" : [120, 360]
     },
     {
       "alts" : 3,
-      "duration" : [320, 630]
-    },  
+      "duration" : [110, 130]
+    },    
     {
       "alts" : 3,
       "harvestPool" : "goldenglowHarvest",

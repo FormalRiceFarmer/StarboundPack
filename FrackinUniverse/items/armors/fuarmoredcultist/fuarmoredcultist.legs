@@ -19,11 +19,11 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 15
+      "amount" : 19
     },
     {
       "stat" : "energyRegen",
-      "amount" : 1.15
+      "amount" : 0.35
     },
     {
       "stat" : "maxHealth",

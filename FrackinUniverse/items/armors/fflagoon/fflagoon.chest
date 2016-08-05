@@ -28,17 +28,17 @@
 
     {
       "stat" : "protection",
-      "amount" : 32
+      "amount" : 26
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 32
+      "amount" : 82
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 60
+      "amount" : 22
     },
     "protoimmunity",
     "thornsstranglevine"

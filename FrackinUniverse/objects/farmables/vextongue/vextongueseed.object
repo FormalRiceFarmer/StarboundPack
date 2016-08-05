@@ -7,7 +7,7 @@
   "shortdescription" : "Vextongue Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 18,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "tyvokkseed"],
   "inventoryIcon" : "vextongueseedicon.png",
   "orientations" : [
@@ -24,10 +24,10 @@
   ],
   "stages" : [
     {
-      "duration" : [420, 760]
+      "duration" : [120, 360]
     },
     {
-      "duration" : [420, 760]
+      "duration" : [120, 360]
     },
     {
       "alts" : 3,

@@ -19,15 +19,15 @@
     },    
       {
         "stat" : "protection",
-        "amount" : 21
+        "amount" : 17
       },    
       {
         "stat" : "maxEnergy",
-        "amount" : 22
+        "amount" : 52
       },      
       {
         "stat" : "maxHealth",
-        "amount" : 9
+        "amount" : 13
       },
     "ffextremecoldresist",
     "icearmorimmunityhead"

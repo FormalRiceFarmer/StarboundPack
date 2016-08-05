@@ -7,7 +7,7 @@
   "shortdescription" : "Beetle Sprout",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 22,
+  "price" : 300,
 
   "inventoryIcon" : "beetlesproutseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [320, 640]
+      "duration" : [120, 360]
     },
     {
-      "duration" : [420, 740]
+      "duration" : [120, 360]
     },
     {
       "alts" : 4,
-      "duration" : [520, 830]
+      "duration" : [110, 130]
     },
     {
       "alts" : 4,

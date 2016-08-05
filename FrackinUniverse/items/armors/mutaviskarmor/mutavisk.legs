@@ -18,17 +18,17 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 9
+      "amount" : 11
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 8
+      "amount" : 32
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 10
     },
     "nofalldamage"
   ],

@@ -26,15 +26,15 @@
     },
     {
       "stat" : "protection",
-      "amount" : 5
+      "amount" : 10
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 5
+      "amount" : 10
     },
     {
       "stat" : "maxHealth",
-      "amount" : 4
+      "amount" : 20
     },
     "beestingimmunity"
   ],

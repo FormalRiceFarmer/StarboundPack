@@ -1,9 +1,0 @@
-{
-  "name" : "forestbee",
-  "category" : "forestbee",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "forestbee.png"
-  }
-}

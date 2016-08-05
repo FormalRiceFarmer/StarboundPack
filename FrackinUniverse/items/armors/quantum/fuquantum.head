@@ -7,7 +7,7 @@
   "description" : "The Quantum is well protected and deadly-heat resistant. ^#e43774;-Upgradeable-^reset;",
   "shortdescription" : "Quantum Helm",
   "tooltipKind" : "armornew",
-  "learnBlueprintsOnPickup" : [ "fuquantumheadadv" ], 
+
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
@@ -15,11 +15,11 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.65
+      "baseMultiplier" : 1.75
     },  
     {
       "stat" : "protection",
-      "amount" : 21
+      "amount" : 24
     },
 
     {
@@ -29,7 +29,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 12
+      "amount" : 20
     },
     "ffextremeheatresist"
   ],

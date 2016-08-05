@@ -7,7 +7,7 @@
   "shortdescription" : "Bracken Tree Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 11,
+  "price" : 300,
 
   "inventoryIcon" : "brackentreeicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [220, 340]
+      "duration" : [100, 200]
     },
     {
-      "duration" : [220, 340]
+      "duration" : [100, 200]
     },
     {
       "alts" : 5,
-      "duration" : [220, 330]
+      "duration" : [110, 130]
     },
     {
       "alts" : 5,

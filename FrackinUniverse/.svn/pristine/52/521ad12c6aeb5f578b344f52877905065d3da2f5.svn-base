@@ -1,9 +1,0 @@
-{
-  "name" : "plutoniumbee",
-  "category" : "plutoniumbee",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "plutoniumbee.png"
-  }
-}

@@ -16,7 +16,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.95
+      "baseMultiplier" : 1.75
     },  
     {
       "stat" : "protection",
@@ -25,12 +25,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 25
+      "amount" : 55
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 13
+      "amount" : 20
     },
     "runboost10"
   ],

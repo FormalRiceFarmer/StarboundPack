@@ -7,7 +7,7 @@
   "shortdescription" : "Shiny Acorn Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 12,
+  "price" : 300,
 
   "inventoryIcon" : "shinyacornseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [340, 620]
+      "duration" : [240, 420]
     },
     {
-      "duration" : [240, 620]
+      "duration" : [240, 420]
     },
     {
       "alts" : 5,
-      "duration" : [110, 630]
+      "duration" : [110, 130]
     },
     {
       "alts" : 5,

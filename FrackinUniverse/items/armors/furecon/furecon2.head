@@ -21,12 +21,12 @@
 
     {
       "stat" : "protection",
-      "amount" : 18
+      "amount" : 13
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 26
+      "amount" : 36
     },
 
     {

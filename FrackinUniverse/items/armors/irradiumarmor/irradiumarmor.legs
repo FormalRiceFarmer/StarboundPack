@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Provides excess energy reserves and deadly heat immunity.",
+  "description" : "Provides excess energy reserves.",
   "shortdescription" : "Irradium Greaves",
   "tooltipKind" : "armornew",
 
@@ -24,7 +24,7 @@
     "energyregenfu_armor30",
     {
       "stat" : "maxHealth",
-      "amount" : 7
+      "amount" : 11
     },
     "ffextremeheatresist"
   ],

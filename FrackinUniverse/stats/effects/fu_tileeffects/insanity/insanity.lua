@@ -1,7 +1,6 @@
 function init()
-  local bounds = mcontroller.boundBox()
   script.setUpdateDelta(5)
-  self.tickDamagePercentage = 0.0005
+  self.tickDamagePercentage = 0.0001
   self.tickTime = 5.0
   self.tickTimer = self.tickTime
   activateVisualEffects()
@@ -17,24 +16,16 @@ function activateVisualEffects()
   animator.setParticleEmitterOffsetRegion("statustext", statusTextRegion)
   animator.burstParticleEmitter("statustext")
 end
-function activateVisualEffects2()
-  local statusTextRegion = { 0, 1, 0, 1 }
-  animator.setParticleEmitterOffsetRegion("statustext2", statusTextRegion)
-  animator.burstParticleEmitter("statustext2")
-end
 
 function update(dt)
-
   self.tickTimer = self.tickTimer - dt
   if self.tickTimer <= 0 then
     self.tickTimer = self.tickTime
     status.applySelfDamageRequest({
         damageType = "IgnoresDef",
-        effect.addStatModifierGroup({{stat = "protection", amount = baseValue }}),
         damage = math.floor(status.resourceMax("health") * self.tickDamagePercentage) + 1,
         damageSourceKind = "poison",
-        sourceEntityId = entity.id(),
-        activateVisualEffects2()
+        sourceEntityId = entity.id()
       })
   end
 end

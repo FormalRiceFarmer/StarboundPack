@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Modified to hold excess energy. Immune to deadly cold.",
+  "description" : "Modified to hold excess energy.",
   "shortdescription" : "Quantum Greaves MK2",
   "tooltipKind" : "armornew",
 
@@ -23,12 +23,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 25
+      "amount" : 65
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 11
+      "amount" : 20
     },
     "ffextremecoldresist"
   ],

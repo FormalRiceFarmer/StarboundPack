@@ -7,7 +7,7 @@
   "shortdescription" : "Piru Colony",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 22,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "piruseed" ],
   "inventoryIcon" : "avaliplant3icon.png",
   "orientations" : [
@@ -25,10 +25,10 @@
 
   "stages" : [
     {
-      "duration" : [240, 600]
+      "duration" : [240, 300]
     },
     {
-      "duration" : [240, 600]
+      "duration" : [240, 300]
     },
     {
       "alts" : 5,

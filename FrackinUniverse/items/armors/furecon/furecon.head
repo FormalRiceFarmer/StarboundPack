@@ -16,7 +16,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.42
+      "baseMultiplier" : 1.52
     },
 
     {
@@ -35,6 +35,8 @@
     },
     "runboost10"
   ],
+
+  "questTags" : [ "steelarmor" ],
 
   "colorOptions" : [
 

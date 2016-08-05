@@ -7,7 +7,7 @@
   "shortdescription" : "Leafshell Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 17,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "wubstemseed"],
   "inventoryIcon" : "leafshellseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [320, 640]
+      "duration" : [120, 240]
     },
     {
-      "duration" : [320, 640]
+      "duration" : [120, 240]
     },
     {
       "alts" : 5,
-      "duration" : [320, 630]
+      "duration" : [110, 130]
     },
     {
       "alts" : 5,

@@ -7,7 +7,7 @@
   "shortdescription" : "Xax Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 21,
+  "price" : 300,
   "lightColor" : [12, 65, 12],
   "inventoryIcon" : "xaxseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [440, 620]
+      "duration" : [240, 420]
     },
     {
-      "duration" : [440, 620]
+      "duration" : [240, 420]
     },
     {
       "alts" : 5,
-      "duration" : [410, 630]
+      "duration" : [110, 130]
     },
     {
       "alts" : 5,

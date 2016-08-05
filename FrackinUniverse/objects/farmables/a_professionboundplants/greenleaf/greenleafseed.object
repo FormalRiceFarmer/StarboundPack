@@ -7,7 +7,7 @@
   "shortdescription" : "Greenleaf Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 23,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "silverleafseed", "greenleafseed" ],
   "inventoryIcon" : "greenleafseedicon.png",
   "orientations" : [
@@ -26,10 +26,10 @@
 
   "stages" : [
     {
-      "duration" : [340, 520]
+      "duration" : [240, 420]
     },
     {
-      "duration" : [340, 520]
+      "duration" : [240, 420]
     },
 
     {

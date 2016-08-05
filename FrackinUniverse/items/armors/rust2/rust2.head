@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "uncommon",
-  "description" : "A lovely space helm with oxygen supply.",
+  "description" : "A lovely spacesuit.",
   "shortdescription" : "Spacesuit Helmet",
   "tooltipKind" : "armornew",
 
@@ -25,11 +25,11 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 8
+      "amount" : 35
     },
     {
       "stat" : "maxHealth",
-      "amount" : 20
+      "amount" : 15
     },
     {
       "stat" : "breathProtection",

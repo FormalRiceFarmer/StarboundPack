@@ -27,17 +27,17 @@
     },    
     {
       "stat" : "protection",
-      "amount" : 40
+      "amount" : 30
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 20
+      "amount" : 87
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 55
+      "amount" : 47
     },
     "quietuseffects"
   ]

@@ -5,7 +5,7 @@
   "category" : "seed",
   "description" : "Soft to the touch.",
   "shortdescription" : "Cellpod Seed",
-"price" : 23,
+"price" : 300,
   "learnBlueprintsOnPickup" : [ "kamaranpodsplant" ],
 
   "objectType" : "farmable",
@@ -26,10 +26,10 @@
   ],
   "stages" : [
     {
-      "duration" : [320, 640]
+      "duration" : [120, 240]
     },
     {
-      "duration" : [366, 740]
+      "duration" : [120, 240]
     },
 
     {

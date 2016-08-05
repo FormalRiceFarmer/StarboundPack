@@ -7,7 +7,7 @@
   "shortdescription" : "Miracle Grass",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 11,
+  "price" : 110,
 
   "inventoryIcon" : "miraclegrassseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [120, 240]
+      "duration" : [60, 120]
     },
     {
-      "duration" : [120, 240]
+      "duration" : [60, 120]
     },
     {
       "alts" : 5,
-      "duration" : [120, 230]
+      "duration" : [110, 130]
     },
     {
       "alts" : 5,

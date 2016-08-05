@@ -19,17 +19,17 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 19
+      "amount" : 24
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 30
+      "amount" : 48
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 14
+      "amount" : 24
     },
     "runboost35"
   ],

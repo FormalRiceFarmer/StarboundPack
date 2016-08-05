@@ -7,7 +7,7 @@
   "shortdescription" : "Kramil",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 24,
+  "price" : 300,
   "inventoryIcon" : "kramilicon.png",
   "orientations" : [
     {

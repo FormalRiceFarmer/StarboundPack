@@ -7,7 +7,7 @@
   "shortdescription" : "Aenema Flower",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 23,
+  "price" : 300,
   "inventoryIcon" : "aenemaflowericon.png",
   "orientations" : [
     {
@@ -28,11 +28,11 @@
 "stages" : [
     {
       "alts" : 3,
-      "duration" : [320, 640]
+      "duration" : [120, 240]
     },
     {
       "alts" : 3,
-      "duration" : [320, 640]
+      "duration" : [120, 240]
     },
     {
       "alts" : 5,

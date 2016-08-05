@@ -15,7 +15,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.32
+      "baseMultiplier" : 1.4
     },
 
     {
@@ -25,12 +25,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 18
+      "amount" : 24
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 6
+      "amount" : 8
     },
     "protoimmunity",
    "glowpurple"

@@ -14,7 +14,10 @@
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 3.0,
       "effects" : [ [
-      "airimmunity",      
+      {
+        "effect" : "breathProtection",
+	      "duration" : 60
+      },      
       "swimboost3"
     ] ]
 }

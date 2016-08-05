@@ -14,13 +14,7 @@
     {
       "action" : "applySurfaceMod",
       "previousMod" : "metamod:none",
-      "newMod" : "tilled",
-      "radius" : 2
-    },
-    {
-      "action" : "applySurfaceMod",
-      "previousMod" : "grass",
-      "newMod" : "tilled",
+      "newMod" : "hydrotilled",
       "radius" : 2
     } 
   ],

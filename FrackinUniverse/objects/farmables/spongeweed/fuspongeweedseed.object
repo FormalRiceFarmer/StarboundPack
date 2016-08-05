@@ -7,7 +7,7 @@
   "shortdescription" : "Spongeweed Clump",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 22,
+  "price" : 300,
 
   "learnBlueprintsOnPickup" : [ "fuspongeweedseed" ],
 
@@ -26,10 +26,10 @@
   ],
   "stages" : [
     {
-      "duration" : [320, 560]
+      "duration" : [120, 360]
     },
     {
-      "duration" : [320, 560]
+      "duration" : [120, 360]
     },
     {
       "alts" : 5,

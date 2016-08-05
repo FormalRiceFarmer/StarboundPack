@@ -14,22 +14,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.4
+      "baseMultiplier" : 1.8
     },
 
     {
       "stat" : "protection",
-      "amount" : 14
-    },
-
-    {
-      "stat" : "maxEnergy",
       "amount" : 12
     },
 
     {
+      "stat" : "maxEnergy",
+      "amount" : 32
+    },
+
+    {
       "stat" : "maxHealth",
-      "amount" : 8
+      "amount" : 12
     },
     {
       "stat" : "wetImmunity",

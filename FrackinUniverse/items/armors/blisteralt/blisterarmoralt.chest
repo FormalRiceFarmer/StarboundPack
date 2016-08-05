@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "Blister-pod derived armor",
-  "shortdescription" : "Blister Chest II",
+  "shortdescription" : "Blister Chest",
   "tooltipKind" : "armornew",
 
   "maleFrames" : {
@@ -23,17 +23,17 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 2.25
+      "baseMultiplier" : 2.15
     },
 
     {
       "stat" : "protection",
-      "amount" : 32
+      "amount" : 28
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 84
+      "amount" : 80
     },
 
     {

@@ -19,17 +19,17 @@
     },    
     {
       "stat" : "protection",
-      "amount" : 23
+      "amount" : 19
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 10
+      "amount" : 52
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 35
+      "amount" : 24
     },
     "regeneration01"
   ]

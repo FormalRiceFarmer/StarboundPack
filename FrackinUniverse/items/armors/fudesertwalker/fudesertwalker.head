@@ -15,22 +15,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.55
+      "baseMultiplier" : 1.65
     },
 
     {
       "stat" : "protection",
-      "amount" : 16
+      "amount" : 12
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 11
+      "amount" : 24
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 9
+      "amount" : 18
     },    
     "radiationburnimmunity"
   ],

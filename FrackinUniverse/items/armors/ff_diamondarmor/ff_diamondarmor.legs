@@ -13,17 +13,17 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.62
+      "baseMultiplier" : 1.52
     },
 
     {
       "stat" : "protection",
-      "amount" : 16
+      "amount" : 20
     },
     "energyregenfu_armor40",
     {
       "stat" : "maxHealth",
-      "amount" : 15
+      "amount" : 24
     },
     "burstfayshroom"
   ],

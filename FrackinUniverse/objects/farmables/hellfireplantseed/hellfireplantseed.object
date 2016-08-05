@@ -7,7 +7,7 @@
   "shortdescription" : "Hellfire Plant Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 41,
+  "price" : 300,
 
   "learnBlueprintsOnPickup" : [ "hellfirespear", "hellfiregun", "hellfirecannon", "hellfireblade", "hellfire1hand" ],
   "inventoryIcon" : "hellfireplantseedicon.png",
@@ -46,14 +46,14 @@
   },
   "stages" : [
     {
-      "duration" : [720, 1240]
+      "duration" : [300, 600]
     },
     {
-      "duration" : [720, 1240]
+      "duration" : [300, 600]
     },
     {
       "alts" : 3,
-      "duration" : [720, 1230]
+      "duration" : [110, 130]
     },
     {
       "alts" : 3,

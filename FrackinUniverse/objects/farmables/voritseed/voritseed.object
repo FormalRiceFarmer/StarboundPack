@@ -7,7 +7,7 @@
   "shortdescription" : "Vorit Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 26,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "aquapodseed" ],
   "inventoryIcon" : "voritseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [320, 560]
+      "duration" : [120, 360]
     },
     {
-      "duration" : [320, 560]
+      "duration" : [120, 360]
     },
     {
       "alts" : 5,
-      "duration" : [310, 530]
+      "duration" : [110, 130]
     },
     {
       "alts" : 5,

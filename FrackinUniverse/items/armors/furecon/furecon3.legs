@@ -19,17 +19,17 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 13
+      "amount" : 15
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 22
+      "amount" : 42
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 9
+      "amount" : 20
     },
     "fumudslowimmunity",
     "slushslowimmunity",

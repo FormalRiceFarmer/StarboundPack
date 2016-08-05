@@ -4,10 +4,10 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A light bone mask. Also, ew. ^#e43774;-Upgradeable-^reset;",
+  "description" : "A light bone mask.",
   "shortdescription" : "Bone Mask",
   "tooltipKind" : "armornew",
-  "learnBlueprintsOnPickup" : [ "fubonearmor2head" ],
+
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
@@ -15,21 +15,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.15
+      "baseMultiplier" : 1.45
     },  
     {
       "stat" : "protection",
-      "amount" : 7
+      "amount" : 12
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 5
+      "amount" : 30
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 4
+      "amount" : 12
     }
-  ]
+  ],
+  "questTags" : [ "tier3armor" ]
 }

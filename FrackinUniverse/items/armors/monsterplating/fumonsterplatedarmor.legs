@@ -18,15 +18,15 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 16
+      "amount" : 12
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 12
+      "amount" : 32
     },
     {
       "stat" : "maxHealth",
-      "amount" : 12
+      "amount" : 11
     },
 
     "damagebonus2",

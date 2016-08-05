@@ -18,17 +18,17 @@
     },      
     {
       "stat" : "protection",
-      "amount" : 12
+      "amount" : 13
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 18
+      "amount" : 38
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 4
+      "amount" : 9
     },
     "slimestickimmunity"
   ],

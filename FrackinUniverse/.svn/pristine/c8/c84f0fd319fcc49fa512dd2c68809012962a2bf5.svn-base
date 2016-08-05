@@ -1,9 +1,0 @@
-{
-  "name" : "hellbeetle",
-  "category" : "hellbeetle",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "hellbeetle.png"
-  }
-}

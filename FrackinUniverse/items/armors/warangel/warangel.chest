@@ -30,11 +30,11 @@
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 34
+      "amount" : 120
     },
     {
       "stat" : "maxHealth",
-      "amount" : 70
+      "amount" : 50
     },
     "warangelimmunity"
   ],

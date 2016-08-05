@@ -7,7 +7,7 @@
   "shortdescription" : "Herrod Bush",
   "objectType" : "farmable",
   "printable" : false, 
-"price" : 30,
+"price" : 300,
   "inventoryIcon" : "herrodbushicon.png",
   "orientations" : [
     {

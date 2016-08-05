@@ -24,12 +24,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 11
+      "amount" : 37
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 6
+      "amount" : 11
     },
      "sulphuricacidimmunity"
   ],

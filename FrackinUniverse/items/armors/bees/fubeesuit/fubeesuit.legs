@@ -22,12 +22,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 4
+      "amount" : 15
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 3
+      "amount" : 5
     },
     "beestingimmunity"
   ],

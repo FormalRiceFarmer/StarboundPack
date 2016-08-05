@@ -7,7 +7,7 @@
   "shortdescription" : "Micro-Bamboo",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 12,
+  "price" : 150,
 
   "apexDescription" : "Bamboo.",
   "avianDescription" : "Bamboo.",
@@ -31,10 +31,10 @@
   ],
   "stages" : [
     {
-      "duration" : [220, 440]
+      "duration" : [80, 120]
     },
     {
-      "duration" : [220, 440]
+      "duration" : [80, 120]
     },
     {
       "alts" : 4,

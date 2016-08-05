@@ -24,17 +24,17 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.54
+      "baseMultiplier" : 1.74
     },
 
     {
       "stat" : "protection",
-      "amount" : 22
+      "amount" : 12
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 10
+      "amount" : 20
     },
 
     {
@@ -44,6 +44,8 @@
     "ffextremeradiationimmunity",
     "radiationburnimmunity"
   ],
+
+  "questTags" : [ "steelarmor" ],
 
   "colorOptions" : [
 

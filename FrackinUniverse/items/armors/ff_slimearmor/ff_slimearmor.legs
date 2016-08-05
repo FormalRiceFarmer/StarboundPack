@@ -15,17 +15,17 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.22
+      "baseMultiplier" : 1.30
     },
 
     {
       "stat" : "protection",
-      "amount" : 8
+      "amount" : 5
     },
     "energyregenfu_armor20",
     {
       "stat" : "maxHealth",
-      "amount" : 4
+      "amount" : 6
     },
     {
       "stat" : "wetImmunity",

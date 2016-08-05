@@ -33,12 +33,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 34
+      "amount" : 74
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 16
+      "amount" : 26
     },
     "insanityimmunity"
   ],

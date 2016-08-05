@@ -4,7 +4,6 @@
   "inventoryIcon" : "avaliaeroponics.png",
   "description" : "These tubes transport a nutrient aerosol for growing plants indoors.",
   "shortdescription" : "Aeroponics Tubes",
-  "learnBlueprintsOnPickup" : [ "avaliaeroponics" ],
 
   "materialId" : 12509
 }

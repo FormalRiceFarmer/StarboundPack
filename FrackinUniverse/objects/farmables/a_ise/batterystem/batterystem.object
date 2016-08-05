@@ -7,7 +7,7 @@
   "shortdescription" : "Battery Stem",
   "objectType" : "farmable",
   "printable" : false, 
-"price" : 19,
+"price" : 300,
   "inventoryIcon" : "batterystemicon.png",
   "orientations" : [
     {
@@ -27,11 +27,11 @@
 "stages" : [
     {
       "alts" : 3,
-      "duration" : [160, 460]
+      "duration" : [60, 160]
     },
     {
       "alts" : 3,
-      "duration" : [160, 560]
+      "duration" : [60, 160]
     },
     {
       "alts" : 5,

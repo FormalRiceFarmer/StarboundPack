@@ -1,9 +1,0 @@
-{
-  "itemName" : "cinnamon",
-  "price" : 20,
-  "rarity" : "Common",
-  "category" : "cookingIngredient",
-  "inventoryIcon" : "cinnamon.png",
-  "description" : "Spicy cinnamon sticks!",
-  "shortdescription" : "Cinnamon"
-}

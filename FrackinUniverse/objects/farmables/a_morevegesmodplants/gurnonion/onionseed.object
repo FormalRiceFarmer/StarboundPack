@@ -7,7 +7,7 @@
   "shortdescription" : "Gurn Onion",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 7,
+  "price" : 300,
   "inventoryIcon" : "onionseedicon.png",
   "orientations" : [
     {
@@ -25,10 +25,10 @@
 
   "stages" : [
     {
-      "duration" : [200, 320]
+      "duration" : [100, 120]
     },
     {
-      "duration" : [200, 320]
+      "duration" : [100, 120]
     },
     {
       "alts" : 5,

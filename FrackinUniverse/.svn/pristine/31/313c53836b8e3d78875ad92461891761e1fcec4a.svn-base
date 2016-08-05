@@ -1,9 +1,0 @@
-{
-  "name" : "blackbeetle",
-  "category" : "blackbeetle",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "blackbeetle.png"
-  }
-}

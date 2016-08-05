@@ -7,7 +7,7 @@
   "shortdescription" : "Kadavan Spice Plant Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 21,
+  "price" : 300,
 
   "inventoryIcon" : "fuavikanspiceplantseedicon.png",
   "orientations" : [
@@ -26,14 +26,14 @@
 
   "stages" : [
     {
-      "duration" : [320, 640]
+      "duration" : [200, 305]
     },
     {
-      "duration" : [320, 640]
+      "duration" : [200, 305]
     },
     {
       "alts" : 5,
-      "duration" : [320, 630]
+      "duration" : [300, 440]
     },
     {
       "alts" : 5,

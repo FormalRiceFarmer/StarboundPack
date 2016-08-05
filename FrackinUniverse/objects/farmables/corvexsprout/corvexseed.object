@@ -7,7 +7,7 @@
   "shortdescription" : "Corvex Sprout",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 40,
+  "price" : 300,
 
   "inventoryIcon" : "corvexseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [520, 840]
+      "duration" : [120, 240]
     },
     {
-      "duration" : [520, 840]
+      "duration" : [120, 240]
     },
     {
       "alts" : 4,
-      "duration" : [520, 830]
+      "duration" : [110, 130]
     },
     {
       "alts" : 4,

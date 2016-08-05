@@ -4,10 +4,10 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A light bone ribcage. ^#e43774;-Upgradeable-^reset;",
+  "description" : "A light bone ribcage. Immune to acid.",
   "shortdescription" : "Bone Chest",
   "tooltipKind" : "armornew",
-  "learnBlueprintsOnPickup" : [ "fubonearmor2chest" ],
+
   "maleFrames" : {
     "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
@@ -23,21 +23,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.30
+      "baseMultiplier" : 1.75
     },  
     {
       "stat" : "protection",
-      "amount" : 12
+      "amount" : 15
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 5
+      "amount" : 45
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 13
     }
-  ] 
+  ],
+  "questTags" : [ "tier3armor" ]  
 }

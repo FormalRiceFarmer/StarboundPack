@@ -20,17 +20,17 @@
 
     {
       "stat" : "protection",
-      "amount" : 23
+      "amount" : 17
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 23
+      "amount" : 50
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 45
+      "amount" : 14
     },
     "protoimmunity",
     {

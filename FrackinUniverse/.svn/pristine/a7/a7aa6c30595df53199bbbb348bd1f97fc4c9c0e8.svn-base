@@ -1,9 +1,0 @@
-{
-  "itemName" : "genetile",
-  "rarity" : "Common",
-  "inventoryIcon" : "genetile.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "A gigantic cell.",
-  "shortdescription" : "Cell",
-  "materialId" : 6657
-}

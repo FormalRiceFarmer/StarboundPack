@@ -7,7 +7,7 @@
   "shortdescription" : "Vanus Flower Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 25,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "vanusflowerseed", "rockrootseed" ],
   "inventoryIcon" : "vanusflowerseedicon.png",
   "orientations" : [
@@ -26,10 +26,10 @@
 
   "stages" : [
     {
-      "duration" : [360, 520]
+      "duration" : [60, 120]
     },
     {
-      "duration" : [360, 520]
+      "duration" : [60, 120]
     },
     
     {

@@ -14,22 +14,22 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.41
+      "baseMultiplier" : 1.55
     },
 
     {
       "stat" : "protection",
-      "amount" : 11
+      "amount" : 10
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 12
+      "amount" : 24
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 16
     },    
     "blacktarimmunity"
   ],

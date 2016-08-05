@@ -1,9 +1,0 @@
-{
-  "name" : "isn_heatshell",
-  "effectConfig" : {},
-  "defaultDuration" : 5,
-
-  "scripts" : [
-    "isn_heatshell.lua"
-  ]
-}

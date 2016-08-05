@@ -7,7 +7,7 @@
   "shortdescription" : "Pinkloom Seed",
   "objectType" : "farmable",
   "printable" : false,
-"price" : 24,
+"price" : 300,
   "inventoryIcon" : "pinkloomseedicon.png",
   "orientations" : [
     {
@@ -25,10 +25,10 @@
 
   "stages" : [
     {
-      "duration" : [320, 760]
+      "duration" : [120, 360]
     },
     {
-      "duration" : [320, 760]
+      "duration" : [120, 360]
     },
 
     {

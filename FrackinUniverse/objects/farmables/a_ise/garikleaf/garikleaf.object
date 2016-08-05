@@ -7,7 +7,7 @@
   "shortdescription" : "Garik Leaf",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 30,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "victorleaf" ],
   "inventoryIcon" : "garikleaficon.png",
   "orientations" : [
@@ -28,11 +28,11 @@
 "stages" : [
     {
       "alts" : 3,
-      "duration" : [320, 660]
+      "duration" : [120, 360]
     },
     {
       "alts" : 3,
-      "duration" : [320, 660]
+      "duration" : [120, 360]
     },
     {
       "alts" : 5,

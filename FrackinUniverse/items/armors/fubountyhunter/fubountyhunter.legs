@@ -25,12 +25,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 15
+      "amount" : 24
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 23
+      "amount" : 26
     },
     "nitrogenfreezeimmunity"
   ],

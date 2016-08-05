@@ -22,12 +22,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 14
+      "amount" : 28
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 7
+      "amount" : 8
     },
      "sulphuricacidimmunity",
      "protoimmunity"

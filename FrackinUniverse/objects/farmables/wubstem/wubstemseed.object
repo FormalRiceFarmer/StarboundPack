@@ -7,7 +7,7 @@
   "shortdescription" : "Wubstem Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 18,
+  "price" : 300,
   "soundEffect" : "/sfx/objects/wubstem.ogg",
   "soundEffectRadius" : 15, 
   "learnBlueprintsOnPickup" : [ "wubstemseed" ],
@@ -26,14 +26,14 @@
   ],
   "stages" : [
     {
-      "duration" : [300, 520]
+      "duration" : [100, 120]
     },
     {
-      "duration" : [300, 520]
+      "duration" : [100, 120]
     },
     {
       "alts" : 5,
-      "duration" : [310, 530]
+      "duration" : [110, 130]
     },
     {
       "alts" : 5,

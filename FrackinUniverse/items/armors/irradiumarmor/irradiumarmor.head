@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Sturdy, with a built in targeting HUD. Deadly heat immunity.",
+  "description" : "Sturdy, with a built in targeting HUD.",
   "shortdescription" : "Irradium Helm",
   "tooltipKind" : "armornew",
 
@@ -20,15 +20,15 @@
 
     {
       "stat" : "protection",
-      "amount" : 19
+      "amount" : 22
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 20
+      "amount" : 40
     },
     {
       "stat" : "maxHealth",
-      "amount" : 9
+      "amount" : 48
     },
     "ffextremeheatresist"
   ],

@@ -24,7 +24,7 @@
   "statusEffects" : [
     {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 2.34
+      "baseMultiplier" : 2.57
     },
 
     {
@@ -34,7 +34,7 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 78
+      "amount" : 98
     },
 
     {

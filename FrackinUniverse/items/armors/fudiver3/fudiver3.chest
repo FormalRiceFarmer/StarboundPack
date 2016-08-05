@@ -28,17 +28,17 @@
 
     {
       "stat" : "protection",
-      "amount" : 38
+      "amount" : 33
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 27
+      "amount" : 99
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 26
+      "amount" : 29
     },
     {
       "stat" : "wetImmunity",

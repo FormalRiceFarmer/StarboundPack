@@ -7,7 +7,7 @@
   "shortdescription" : "Ghost Mushroom",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 21,
+  "price" : 300,
   "inventoryIcon" : "ghostmushroomseedicon.png",
   "orientations" : [
     {
@@ -25,10 +25,10 @@
 
     "stages" : [
     {
-      "duration" : [420, 760]
+      "duration" : [120, 360]
     },
     {
-      "duration" : [420, 760]
+      "duration" : [120, 360]
     },
 
     {

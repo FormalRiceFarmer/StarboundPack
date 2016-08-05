@@ -1,9 +1,0 @@
-{
-  "name" : "aggressivebee",
-  "category" : "aggressivebee",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "aggressivebee.png"
-  }
-}

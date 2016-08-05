@@ -1,9 +1,0 @@
-{
-  "name" : "minerbee",
-  "category" : "minerbee",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "minerbee.png"
-  }
-}

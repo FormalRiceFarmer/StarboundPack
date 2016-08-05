@@ -6,6 +6,10 @@ function init()
   self.mouthBounds = {self.mouthPosition[1], self.mouthPosition[2], self.mouthPosition[1], self.mouthPosition[2]}
   self.boostAmount = config.getParameter("boostAmount", 0)
   self.riseAmount = config.getParameter("riseAmount", 0)
+  self.liquidMovementParameter = {
+	airForce = 150,
+	liquidForce = 150
+  }
 end
 
 function update(dt)
@@ -21,8 +25,7 @@ function update(dt)
   if liquidAtMouth and (liquidAtMouth[1] == 1 or liquidAtMouth[1] == 2) then 
      mcontroller.controlModifiers({
       speedModifier = self.boostAmount,
-      liquidJumpModifier = self.riseAmount,
-      liquidForce = 150
+      liquidJumpModifier = self.riseAmount
     })
   animator.setParticleEmitterActive("bubbles", mcontroller.running())
   else

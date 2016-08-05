@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "Modified to hold excess energy. Immune to acid.",
+  "description" : "Modified to hold excess energy.",
   "shortdescription" : "Quantum Chest MK2",
   "tooltipKind" : "armornew",
 
@@ -32,12 +32,12 @@
 
     {
       "stat" : "maxEnergy",
-      "amount" : 25
+      "amount" : 75
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 15
+      "amount" : 30
     },
     {
       "stat" : "sulphuricImmunity",

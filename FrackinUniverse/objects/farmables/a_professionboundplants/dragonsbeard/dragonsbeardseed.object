@@ -7,7 +7,7 @@
   "shortdescription" : "Dragonsbeard",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 15,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "dragonsbeardseed"],
   "inventoryIcon" : "dragonsbeardseedicon.png",
   "orientations" : [
@@ -26,10 +26,10 @@
 
   "stages" : [
     {
-      "duration" : [420, 660]
+      "duration" : [120, 360]
     },
     {
-      "duration" : [420, 660]
+      "duration" : [120, 360]
     },
 
     {

@@ -7,7 +7,7 @@
   "shortdescription" : "Deathblossom",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 20, 
+  "price" : 300, 
 
   "inventoryIcon" : "deathblossomseedicon.png",
   "orientations" : [
@@ -25,14 +25,14 @@
   ],
   "stages" : [
     {
-      "duration" : [540, 720]
+      "duration" : [240, 420]
     },
     {
-      "duration" : [540, 720]
+      "duration" : [240, 420]
     },
      {
        "alts" : 3,
-       "duration" : [510, 730]
+       "duration" : [110, 130]
     },
     {
       "alts" : 3,

@@ -7,7 +7,7 @@
   "shortdescription" : "Mutavisk",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 15,
+  "price" : 300,
 
   "inventoryIcon" : "mutaviskseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [220, 440]
+      "duration" : [120, 200]
     },
     {
-      "duration" : [220, 440]
+      "duration" : [120, 200]
     },
     {
       "alts" : 5,
-      "duration" : [220, 430]
+      "duration" : [110, 190]
     },
     {
       "alts" : 5,

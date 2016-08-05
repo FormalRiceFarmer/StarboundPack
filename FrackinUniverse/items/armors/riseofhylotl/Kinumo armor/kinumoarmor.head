@@ -30,7 +30,7 @@
 
     {
       "stat" : "maxHealth",
-      "amount" : 14
+      "amount" : 12
     },
     {
       "stat" : "healthRegen",

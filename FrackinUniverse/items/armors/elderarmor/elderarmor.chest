@@ -23,19 +23,19 @@
   "statusEffects" : [
       {
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 2.85
+      "baseMultiplier" : 3.05
     },
     {
       "stat" : "protection",
-      "amount" : 42
+      "amount" : 43
     },
     {
       "stat" : "maxEnergy",
-      "amount" : 40
+      "amount" : 200
     },
     {
       "stat" : "maxHealth",
-      "amount" : 35
+      "amount" : 45
     },
     "elderarmorimmunity"
   ],

@@ -7,7 +7,7 @@
   "shortdescription" : "Pekkit",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 20,
+  "price" : 300,
 
   "inventoryIcon" : "pekkitseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [320, 640]
+      "duration" : [120, 360]
     },
     {
-      "duration" : [320, 640]
+      "duration" : [120, 360]
     },
     {
       "alts" : 5,
-      "duration" : [320, 630]
+      "duration" : [110, 130]
     },
     {
       "alts" : 5,

@@ -1,4 +1,0 @@
-[
-{ "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["hopsseed", 3] } },
-{ "op" : "add", "path" : "/interactData/items/-", "value" : {"item" : ["cinnamonseed", 3] } }
-]

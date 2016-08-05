@@ -7,7 +7,7 @@
   "shortdescription" : "Neuropod Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 60,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "genesiberryseed"],
   "inventoryIcon" : "neuropodseedicon.png",
   "orientations" : [
@@ -24,14 +24,14 @@
   ],
   "stages" : [
     {
-      "duration" : [820, 1140]
+      "duration" : [220, 500]
     },
     {
-      "duration" : [820, 1140]
+      "duration" : [220, 500]
     },
     {
-      "alts" : 5,
-      "duration" : [820, 1130]
+      "alts" : 4,
+      "duration" : [210, 430]
     },
     {
       "alts" : 4,

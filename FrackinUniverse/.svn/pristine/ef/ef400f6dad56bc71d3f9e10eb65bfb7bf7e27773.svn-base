@@ -1,9 +1,0 @@
-{
-  "name" : "mythicalbee",
-  "category" : "mythicalbee",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "mythicalbee.png"
-  }
-}

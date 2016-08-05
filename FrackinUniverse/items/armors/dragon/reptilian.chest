@@ -26,17 +26,17 @@
     },  
     {
       "stat" : "protection",
-      "amount" : 30
+      "amount" : 24
     },
 
     {
       "stat" : "maxEnergy",
-      "amount" : 23
+      "amount" : 63
     },
 
     {
       "stat" : "maxHealth",
-      "amount" : 22
+      "amount" : 17
     },
      "sulphuricacidimmunity",
      "protoimmunity"

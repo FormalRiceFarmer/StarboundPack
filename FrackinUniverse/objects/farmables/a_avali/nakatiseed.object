@@ -7,7 +7,7 @@
   "shortdescription" : "Nakati Ovoid",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 22,
+  "price" : 300,
   "learnBlueprintsOnPickup" : [ "nakatiseed" ],
   "lightColor" : [64, 128, 128],
   "flickerDistance" : 0.05,
@@ -29,10 +29,10 @@
   
   "stages" : [
     {
-      "duration" : [240, 600]
+      "duration" : [240, 300]
     },
     {
-      "duration" : [240, 600]
+      "duration" : [240, 300]
     },
     {
       "alts" : 5,

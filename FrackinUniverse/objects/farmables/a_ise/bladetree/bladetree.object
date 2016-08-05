@@ -7,7 +7,7 @@
   "shortdescription" : "Blade Tree",
   "objectType" : "farmable",
   "printable" : false, 
-  "price" : 17,
+  "price" : 300,
   "inventoryIcon" : "bladetreeicon.png",
   "orientations" : [
     {
@@ -27,11 +27,11 @@
 "stages" : [
     {
       "alts" : 3,
-      "duration" : [120, 440]
+      "duration" : [120, 240]
     },
     {
       "alts" : 3,
-      "duration" : [120, 440]
+      "duration" : [120, 240]
     },
     {
       "alts" : 5,

@@ -7,7 +7,7 @@
   "shortdescription" : "Hops Seed",
   "objectType" : "farmable",
   "printable" : false,
-  "price" : 14,
+  "price" : 100,
 
 
   "inventoryIcon" : "hopsseedicon.png",
@@ -25,10 +25,10 @@
   ],
   "stages" : [
     {
-      "duration" : [320, 640]
+      "duration" : [60, 120]
     },
     {
-      "duration" : [320, 640]
+      "duration" : [60, 120]
     },
     {
       "alts" : 5,
