@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 16 },
+    { "item" : "solariumstar", "count" : 16 }
+  ],
+  "output" : { "item" : "avalirifle", "data" : { "level" : 6, "shortdescription" : "AR6 Blizzard", "rarity" : "Legendary" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

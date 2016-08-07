@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 12 }
+  ],
+  "output" : { "item" : "avalirifle", "data" : { "level" : 5, "shortdescription" : "AR5 Blizzard", "rarity" : "Rare" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

@@ -1,0 +1,36 @@
+{
+  "itemName" : "avalistarter",
+  "price" : 190,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "This aerotech blade's nanite feed is broken. Just whack 'em with the hilt.",
+  "shortdescription" : "Broken Shard",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  
+  "inventoryIcon" : "avalistarter.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "avalistarter.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5
+  },
+
+  "altAbilityType" : "risingslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

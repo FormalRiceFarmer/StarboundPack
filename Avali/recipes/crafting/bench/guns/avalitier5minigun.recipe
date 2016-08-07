@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 16 }
+  ],
+  "output" : { "item" : "avaliminigun", "data" : { "level" : 5, "shortdescription" : "MG5 Hailstorm", "rarity" : "Rare" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

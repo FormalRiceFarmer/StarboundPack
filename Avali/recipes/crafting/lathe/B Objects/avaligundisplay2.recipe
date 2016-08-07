@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "avalisniper", "data" : { "level" : 1, "shortdescription" : "FM1 Firelance" }, "count" : 1 },
+    { "item" : "aerogel", "count" : 1 }  
+  ],
+  "output" : { "item" : "avaligundisplay2", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "decoration", "avalidisplayapparatus", "all" ]
+}

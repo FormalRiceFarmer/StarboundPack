@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 16 },
+    { "item" : "solariumstar", "count" : 16 }
+  ],
+  "output" : { "item" : "avaliminigun", "data" : { "level" : 6, "shortdescription" : "MG6 Hailstorm", "rarity" : "Legendary" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

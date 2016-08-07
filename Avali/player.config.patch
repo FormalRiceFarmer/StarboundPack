@@ -1,0 +1,15 @@
+[
+	{
+		"op":"add",
+		"path":"/species/-",
+		"value":"avali"
+	},
+	{
+		"op":"add",
+		"path":"/defaultCodexes/avali",
+		"value":[
+		"protectorate1",
+		"protectorate2"
+		]
+	}
+]

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 12 }
+  ],
+  "output" : { "item" : "avalitier5mshortsword", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

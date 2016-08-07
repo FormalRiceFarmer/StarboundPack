@@ -1,0 +1,9 @@
+{
+  "itemName" : "aerogel",
+  "rarity" : "Common",
+  "inventoryIcon" : "aerogel.png",
+  "description" : "Aerogel is an ephemeral lattice of molecules with incredible structural properties, despite weighing next to nothing.",
+  "shortdescription" : "Aerogel",
+  "learnBlueprintsOnPickup" : [ "avalihoe", "avalibottle1" ],
+  "itemTags" : [ "reagent" ]
+}

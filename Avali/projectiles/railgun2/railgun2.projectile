@@ -1,0 +1,24 @@
+{
+  "projectileName" : "railgun2",
+  "image" : "railgun2.png",
+  "physics" : "laser",
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "lightColor" : [200, 150, 100],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 300,
+  "damageKind" : "bow",
+  "fallSpeed" : 0,
+  "damagePoly" : [ [-12, 0], [-8, -8], [0, -12], [8, -8], [12, 0], [8, 8], [0, 12], [-8, 8] ],
+  "animationLoops" : false,
+  "flippable" : true,
+  "universalDamage" : false,
+  "piercing" : true
+}

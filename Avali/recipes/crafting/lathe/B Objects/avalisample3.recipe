@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 3  },
+    { "item" : "aerogel", "count" : 6  }
+
+  ],
+  "output" : { "item" : "avalisample3", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "decoration", "avalilathe", "all" ]
+}

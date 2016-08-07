@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 8 },
+    { "item" : "solariumstar", "count" : 8 }
+  ],
+  "output" : { "item" : "avalitier6adagger", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

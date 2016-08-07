@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 2  },
+    { "item" : "aerogel", "count" : 2  }
+  ],
+  "output" : { "item" : "avaliarmor2head", "count" : 1 },
+  "groups" : [ "armors", "avalilathe", "all" ]
+}

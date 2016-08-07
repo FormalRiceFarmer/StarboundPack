@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 8 }
+  ],
+  "output" : { "item" : "avalipistol", "data" : { "level" : 5, "shortdescription" : "PD5 Frostbite", "rarity" : "Rare" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

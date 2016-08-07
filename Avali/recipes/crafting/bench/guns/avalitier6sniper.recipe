@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 16 },
+    { "item" : "solariumstar", "count" : 16 }
+  ],
+  "output" : { "item" : "avalisniper", "data" : { "level" : 6, "shortdescription" : "FM6 Firelance", "rarity" : "Legendary" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

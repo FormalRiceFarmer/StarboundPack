@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 12 },
+  { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "avalirifle", "data" : { "level" : 1, "shortdescription" : "AR1 Blizzard" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

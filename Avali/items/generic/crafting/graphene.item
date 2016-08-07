@@ -1,0 +1,9 @@
+{
+  "itemName" : "graphene",
+  "rarity" : "Common",
+  "inventoryIcon" : "graphene.png",
+  "description" : "Impossibly thin yet strong carbon, used as a feedstock for carbon nanotubes.",
+  "shortdescription" : "Graphene",
+  "learnBlueprintsOnPickup" : [],
+  "itemTags" : [ "reagent" ]
+}

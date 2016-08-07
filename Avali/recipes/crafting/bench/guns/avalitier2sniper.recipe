@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 18 },
+  { "item" : "money", "count" : 250}
+  ],
+  "output" : { "item" : "avalisniper", "data" : { "level" : 2, "shortdescription" : "FM2 Firelance" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

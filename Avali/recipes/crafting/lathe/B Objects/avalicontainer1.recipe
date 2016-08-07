@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 15 },
+    { "item" : "siliconboard", "count" : 1 }  
+  ],
+  "output" : { "item" : "avalicontainer1", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "storage", "avalilathe", "all" ]
+}

@@ -1,0 +1,17 @@
+{
+  "itemName" : "avaliutilitylight8",
+  "inventoryIcon" : "avaliutilitylight8icon.png",
+  "price" : 50,
+  "rarity" : "Rare",
+  "maxStack" : 1,
+  "description" : "A bright light that never gets hot! This one admits a ^orange;orange ^white;glow.",
+  "shortdescription" : "Avali Utility light",
+  "largeImage" : "avaliutilitylight8.png",
+  "tooltipKind" : "tool",
+  "image" : "avaliutilitylight8.png",
+  "handPosition" : [0, 0],
+  "lightPosition" : [2, 0],
+  "lightColor" : [255, 100, 0],
+  "beamLevel" : 5,
+  "beamAmbience" : 0.4
+}

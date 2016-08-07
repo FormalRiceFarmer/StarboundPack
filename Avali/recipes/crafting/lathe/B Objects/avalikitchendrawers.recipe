@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "mediummetal", "count" : 15  }
+  ],
+  "output" : { "item" : "avalikitchendrawers", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "storage", "avalilathe", "all" ]
+}

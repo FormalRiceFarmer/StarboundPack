@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 125 }  
+  ],
+  "output" : { "item" : "avaliemblembig", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "decoration", "avalilathe", "all" ]
+}

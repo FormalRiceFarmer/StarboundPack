@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 18 },
+  { "item" : "money", "count" : 250}
+  ],
+  "output" : { "item" : "avalisniper", "data" : { "level" : 4, "shortdescription" : "FM4 Firelance", "rarity" : "Uncommon" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

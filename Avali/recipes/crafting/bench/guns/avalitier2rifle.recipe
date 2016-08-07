@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 12 },
+  { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "avalirifle", "data" : { "level" : 2, "shortdescription" : "AR2 Blizzard" }, "count" : 1 },
+  "groups" : [ "avalibench", "weapons", "all" ]
+}

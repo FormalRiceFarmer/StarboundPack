@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 8 }
+  ],
+  "output" : { "item" : "avalitier5adagger", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}
