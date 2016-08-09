@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Prevents nasty bee stings!",
   "shortdescription" : "Bee Keeper's Helm",
-  "tooltipKind" : "armornew",
+  "tooltipKind" : "armornew2",
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
@@ -28,7 +28,8 @@
       "stat" : "maxHealth",
       "amount" : 3
     },
-    "beestingimmunity"
+    "beestingimmunity",
+	"immunesting"
   ],
 
   "colorOptions" : [

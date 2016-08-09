@@ -4,9 +4,9 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Glows with light, and grants +1% health regeneration.",
+  "description" : "Glows with light, and grants +1% health regeneration. Immune to insanity.",
   "shortdescription" : "Light Priest Hood",
-  "tooltipKind" : "armornew",
+  "tooltipKind" : "armornew2",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -27,11 +27,8 @@
       "stat" : "maxEnergy",
       "amount" : 60
     },
-
-    {
-      "stat" : "healthRegen",
-      "amount" : 0.01
-    },
+    "insanityimmunity",
+    "regenerationminor3",
     "glowyellow2"
   ],
 

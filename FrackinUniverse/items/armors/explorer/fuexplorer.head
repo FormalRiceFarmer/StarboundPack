@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Heavy-duty armour. Headlamp provides illumination.",
   "shortdescription" : "Assault Helmet",
-  "tooltipKind" : "armornew",
+  "tooltipKind" : "armornew2",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -32,7 +32,8 @@
       "stat" : "maxHealth",
       "amount" : 18
     },
-    "headlamp3"
+    "headlamp3",
+    "insanityimmunity"
   ],
   "questTags" : [ "tier6armor" ],
   "colorOptions" : [ "",

@@ -6,7 +6,7 @@
   "rarity" : "uncommon",
   "description" : "Prevents nasty bee stings!",
   "shortdescription" : "Bee Keeper's Armor",
-  "tooltipKind" : "armornew",
+  "tooltipKind" : "armornew2",
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",
@@ -36,7 +36,8 @@
       "stat" : "maxHealth",
       "amount" : 4
     },
-    "beestingimmunity"
+    "beestingimmunity",
+	"immunesting"
   ],
 
   "colorOptions" : [

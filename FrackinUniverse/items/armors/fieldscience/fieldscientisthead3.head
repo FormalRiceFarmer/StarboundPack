@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "description" : "Vision enhancement replaced with physics barrier.",
   "shortdescription" : "Haptic Goggles",
-  "tooltipKind" : "armornew",
+  "tooltipKind" : "armornew2",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -19,11 +19,11 @@
     },
       {
         "stat" : "protection",
-        "amount" : 32
+        "amount" : 12
       },
       {
         "stat" : "maxEnergy",
-        "amount" : 150
+        "amount" : 40
       },
       "movementprotection"
   ],
